@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Great War Revised" version="1.1.0"/>
+    <info name="Great War 1916" version="1.1.0"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <map>
