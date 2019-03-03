@@ -72,7 +72,7 @@
         <territory name="French West Africa" water="false"/>
         <territory name="Galacia" water="false"/>
         <territory name="Gallipoli" water="false"/>
-        <territory name="German E. Afria" water="false"/>
+        <territory name="German E. Afrika" water="false"/>
         <territory name="German Southwest Africa" water="false"/>
         <territory name="Gibraltar" water="false"/>
         <territory name="Greece" water="false"/>
@@ -720,11 +720,11 @@
         <connection t1="Galacia" t2="Vienna"/>
         <connection t1="Gallipoli" t2="SZ 34"/>
         <connection t1="Gallipoli" t2="SZ 36"/>
-        <connection t1="German E. Afria" t2="Mumbaza"/>
-        <connection t1="German E. Afria" t2="Portuguese E. Africa"/>
-        <connection t1="German E. Afria" t2="RR 108"/>
-        <connection t1="German E. Afria" t2="Rhodesia"/>
-        <connection t1="German E. Afria" t2="SZ 50"/>
+        <connection t1="German E. Afrika" t2="Mumbaza"/>
+        <connection t1="German E. Afrika" t2="Portuguese E. Africa"/>
+        <connection t1="German E. Afrika" t2="RR 108"/>
+        <connection t1="German E. Afrika" t2="Rhodesia"/>
+        <connection t1="German E. Afrika" t2="SZ 50"/>
         <connection t1="German Southwest Africa" t2="Luderitz"/>
         <connection t1="German Southwest Africa" t2="RR 112"/>
         <connection t1="German Southwest Africa" t2="SZ 56"/>
@@ -1299,6 +1299,7 @@
         <player name="Ottomans" optional="false" canBeDisabled="false"/>
         <player name="British" optional="false" canBeDisabled="false"/>
         <player name="Italians" optional="false" canBeDisabled="false"/>
+		<player name="Imperial German Afrika" optional="false" canBeDisabled="false"/>
         <player name="Americans" optional="false" canBeDisabled="false"/>
         <player name="Bolsheviks" optional="false" canBeDisabled="false"/>
         <alliance player="Germans" alliance="Central Powers"/>
@@ -2969,7 +2970,7 @@
         <attachment name="territoryAttachment" attachTo="Antalya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2" count=""/>
         </attachment>
-        <attachment name="territoryAttachment" attachTo="German E. Afria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+        <attachment name="territoryAttachment" attachTo="German E. Afrika" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Luneville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -3352,7 +3353,7 @@
             <territoryOwner territory="Arras" owner="British"/>
             <territoryOwner territory="Paris" owner="French"/>
             <territoryOwner territory="Antalya" owner="Ottomans"/>
-            <territoryOwner territory="German E. Afria" owner="Imperial German Afrika"/>
+            <territoryOwner territory="German E. Afrika" owner="Imperial German Afrika"/>
             <territoryOwner territory="Luneville" owner="Germans"/>
             <territoryOwner territory="Somme" owner="Germans"/>
             <territoryOwner territory="Barvaria" owner="Germans"/>
