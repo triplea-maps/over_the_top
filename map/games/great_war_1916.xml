@@ -1299,7 +1299,9 @@
         <player name="Ottomans" optional="false" canBeDisabled="false"/>
         <player name="British" optional="false" canBeDisabled="false"/>
         <player name="Italians" optional="false" canBeDisabled="false"/>
-		<player name="Imperial German Afrika" optional="false" canBeDisabled="false"/>
+		<player name="Imperial-German-Afrika" optional="false" canBeDisabled="false"/>
+		<player name="French-Colonial-Africa" optional="false" canBeDisabled="false"/>
+		<player name="British-Commonwealth" optional="false" canBeDisabled="false"/>
         <player name="Americans" optional="false" canBeDisabled="false"/>
         <player name="Bolsheviks" optional="false" canBeDisabled="false"/>
         <alliance player="Germans" alliance="Central Powers"/>
@@ -1309,6 +1311,9 @@
         <alliance player="Ottomans" alliance="Central Powers"/>
         <alliance player="British" alliance="Allies"/>
         <alliance player="Italians" alliance="Allies"/>
+		<alliance player="Imperial-German-Afrika" alliance="Central Powers"/>
+		<alliance player="French-Colonial-Africa" alliance="Allies"/>
+		<alliance player="British-Commonwealth" alliance="Allies"/>
         <alliance player="Americans" alliance="Allies"/>
         <alliance player="Bolsheviks" alliance="Central Powers"/>
     </playerList>
@@ -3260,27 +3265,27 @@
         <ownerInitialize>
             <territoryOwner territory="Bordeaux" owner="French"/>
             <territoryOwner territory="Tabuk" owner="Ottomans"/>
-            <territoryOwner territory="Bandundu" owner="French Colonial Africa"/>
+            <territoryOwner territory="Bandundu" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Marseilles" owner="French"/>
             <territoryOwner territory="Syria" owner="Ottomans"/>
             <territoryOwner territory="Silesia" owner="Germans"/>
-            <territoryOwner territory="French Sudan" owner="French Colonial Africa"/>
+            <territoryOwner territory="French Sudan" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Picardy" owner="French"/>
             <territoryOwner territory="Finland" owner="Russians"/>
             <territoryOwner territory="Paschendale" owner="Germans"/>
             <territoryOwner territory="Hanover" owner="Germans"/>
             <territoryOwner territory="Chaumont" owner="French"/>
             <territoryOwner territory="Bar-Le-Duc" owner="French"/>
-            <territoryOwner territory="B. Somaliland" owner="British Commonwealth"/>
-            <territoryOwner territory="Ivory Coast" owner="British Commonwealth"/>
+            <territoryOwner territory="B. Somaliland" owner="British-Commonwealth"/>
+            <territoryOwner territory="Ivory Coast" owner="British-Commonwealth"/>
             <territoryOwner territory="I. Somaliland" owner="Italians"/>
             <territoryOwner territory="Compiegne" owner="French"/>
             <territoryOwner territory="Bulgaria" owner="Germans"/>
             <territoryOwner territory="Arar" owner="Ottomans"/>
-            <territoryOwner territory="Angolia" owner="Imperial German Afrika"/>
+            <territoryOwner territory="Angolia" owner="Imperial-German-Afrika"/>
             <territoryOwner territory="Sicily" owner="Italians"/>
             <territoryOwner territory="Bryansk" owner="Russians"/>
-            <territoryOwner territory="British E. Africa" owner="British Commonwealth"/>
+            <territoryOwner territory="British E. Africa" owner="British-Commonwealth"/>
             <territoryOwner territory="Russian Infiltration" owner="Bolsheviks"/>
             <territoryOwner territory="Normandy" owner="French"/>
             <territoryOwner territory="BR 3" owner="Bolsheviks"/>
@@ -3288,34 +3293,34 @@
             <territoryOwner territory="Aachen" owner="Germans"/>
             <territoryOwner territory="BR 1" owner="Bolsheviks"/>
             <territoryOwner territory="Gibraltar" owner="British"/>
-            <territoryOwner territory="Cyprus" owner="British Commonwealth"/>
+            <territoryOwner territory="Cyprus" owner="British-Commonwealth"/>
             <territoryOwner territory="Smolensk" owner="Russians"/>
             <territoryOwner territory="Rome" owner="Italians"/>
-            <territoryOwner territory="Natal" owner="British Commonwealth"/>
-            <territoryOwner territory="Abyssinia" owner="British Commonwealth"/>
-            <territoryOwner territory="Transvaal" owner="British Commonwealth"/>
+            <territoryOwner territory="Natal" owner="British-Commonwealth"/>
+            <territoryOwner territory="Abyssinia" owner="British-Commonwealth"/>
+            <territoryOwner territory="Transvaal" owner="British-Commonwealth"/>
             <territoryOwner territory="Bagdad" owner="Ottomans"/>
-            <territoryOwner territory="Tunesia" owner="French Colonial Africa"/>
+            <territoryOwner territory="Tunesia" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Scotland" owner="British"/>
-            <territoryOwner territory="Lisala" owner="French Colonial Africa"/>
+            <territoryOwner territory="Lisala" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Flanders" owner="British"/>
             <territoryOwner territory="American Isolationism" owner="Americans"/>
             <territoryOwner territory="Tartarstan" owner="Russians"/>
             <territoryOwner territory="Sirte" owner="Italians"/>
-            <territoryOwner territory="Cairo" owner="British Commonwealth"/>
-            <territoryOwner territory="Portuguese E. Africa" owner="British Commonwealth"/>
-            <territoryOwner territory="Casablanca" owner="French Colonial Africa"/>
+            <territoryOwner territory="Cairo" owner="British-Commonwealth"/>
+            <territoryOwner territory="Portuguese E. Africa" owner="British-Commonwealth"/>
+            <territoryOwner territory="Casablanca" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Portugal" owner="British"/>
             <territoryOwner territory="Svastepole" owner="Russians"/>
             <territoryOwner territory="Ardennes" owner="Germans"/>
-            <territoryOwner territory="S. Rhodesia" owner="British Commonwealth"/>
-            <territoryOwner territory="Buchuanaland" owner="British Commonwealth"/>
-            <territoryOwner territory="India" owner="British Commonwealth"/>
+            <territoryOwner territory="S. Rhodesia" owner="British-Commonwealth"/>
+            <territoryOwner territory="Buchuanaland" owner="British-Commonwealth"/>
+            <territoryOwner territory="India" owner="British-Commonwealth"/>
             <territoryOwner territory="Canada" owner="British"/>
             <territoryOwner territory="Mosul" owner="Ottomans"/>
             <territoryOwner territory="Cologne" owner="Germans"/>
             <territoryOwner territory="Saxony" owner="Germans"/>
-            <territoryOwner territory="Crete" owner="British Commonwealth"/>
+            <territoryOwner territory="Crete" owner="British-Commonwealth"/>
             <territoryOwner territory="Soissons" owner="French"/>
             <territoryOwner territory="Cyreniaca" owner="Italians"/>
             <territoryOwner territory="Moscow" owner="Russians"/>
@@ -3323,21 +3328,21 @@
             <territoryOwner territory="Tabriz" owner="Ottomans"/>
             <territoryOwner territory="Riga" owner="Russians"/>
             <territoryOwner territory="Naples" owner="Italians"/>
-            <territoryOwner territory="Cabinda" owner="French Colonial Africa"/>
-            <territoryOwner territory="Nigeria" owner="British Commonwealth"/>
-            <territoryOwner territory="Gallipoli" owner="British Commonwealth"/>
+            <territoryOwner territory="Cabinda" owner="French-Colonial-Africa"/>
+            <territoryOwner territory="Nigeria" owner="British-Commonwealth"/>
+            <territoryOwner territory="Gallipoli" owner="British-Commonwealth"/>
             <territoryOwner territory="Bohemia" owner="Austrians"/>
             <territoryOwner territory="Volgograd" owner="Russians"/>
             <territoryOwner territory="Saratov" owner="Russians"/>
-            <territoryOwner territory="Northern Sudan" owner="British Commonwealth"/>
+            <territoryOwner territory="Northern Sudan" owner="British-Commonwealth"/>
             <territoryOwner territory="Basrah" owner="Ottomans"/>
-            <territoryOwner territory="Mozambique" owner="British Commonwealth"/>
-            <territoryOwner territory="Luderitz" owner="Imperial German Afrika"/>
+            <territoryOwner territory="Mozambique" owner="British-Commonwealth"/>
+            <territoryOwner territory="Luderitz" owner="Imperial-German-Afrika"/>
             <territoryOwner territory="Tobruk" owner="Italians"/>
             <territoryOwner territory="Berlin" owner="Germans"/>
             <territoryOwner territory="Prussia" owner="Germans"/>
-            <territoryOwner territory="Rhodesia" owner="British Commonwealth"/>
-            <territoryOwner territory="Southern Sudan" owner="British Commonwealth"/>
+            <territoryOwner territory="Rhodesia" owner="British-Commonwealth"/>
+            <territoryOwner territory="Southern Sudan" owner="British-Commonwealth"/>
             <territoryOwner territory="Macedonia" owner="British"/>
             <territoryOwner territory="Piedmont" owner="Italians"/>
             <territoryOwner territory="Frankfurt" owner="Germans"/>
@@ -3349,55 +3354,55 @@
             <territoryOwner territory="Vienna" owner="Austrians"/>
             <territoryOwner territory="Rostov" owner="Russians"/>
             <territoryOwner territory="Galacia" owner="Austrians"/>
-            <territoryOwner territory="Uganda" owner="British Commonwealth"/>
+            <territoryOwner territory="Uganda" owner="British-Commonwealth"/>
             <territoryOwner territory="Arras" owner="British"/>
             <territoryOwner territory="Paris" owner="French"/>
             <territoryOwner territory="Antalya" owner="Ottomans"/>
-            <territoryOwner territory="German E. Afrika" owner="Imperial German Afrika"/>
+            <territoryOwner territory="German E. Afrika" owner="Imperial-German-Afrika"/>
             <territoryOwner territory="Luneville" owner="Germans"/>
             <territoryOwner territory="Somme" owner="Germans"/>
             <territoryOwner territory="Barvaria" owner="Germans"/>
             <territoryOwner territory="Baku" owner="Ottomans"/>
             <territoryOwner territory="Metz" owner="Germans"/>
-            <territoryOwner territory="Nye Lukemba" owner="French Colonial Africa"/>
+            <territoryOwner territory="Nye Lukemba" owner="French-Colonial-Africa"/>
             <territoryOwner territory="St. Petersburg" owner="Russians"/>
             <territoryOwner territory="Tuscany" owner="Italians"/>
             <territoryOwner territory="Venice" owner="Italians"/>
             <territoryOwner territory="Astrakhan" owner="Russians"/>
-            <territoryOwner territory="French Niger" owner="French Colonial Africa"/>
-            <territoryOwner territory="S. Africa" owner="British Commonwealth"/>
+            <territoryOwner territory="French Niger" owner="French-Colonial-Africa"/>
+            <territoryOwner territory="S. Africa" owner="British-Commonwealth"/>
             <territoryOwner territory="London" owner="British"/>
-            <territoryOwner territory="Be'er Sheva" owner="British Commonwealth"/>
-            <territoryOwner territory="Madagascar" owner="French Colonial Africa"/>
+            <territoryOwner territory="Be'er Sheva" owner="British-Commonwealth"/>
+            <territoryOwner territory="Madagascar" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Mesopotamia" owner="Ottomans"/>
             <territoryOwner territory="Tallin" owner="Russians"/>
             <territoryOwner territory="Poland" owner="Germans"/>
             <territoryOwner territory="Tbilisi" owner="Ottomans"/>
-            <territoryOwner territory="Mauritania" owner="British Commonwealth"/>
-            <territoryOwner territory="German Southwest Africa" owner="Imperial German Afrika"/>
-            <territoryOwner territory="Australia" owner="British Commonwealth"/>
-            <territoryOwner territory="Kabinda" owner="French Colonial Africa"/>
-            <territoryOwner territory="Cameroon" owner="Imperial German Afrika"/>
+            <territoryOwner territory="Mauritania" owner="British-Commonwealth"/>
+            <territoryOwner territory="German Southwest Africa" owner="Imperial-German-Afrika"/>
+            <territoryOwner territory="Australia" owner="British-Commonwealth"/>
+            <territoryOwner territory="Kabinda" owner="French-Colonial-Africa"/>
+            <territoryOwner territory="Cameroon" owner="Imperial-German-Afrika"/>
             <territoryOwner territory="Kiel" owner="Germans"/>
             <territoryOwner territory="Ruhr" owner="Germans"/>
             <territoryOwner territory="Kiev" owner="Russians"/>
-            <territoryOwner territory="French Guinea" owner="French Colonial Africa"/>
+            <territoryOwner territory="French Guinea" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Oman" owner="Ottomans"/>
-            <territoryOwner territory="Algeria" owner="French Colonial Africa"/>
+            <territoryOwner territory="Algeria" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Sarajevo" owner="Austrians"/>
             <territoryOwner territory="Jerusalem" owner="Ottomans"/>
-            <territoryOwner territory="Hurghada" owner="British Commonwealth"/>
+            <territoryOwner territory="Hurghada" owner="British-Commonwealth"/>
             <territoryOwner territory="Moldova" owner="Russians"/>
-            <territoryOwner territory="Upper Volta" owner="French Colonial Africa"/>
+            <territoryOwner territory="Upper Volta" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Charleroi" owner="Germans"/>
             <territoryOwner territory="Rhiems" owner="French"/>
             <territoryOwner territory="Innsbruck" owner="Austrians"/>
             <territoryOwner territory="Nancy" owner="French"/>
             <territoryOwner territory="Chantilly" owner="French"/>
             <territoryOwner territory="Romania" owner="Austrians"/>
-            <territoryOwner territory="Togoland" owner="Imperial German Afrika"/>
+            <territoryOwner territory="Togoland" owner="Imperial-German-Afrika"/>
             <territoryOwner territory="Ankara" owner="Ottomans"/>
-            <territoryOwner territory="Tunis" owner="French Colonial Africa"/>
+            <territoryOwner territory="Tunis" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Fontainbleu" owner="French"/>
             <territoryOwner territory="Douamont" owner="Germans"/>
             <territoryOwner territory="Yaroslavl" owner="Russians"/>
@@ -3405,18 +3410,18 @@
             <territoryOwner territory="Ypres" owner="British"/>
             <territoryOwner territory="Istanbul" owner="Ottomans"/>
             <territoryOwner territory="Kaluga" owner="Russians"/>
-            <territoryOwner territory="Niangara" owner="French Colonial Africa"/>
+            <territoryOwner territory="Niangara" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Verdun" owner="French"/>
             <territoryOwner territory="Grozny" owner="Russians"/>
-            <territoryOwner territory="French West Africa" owner="French Colonial Africa"/>
+            <territoryOwner territory="French West Africa" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Caucusus" owner="Russians"/>
             <territoryOwner territory="Pomerania" owner="Germans"/>
-            <territoryOwner territory="Chad" owner="French Colonial Africa"/>
+            <territoryOwner territory="Chad" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Mont Blanc" owner="Germans"/>
             <territoryOwner territory="Izmir" owner="Ottomans"/>
             <territoryOwner territory="Sardinia" owner="Italians"/>
             <territoryOwner territory="Burgundy" owner="French"/>
-            <territoryOwner territory="French Equitorial Africa" owner="French Colonial Africa"/>
+            <territoryOwner territory="French Equitorial Africa" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Vimy" owner="Germans"/>
             <territoryOwner territory="Trieste" owner="Austrians"/>
             <territoryOwner territory="Brussels" owner="Germans"/>
@@ -3425,24 +3430,24 @@
             <territoryOwner territory="Konya" owner="Ottomans"/>
             <territoryOwner territory="Belarus" owner="Russians"/>
             <territoryOwner territory="al-Hasa" owner="Ottomans"/>
-            <territoryOwner territory="Senegal" owner="French Colonial Africa"/>
+            <territoryOwner territory="Senegal" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Vilnius" owner="Russians"/>
             <territoryOwner territory="Corsica" owner="French"/>
             <territoryOwner territory="Oryol" owner="Russians"/>
             <territoryOwner territory="Hejaz" owner="Ottomans"/>
             <territoryOwner territory="York" owner="British"/>
-            <territoryOwner territory="Egypt" owner="British Commonwealth"/>
-            <territoryOwner territory="Sierra Leone" owner="British Commonwealth"/>
+            <territoryOwner territory="Egypt" owner="British-Commonwealth"/>
+            <territoryOwner territory="Sierra Leone" owner="British-Commonwealth"/>
             <territoryOwner territory="Northern Rhineland" owner="Germans"/>
             <territoryOwner territory="Tripoli" owner="Italians"/>
             <territoryOwner territory="Serbia" owner="Austrians"/>
             <territoryOwner territory="Smyrna" owner="Ottomans"/>
-            <territoryOwner territory="Mumbaza" owner="Imperial German Afrika"/>
+            <territoryOwner territory="Mumbaza" owner="Imperial-German-Afrika"/>
             <territoryOwner territory="Novgorod" owner="Russians"/>
             <territoryOwner territory="Rize" owner="Ottomans"/>
             <territoryOwner territory="Strasbourg" owner="Germans"/>
             <territoryOwner territory="Tula" owner="Russians"/>
-            <territoryOwner territory="Chikapa" owner="French Colonial Africa"/>
+            <territoryOwner territory="Chikapa" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Rhineland" owner="Germans"/>
         </ownerInitialize>
         <unitInitialize/>
