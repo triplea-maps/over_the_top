@@ -2984,7 +2984,7 @@
         <attachment name="territoryAttachment" attachTo="Somme" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2" count=""/>
         </attachment>
-        <attachment name="territoryAttachment" attachTo="Barvaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+        <attachment name="territoryAttachment" attachTo="Bavaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Baku" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -3361,7 +3361,7 @@
             <territoryOwner territory="German E. Afrika" owner="Imperial-German-Afrika"/>
             <territoryOwner territory="Luneville" owner="Germans"/>
             <territoryOwner territory="Somme" owner="Germans"/>
-            <territoryOwner territory="Barvaria" owner="Germans"/>
+            <territoryOwner territory="Bavaria" owner="Germans"/>
             <territoryOwner territory="Baku" owner="Ottomans"/>
             <territoryOwner territory="Metz" owner="Germans"/>
             <territoryOwner territory="Nye Lukemba" owner="French-Colonial-Africa"/>
