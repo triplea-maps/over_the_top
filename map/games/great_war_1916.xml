@@ -5,1191 +5,1189 @@
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <map>
-		<territory name="Aachen"/>
-		<territory name="Abyssinia"/>
-		<territory name="Algeria"/>
-		<territory name="American Isolationism"/>
-		<territory name="Angolia"/>
-		<territory name="Ankara"/>
-		<territory name="Arar"/>
-		<territory name="Argonne"/>
-		<territory name="Arras"/>
-		<territory name="Astrakhan"/>
-		<territory name="B. Somaliland"/>
-		<territory name="BR 1"/>
-		<territory name="BR 2"/>
-		<territory name="BR 3"/>
-		<territory name="Bagdad"/>
-		<territory name="Baku"/>
-		<territory name="Bar-Le-Duc"/>
-		<territory name="Bolshevik Revolution"/>
-		<territory name="British E. Africa"/>
-		<territory name="Brussels"/>
-		<territory name="Bryansk"/>
-		<territory name="Buchuanaland"/>
-		<territory name="Bulgaria"/>
-		<territory name="Burgundy"/>
-		<territory name="Cabinda"/>
-		<territory name="Cameroon"/>
-		<territory name="Canada"/>
-		<territory name="Casablanca"/>
-		<territory name="Chad"/>
-		<territory name="Chantilly"/>
-		<territory name="Charleroi"/>
-		<territory name="Chaumont"/>
-		<territory name="Chikapa"/>
-		<territory name="Cologne"/>
-		<territory name="Compiegne"/>
-		<territory name="Corsica"/>
-		<territory name="Crete"/>
-		<territory name="Cyprus"/>
-		<territory name="Cyreniaca"/>
-		<territory name="Damascus"/>
-		<territory name="Denmark"/>
-		<territory name="Finland"/>
-		<territory name="Fontainbleu"/>
-		<territory name="Frankfurt"/>
-		<territory name="French Guinea"/>
-		<territory name="French Niger"/>
-		<territory name="French Sudan"/>
-		<territory name="Galacia"/>
-		<territory name="Gallipoli"/>
-		<territory name="German E. Afria"/>
-		<territory name="German Southwest Africa"/>
-		<territory name="Gibraltar"/>
-		<territory name="Greece"/>
-		<territory name="Grozny"/>
-		<territory name="Holland"/>
-		<territory name="Hurghada"/>
-		<territory name="I. Somaliland"/>
-		<territory name="India"/>
-		<territory name="Innsbruck"/>
-		<territory name="Ireland"/>
-		<territory name="Istanbul"/>
-		<territory name="Izmir"/>
-		<territory name="Kiel"/>
-		<territory name="Konya"/>
-		<territory name="Krasnodar"/>
-		<territory name="Lisala"/>
-		<territory name="London"/>
-		<territory name="Luderitz"/>
-		<territory name="Luneville"/>
-		<territory name="Madagascar"/>
-		<territory name="Marseilles"/>
-		<territory name="Mesopotamia"/>
-		<territory name="Mont Blanc"/>
-		<territory name="Moscow"/>
-		<territory name="Mosul"/>
-		<territory name="Mozambique"/>
-		<territory name="Mumbaza"/>
-		<territory name="Nancy"/>
-		<territory name="Naples"/>
-		<territory name="Niangara"/>
-		<territory name="Normandy"/>
-		<territory name="Northern Sudan"/>
-		<territory name="Norway"/>
-		<territory name="Nye Lukemba"/>
-		<territory name="Oman"/>
-		<territory name="Paris"/>
-		<territory name="Paschendale"/>
-		<territory name="Persia"/>
-		<territory name="Piedmont"/>
-		<territory name="Poland"/>
-		<territory name="Portugal"/>
-		<territory name="Portuguese E. Africa"/>
-		<territory name="Prussia"/>
-		<territory name="RR 1" water="true"/>
-		<territory name="RR 2" water="true"/>
-		<territory name="RR 3" water="true"/>
-		<territory name="RR 4" water="true"/>
-		<territory name="RR 5" water="true"/>
-		<territory name="RR 6" water="true"/>
-		<territory name="RR 7" water="true"/>
-		<territory name="RR 8" water="true"/>
-		<territory name="RR 9" water="true"/>
-		<territory name="RR 10" water="true"/>
-		<territory name="RR 11" water="true"/>
-		<territory name="RR 12" water="true"/>
-		<territory name="RR 13" water="true"/>
-		<territory name="RR 15" water="true"/>
-		<territory name="RR 16" water="true"/>
-		<territory name="RR 17" water="true"/>
-		<territory name="RR 18" water="true"/>
-		<territory name="RR 19" water="true"/>
-		<territory name="RR 20" water="true"/>
-		<territory name="RR 21" water="true"/>
-		<territory name="RR 22" water="true"/>
-		<territory name="RR 23" water="true"/>
-		<territory name="RR 24" water="true"/>
-		<territory name="RR 25" water="true"/>
-		<territory name="RR 26" water="true"/>
-		<territory name="RR 27" water="true"/>
-		<territory name="RR 28" water="true"/>
-		<territory name="RR 29" water="true"/>
-		<territory name="RR 30" water="true"/>
-		<territory name="RR 31" water="true"/>
-		<territory name="RR 32" water="true"/>
-		<territory name="RR 33" water="true"/>
-		<territory name="RR 34" water="true"/>
-		<territory name="RR 35" water="true"/>
-		<territory name="RR 36" water="true"/>
-		<territory name="RR 37" water="true"/>
-		<territory name="RR 38" water="true"/>
-		<territory name="RR 39" water="true"/>
-		<territory name="RR 40" water="true"/>
-		<territory name="RR 41" water="true"/>
-		<territory name="RR 42" water="true"/>
-		<territory name="RR 43" water="true"/>
-		<territory name="RR 44" water="true"/>
-		<territory name="RR 45" water="true"/>
-		<territory name="RR 46" water="true"/>
-		<territory name="RR 47" water="true"/>
-		<territory name="RR 48" water="true"/>
-		<territory name="RR 49" water="true"/>
-		<territory name="RR 50" water="true"/>
-		<territory name="RR 51" water="true"/>
-		<territory name="RR 52" water="true"/>
-		<territory name="RR 53" water="true"/>
-		<territory name="RR 54" water="true"/>
-		<territory name="RR 55" water="true"/>
-		<territory name="RR 56" water="true"/>
-		<territory name="RR 57" water="true"/>
-		<territory name="RR 58" water="true"/>
-		<territory name="RR 59" water="true"/>
-		<territory name="RR 60" water="true"/>
-		<territory name="RR 61" water="true"/>
-		<territory name="RR 62" water="true"/>
-		<territory name="RR 63" water="true"/>
-		<territory name="RR 64" water="true"/>
-		<territory name="RR 65" water="true"/>
-		<territory name="RR 66" water="true"/>
-		<territory name="RR 67" water="true"/>
-		<territory name="RR 68" water="true"/>
-		<territory name="RR 69" water="true"/>
-		<territory name="RR 70" water="true"/>
-		<territory name="RR 71" water="true"/>
-		<territory name="RR 72" water="true"/>
-		<territory name="RR 73" water="true"/>
-		<territory name="RR 74" water="true"/>
-		<territory name="RR 75" water="true"/>
-		<territory name="RR 76" water="true"/>
-		<territory name="RR 77" water="true"/>
-		<territory name="RR 78" water="true"/>
-		<territory name="RR 79" water="true"/>
-		<territory name="RR 80" water="true"/>
-		<territory name="RR 81" water="true"/>
-		<territory name="RR 82" water="true"/>
-		<territory name="RR 83" water="true"/>
-		<territory name="RR 84" water="true"/>
-		<territory name="RR 85" water="true"/>
-		<territory name="RR 86" water="true"/>
-		<territory name="RR 87" water="true"/>
-		<territory name="RR 88" water="true"/>
-		<territory name="RR 89" water="true"/>
-		<territory name="RR 90" water="true"/>
-		<territory name="RR 91" water="true"/>
-		<territory name="RR 92" water="true"/>
-		<territory name="RR 93" water="true"/>
-		<territory name="RR 94" water="true"/>
-		<territory name="RR 95" water="true"/>
-		<territory name="RR 96" water="true"/>
-		<territory name="RR 97" water="true"/>
-		<territory name="RR 98" water="true"/>
-		<territory name="RR 99" water="true"/>
-		<territory name="RR 100" water="true"/>
-		<territory name="RR 101" water="true"/>
-		<territory name="RR 102" water="true"/>
-		<territory name="RR 103" water="true"/>
-		<territory name="RR 104" water="true"/>
-		<territory name="RR 105" water="true"/>
-		<territory name="RR 106" water="true"/>
-		<territory name="RR 107" water="true"/>
-		<territory name="RR 108" water="true"/>
-		<territory name="RR 109" water="true"/>
-		<territory name="RR 110" water="true"/>
-		<territory name="RR 111" water="true"/>
-		<territory name="RR 112" water="true"/>
-		<territory name="RR 113" water="true"/>
-		<territory name="RR 114" water="true"/>
-		<territory name="RR 115" water="true"/>
-		<territory name="RR 116" water="true"/>
-		<territory name="RR 117" water="true"/>
-		<territory name="RR 118" water="true"/>
-		<territory name="RR 119" water="true"/>
-		<territory name="RR 120" water="true"/>
-		<territory name="RR 121" water="true"/>
-		<territory name="RR 122" water="true"/>
-		<territory name="RR 123" water="true"/>
-		<territory name="RR 124" water="true"/>
-		<territory name="RR 125" water="true"/>
-		<territory name="RR 126" water="true"/>
-		<territory name="RR 127" water="true"/>
-		<territory name="RR 128" water="true"/>
-		<territory name="RR 129" water="true"/>
-		<territory name="RR 130" water="true"/>
-		<territory name="RR 131" water="true"/>
-		<territory name="RR 132" water="true"/>
-		<territory name="RR 133" water="true"/>
-		<territory name="RR 134" water="true"/>
-		<territory name="RR 135" water="true"/>
-		<territory name="RR 136" water="true"/>
-		<territory name="RR 137" water="true"/>
-		<territory name="RR 138" water="true"/>
-		<territory name="RR 139" water="true"/>
-		<territory name="RR 140" water="true"/>
-		<territory name="RR 141" water="true"/>
-		<territory name="Rhineland"/>
-		<territory name="Rize"/>
-		<territory name="Ruhr"/>
-		<territory name="Russian Infiltration"/>
-		<territory name="S. Africa"/>
-		<territory name="S. Rhodesia"/>
-		<territory name="SZ 1" water="true"/>
-		<territory name="SZ 2" water="true"/>
-		<territory name="SZ 3" water="true"/>
-		<territory name="SZ 4" water="true"/>
-		<territory name="SZ 5" water="true"/>
-		<territory name="SZ 6" water="true"/>
-		<territory name="SZ 7" water="true"/>
-		<territory name="SZ 8" water="true"/>
-		<territory name="SZ 9" water="true"/>
-		<territory name="SZ 10" water="true"/>
-		<territory name="SZ 11" water="true"/>
-		<territory name="SZ 12" water="true"/>
-		<territory name="SZ 13" water="true"/>
-		<territory name="SZ 14" water="true"/>
-		<territory name="SZ 15" water="true"/>
-		<territory name="SZ 16" water="true"/>
-		<territory name="SZ 17" water="true"/>
-		<territory name="SZ 18" water="true"/>
-		<territory name="SZ 19" water="true"/>
-		<territory name="SZ 20" water="true"/>
-		<territory name="SZ 21" water="true"/>
-		<territory name="SZ 22" water="true"/>
-		<territory name="SZ 23" water="true"/>
-		<territory name="SZ 24" water="true"/>
-		<territory name="SZ 25" water="true"/>
-		<territory name="SZ 26" water="true"/>
-		<territory name="SZ 27" water="true"/>
-		<territory name="SZ 28" water="true"/>
-		<territory name="SZ 30" water="true"/>
-		<territory name="SZ 31" water="true"/>
-		<territory name="SZ 32" water="true"/>
-		<territory name="SZ 33" water="true"/>
-		<territory name="SZ 34" water="true"/>
-		<territory name="SZ 35" water="true"/>
-		<territory name="SZ 36" water="true"/>
-		<territory name="SZ 37" water="true"/>
-		<territory name="SZ 38" water="true"/>
-		<territory name="SZ 39" water="true"/>
-		<territory name="SZ 40" water="true"/>
-		<territory name="SZ 41" water="true"/>
-		<territory name="SZ 42" water="true"/>
-		<territory name="SZ 43" water="true"/>
-		<territory name="SZ 44" water="true"/>
-		<territory name="SZ 45" water="true"/>
-		<territory name="SZ 46" water="true"/>
-		<territory name="SZ 47" water="true"/>
-		<territory name="SZ 48" water="true"/>
-		<territory name="SZ 49" water="true"/>
-		<territory name="SZ 50" water="true"/>
-		<territory name="SZ 51" water="true"/>
-		<territory name="SZ 52" water="true"/>
-		<territory name="SZ 53" water="true"/>
-		<territory name="SZ 54" water="true"/>
-		<territory name="SZ 55" water="true"/>
-		<territory name="SZ 56" water="true"/>
-		<territory name="SZ 57" water="true"/>
-		<territory name="SZ 58" water="true"/>
-		<territory name="SZ 59" water="true"/>
-		<territory name="SZ 60" water="true"/>
-		<territory name="SZ 61" water="true"/>
-		<territory name="SZ 62" water="true"/>
-		<territory name="SZ 63" water="true"/>
-		<territory name="SZ 64" water="true"/>
-		<territory name="SZ 65" water="true"/>
-		<territory name="SZ 66" water="true"/>
-		<territory name="SZ 67" water="true"/>
-		<territory name="SZ 68" water="true"/>
-		<territory name="SZ 69" water="true"/>
-		<territory name="SZ 70" water="true"/>
-		<territory name="SZ 71" water="true"/>
-		<territory name="SZ 72" water="true"/>
-		<territory name="SZ 73" water="true"/>
-		<territory name="SZ 74" water="true"/>
-		<territory name="SZ 75" water="true"/>
-		<territory name="SZ 76" water="true"/>
-		<territory name="SZ 77" water="true"/>
-		<territory name="SZ 78" water="true"/>
-		<territory name="SZ 79" water="true"/>
-		<territory name="SZ 80" water="true"/>
-		<territory name="SZ 81" water="true"/>
-		<territory name="SZ 82" water="true"/>
-		<territory name="SZ 83" water="true"/>
-		<territory name="SZ 84" water="true"/>
-		<territory name="SZ 85" water="true"/>
-		<territory name="SZ 86" water="true"/>
-		<territory name="SZ 87" water="true"/>
-		<territory name="SZ 88" water="true"/>
-		<territory name="SZ 89" water="true"/>
-		<territory name="SZ 90" water="true"/>
-		<territory name="SZ 91" water="true"/>
-		<territory name="Sarajevo"/>
-		<territory name="Saratov"/>
-		<territory name="Sardinia"/>
-		<territory name="Saxony"/>
-		<territory name="Scotland"/>
-		<territory name="Senegal"/>
-		<territory name="Sicily"/>
-		<territory name="Sierra Leone"/>
-		<territory name="Silesia"/>
-		<territory name="Sirte"/>
-		<territory name="Smolensk"/>
-		<territory name="Smyrna"/>
-		<territory name="Southern Sudan"/>
-		<territory name="Spain"/>
-		<territory name="Spanish Morocco"/>
-		<territory name="Svastepole"/>
-		<territory name="Sweden"/>
-		<territory name="Switzerland"/>
-		<territory name="Syria"/>
-		<territory name="Tabriz"/>
-		<territory name="Tabuk"/>
-		<territory name="Tbilisi"/>
-		<territory name="Tobruk"/>
-		<territory name="Togoland"/>
-		<territory name="Transvaal"/>
-		<territory name="Trieste"/>
-		<territory name="Tripoli"/>
-		<territory name="Tula"/>
-		<territory name="Tunesia"/>
-		<territory name="US 1"/>
-		<territory name="US 2"/>
-		<territory name="US 3"/>
-		<territory name="Uganda"/>
-		<territory name="United States"/>
-		<territory name="United States Mobilizes"/>
-		<territory name="Upper Volta"/>
-		<territory name="Venice"/>
-		<territory name="Verdun"/>
-		<territory name="Vienna"/>
-		<territory name="Vilnius"/>
-		<territory name="Vimy"/>
-		<territory name="Volgograd"/>
-		<territory name="Western Australia"/>
-		<territory name="Yaroslavl"/>
-		<territory name="York"/>
-		<territory name="Ypres"/>
-		<territory name="al-Hasa"/>
-		
-		<!-- Territory Connections -->
-		<connection t1="Aachen" t2="Brussels"/>
-		<connection t1="Aachen" t2="Charleroi"/>
-		<connection t1="Aachen" t2="Cologne"/>
-		<connection t1="Aachen" t2="RR 120"/>
-		<connection t1="Aachen" t2="RR 126"/>
-		<connection t1="Abyssinia" t2="B. Somaliland"/>
-		<connection t1="Abyssinia" t2="British E. Africa"/>
-		<connection t1="Abyssinia" t2="I. Somaliland"/>
-		<connection t1="Abyssinia" t2="Southern Sudan"/>
-		<connection t1="Abyssinia" t2="Uganda"/>
-		<connection t1="Algeria" t2="Casablanca"/>
-		<connection t1="Algeria" t2="RR 74"/>
-		<connection t1="Algeria" t2="SZ 28"/>
-		<connection t1="Algeria" t2="Tunesia"/>
-		<connection t1="American Isolationism" t2="US 1"/>
-		<connection t1="Angolia" t2="Buchuanaland"/>
-		<connection t1="Angolia" t2="Cabinda"/>
-		<connection t1="Angolia" t2="Chikapa"/>
-		<connection t1="Angolia" t2="German Southwest Africa"/>
-		<connection t1="Angolia" t2="RR 107"/>
-		<connection t1="Angolia" t2="RR 109"/>
-		<connection t1="Angolia" t2="SZ 55"/>
-		<connection t1="Ankara" t2="Istanbul"/>
-		<connection t1="Ankara" t2="Konya"/>
-		<connection t1="Ankara" t2="RR 60"/>
-		<connection t1="Ankara" t2="RR 61"/>
-		<connection t1="Ankara" t2="RR 63"/>
-		<connection t1="Ankara" t2="SZ 36"/>
-		<connection t1="Ankara" t2="Smyrna"/>
-		<connection t1="Arar" t2="Bagdad"/>
-		<connection t1="Arar" t2="Damascus"/>
-		<connection t1="Arar" t2="Mosul"/>
-		<connection t1="Arar" t2="RR 70"/>
-		<connection t1="Arar" t2="Syria"/>
-		<connection t1="Argonne" t2="Chantilly"/>
-		<connection t1="Argonne" t2="Chaumont"/>
-		<connection t1="Argonne" t2="Mont Blanc"/>
-		<connection t1="Argonne" t2="RR 128"/>
-		<connection t1="Argonne" t2="RR 131"/>
-		<connection t1="Argonne" t2="RR 135"/>
-		<connection t1="Argonne" t2="Verdun"/>
-		<connection t1="Argonne" t2="Vimy"/>
-		<connection t1="Arras" t2="Compiegne"/>
-		<connection t1="Arras" t2="RR 118"/>
-		<connection t1="Arras" t2="RR 123"/>
-		<connection t1="Arras" t2="RR 124"/>
-		<connection t1="Arras" t2="RR 128"/>
-		<connection t1="Arras" t2="Ypres"/>
-		<connection t1="Astrakhan" t2="Grozny"/>
-		<connection t1="Astrakhan" t2="RR 25"/>
-		<connection t1="Astrakhan" t2="RR 45"/>
-		<connection t1="B. Somaliland" t2="I. Somaliland"/>
-		<connection t1="B. Somaliland" t2="Northern Sudan"/>
-		<connection t1="B. Somaliland" t2="RR 99"/>
-		<connection t1="B. Somaliland" t2="SZ 41"/>
-		<connection t1="B. Somaliland" t2="Southern Sudan"/>
-		<connection t1="BR 1" t2="BR 2"/>
-		<connection t1="BR 1" t2="Bolshevik Revolution"/>
-		<connection t1="BR 2" t2="BR 3"/>
-		<connection t1="BR 3" t2="Russian Infiltration"/>
-		<connection t1="Bagdad" t2="Mesopotamia"/>
-		<connection t1="Bagdad" t2="Mosul"/>
-		<connection t1="Bagdad" t2="RR 71"/>
-		<connection t1="Bagdad" t2="RR 85"/>
-		<connection t1="Bagdad" t2="al-Hasa"/>
-		<connection t1="Baku" t2="Grozny"/>
-		<connection t1="Baku" t2="Tabriz"/>
-		<connection t1="Baku" t2="Tbilisi"/>
-		<connection t1="Bar-Le-Duc" t2="Chaumont"/>
-		<connection t1="Bar-Le-Duc" t2="Luneville"/>
-		<connection t1="Bar-Le-Duc" t2="Nancy"/>
-		<connection t1="Bar-Le-Duc" t2="RR 135"/>
-		<connection t1="Bar-Le-Duc" t2="RR 138"/>
-		<connection t1="British E. Africa" t2="I. Somaliland"/>
-		<connection t1="British E. Africa" t2="Mumbaza"/>
-		<connection t1="British E. Africa" t2="RR 103"/>
-		<connection t1="British E. Africa" t2="SZ 42"/>
-		<connection t1="British E. Africa" t2="SZ 50"/>
-		<connection t1="British E. Africa" t2="Uganda"/>
-		<connection t1="Brussels" t2="Charleroi"/>
-		<connection t1="Brussels" t2="Paschendale"/>
-		<connection t1="Brussels" t2="RR 119"/>
-		<connection t1="Brussels" t2="Vimy"/>
-		<connection t1="Bryansk" t2="RR 23"/>
-		<connection t1="Bryansk" t2="RR 24"/>
-		<connection t1="Bryansk" t2="RR 33"/>
-		<connection t1="Bryansk" t2="RR 34"/>
-		<connection t1="Bryansk" t2="RR 42"/>
-		<connection t1="Bryansk" t2="Volgograd"/>
-		<connection t1="Buchuanaland" t2="German Southwest Africa"/>
-		<connection t1="Buchuanaland" t2="Luderitz"/>
-		<connection t1="Buchuanaland" t2="RR 107"/>
-		<connection t1="Buchuanaland" t2="RR 114"/>
-		<connection t1="Buchuanaland" t2="S. Africa"/>
-		<connection t1="Buchuanaland" t2="S. Rhodesia"/>
-		<connection t1="Buchuanaland" t2="Transvaal"/>
-		<connection t1="Bulgaria" t2="Gallipoli"/>
-		<connection t1="Bulgaria" t2="RR 49"/>
-		<connection t1="Bulgaria" t2="RR 53"/>
-		<connection t1="Bulgaria" t2="RR 54"/>
-		<connection t1="Bulgaria" t2="RR 57"/>
-		<connection t1="Bulgaria" t2="SZ 34"/>
-		<connection t1="Bulgaria" t2="SZ 36"/>
-		<connection t1="Burgundy" t2="Marseilles"/>
-		<connection t1="Burgundy" t2="Paris"/>
-		<connection t1="Burgundy" t2="RR 17"/>
-		<connection t1="Burgundy" t2="RR 28"/>
-		<connection t1="Burgundy" t2="Switzerland"/>
-		<connection t1="Cabinda" t2="Chikapa"/>
-		<connection t1="Cabinda" t2="RR 101"/>
-		<connection t1="Cabinda" t2="RR 102"/>
-		<connection t1="Cabinda" t2="RR 104"/>
-		<connection t1="Cabinda" t2="SZ 55"/>
-		<connection t1="Cameroon" t2="Chad"/>
-		<connection t1="Cameroon" t2="Lisala"/>
-		<connection t1="Cameroon" t2="RR 96"/>
-		<connection t1="Cameroon" t2="RR 97"/>
-		<connection t1="Cameroon" t2="RR 101"/>
-		<connection t1="Cameroon" t2="RR 102"/>
-		<connection t1="Cameroon" t2="SZ 52"/>
-		<connection t1="Cameroon" t2="SZ 55"/>
-		<connection t1="Canada" t2="SZ 23"/>
-		<connection t1="Casablanca" t2="RR 72"/>
-		<connection t1="Casablanca" t2="RR 73"/>
-		<connection t1="Casablanca" t2="SZ 26"/>
-		<connection t1="Casablanca" t2="SZ 28"/>
-		<connection t1="Casablanca" t2="Spanish Morocco"/>
-		<connection t1="Chad" t2="French Niger"/>
-		<connection t1="Chad" t2="Lisala"/>
-		<connection t1="Chad" t2="Niangara"/>
-		<connection t1="Chad" t2="Southern Sudan"/>
-		<connection t1="Chantilly" t2="Chaumont"/>
-		<connection t1="Chantilly" t2="Compiegne"/>
-		<connection t1="Chantilly" t2="Fontainbleu"/>
-		<connection t1="Chantilly" t2="RR 128"/>
-		<connection t1="Chantilly" t2="RR 134"/>
-		<connection t1="Charleroi" t2="Mont Blanc"/>
-		<connection t1="Charleroi" t2="RR 126"/>
-		<connection t1="Charleroi" t2="Vimy"/>
-		<connection t1="Chaumont" t2="Fontainbleu"/>
-		<connection t1="Chaumont" t2="RR 135"/>
-		<connection t1="Chikapa" t2="RR 102"/>
-		<connection t1="Chikapa" t2="RR 105"/>
-		<connection t1="Chikapa" t2="RR 107"/>
-		<connection t1="Cologne" t2="Frankfurt"/>
-		<connection t1="Cologne" t2="RR 121"/>
-		<connection t1="Cologne" t2="RR 122"/>
-		<connection t1="Cologne" t2="RR 126"/>
-		<connection t1="Cologne" t2="Rhineland"/>
-		<connection t1="Compiegne" t2="Fontainbleu"/>
-		<connection t1="Compiegne" t2="RR 118"/>
-		<connection t1="Compiegne" t2="RR 127"/>
-		<connection t1="Compiegne" t2="RR 128"/>
-		<connection t1="Corsica" t2="Marseilles"/>
-		<connection t1="Corsica" t2="Piedmont"/>
-		<connection t1="Corsica" t2="RR 36"/>
-		<connection t1="Corsica" t2="RR 46"/>
-		<connection t1="Corsica" t2="SZ 28"/>
-		<connection t1="Corsica" t2="SZ 30"/>
-		<connection t1="Corsica" t2="SZ 81"/>
-		<connection t1="Corsica" t2="Sardinia"/>
-		<connection t1="Corsica" t2="Spain"/>
-		<connection t1="Crete" t2="SZ 32"/>
-		<connection t1="Crete" t2="SZ 33"/>
-		<connection t1="Crete" t2="SZ 34"/>
-		<connection t1="Crete" t2="SZ 35"/>
-		<connection t1="Cyprus" t2="SZ 35"/>
-		<connection t1="Cyreniaca" t2="RR 79"/>
-		<connection t1="Cyreniaca" t2="SZ 33"/>
-		<connection t1="Cyreniaca" t2="Sirte"/>
-		<connection t1="Cyreniaca" t2="Tobruk"/>
-		<connection t1="Damascus" t2="RR 67"/>
-		<connection t1="Damascus" t2="RR 70"/>
-		<connection t1="Damascus" t2="SZ 35"/>
-		<connection t1="Damascus" t2="Syria"/>
-		<connection t1="Denmark" t2="Kiel"/>
-		<connection t1="Denmark" t2="SZ 7"/>
-		<connection t1="Denmark" t2="SZ 9"/>
-		<connection t1="Finland" t2="RR 10"/>
-		<connection t1="Finland" t2="SZ 91"/>
-		<connection t1="Fontainbleu" t2="RR 137"/>
-		<connection t1="Frankfurt" t2="RR 126"/>
-		<connection t1="Frankfurt" t2="RR 130"/>
-		<connection t1="Frankfurt" t2="RR 132"/>
-		<connection t1="Frankfurt" t2="RR 136"/>
-		<connection t1="Frankfurt" t2="Rhineland"/>
-		<connection t1="French Guinea" t2="RR 94"/>
-		<connection t1="French Guinea" t2="SZ 51"/>
-		<connection t1="French Guinea" t2="Senegal"/>
-		<connection t1="French Guinea" t2="Sierra Leone"/>
-		<connection t1="French Niger" t2="Northern Sudan"/>
-		<connection t1="French Niger" t2="RR 88"/>
-		<connection t1="French Niger" t2="RR 89"/>
-		<connection t1="French Niger" t2="Southern Sudan"/>
-		<connection t1="French Sudan" t2="RR 88"/>
-		<connection t1="French Sudan" t2="RR 94"/>
-		<connection t1="French Sudan" t2="Senegal"/>
-		<connection t1="French Sudan" t2="Upper Volta"/>
-		<connection t1="Galacia" t2="Poland"/>
-		<connection t1="Galacia" t2="RR 31"/>
-		<connection t1="Galacia" t2="RR 32"/>
-		<connection t1="Galacia" t2="RR 33"/>
-		<connection t1="Galacia" t2="RR 41"/>
-		<connection t1="Galacia" t2="RR 48"/>
-		<connection t1="Galacia" t2="RR 49"/>
-		<connection t1="Galacia" t2="Silesia"/>
-		<connection t1="Galacia" t2="Vienna"/>
-		<connection t1="Gallipoli" t2="SZ 34"/>
-		<connection t1="Gallipoli" t2="SZ 36"/>
-		<connection t1="German E. Afria" t2="Mumbaza"/>
-		<connection t1="German E. Afria" t2="Portuguese E. Africa"/>
-		<connection t1="German E. Afria" t2="RR 107"/>
-		<connection t1="German E. Afria" t2="RR 108"/>
-		<connection t1="German E. Afria" t2="SZ 50"/>
-		<connection t1="German Southwest Africa" t2="Luderitz"/>
-		<connection t1="German Southwest Africa" t2="RR 112"/>
-		<connection t1="German Southwest Africa" t2="RR 114"/>
-		<connection t1="German Southwest Africa" t2="SZ 56"/>
-		<connection t1="Gibraltar" t2="Portugal"/>
-		<connection t1="Gibraltar" t2="SZ 27"/>
-		<connection t1="Gibraltar" t2="Spain"/>
-		<connection t1="Greece" t2="RR 57"/>
-		<connection t1="Greece" t2="RR 58"/>
-		<connection t1="Greece" t2="SZ 32"/>
-		<connection t1="Greece" t2="SZ 34"/>
-		<connection t1="Greece" t2="Sarajevo"/>
-		<connection t1="Grozny" t2="Krasnodar"/>
-		<connection t1="Grozny" t2="RR 44"/>
-		<connection t1="Grozny" t2="RR 45"/>
-		<connection t1="Grozny" t2="Tbilisi"/>
-		<connection t1="Holland" t2="Kiel"/>
-		<connection t1="Holland" t2="Ruhr"/>
-		<connection t1="Holland" t2="SZ 9"/>
-		<connection t1="Hurghada" t2="RR 81"/>
-		<connection t1="Hurghada" t2="RR 86"/>
-		<connection t1="Hurghada" t2="SZ 38"/>
-		<connection t1="I. Somaliland" t2="RR 100"/>
-		<connection t1="I. Somaliland" t2="SZ 42"/>
-		<connection t1="India" t2="Persia"/>
-		<connection t1="India" t2="SZ 44"/>
-		<connection t1="Innsbruck" t2="RR 29"/>
-		<connection t1="Innsbruck" t2="RR 31"/>
-		<connection t1="Innsbruck" t2="RR 141"/>
-		<connection t1="Innsbruck" t2="Saxony"/>
-		<connection t1="Innsbruck" t2="Switzerland"/>
-		<connection t1="Innsbruck" t2="Trieste"/>
-		<connection t1="Innsbruck" t2="Venice"/>
-		<connection t1="Innsbruck" t2="Vienna"/>
-		<connection t1="Ireland" t2="SZ 13"/>
-		<connection t1="Ireland" t2="SZ 14"/>
-		<connection t1="Ireland" t2="SZ 18"/>
-		<connection t1="Istanbul" t2="Izmir"/>
-		<connection t1="Istanbul" t2="RR 59"/>
-		<connection t1="Istanbul" t2="RR 63"/>
-		<connection t1="Istanbul" t2="SZ 36"/>
-		<connection t1="Izmir" t2="RR 63"/>
-		<connection t1="Izmir" t2="SZ 34"/>
-		<connection t1="Izmir" t2="SZ 35"/>
-		<connection t1="Izmir" t2="SZ 36"/>
-		<connection t1="Kiel" t2="RR 4"/>
-		<connection t1="Kiel" t2="RR 5"/>
-		<connection t1="Kiel" t2="RR 19"/>
-		<connection t1="Kiel" t2="Ruhr"/>
-		<connection t1="Kiel" t2="SZ 7"/>
-		<connection t1="Kiel" t2="SZ 9"/>
-		<connection t1="Konya" t2="RR 63"/>
-		<connection t1="Konya" t2="RR 64"/>
-		<connection t1="Konya" t2="SZ 35"/>
-		<connection t1="Konya" t2="Smyrna"/>
-		<connection t1="Konya" t2="Syria"/>
-		<connection t1="Krasnodar" t2="RR 44"/>
-		<connection t1="Krasnodar" t2="RR 50"/>
-		<connection t1="Krasnodar" t2="SZ 37"/>
-		<connection t1="Krasnodar" t2="Tbilisi"/>
-		<connection t1="Lisala" t2="Niangara"/>
-		<connection t1="Lisala" t2="Nye Lukemba"/>
-		<connection t1="Lisala" t2="RR 102"/>
-		<connection t1="Lisala" t2="RR 105"/>
-		<connection t1="London" t2="RR 3"/>
-		<connection t1="London" t2="SZ 6"/>
-		<connection t1="London" t2="SZ 8"/>
-		<connection t1="London" t2="SZ 18"/>
-		<connection t1="London" t2="York"/>
-		<connection t1="Luderitz" t2="RR 114"/>
-		<connection t1="Luderitz" t2="S. Africa"/>
-		<connection t1="Luderitz" t2="SZ 56"/>
-		<connection t1="Luneville" t2="Nancy"/>
-		<connection t1="Luneville" t2="RR 136"/>
-		<connection t1="Luneville" t2="RR 139"/>
-		<connection t1="Luneville" t2="RR 140"/>
-		<connection t1="Madagascar" t2="SZ 50"/>
-		<connection t1="Madagascar" t2="SZ 59"/>
-		<connection t1="Madagascar" t2="SZ 60"/>
-		<connection t1="Marseilles" t2="Paris"/>
-		<connection t1="Marseilles" t2="Piedmont"/>
-		<connection t1="Marseilles" t2="RR 36"/>
-		<connection t1="Marseilles" t2="RR 37"/>
-		<connection t1="Marseilles" t2="Switzerland"/>
-		<connection t1="Mesopotamia" t2="Mosul"/>
-		<connection t1="Mesopotamia" t2="RR 69"/>
-		<connection t1="Mesopotamia" t2="RR 85"/>
-		<connection t1="Mesopotamia" t2="Tabriz"/>
-		<connection t1="Mont Blanc" t2="RR 126"/>
-		<connection t1="Mont Blanc" t2="RR 129"/>
-		<connection t1="Mont Blanc" t2="RR 132"/>
-		<connection t1="Mont Blanc" t2="Verdun"/>
-		<connection t1="Mont Blanc" t2="Vimy"/>
-		<connection t1="Moscow" t2="RR 13"/>
-		<connection t1="Moscow" t2="RR 15"/>
-		<connection t1="Moscow" t2="Tula"/>
-		<connection t1="Moscow" t2="Yaroslavl"/>
-		<connection t1="Mosul" t2="RR 68"/>
-		<connection t1="Mosul" t2="Smyrna"/>
-		<connection t1="Mosul" t2="Syria"/>
-		<connection t1="Mosul" t2="Tabriz"/>
-		<connection t1="Mozambique" t2="Portuguese E. Africa"/>
-		<connection t1="Mozambique" t2="RR 107"/>
-		<connection t1="Mozambique" t2="RR 111"/>
-		<connection t1="Mozambique" t2="S. Rhodesia"/>
-		<connection t1="Mozambique" t2="SZ 59"/>
-		<connection t1="Mozambique" t2="Transvaal"/>
-		<connection t1="Mumbaza" t2="Niangara"/>
-		<connection t1="Mumbaza" t2="RR 106"/>
-		<connection t1="Mumbaza" t2="SZ 50"/>
-		<connection t1="Mumbaza" t2="Uganda"/>
-		<connection t1="Nancy" t2="RR 132"/>
-		<connection t1="Nancy" t2="RR 135"/>
-		<connection t1="Nancy" t2="RR 136"/>
-		<connection t1="Nancy" t2="Verdun"/>
-		<connection t1="Naples" t2="RR 46"/>
-		<connection t1="Naples" t2="RR 51"/>
-		<connection t1="Naples" t2="RR 56"/>
-		<connection t1="Naples" t2="SZ 30"/>
-		<connection t1="Naples" t2="SZ 32"/>
-		<connection t1="Niangara" t2="Nye Lukemba"/>
-		<connection t1="Niangara" t2="Southern Sudan"/>
-		<connection t1="Niangara" t2="Uganda"/>
-		<connection t1="Normandy" t2="Paris"/>
-		<connection t1="Normandy" t2="RR 17"/>
-		<connection t1="Normandy" t2="RR 26"/>
-		<connection t1="Normandy" t2="RR 36"/>
-		<connection t1="Normandy" t2="SZ 8"/>
-		<connection t1="Normandy" t2="SZ 22"/>
-		<connection t1="Normandy" t2="SZ 73"/>
-		<connection t1="Northern Sudan" t2="RR 90"/>
-		<connection t1="Northern Sudan" t2="SZ 41"/>
-		<connection t1="Northern Sudan" t2="Southern Sudan"/>
-		<connection t1="Norway" t2="SZ 5"/>
-		<connection t1="Norway" t2="SZ 7"/>
-		<connection t1="Norway" t2="Sweden"/>
-		<connection t1="Nye Lukemba" t2="RR 105"/>
-		<connection t1="Nye Lukemba" t2="RR 107"/>
-		<connection t1="Oman" t2="RR 91"/>
-		<connection t1="Oman" t2="RR 92"/>
-		<connection t1="Oman" t2="SZ 40"/>
-		<connection t1="Oman" t2="SZ 41"/>
-		<connection t1="Oman" t2="SZ 42"/>
-		<connection t1="Oman" t2="SZ 43"/>
-		<connection t1="Paris" t2="RR 17"/>
-		<connection t1="Paris" t2="RR 27"/>
-		<connection t1="Paris" t2="RR 36"/>
-		<connection t1="Paschendale" t2="RR 124"/>
-		<connection t1="Paschendale" t2="Vimy"/>
-		<connection t1="Paschendale" t2="Ypres"/>
-		<connection t1="Persia" t2="SZ 40"/>
-		<connection t1="Persia" t2="SZ 43"/>
-		<connection t1="Piedmont" t2="RR 38"/>
-		<connection t1="Piedmont" t2="RR 46"/>
-		<connection t1="Piedmont" t2="Switzerland"/>
-		<connection t1="Piedmont" t2="Venice"/>
-		<connection t1="Poland" t2="Prussia"/>
-		<connection t1="Poland" t2="RR 22"/>
-		<connection t1="Poland" t2="RR 23"/>
-		<connection t1="Poland" t2="RR 33"/>
-		<connection t1="Poland" t2="Silesia"/>
-		<connection t1="Poland" t2="Vilnius"/>
-		<connection t1="Portugal" t2="SZ 21"/>
-		<connection t1="Portugal" t2="SZ 25"/>
-		<connection t1="Portugal" t2="SZ 27"/>
-		<connection t1="Portugal" t2="Spain"/>
-		<connection t1="Portuguese E. Africa" t2="RR 110"/>
-		<connection t1="Portuguese E. Africa" t2="SZ 50"/>
-		<connection t1="Portuguese E. Africa" t2="SZ 59"/>
-		<connection t1="Prussia" t2="RR 5"/>
-		<connection t1="Prussia" t2="RR 6"/>
-		<connection t1="Prussia" t2="SZ 10"/>
-		<connection t1="Prussia" t2="Silesia"/>
-		<connection t1="Prussia" t2="Vilnius"/>
-		<connection t1="RR 1" t2="Scotland"/>
-		<connection t1="RR 2" t2="York"/>
-		<connection t1="RR 5" t2="RR 19"/>
-		<connection t1="RR 5" t2="RR 20"/>
-		<connection t1="RR 5" t2="SZ 79"/>
-		<connection t1="RR 5" t2="Silesia"/>
-		<connection t1="RR 7" t2="Vilnius"/>
-		<connection t1="RR 8" t2="RR 9"/>
-		<connection t1="RR 8" t2="RR 10"/>
-		<connection t1="RR 8" t2="RR 23"/>
-		<connection t1="RR 8" t2="SZ 15"/>
-		<connection t1="RR 8" t2="Smolensk"/>
-		<connection t1="RR 8" t2="Vilnius"/>
-		<connection t1="RR 9" t2="RR 10"/>
-		<connection t1="RR 9" t2="SZ 15"/>
-		<connection t1="RR 9" t2="SZ 91"/>
-		<connection t1="RR 10" t2="RR 13"/>
-		<connection t1="RR 10" t2="SZ 91"/>
-		<connection t1="RR 10" t2="Smolensk"/>
-		<connection t1="RR 10" t2="Yaroslavl"/>
-		<connection t1="RR 11" t2="Yaroslavl"/>
-		<connection t1="RR 12" t2="Smolensk"/>
-		<connection t1="RR 13" t2="Smolensk"/>
-		<connection t1="RR 13" t2="Tula"/>
-		<connection t1="RR 13" t2="Yaroslavl"/>
-		<connection t1="RR 15" t2="RR 25"/>
-		<connection t1="RR 15" t2="Saratov"/>
-		<connection t1="RR 15" t2="Tula"/>
-		<connection t1="RR 15" t2="Yaroslavl"/>
-		<connection t1="RR 16" t2="Tula"/>
-		<connection t1="RR 17" t2="SZ 8"/>
-		<connection t1="RR 18" t2="Ruhr"/>
-		<connection t1="RR 19" t2="RR 20"/>
-		<connection t1="RR 19" t2="RR 29"/>
-		<connection t1="RR 19" t2="Ruhr"/>
-		<connection t1="RR 19" t2="Saxony"/>
-		<connection t1="RR 20" t2="Saxony"/>
-		<connection t1="RR 20" t2="Silesia"/>
-		<connection t1="RR 21" t2="Silesia"/>
-		<connection t1="RR 23" t2="RR 24"/>
-		<connection t1="RR 23" t2="RR 33"/>
-		<connection t1="RR 23" t2="Smolensk"/>
-		<connection t1="RR 23" t2="Vilnius"/>
-		<connection t1="RR 24" t2="Saratov"/>
-		<connection t1="RR 24" t2="Smolensk"/>
-		<connection t1="RR 24" t2="Tula"/>
-		<connection t1="RR 24" t2="Volgograd"/>
-		<connection t1="RR 25" t2="RR 45"/>
-		<connection t1="RR 25" t2="Saratov"/>
-		<connection t1="RR 29" t2="RR 141"/>
-		<connection t1="RR 29" t2="Ruhr"/>
-		<connection t1="RR 29" t2="Saxony"/>
-		<connection t1="RR 29" t2="Switzerland"/>
-		<connection t1="RR 30" t2="Saxony"/>
-		<connection t1="RR 31" t2="RR 141"/>
-		<connection t1="RR 31" t2="Saxony"/>
-		<connection t1="RR 31" t2="Silesia"/>
-		<connection t1="RR 31" t2="Vienna"/>
-		<connection t1="RR 33" t2="RR 41"/>
-		<connection t1="RR 33" t2="RR 42"/>
-		<connection t1="RR 35" t2="Volgograd"/>
-		<connection t1="RR 36" t2="SZ 22"/>
-		<connection t1="RR 36" t2="SZ 73"/>
-		<connection t1="RR 36" t2="Spain"/>
-		<connection t1="RR 39" t2="Venice"/>
-		<connection t1="RR 40" t2="Vienna"/>
-		<connection t1="RR 41" t2="RR 42"/>
-		<connection t1="RR 41" t2="RR 49"/>
-		<connection t1="RR 41" t2="SZ 37"/>
-		<connection t1="RR 42" t2="RR 44"/>
-		<connection t1="RR 42" t2="SZ 37"/>
-		<connection t1="RR 42" t2="Svastepole"/>
-		<connection t1="RR 42" t2="Volgograd"/>
-		<connection t1="RR 43" t2="Svastepole"/>
-		<connection t1="RR 44" t2="RR 45"/>
-		<connection t1="RR 44" t2="SZ 37"/>
-		<connection t1="RR 44" t2="Volgograd"/>
-		<connection t1="RR 45" t2="Saratov"/>
-		<connection t1="RR 45" t2="Volgograd"/>
-		<connection t1="RR 46" t2="RR 51"/>
-		<connection t1="RR 46" t2="SZ 31"/>
-		<connection t1="RR 46" t2="Venice"/>
-		<connection t1="RR 47" t2="Trieste"/>
-		<connection t1="RR 48" t2="RR 49"/>
-		<connection t1="RR 48" t2="RR 53"/>
-		<connection t1="RR 48" t2="Sarajevo"/>
-		<connection t1="RR 48" t2="Trieste"/>
-		<connection t1="RR 48" t2="Vienna"/>
-		<connection t1="RR 49" t2="RR 53"/>
-		<connection t1="RR 49" t2="SZ 37"/>
-		<connection t1="RR 51" t2="SZ 30"/>
-		<connection t1="RR 52" t2="Sarajevo"/>
-		<connection t1="RR 53" t2="RR 57"/>
-		<connection t1="RR 53" t2="Sarajevo"/>
-		<connection t1="RR 55" t2="Tbilisi"/>
-		<connection t1="RR 57" t2="SZ 34"/>
-		<connection t1="RR 57" t2="Sarajevo"/>
-		<connection t1="RR 61" t2="Rize"/>
-		<connection t1="RR 61" t2="SZ 36"/>
-		<connection t1="RR 61" t2="Smyrna"/>
-		<connection t1="RR 62" t2="Rize"/>
-		<connection t1="RR 63" t2="SZ 35"/>
-		<connection t1="RR 65" t2="Tabriz"/>
-		<connection t1="RR 66" t2="Syria"/>
-		<connection t1="RR 70" t2="RR 83"/>
-		<connection t1="RR 70" t2="SZ 35"/>
-		<connection t1="RR 70" t2="SZ 83"/>
-		<connection t1="RR 70" t2="Tabuk"/>
-		<connection t1="RR 72" t2="SZ 26"/>
-		<connection t1="RR 75" t2="Tunesia"/>
-		<connection t1="RR 76" t2="SZ 30"/>
-		<connection t1="RR 76" t2="SZ 33"/>
-		<connection t1="RR 76" t2="Tripoli"/>
-		<connection t1="RR 76" t2="Tunesia"/>
-		<connection t1="RR 77" t2="Tripoli"/>
-		<connection t1="RR 78" t2="Sirte"/>
-		<connection t1="RR 80" t2="Tobruk"/>
-		<connection t1="RR 81" t2="RR 82"/>
-		<connection t1="RR 81" t2="SZ 35"/>
-		<connection t1="RR 81" t2="SZ 38"/>
-		<connection t1="RR 81" t2="SZ 83"/>
-		<connection t1="RR 81" t2="Tobruk"/>
-		<connection t1="RR 82" t2="RR 83"/>
-		<connection t1="RR 82" t2="SZ 38"/>
-		<connection t1="RR 82" t2="SZ 83"/>
-		<connection t1="RR 83" t2="SZ 38"/>
-		<connection t1="RR 83" t2="SZ 83"/>
-		<connection t1="RR 83" t2="Tabuk"/>
-		<connection t1="RR 84" t2="Tabuk"/>
-		<connection t1="RR 85" t2="SZ 39"/>
-		<connection t1="RR 85" t2="al-Hasa"/>
-		<connection t1="RR 87" t2="Senegal"/>
-		<connection t1="RR 88" t2="RR 96"/>
-		<connection t1="RR 88" t2="Upper Volta"/>
-		<connection t1="RR 91" t2="SZ 41"/>
-		<connection t1="RR 93" t2="Sierra Leone"/>
-		<connection t1="RR 94" t2="SZ 52"/>
-		<connection t1="RR 94" t2="Senegal"/>
-		<connection t1="RR 94" t2="Sierra Leone"/>
-		<connection t1="RR 94" t2="Togoland"/>
-		<connection t1="RR 94" t2="Upper Volta"/>
-		<connection t1="RR 95" t2="Togoland"/>
-		<connection t1="RR 96" t2="SZ 52"/>
-		<connection t1="RR 96" t2="Togoland"/>
-		<connection t1="RR 96" t2="Upper Volta"/>
-		<connection t1="RR 98" t2="Southern Sudan"/>
-		<connection t1="RR 101" t2="RR 102"/>
-		<connection t1="RR 101" t2="SZ 55"/>
-		<connection t1="RR 102" t2="RR 105"/>
-		<connection t1="RR 105" t2="RR 107"/>
-		<connection t1="RR 107" t2="S. Rhodesia"/>
-		<connection t1="RR 113" t2="S. Rhodesia"/>
-		<connection t1="RR 114" t2="S. Africa"/>
-		<connection t1="RR 114" t2="SZ 56"/>
-		<connection t1="RR 115" t2="Transvaal"/>
-		<connection t1="RR 116" t2="S. Africa"/>
-		<connection t1="RR 117" t2="S. Africa"/>
-		<connection t1="RR 117" t2="SZ 57"/>
-		<connection t1="RR 117" t2="SZ 58"/>
-		<connection t1="RR 117" t2="SZ 59"/>
-		<connection t1="RR 117" t2="Transvaal"/>
-		<connection t1="RR 118" t2="Ypres"/>
-		<connection t1="RR 122" t2="Rhineland"/>
-		<connection t1="RR 124" t2="RR 128"/>
-		<connection t1="RR 124" t2="Vimy"/>
-		<connection t1="RR 124" t2="Ypres"/>
-		<connection t1="RR 125" t2="Vimy"/>
-		<connection t1="RR 126" t2="RR 132"/>
-		<connection t1="RR 128" t2="Vimy"/>
-		<connection t1="RR 132" t2="RR 136"/>
-		<connection t1="RR 132" t2="Verdun"/>
-		<connection t1="RR 133" t2="Rhineland"/>
-		<connection t1="RR 135" t2="Verdun"/>
-		<connection t1="RR 136" t2="RR 140"/>
-		<connection t1="RR 136" t2="Rhineland"/>
-		<connection t1="RR 140" t2="Rhineland"/>
-		<connection t1="RR 141" t2="Saxony"/>
-		<connection t1="RR 141" t2="Switzerland"/>
-		<connection t1="RR 141" t2="Trieste"/>
-		<connection t1="RR 141" t2="Venice"/>
-		<connection t1="RR 141" t2="Vienna"/>
-		<connection t1="Rize" t2="SZ 36"/>
-		<connection t1="Rize" t2="Smyrna"/>
-		<connection t1="Rize" t2="Tabriz"/>
-		<connection t1="Rize" t2="Tbilisi"/>
-		<connection t1="S. Africa" t2="SZ 57"/>
-		<connection t1="S. Africa" t2="Transvaal"/>
-		<connection t1="S. Rhodesia" t2="Transvaal"/>
-		<connection t1="SZ 1" t2="SZ 2"/>
-		<connection t1="SZ 1" t2="SZ 11"/>
-		<connection t1="SZ 1" t2="SZ 67"/>
-		<connection t1="SZ 2" t2="SZ 3"/>
-		<connection t1="SZ 2" t2="SZ 12"/>
-		<connection t1="SZ 2" t2="SZ 67"/>
-		<connection t1="SZ 2" t2="SZ 72"/>
-		<connection t1="SZ 3" t2="SZ 4"/>
-		<connection t1="SZ 3" t2="SZ 13"/>
-		<connection t1="SZ 3" t2="SZ 14"/>
-		<connection t1="SZ 3" t2="SZ 72"/>
-		<connection t1="SZ 4" t2="SZ 5"/>
-		<connection t1="SZ 4" t2="SZ 6"/>
-		<connection t1="SZ 4" t2="SZ 14"/>
-		<connection t1="SZ 4" t2="Scotland"/>
-		<connection t1="SZ 5" t2="SZ 6"/>
-		<connection t1="SZ 5" t2="SZ 7"/>
-		<connection t1="SZ 5" t2="SZ 9"/>
-		<connection t1="SZ 5" t2="SZ 74"/>
-		<connection t1="SZ 5" t2="SZ 75"/>
-		<connection t1="SZ 6" t2="SZ 8"/>
-		<connection t1="SZ 6" t2="SZ 9"/>
-		<connection t1="SZ 6" t2="Scotland"/>
-		<connection t1="SZ 6" t2="York"/>
-		<connection t1="SZ 7" t2="SZ 9"/>
-		<connection t1="SZ 7" t2="SZ 74"/>
-		<connection t1="SZ 7" t2="SZ 79"/>
-		<connection t1="SZ 7" t2="Sweden"/>
-		<connection t1="SZ 8" t2="SZ 9"/>
-		<connection t1="SZ 8" t2="SZ 18"/>
-		<connection t1="SZ 8" t2="SZ 22"/>
-		<connection t1="SZ 9" t2="SZ 74"/>
-		<connection t1="SZ 10" t2="SZ 15"/>
-		<connection t1="SZ 10" t2="SZ 79"/>
-		<connection t1="SZ 10" t2="Sweden"/>
-		<connection t1="SZ 11" t2="SZ 12"/>
-		<connection t1="SZ 11" t2="SZ 16"/>
-		<connection t1="SZ 11" t2="SZ 67"/>
-		<connection t1="SZ 11" t2="SZ 68"/>
-		<connection t1="SZ 12" t2="SZ 13"/>
-		<connection t1="SZ 12" t2="SZ 17"/>
-		<connection t1="SZ 12" t2="SZ 67"/>
-		<connection t1="SZ 12" t2="SZ 68"/>
-		<connection t1="SZ 12" t2="SZ 71"/>
-		<connection t1="SZ 12" t2="SZ 72"/>
-		<connection t1="SZ 13" t2="SZ 14"/>
-		<connection t1="SZ 13" t2="SZ 18"/>
-		<connection t1="SZ 13" t2="SZ 71"/>
-		<connection t1="SZ 13" t2="SZ 72"/>
-		<connection t1="SZ 14" t2="SZ 18"/>
-		<connection t1="SZ 14" t2="Scotland"/>
-		<connection t1="SZ 14" t2="York"/>
-		<connection t1="SZ 15" t2="SZ 80"/>
-		<connection t1="SZ 15" t2="SZ 91"/>
-		<connection t1="SZ 15" t2="Sweden"/>
-		<connection t1="SZ 15" t2="Vilnius"/>
-		<connection t1="SZ 16" t2="SZ 17"/>
-		<connection t1="SZ 16" t2="SZ 19"/>
-		<connection t1="SZ 16" t2="SZ 68"/>
-		<connection t1="SZ 16" t2="SZ 69"/>
-		<connection t1="SZ 17" t2="SZ 18"/>
-		<connection t1="SZ 17" t2="SZ 20"/>
-		<connection t1="SZ 17" t2="SZ 68"/>
-		<connection t1="SZ 17" t2="SZ 69"/>
-		<connection t1="SZ 17" t2="SZ 70"/>
-		<connection t1="SZ 17" t2="SZ 71"/>
-		<connection t1="SZ 18" t2="SZ 21"/>
-		<connection t1="SZ 18" t2="SZ 22"/>
-		<connection t1="SZ 18" t2="SZ 70"/>
-		<connection t1="SZ 18" t2="SZ 71"/>
-		<connection t1="SZ 18" t2="York"/>
-		<connection t1="SZ 19" t2="SZ 20"/>
-		<connection t1="SZ 19" t2="SZ 69"/>
-		<connection t1="SZ 20" t2="SZ 21"/>
-		<connection t1="SZ 20" t2="SZ 25"/>
-		<connection t1="SZ 20" t2="SZ 69"/>
-		<connection t1="SZ 20" t2="SZ 70"/>
-		<connection t1="SZ 21" t2="SZ 22"/>
-		<connection t1="SZ 21" t2="SZ 25"/>
-		<connection t1="SZ 21" t2="SZ 70"/>
-		<connection t1="SZ 21" t2="Spain"/>
-		<connection t1="SZ 22" t2="SZ 73"/>
-		<connection t1="SZ 22" t2="Spain"/>
-		<connection t1="SZ 23" t2="SZ 24"/>
-		<connection t1="SZ 23" t2="SZ 76"/>
-		<connection t1="SZ 23" t2="United States"/>
-		<connection t1="SZ 24" t2="SZ 76"/>
-		<connection t1="SZ 24" t2="United States"/>
-		<connection t1="SZ 25" t2="SZ 26"/>
-		<connection t1="SZ 25" t2="SZ 27"/>
-		<connection t1="SZ 25" t2="SZ 78"/>
-		<connection t1="SZ 26" t2="SZ 27"/>
-		<connection t1="SZ 26" t2="SZ 78"/>
-		<connection t1="SZ 27" t2="Casablanca"/>
-		<connection t1="SZ 27" t2="SZ 28"/>
-		<connection t1="SZ 27" t2="Spain"/>
-		<connection t1="SZ 27" t2="Spanish Morocco"/>
-		<connection t1="SZ 28" t2="SZ 30"/>
-		<connection t1="SZ 28" t2="Sardinia"/>
-		<connection t1="SZ 28" t2="Spain"/>
-		<connection t1="SZ 28" t2="Tunesia"/>
-		<connection t1="SZ 30" t2="SZ 32"/>
-		<connection t1="SZ 30" t2="SZ 33"/>
-		<connection t1="SZ 30" t2="Sardinia"/>
-		<connection t1="SZ 30" t2="Sicily"/>
-		<connection t1="SZ 31" t2="SZ 32"/>
-		<connection t1="SZ 31" t2="Trieste"/>
-		<connection t1="SZ 31" t2="Venice"/>
-		<connection t1="SZ 32" t2="SZ 33"/>
-		<connection t1="SZ 32" t2="SZ 34"/>
-		<connection t1="SZ 32" t2="SZ 82"/>
-		<connection t1="SZ 32" t2="Sarajevo"/>
-		<connection t1="SZ 32" t2="Sicily"/>
-		<connection t1="SZ 33" t2="SZ 35"/>
-		<connection t1="SZ 33" t2="Sicily"/>
-		<connection t1="SZ 33" t2="Sirte"/>
-		<connection t1="SZ 33" t2="Tobruk"/>
-		<connection t1="SZ 33" t2="Tripoli"/>
-		<connection t1="SZ 34" t2="SZ 35"/>
-		<connection t1="SZ 34" t2="SZ 36"/>
-		<connection t1="SZ 35" t2="SZ 83"/>
-		<connection t1="SZ 35" t2="Syria"/>
-		<connection t1="SZ 36" t2="SZ 37"/>
-		<connection t1="SZ 36" t2="Tbilisi"/>
-		<connection t1="SZ 37" t2="Svastepole"/>
-		<connection t1="SZ 38" t2="Tabuk"/>
-		<connection t1="SZ 39" t2="al-Hasa"/>
-		<connection t1="SZ 40" t2="SZ 43"/>
-		<connection t1="SZ 41" t2="SZ 42"/>
-		<connection t1="SZ 42" t2="SZ 43"/>
-		<connection t1="SZ 42" t2="SZ 45"/>
-		<connection t1="SZ 42" t2="SZ 50"/>
-		<connection t1="SZ 42" t2="SZ 85"/>
-		<connection t1="SZ 43" t2="SZ 44"/>
-		<connection t1="SZ 43" t2="SZ 45"/>
-		<connection t1="SZ 43" t2="SZ 84"/>
-		<connection t1="SZ 44" t2="SZ 45"/>
-		<connection t1="SZ 44" t2="SZ 46"/>
-		<connection t1="SZ 44" t2="SZ 84"/>
-		<connection t1="SZ 45" t2="SZ 46"/>
-		<connection t1="SZ 45" t2="SZ 48"/>
-		<connection t1="SZ 45" t2="SZ 49"/>
-		<connection t1="SZ 45" t2="SZ 84"/>
-		<connection t1="SZ 45" t2="SZ 85"/>
-		<connection t1="SZ 46" t2="SZ 47"/>
-		<connection t1="SZ 46" t2="SZ 48"/>
-		<connection t1="SZ 47" t2="SZ 48"/>
-		<connection t1="SZ 47" t2="SZ 64"/>
-		<connection t1="SZ 47" t2="SZ 66"/>
-		<connection t1="SZ 48" t2="SZ 49"/>
-		<connection t1="SZ 48" t2="SZ 62"/>
-		<connection t1="SZ 48" t2="SZ 64"/>
-		<connection t1="SZ 49" t2="SZ 50"/>
-		<connection t1="SZ 49" t2="SZ 62"/>
-		<connection t1="SZ 49" t2="SZ 85"/>
-		<connection t1="SZ 50" t2="SZ 59"/>
-		<connection t1="SZ 50" t2="SZ 60"/>
-		<connection t1="SZ 50" t2="SZ 62"/>
-		<connection t1="SZ 50" t2="SZ 85"/>
-		<connection t1="SZ 51" t2="SZ 52"/>
-		<connection t1="SZ 51" t2="SZ 53"/>
-		<connection t1="SZ 51" t2="SZ 90"/>
-		<connection t1="SZ 51" t2="Senegal"/>
-		<connection t1="SZ 51" t2="Sierra Leone"/>
-		<connection t1="SZ 52" t2="SZ 55"/>
-		<connection t1="SZ 52" t2="Togoland"/>
-		<connection t1="SZ 53" t2="SZ 54"/>
-		<connection t1="SZ 53" t2="SZ 55"/>
-		<connection t1="SZ 53" t2="SZ 89"/>
-		<connection t1="SZ 53" t2="SZ 90"/>
-		<connection t1="SZ 54" t2="SZ 56"/>
-		<connection t1="SZ 54" t2="SZ 57"/>
-		<connection t1="SZ 54" t2="SZ 88"/>
-		<connection t1="SZ 54" t2="SZ 89"/>
-		<connection t1="SZ 55" t2="SZ 56"/>
-		<connection t1="SZ 55" t2="SZ 89"/>
-		<connection t1="SZ 55" t2="SZ 90"/>
-		<connection t1="SZ 56" t2="SZ 57"/>
-		<connection t1="SZ 56" t2="SZ 88"/>
-		<connection t1="SZ 56" t2="SZ 89"/>
-		<connection t1="SZ 57" t2="SZ 58"/>
-		<connection t1="SZ 57" t2="SZ 88"/>
-		<connection t1="SZ 58" t2="SZ 59"/>
-		<connection t1="SZ 58" t2="SZ 61"/>
-		<connection t1="SZ 59" t2="SZ 60"/>
-		<connection t1="SZ 59" t2="SZ 61"/>
-		<connection t1="SZ 59" t2="Transvaal"/>
-		<connection t1="SZ 60" t2="SZ 61"/>
-		<connection t1="SZ 60" t2="SZ 62"/>
-		<connection t1="SZ 60" t2="SZ 63"/>
-		<connection t1="SZ 61" t2="SZ 63"/>
-		<connection t1="SZ 62" t2="SZ 63"/>
-		<connection t1="SZ 62" t2="SZ 64"/>
-		<connection t1="SZ 62" t2="SZ 87"/>
-		<connection t1="SZ 63" t2="SZ 65"/>
-		<connection t1="SZ 63" t2="SZ 87"/>
-		<connection t1="SZ 64" t2="SZ 65"/>
-		<connection t1="SZ 64" t2="SZ 66"/>
-		<connection t1="SZ 64" t2="SZ 87"/>
-		<connection t1="SZ 65" t2="SZ 66"/>
-		<connection t1="SZ 65" t2="SZ 87"/>
-		<connection t1="SZ 66" t2="Western Australia"/>
-		<connection t1="SZ 75" t2="SZ 4"/>
-		<connection t1="SZ 77" t2="SZ 24"/>
-		<connection t1="SZ 79" t2="Sweden"/>
-		<connection t1="SZ 80" t2="SZ 91"/>
-		<connection t1="SZ 80" t2="Sweden"/>
-		<connection t1="SZ 81" t2="SZ 28"/>
-		<connection t1="SZ 82" t2="SZ 33"/>
-		<connection t1="SZ 86" t2="SZ 46"/>
-		<connection t1="SZ 86" t2="SZ 47"/>
-		<connection t1="SZ 90" t2="SZ 52"/>
-		<connection t1="SZ 91" t2="Sweden"/>
-		<connection t1="Sarajevo" t2="Trieste"/>
-		<connection t1="Saratov" t2="Tula"/>
-		<connection t1="Saratov" t2="Volgograd"/>
-		<connection t1="Saxony" t2="Silesia"/>
-		<connection t1="Scotland" t2="York"/>
-		<connection t1="Sirte" t2="Tripoli"/>
-		<connection t1="Smolensk" t2="Tula"/>
-		<connection t1="Smyrna" t2="Syria"/>
-		<connection t1="Smyrna" t2="Tabriz"/>
-		<connection t1="Southern Sudan" t2="Uganda"/>
-		<connection t1="Switzerland" t2="Venice"/>
-		<connection t1="Tabriz" t2="Tbilisi"/>
-		<connection t1="Togoland" t2="Upper Volta"/>
-		<connection t1="Trieste" t2="Venice"/>
-		<connection t1="Trieste" t2="Vienna"/>
-		<connection t1="US 1" t2="US 2"/>
-		<connection t1="US 2" t2="US 3"/>
-		<connection t1="US 3" t2="United States Mobilizes"/>
+        <territory name="Aachen" water="false"/>
+        <territory name="Abyssinia" water="false"/>
+        <territory name="Algeria" water="false"/>
+        <territory name="American Isolationism" water="false"/>
+        <territory name="Angolia" water="false"/>
+        <territory name="Ankara" water="false"/>
+        <territory name="Arar" water="false"/>
+        <territory name="Argonne" water="false"/>
+        <territory name="Arras" water="false"/>
+        <territory name="Astrakhan" water="false"/>
+        <territory name="B. Somaliland" water="false"/>
+        <territory name="BR 1" water="false"/>
+        <territory name="BR 2" water="false"/>
+        <territory name="BR 3" water="false"/>
+        <territory name="Bagdad" water="false"/>
+        <territory name="Baku" water="false"/>
+        <territory name="Bar-Le-Duc" water="false"/>
+        <territory name="Bolshevik Revolution" water="false"/>
+        <territory name="British E. Africa" water="false"/>
+        <territory name="Brussels" water="false"/>
+        <territory name="Bryansk" water="false"/>
+        <territory name="Buchuanaland" water="false"/>
+        <territory name="Bulgaria" water="false"/>
+        <territory name="Burgundy" water="false"/>
+        <territory name="Cabinda" water="false"/>
+        <territory name="Cameroon" water="false"/>
+        <territory name="Canada" water="false"/>
+        <territory name="Casablanca" water="false"/>
+        <territory name="Chad" water="false"/>
+        <territory name="Chantilly" water="false"/>
+        <territory name="Charleroi" water="false"/>
+        <territory name="Chaumont" water="false"/>
+        <territory name="Chikapa" water="false"/>
+        <territory name="Cologne" water="false"/>
+        <territory name="Compiegne" water="false"/>
+        <territory name="Corsica" water="false"/>
+        <territory name="Crete" water="false"/>
+        <territory name="Cyprus" water="false"/>
+        <territory name="Cyreniaca" water="false"/>
+        <territory name="Damascus" water="false"/>
+        <territory name="Denmark" water="false"/>
+        <territory name="Finland" water="false"/>
+        <territory name="Fontainbleu" water="false"/>
+        <territory name="Frankfurt" water="false"/>
+        <territory name="French Guinea" water="false"/>
+        <territory name="French Niger" water="false"/>
+        <territory name="French Sudan" water="false"/>
+        <territory name="Galacia" water="false"/>
+        <territory name="Gallipoli" water="false"/>
+        <territory name="German E. Afria" water="false"/>
+        <territory name="German Southwest Africa" water="false"/>
+        <territory name="Gibraltar" water="false"/>
+        <territory name="Greece" water="false"/>
+        <territory name="Grozny" water="false"/>
+        <territory name="Holland" water="false"/>
+        <territory name="Hurghada" water="false"/>
+        <territory name="I. Somaliland" water="false"/>
+        <territory name="India" water="false"/>
+        <territory name="Innsbruck" water="false"/>
+        <territory name="Ireland" water="false"/>
+        <territory name="Istanbul" water="false"/>
+        <territory name="Izmir" water="false"/>
+        <territory name="Kiel" water="false"/>
+        <territory name="Konya" water="false"/>
+        <territory name="Krasnodar" water="false"/>
+        <territory name="Lisala" water="false"/>
+        <territory name="London" water="false"/>
+        <territory name="Luderitz" water="false"/>
+        <territory name="Luneville" water="false"/>
+        <territory name="Madagascar" water="false"/>
+        <territory name="Marseilles" water="false"/>
+        <territory name="Mesopotamia" water="false"/>
+        <territory name="Mont Blanc" water="false"/>
+        <territory name="Moscow" water="false"/>
+        <territory name="Mosul" water="false"/>
+        <territory name="Mozambique" water="false"/>
+        <territory name="Mumbaza" water="false"/>
+        <territory name="Nancy" water="false"/>
+        <territory name="Naples" water="false"/>
+        <territory name="Niangara" water="false"/>
+        <territory name="Normandy" water="false"/>
+        <territory name="Northern Sudan" water="false"/>
+        <territory name="Norway" water="false"/>
+        <territory name="Nye Lukemba" water="false"/>
+        <territory name="Oman" water="false"/>
+        <territory name="Paris" water="false"/>
+        <territory name="Paschendale" water="false"/>
+        <territory name="Persia" water="false"/>
+        <territory name="Piedmont" water="false"/>
+        <territory name="Poland" water="false"/>
+        <territory name="Portugal" water="false"/>
+        <territory name="Portuguese E. Africa" water="false"/>
+        <territory name="Prussia" water="false"/>
+        <territory name="RR 1" water="true"/>
+        <territory name="RR 2" water="true"/>
+        <territory name="RR 3" water="true"/>
+        <territory name="RR 4" water="true"/>
+        <territory name="RR 5" water="true"/>
+        <territory name="RR 6" water="true"/>
+        <territory name="RR 7" water="true"/>
+        <territory name="RR 8" water="true"/>
+        <territory name="RR 9" water="true"/>
+        <territory name="RR 10" water="true"/>
+        <territory name="RR 11" water="true"/>
+        <territory name="RR 12" water="true"/>
+        <territory name="RR 13" water="true"/>
+        <territory name="RR 15" water="true"/>
+        <territory name="RR 16" water="true"/>
+        <territory name="RR 17" water="true"/>
+        <territory name="RR 18" water="true"/>
+        <territory name="RR 19" water="true"/>
+        <territory name="RR 20" water="true"/>
+        <territory name="RR 21" water="true"/>
+        <territory name="RR 22" water="true"/>
+        <territory name="RR 23" water="true"/>
+        <territory name="RR 24" water="true"/>
+        <territory name="RR 25" water="true"/>
+        <territory name="RR 26" water="true"/>
+        <territory name="RR 27" water="true"/>
+        <territory name="RR 28" water="true"/>
+        <territory name="RR 29" water="true"/>
+        <territory name="RR 30" water="true"/>
+        <territory name="RR 31" water="true"/>
+        <territory name="RR 32" water="true"/>
+        <territory name="RR 33" water="true"/>
+        <territory name="RR 34" water="true"/>
+        <territory name="RR 35" water="true"/>
+        <territory name="RR 36" water="true"/>
+        <territory name="RR 37" water="true"/>
+        <territory name="RR 38" water="true"/>
+        <territory name="RR 39" water="true"/>
+        <territory name="RR 40" water="true"/>
+        <territory name="RR 41" water="true"/>
+        <territory name="RR 42" water="true"/>
+        <territory name="RR 43" water="true"/>
+        <territory name="RR 44" water="true"/>
+        <territory name="RR 45" water="true"/>
+        <territory name="RR 46" water="true"/>
+        <territory name="RR 47" water="true"/>
+        <territory name="RR 48" water="true"/>
+        <territory name="RR 49" water="true"/>
+        <territory name="RR 50" water="true"/>
+        <territory name="RR 51" water="true"/>
+        <territory name="RR 52" water="true"/>
+        <territory name="RR 53" water="true"/>
+        <territory name="RR 54" water="true"/>
+        <territory name="RR 55" water="true"/>
+        <territory name="RR 56" water="true"/>
+        <territory name="RR 57" water="true"/>
+        <territory name="RR 58" water="true"/>
+        <territory name="RR 59" water="true"/>
+        <territory name="RR 60" water="true"/>
+        <territory name="RR 61" water="true"/>
+        <territory name="RR 62" water="true"/>
+        <territory name="RR 63" water="true"/>
+        <territory name="RR 64" water="true"/>
+        <territory name="RR 65" water="true"/>
+        <territory name="RR 66" water="true"/>
+        <territory name="RR 67" water="true"/>
+        <territory name="RR 68" water="true"/>
+        <territory name="RR 69" water="true"/>
+        <territory name="RR 70" water="true"/>
+        <territory name="RR 71" water="true"/>
+        <territory name="RR 72" water="true"/>
+        <territory name="RR 73" water="true"/>
+        <territory name="RR 74" water="true"/>
+        <territory name="RR 75" water="true"/>
+        <territory name="RR 76" water="true"/>
+        <territory name="RR 77" water="true"/>
+        <territory name="RR 78" water="true"/>
+        <territory name="RR 79" water="true"/>
+        <territory name="RR 80" water="true"/>
+        <territory name="RR 81" water="true"/>
+        <territory name="RR 82" water="true"/>
+        <territory name="RR 83" water="true"/>
+        <territory name="RR 84" water="true"/>
+        <territory name="RR 85" water="true"/>
+        <territory name="RR 86" water="true"/>
+        <territory name="RR 87" water="true"/>
+        <territory name="RR 88" water="true"/>
+        <territory name="RR 89" water="true"/>
+        <territory name="RR 90" water="true"/>
+        <territory name="RR 91" water="true"/>
+        <territory name="RR 92" water="true"/>
+        <territory name="RR 93" water="true"/>
+        <territory name="RR 94" water="true"/>
+        <territory name="RR 95" water="true"/>
+        <territory name="RR 96" water="true"/>
+        <territory name="RR 97" water="true"/>
+        <territory name="RR 98" water="true"/>
+        <territory name="RR 99" water="true"/>
+        <territory name="RR 100" water="true"/>
+        <territory name="RR 101" water="true"/>
+        <territory name="RR 102" water="true"/>
+        <territory name="RR 103" water="true"/>
+        <territory name="RR 104" water="true"/>
+        <territory name="RR 105" water="true"/>
+        <territory name="RR 106" water="true"/>
+        <territory name="RR 107" water="true"/>
+        <territory name="RR 108" water="true"/>
+        <territory name="RR 109" water="true"/>
+        <territory name="RR 110" water="true"/>
+        <territory name="RR 111" water="true"/>
+        <territory name="RR 112" water="true"/>
+        <territory name="RR 113" water="true"/>
+        <territory name="RR 114" water="true"/>
+        <territory name="RR 115" water="true"/>
+        <territory name="RR 116" water="true"/>
+        <territory name="RR 117" water="true"/>
+        <territory name="RR 118" water="true"/>
+        <territory name="RR 119" water="true"/>
+        <territory name="RR 120" water="true"/>
+        <territory name="RR 121" water="true"/>
+        <territory name="RR 122" water="true"/>
+        <territory name="RR 123" water="true"/>
+        <territory name="RR 124" water="true"/>
+        <territory name="RR 125" water="true"/>
+        <territory name="RR 126" water="true"/>
+        <territory name="RR 127" water="true"/>
+        <territory name="RR 128" water="true"/>
+        <territory name="RR 129" water="true"/>
+        <territory name="RR 130" water="true"/>
+        <territory name="RR 131" water="true"/>
+        <territory name="RR 132" water="true"/>
+        <territory name="RR 133" water="true"/>
+        <territory name="RR 134" water="true"/>
+        <territory name="RR 135" water="true"/>
+        <territory name="RR 136" water="true"/>
+        <territory name="RR 137" water="true"/>
+        <territory name="RR 138" water="true"/>
+        <territory name="RR 139" water="true"/>
+        <territory name="RR 140" water="true"/>
+        <territory name="RR 141" water="true"/>
+        <territory name="Rhineland" water="false"/>
+        <territory name="Rize" water="false"/>
+        <territory name="Ruhr" water="false"/>
+        <territory name="Russian Infiltration" water="false"/>
+        <territory name="S. Africa" water="false"/>
+        <territory name="S. Rhodesia" water="false"/>
+        <territory name="SZ 1" water="true"/>
+        <territory name="SZ 2" water="true"/>
+        <territory name="SZ 3" water="true"/>
+        <territory name="SZ 4" water="true"/>
+        <territory name="SZ 5" water="true"/>
+        <territory name="SZ 6" water="true"/>
+        <territory name="SZ 7" water="true"/>
+        <territory name="SZ 8" water="true"/>
+        <territory name="SZ 9" water="true"/>
+        <territory name="SZ 10" water="true"/>
+        <territory name="SZ 11" water="true"/>
+        <territory name="SZ 12" water="true"/>
+        <territory name="SZ 13" water="true"/>
+        <territory name="SZ 14" water="true"/>
+        <territory name="SZ 15" water="true"/>
+        <territory name="SZ 16" water="true"/>
+        <territory name="SZ 17" water="true"/>
+        <territory name="SZ 18" water="true"/>
+        <territory name="SZ 19" water="true"/>
+        <territory name="SZ 20" water="true"/>
+        <territory name="SZ 21" water="true"/>
+        <territory name="SZ 22" water="true"/>
+        <territory name="SZ 23" water="true"/>
+        <territory name="SZ 24" water="true"/>
+        <territory name="SZ 25" water="true"/>
+        <territory name="SZ 26" water="true"/>
+        <territory name="SZ 27" water="true"/>
+        <territory name="SZ 28" water="true"/>
+        <territory name="SZ 30" water="true"/>
+        <territory name="SZ 31" water="true"/>
+        <territory name="SZ 32" water="true"/>
+        <territory name="SZ 33" water="true"/>
+        <territory name="SZ 34" water="true"/>
+        <territory name="SZ 35" water="true"/>
+        <territory name="SZ 36" water="true"/>
+        <territory name="SZ 37" water="true"/>
+        <territory name="SZ 38" water="true"/>
+        <territory name="SZ 39" water="true"/>
+        <territory name="SZ 40" water="true"/>
+        <territory name="SZ 41" water="true"/>
+        <territory name="SZ 42" water="true"/>
+        <territory name="SZ 43" water="true"/>
+        <territory name="SZ 44" water="true"/>
+        <territory name="SZ 45" water="true"/>
+        <territory name="SZ 46" water="true"/>
+        <territory name="SZ 47" water="true"/>
+        <territory name="SZ 48" water="true"/>
+        <territory name="SZ 49" water="true"/>
+        <territory name="SZ 50" water="true"/>
+        <territory name="SZ 51" water="true"/>
+        <territory name="SZ 52" water="true"/>
+        <territory name="SZ 53" water="true"/>
+        <territory name="SZ 54" water="true"/>
+        <territory name="SZ 55" water="true"/>
+        <territory name="SZ 56" water="true"/>
+        <territory name="SZ 57" water="true"/>
+        <territory name="SZ 58" water="true"/>
+        <territory name="SZ 59" water="true"/>
+        <territory name="SZ 60" water="true"/>
+        <territory name="SZ 61" water="true"/>
+        <territory name="SZ 62" water="true"/>
+        <territory name="SZ 63" water="true"/>
+        <territory name="SZ 64" water="true"/>
+        <territory name="SZ 65" water="true"/>
+        <territory name="SZ 66" water="true"/>
+        <territory name="SZ 67" water="true"/>
+        <territory name="SZ 68" water="true"/>
+        <territory name="SZ 69" water="true"/>
+        <territory name="SZ 70" water="true"/>
+        <territory name="SZ 71" water="true"/>
+        <territory name="SZ 72" water="true"/>
+        <territory name="SZ 73" water="true"/>
+        <territory name="SZ 74" water="true"/>
+        <territory name="SZ 75" water="true"/>
+        <territory name="SZ 76" water="true"/>
+        <territory name="SZ 77" water="true"/>
+        <territory name="SZ 78" water="true"/>
+        <territory name="SZ 79" water="true"/>
+        <territory name="SZ 80" water="true"/>
+        <territory name="SZ 81" water="true"/>
+        <territory name="SZ 82" water="true"/>
+        <territory name="SZ 83" water="true"/>
+        <territory name="SZ 84" water="true"/>
+        <territory name="SZ 85" water="true"/>
+        <territory name="SZ 86" water="true"/>
+        <territory name="SZ 87" water="true"/>
+        <territory name="SZ 88" water="true"/>
+        <territory name="SZ 89" water="true"/>
+        <territory name="SZ 90" water="true"/>
+        <territory name="SZ 91" water="true"/>
+        <territory name="Sarajevo" water="false"/>
+        <territory name="Saratov" water="false"/>
+        <territory name="Sardinia" water="false"/>
+        <territory name="Saxony" water="false"/>
+        <territory name="Scotland" water="false"/>
+        <territory name="Senegal" water="false"/>
+        <territory name="Sicily" water="false"/>
+        <territory name="Sierra Leone" water="false"/>
+        <territory name="Silesia" water="false"/>
+        <territory name="Sirte" water="false"/>
+        <territory name="Smolensk" water="false"/>
+        <territory name="Smyrna" water="false"/>
+        <territory name="Southern Sudan" water="false"/>
+        <territory name="Spain" water="false"/>
+        <territory name="Spanish Morocco" water="false"/>
+        <territory name="Svastepole" water="false"/>
+        <territory name="Sweden" water="false"/>
+        <territory name="Switzerland" water="false"/>
+        <territory name="Syria" water="false"/>
+        <territory name="Tabriz" water="false"/>
+        <territory name="Tabuk" water="false"/>
+        <territory name="Tbilisi" water="false"/>
+        <territory name="Tobruk" water="false"/>
+        <territory name="Togoland" water="false"/>
+        <territory name="Transvaal" water="false"/>
+        <territory name="Trieste" water="false"/>
+        <territory name="Tripoli" water="false"/>
+        <territory name="Tula" water="false"/>
+        <territory name="Tunesia" water="false"/>
+        <territory name="US 1" water="false"/>
+        <territory name="US 2" water="false"/>
+        <territory name="US 3" water="false"/>
+        <territory name="Uganda" water="false"/>
+        <territory name="United States" water="false"/>
+        <territory name="United States Mobilizes" water="false"/>
+        <territory name="Upper Volta" water="false"/>
+        <territory name="Venice" water="false"/>
+        <territory name="Verdun" water="false"/>
+        <territory name="Vienna" water="false"/>
+        <territory name="Vilnius" water="false"/>
+        <territory name="Vimy" water="false"/>
+        <territory name="Volgograd" water="false"/>
+        <territory name="Australia" water="false"/>
+        <territory name="Yaroslavl" water="false"/>
+        <territory name="York" water="false"/>
+        <territory name="Ypres" water="false"/>
+        <territory name="al-Hasa" water="false"/>
+        <connection t1="Aachen" t2="Brussels"/>
+        <connection t1="Aachen" t2="Charleroi"/>
+        <connection t1="Aachen" t2="Cologne"/>
+        <connection t1="Aachen" t2="RR 120"/>
+        <connection t1="Aachen" t2="RR 126"/>
+        <connection t1="Abyssinia" t2="B. Somaliland"/>
+        <connection t1="Abyssinia" t2="British E. Africa"/>
+        <connection t1="Abyssinia" t2="I. Somaliland"/>
+        <connection t1="Abyssinia" t2="Southern Sudan"/>
+        <connection t1="Abyssinia" t2="Uganda"/>
+        <connection t1="Algeria" t2="Casablanca"/>
+        <connection t1="Algeria" t2="RR 74"/>
+        <connection t1="Algeria" t2="SZ 28"/>
+        <connection t1="Algeria" t2="Tunesia"/>
+        <connection t1="American Isolationism" t2="US 1"/>
+        <connection t1="Angolia" t2="Buchuanaland"/>
+        <connection t1="Angolia" t2="Cabinda"/>
+        <connection t1="Angolia" t2="Chikapa"/>
+        <connection t1="Angolia" t2="German Southwest Africa"/>
+        <connection t1="Angolia" t2="RR 107"/>
+        <connection t1="Angolia" t2="RR 109"/>
+        <connection t1="Angolia" t2="SZ 55"/>
+        <connection t1="Ankara" t2="Istanbul"/>
+        <connection t1="Ankara" t2="Konya"/>
+        <connection t1="Ankara" t2="RR 60"/>
+        <connection t1="Ankara" t2="RR 61"/>
+        <connection t1="Ankara" t2="RR 63"/>
+        <connection t1="Ankara" t2="SZ 36"/>
+        <connection t1="Ankara" t2="Smyrna"/>
+        <connection t1="Arar" t2="Bagdad"/>
+        <connection t1="Arar" t2="Damascus"/>
+        <connection t1="Arar" t2="Mosul"/>
+        <connection t1="Arar" t2="RR 70"/>
+        <connection t1="Arar" t2="Syria"/>
+        <connection t1="Argonne" t2="Chantilly"/>
+        <connection t1="Argonne" t2="Chaumont"/>
+        <connection t1="Argonne" t2="Mont Blanc"/>
+        <connection t1="Argonne" t2="RR 128"/>
+        <connection t1="Argonne" t2="RR 131"/>
+        <connection t1="Argonne" t2="RR 135"/>
+        <connection t1="Argonne" t2="Verdun"/>
+        <connection t1="Argonne" t2="Vimy"/>
+        <connection t1="Arras" t2="Compiegne"/>
+        <connection t1="Arras" t2="RR 118"/>
+        <connection t1="Arras" t2="RR 123"/>
+        <connection t1="Arras" t2="RR 124"/>
+        <connection t1="Arras" t2="RR 128"/>
+        <connection t1="Arras" t2="Ypres"/>
+        <connection t1="Astrakhan" t2="Grozny"/>
+        <connection t1="Astrakhan" t2="RR 25"/>
+        <connection t1="Astrakhan" t2="RR 45"/>
+        <connection t1="B. Somaliland" t2="I. Somaliland"/>
+        <connection t1="B. Somaliland" t2="Northern Sudan"/>
+        <connection t1="B. Somaliland" t2="RR 99"/>
+        <connection t1="B. Somaliland" t2="SZ 41"/>
+        <connection t1="B. Somaliland" t2="Southern Sudan"/>
+        <connection t1="BR 1" t2="BR 2"/>
+        <connection t1="BR 1" t2="Bolshevik Revolution"/>
+        <connection t1="BR 2" t2="BR 3"/>
+        <connection t1="BR 3" t2="Russian Infiltration"/>
+        <connection t1="Bagdad" t2="Mesopotamia"/>
+        <connection t1="Bagdad" t2="Mosul"/>
+        <connection t1="Bagdad" t2="RR 71"/>
+        <connection t1="Bagdad" t2="RR 85"/>
+        <connection t1="Bagdad" t2="al-Hasa"/>
+        <connection t1="Baku" t2="Grozny"/>
+        <connection t1="Baku" t2="Tabriz"/>
+        <connection t1="Baku" t2="Tbilisi"/>
+        <connection t1="Bar-Le-Duc" t2="Chaumont"/>
+        <connection t1="Bar-Le-Duc" t2="Luneville"/>
+        <connection t1="Bar-Le-Duc" t2="Nancy"/>
+        <connection t1="Bar-Le-Duc" t2="RR 135"/>
+        <connection t1="Bar-Le-Duc" t2="RR 138"/>
+        <connection t1="British E. Africa" t2="I. Somaliland"/>
+        <connection t1="British E. Africa" t2="Mumbaza"/>
+        <connection t1="British E. Africa" t2="RR 103"/>
+        <connection t1="British E. Africa" t2="SZ 42"/>
+        <connection t1="British E. Africa" t2="SZ 50"/>
+        <connection t1="British E. Africa" t2="Uganda"/>
+        <connection t1="Brussels" t2="Charleroi"/>
+        <connection t1="Brussels" t2="Paschendale"/>
+        <connection t1="Brussels" t2="RR 119"/>
+        <connection t1="Brussels" t2="Vimy"/>
+        <connection t1="Bryansk" t2="RR 23"/>
+        <connection t1="Bryansk" t2="RR 24"/>
+        <connection t1="Bryansk" t2="RR 33"/>
+        <connection t1="Bryansk" t2="RR 34"/>
+        <connection t1="Bryansk" t2="RR 42"/>
+        <connection t1="Bryansk" t2="Volgograd"/>
+        <connection t1="Buchuanaland" t2="German Southwest Africa"/>
+        <connection t1="Buchuanaland" t2="Luderitz"/>
+        <connection t1="Buchuanaland" t2="RR 107"/>
+        <connection t1="Buchuanaland" t2="RR 114"/>
+        <connection t1="Buchuanaland" t2="S. Africa"/>
+        <connection t1="Buchuanaland" t2="S. Rhodesia"/>
+        <connection t1="Buchuanaland" t2="Transvaal"/>
+        <connection t1="Bulgaria" t2="Gallipoli"/>
+        <connection t1="Bulgaria" t2="RR 49"/>
+        <connection t1="Bulgaria" t2="RR 53"/>
+        <connection t1="Bulgaria" t2="RR 54"/>
+        <connection t1="Bulgaria" t2="RR 57"/>
+        <connection t1="Bulgaria" t2="SZ 34"/>
+        <connection t1="Bulgaria" t2="SZ 36"/>
+        <connection t1="Burgundy" t2="Marseilles"/>
+        <connection t1="Burgundy" t2="Paris"/>
+        <connection t1="Burgundy" t2="RR 17"/>
+        <connection t1="Burgundy" t2="RR 28"/>
+        <connection t1="Burgundy" t2="Switzerland"/>
+        <connection t1="Cabinda" t2="Chikapa"/>
+        <connection t1="Cabinda" t2="RR 101"/>
+        <connection t1="Cabinda" t2="RR 102"/>
+        <connection t1="Cabinda" t2="RR 104"/>
+        <connection t1="Cabinda" t2="SZ 55"/>
+        <connection t1="Cameroon" t2="Chad"/>
+        <connection t1="Cameroon" t2="Lisala"/>
+        <connection t1="Cameroon" t2="RR 96"/>
+        <connection t1="Cameroon" t2="RR 97"/>
+        <connection t1="Cameroon" t2="RR 101"/>
+        <connection t1="Cameroon" t2="RR 102"/>
+        <connection t1="Cameroon" t2="SZ 52"/>
+        <connection t1="Cameroon" t2="SZ 55"/>
+        <connection t1="Canada" t2="SZ 23"/>
+        <connection t1="Casablanca" t2="RR 72"/>
+        <connection t1="Casablanca" t2="RR 73"/>
+        <connection t1="Casablanca" t2="SZ 26"/>
+        <connection t1="Casablanca" t2="SZ 28"/>
+        <connection t1="Casablanca" t2="Spanish Morocco"/>
+        <connection t1="Chad" t2="French Niger"/>
+        <connection t1="Chad" t2="Lisala"/>
+        <connection t1="Chad" t2="Niangara"/>
+        <connection t1="Chad" t2="Southern Sudan"/>
+        <connection t1="Chantilly" t2="Chaumont"/>
+        <connection t1="Chantilly" t2="Compiegne"/>
+        <connection t1="Chantilly" t2="Fontainbleu"/>
+        <connection t1="Chantilly" t2="RR 128"/>
+        <connection t1="Chantilly" t2="RR 134"/>
+        <connection t1="Charleroi" t2="Mont Blanc"/>
+        <connection t1="Charleroi" t2="RR 126"/>
+        <connection t1="Charleroi" t2="Vimy"/>
+        <connection t1="Chaumont" t2="Fontainbleu"/>
+        <connection t1="Chaumont" t2="RR 135"/>
+        <connection t1="Chikapa" t2="RR 102"/>
+        <connection t1="Chikapa" t2="RR 105"/>
+        <connection t1="Chikapa" t2="RR 107"/>
+        <connection t1="Cologne" t2="Frankfurt"/>
+        <connection t1="Cologne" t2="RR 121"/>
+        <connection t1="Cologne" t2="RR 122"/>
+        <connection t1="Cologne" t2="RR 126"/>
+        <connection t1="Cologne" t2="Rhineland"/>
+        <connection t1="Compiegne" t2="Fontainbleu"/>
+        <connection t1="Compiegne" t2="RR 118"/>
+        <connection t1="Compiegne" t2="RR 127"/>
+        <connection t1="Compiegne" t2="RR 128"/>
+        <connection t1="Corsica" t2="Marseilles"/>
+        <connection t1="Corsica" t2="Piedmont"/>
+        <connection t1="Corsica" t2="RR 36"/>
+        <connection t1="Corsica" t2="RR 46"/>
+        <connection t1="Corsica" t2="SZ 28"/>
+        <connection t1="Corsica" t2="SZ 30"/>
+        <connection t1="Corsica" t2="SZ 81"/>
+        <connection t1="Corsica" t2="Sardinia"/>
+        <connection t1="Corsica" t2="Spain"/>
+        <connection t1="Crete" t2="SZ 32"/>
+        <connection t1="Crete" t2="SZ 33"/>
+        <connection t1="Crete" t2="SZ 34"/>
+        <connection t1="Crete" t2="SZ 35"/>
+        <connection t1="Cyprus" t2="SZ 35"/>
+        <connection t1="Cyreniaca" t2="RR 79"/>
+        <connection t1="Cyreniaca" t2="SZ 33"/>
+        <connection t1="Cyreniaca" t2="Sirte"/>
+        <connection t1="Cyreniaca" t2="Tobruk"/>
+        <connection t1="Damascus" t2="RR 67"/>
+        <connection t1="Damascus" t2="RR 70"/>
+        <connection t1="Damascus" t2="SZ 35"/>
+        <connection t1="Damascus" t2="Syria"/>
+        <connection t1="Denmark" t2="Kiel"/>
+        <connection t1="Denmark" t2="SZ 7"/>
+        <connection t1="Denmark" t2="SZ 9"/>
+        <connection t1="Finland" t2="RR 10"/>
+        <connection t1="Finland" t2="SZ 91"/>
+        <connection t1="Fontainbleu" t2="RR 137"/>
+        <connection t1="Frankfurt" t2="RR 126"/>
+        <connection t1="Frankfurt" t2="RR 130"/>
+        <connection t1="Frankfurt" t2="RR 132"/>
+        <connection t1="Frankfurt" t2="RR 136"/>
+        <connection t1="Frankfurt" t2="Rhineland"/>
+        <connection t1="French Guinea" t2="RR 94"/>
+        <connection t1="French Guinea" t2="SZ 51"/>
+        <connection t1="French Guinea" t2="Senegal"/>
+        <connection t1="French Guinea" t2="Sierra Leone"/>
+        <connection t1="French Niger" t2="Northern Sudan"/>
+        <connection t1="French Niger" t2="RR 88"/>
+        <connection t1="French Niger" t2="RR 89"/>
+        <connection t1="French Niger" t2="Southern Sudan"/>
+        <connection t1="French Sudan" t2="RR 88"/>
+        <connection t1="French Sudan" t2="RR 94"/>
+        <connection t1="French Sudan" t2="Senegal"/>
+        <connection t1="French Sudan" t2="Upper Volta"/>
+        <connection t1="Galacia" t2="Poland"/>
+        <connection t1="Galacia" t2="RR 31"/>
+        <connection t1="Galacia" t2="RR 32"/>
+        <connection t1="Galacia" t2="RR 33"/>
+        <connection t1="Galacia" t2="RR 41"/>
+        <connection t1="Galacia" t2="RR 48"/>
+        <connection t1="Galacia" t2="RR 49"/>
+        <connection t1="Galacia" t2="Silesia"/>
+        <connection t1="Galacia" t2="Vienna"/>
+        <connection t1="Gallipoli" t2="SZ 34"/>
+        <connection t1="Gallipoli" t2="SZ 36"/>
+        <connection t1="German E. Afria" t2="Mumbaza"/>
+        <connection t1="German E. Afria" t2="Portuguese E. Africa"/>
+        <connection t1="German E. Afria" t2="RR 107"/>
+        <connection t1="German E. Afria" t2="RR 108"/>
+        <connection t1="German E. Afria" t2="SZ 50"/>
+        <connection t1="German Southwest Africa" t2="Luderitz"/>
+        <connection t1="German Southwest Africa" t2="RR 112"/>
+        <connection t1="German Southwest Africa" t2="RR 114"/>
+        <connection t1="German Southwest Africa" t2="SZ 56"/>
+        <connection t1="Gibraltar" t2="Portugal"/>
+        <connection t1="Gibraltar" t2="SZ 27"/>
+        <connection t1="Gibraltar" t2="Spain"/>
+        <connection t1="Greece" t2="RR 57"/>
+        <connection t1="Greece" t2="RR 58"/>
+        <connection t1="Greece" t2="SZ 32"/>
+        <connection t1="Greece" t2="SZ 34"/>
+        <connection t1="Greece" t2="Sarajevo"/>
+        <connection t1="Grozny" t2="Krasnodar"/>
+        <connection t1="Grozny" t2="RR 44"/>
+        <connection t1="Grozny" t2="RR 45"/>
+        <connection t1="Grozny" t2="Tbilisi"/>
+        <connection t1="Holland" t2="Kiel"/>
+        <connection t1="Holland" t2="Ruhr"/>
+        <connection t1="Holland" t2="SZ 9"/>
+        <connection t1="Hurghada" t2="RR 81"/>
+        <connection t1="Hurghada" t2="RR 86"/>
+        <connection t1="Hurghada" t2="SZ 38"/>
+        <connection t1="I. Somaliland" t2="RR 100"/>
+        <connection t1="I. Somaliland" t2="SZ 42"/>
+        <connection t1="India" t2="Persia"/>
+        <connection t1="India" t2="SZ 44"/>
+        <connection t1="Innsbruck" t2="RR 29"/>
+        <connection t1="Innsbruck" t2="RR 31"/>
+        <connection t1="Innsbruck" t2="RR 141"/>
+        <connection t1="Innsbruck" t2="Saxony"/>
+        <connection t1="Innsbruck" t2="Switzerland"/>
+        <connection t1="Innsbruck" t2="Trieste"/>
+        <connection t1="Innsbruck" t2="Venice"/>
+        <connection t1="Innsbruck" t2="Vienna"/>
+        <connection t1="Ireland" t2="SZ 13"/>
+        <connection t1="Ireland" t2="SZ 14"/>
+        <connection t1="Ireland" t2="SZ 18"/>
+        <connection t1="Istanbul" t2="Izmir"/>
+        <connection t1="Istanbul" t2="RR 59"/>
+        <connection t1="Istanbul" t2="RR 63"/>
+        <connection t1="Istanbul" t2="SZ 36"/>
+        <connection t1="Izmir" t2="RR 63"/>
+        <connection t1="Izmir" t2="SZ 34"/>
+        <connection t1="Izmir" t2="SZ 35"/>
+        <connection t1="Izmir" t2="SZ 36"/>
+        <connection t1="Kiel" t2="RR 4"/>
+        <connection t1="Kiel" t2="RR 5"/>
+        <connection t1="Kiel" t2="RR 19"/>
+        <connection t1="Kiel" t2="Ruhr"/>
+        <connection t1="Kiel" t2="SZ 7"/>
+        <connection t1="Kiel" t2="SZ 9"/>
+        <connection t1="Konya" t2="RR 63"/>
+        <connection t1="Konya" t2="RR 64"/>
+        <connection t1="Konya" t2="SZ 35"/>
+        <connection t1="Konya" t2="Smyrna"/>
+        <connection t1="Konya" t2="Syria"/>
+        <connection t1="Krasnodar" t2="RR 44"/>
+        <connection t1="Krasnodar" t2="RR 50"/>
+        <connection t1="Krasnodar" t2="SZ 37"/>
+        <connection t1="Krasnodar" t2="Tbilisi"/>
+        <connection t1="Lisala" t2="Niangara"/>
+        <connection t1="Lisala" t2="Nye Lukemba"/>
+        <connection t1="Lisala" t2="RR 102"/>
+        <connection t1="Lisala" t2="RR 105"/>
+        <connection t1="London" t2="RR 3"/>
+        <connection t1="London" t2="SZ 6"/>
+        <connection t1="London" t2="SZ 8"/>
+        <connection t1="London" t2="SZ 18"/>
+        <connection t1="London" t2="York"/>
+        <connection t1="Luderitz" t2="RR 114"/>
+        <connection t1="Luderitz" t2="S. Africa"/>
+        <connection t1="Luderitz" t2="SZ 56"/>
+        <connection t1="Luneville" t2="Nancy"/>
+        <connection t1="Luneville" t2="RR 136"/>
+        <connection t1="Luneville" t2="RR 139"/>
+        <connection t1="Luneville" t2="RR 140"/>
+        <connection t1="Madagascar" t2="SZ 50"/>
+        <connection t1="Madagascar" t2="SZ 59"/>
+        <connection t1="Madagascar" t2="SZ 60"/>
+        <connection t1="Marseilles" t2="Paris"/>
+        <connection t1="Marseilles" t2="Piedmont"/>
+        <connection t1="Marseilles" t2="RR 36"/>
+        <connection t1="Marseilles" t2="RR 37"/>
+        <connection t1="Marseilles" t2="Switzerland"/>
+        <connection t1="Mesopotamia" t2="Mosul"/>
+        <connection t1="Mesopotamia" t2="RR 69"/>
+        <connection t1="Mesopotamia" t2="RR 85"/>
+        <connection t1="Mesopotamia" t2="Tabriz"/>
+        <connection t1="Mont Blanc" t2="RR 126"/>
+        <connection t1="Mont Blanc" t2="RR 129"/>
+        <connection t1="Mont Blanc" t2="RR 132"/>
+        <connection t1="Mont Blanc" t2="Verdun"/>
+        <connection t1="Mont Blanc" t2="Vimy"/>
+        <connection t1="Moscow" t2="RR 13"/>
+        <connection t1="Moscow" t2="RR 15"/>
+        <connection t1="Moscow" t2="Tula"/>
+        <connection t1="Moscow" t2="Yaroslavl"/>
+        <connection t1="Mosul" t2="RR 68"/>
+        <connection t1="Mosul" t2="Smyrna"/>
+        <connection t1="Mosul" t2="Syria"/>
+        <connection t1="Mosul" t2="Tabriz"/>
+        <connection t1="Mozambique" t2="Portuguese E. Africa"/>
+        <connection t1="Mozambique" t2="RR 107"/>
+        <connection t1="Mozambique" t2="RR 111"/>
+        <connection t1="Mozambique" t2="S. Rhodesia"/>
+        <connection t1="Mozambique" t2="SZ 59"/>
+        <connection t1="Mozambique" t2="Transvaal"/>
+        <connection t1="Mumbaza" t2="Niangara"/>
+        <connection t1="Mumbaza" t2="RR 106"/>
+        <connection t1="Mumbaza" t2="SZ 50"/>
+        <connection t1="Mumbaza" t2="Uganda"/>
+        <connection t1="Nancy" t2="RR 132"/>
+        <connection t1="Nancy" t2="RR 135"/>
+        <connection t1="Nancy" t2="RR 136"/>
+        <connection t1="Nancy" t2="Verdun"/>
+        <connection t1="Naples" t2="RR 46"/>
+        <connection t1="Naples" t2="RR 51"/>
+        <connection t1="Naples" t2="RR 56"/>
+        <connection t1="Naples" t2="SZ 30"/>
+        <connection t1="Naples" t2="SZ 32"/>
+        <connection t1="Niangara" t2="Nye Lukemba"/>
+        <connection t1="Niangara" t2="Southern Sudan"/>
+        <connection t1="Niangara" t2="Uganda"/>
+        <connection t1="Normandy" t2="Paris"/>
+        <connection t1="Normandy" t2="RR 17"/>
+        <connection t1="Normandy" t2="RR 26"/>
+        <connection t1="Normandy" t2="RR 36"/>
+        <connection t1="Normandy" t2="SZ 8"/>
+        <connection t1="Normandy" t2="SZ 22"/>
+        <connection t1="Normandy" t2="SZ 73"/>
+        <connection t1="Northern Sudan" t2="RR 90"/>
+        <connection t1="Northern Sudan" t2="SZ 41"/>
+        <connection t1="Northern Sudan" t2="Southern Sudan"/>
+        <connection t1="Norway" t2="SZ 5"/>
+        <connection t1="Norway" t2="SZ 7"/>
+        <connection t1="Norway" t2="Sweden"/>
+        <connection t1="Nye Lukemba" t2="RR 105"/>
+        <connection t1="Nye Lukemba" t2="RR 107"/>
+        <connection t1="Oman" t2="RR 91"/>
+        <connection t1="Oman" t2="RR 92"/>
+        <connection t1="Oman" t2="SZ 40"/>
+        <connection t1="Oman" t2="SZ 41"/>
+        <connection t1="Oman" t2="SZ 42"/>
+        <connection t1="Oman" t2="SZ 43"/>
+        <connection t1="Paris" t2="RR 17"/>
+        <connection t1="Paris" t2="RR 27"/>
+        <connection t1="Paris" t2="RR 36"/>
+        <connection t1="Paschendale" t2="RR 124"/>
+        <connection t1="Paschendale" t2="Vimy"/>
+        <connection t1="Paschendale" t2="Ypres"/>
+        <connection t1="Persia" t2="SZ 40"/>
+        <connection t1="Persia" t2="SZ 43"/>
+        <connection t1="Piedmont" t2="RR 38"/>
+        <connection t1="Piedmont" t2="RR 46"/>
+        <connection t1="Piedmont" t2="Switzerland"/>
+        <connection t1="Piedmont" t2="Venice"/>
+        <connection t1="Poland" t2="Prussia"/>
+        <connection t1="Poland" t2="RR 22"/>
+        <connection t1="Poland" t2="RR 23"/>
+        <connection t1="Poland" t2="RR 33"/>
+        <connection t1="Poland" t2="Silesia"/>
+        <connection t1="Poland" t2="Vilnius"/>
+        <connection t1="Portugal" t2="SZ 21"/>
+        <connection t1="Portugal" t2="SZ 25"/>
+        <connection t1="Portugal" t2="SZ 27"/>
+        <connection t1="Portugal" t2="Spain"/>
+        <connection t1="Portuguese E. Africa" t2="RR 110"/>
+        <connection t1="Portuguese E. Africa" t2="SZ 50"/>
+        <connection t1="Portuguese E. Africa" t2="SZ 59"/>
+        <connection t1="Prussia" t2="RR 5"/>
+        <connection t1="Prussia" t2="RR 6"/>
+        <connection t1="Prussia" t2="SZ 10"/>
+        <connection t1="Prussia" t2="Silesia"/>
+        <connection t1="Prussia" t2="Vilnius"/>
+        <connection t1="RR 1" t2="Scotland"/>
+        <connection t1="RR 2" t2="York"/>
+        <connection t1="RR 5" t2="RR 19"/>
+        <connection t1="RR 5" t2="RR 20"/>
+        <connection t1="RR 5" t2="SZ 79"/>
+        <connection t1="RR 5" t2="Silesia"/>
+        <connection t1="RR 7" t2="Vilnius"/>
+        <connection t1="RR 8" t2="RR 9"/>
+        <connection t1="RR 8" t2="RR 10"/>
+        <connection t1="RR 8" t2="RR 23"/>
+        <connection t1="RR 8" t2="SZ 15"/>
+        <connection t1="RR 8" t2="Smolensk"/>
+        <connection t1="RR 8" t2="Vilnius"/>
+        <connection t1="RR 9" t2="RR 10"/>
+        <connection t1="RR 9" t2="SZ 15"/>
+        <connection t1="RR 9" t2="SZ 91"/>
+        <connection t1="RR 10" t2="RR 13"/>
+        <connection t1="RR 10" t2="SZ 91"/>
+        <connection t1="RR 10" t2="Smolensk"/>
+        <connection t1="RR 10" t2="Yaroslavl"/>
+        <connection t1="RR 11" t2="Yaroslavl"/>
+        <connection t1="RR 12" t2="Smolensk"/>
+        <connection t1="RR 13" t2="Smolensk"/>
+        <connection t1="RR 13" t2="Tula"/>
+        <connection t1="RR 13" t2="Yaroslavl"/>
+        <connection t1="RR 15" t2="RR 25"/>
+        <connection t1="RR 15" t2="Saratov"/>
+        <connection t1="RR 15" t2="Tula"/>
+        <connection t1="RR 15" t2="Yaroslavl"/>
+        <connection t1="RR 16" t2="Tula"/>
+        <connection t1="RR 17" t2="SZ 8"/>
+        <connection t1="RR 18" t2="Ruhr"/>
+        <connection t1="RR 19" t2="RR 20"/>
+        <connection t1="RR 19" t2="RR 29"/>
+        <connection t1="RR 19" t2="Ruhr"/>
+        <connection t1="RR 19" t2="Saxony"/>
+        <connection t1="RR 20" t2="Saxony"/>
+        <connection t1="RR 20" t2="Silesia"/>
+        <connection t1="RR 21" t2="Silesia"/>
+        <connection t1="RR 23" t2="RR 24"/>
+        <connection t1="RR 23" t2="RR 33"/>
+        <connection t1="RR 23" t2="Smolensk"/>
+        <connection t1="RR 23" t2="Vilnius"/>
+        <connection t1="RR 24" t2="Saratov"/>
+        <connection t1="RR 24" t2="Smolensk"/>
+        <connection t1="RR 24" t2="Tula"/>
+        <connection t1="RR 24" t2="Volgograd"/>
+        <connection t1="RR 25" t2="RR 45"/>
+        <connection t1="RR 25" t2="Saratov"/>
+        <connection t1="RR 29" t2="RR 141"/>
+        <connection t1="RR 29" t2="Ruhr"/>
+        <connection t1="RR 29" t2="Saxony"/>
+        <connection t1="RR 29" t2="Switzerland"/>
+        <connection t1="RR 30" t2="Saxony"/>
+        <connection t1="RR 31" t2="RR 141"/>
+        <connection t1="RR 31" t2="Saxony"/>
+        <connection t1="RR 31" t2="Silesia"/>
+        <connection t1="RR 31" t2="Vienna"/>
+        <connection t1="RR 33" t2="RR 41"/>
+        <connection t1="RR 33" t2="RR 42"/>
+        <connection t1="RR 35" t2="Volgograd"/>
+        <connection t1="RR 36" t2="SZ 22"/>
+        <connection t1="RR 36" t2="SZ 73"/>
+        <connection t1="RR 36" t2="Spain"/>
+        <connection t1="RR 39" t2="Venice"/>
+        <connection t1="RR 40" t2="Vienna"/>
+        <connection t1="RR 41" t2="RR 42"/>
+        <connection t1="RR 41" t2="RR 49"/>
+        <connection t1="RR 41" t2="SZ 37"/>
+        <connection t1="RR 42" t2="RR 44"/>
+        <connection t1="RR 42" t2="SZ 37"/>
+        <connection t1="RR 42" t2="Svastepole"/>
+        <connection t1="RR 42" t2="Volgograd"/>
+        <connection t1="RR 43" t2="Svastepole"/>
+        <connection t1="RR 44" t2="RR 45"/>
+        <connection t1="RR 44" t2="SZ 37"/>
+        <connection t1="RR 44" t2="Volgograd"/>
+        <connection t1="RR 45" t2="Saratov"/>
+        <connection t1="RR 45" t2="Volgograd"/>
+        <connection t1="RR 46" t2="RR 51"/>
+        <connection t1="RR 46" t2="SZ 31"/>
+        <connection t1="RR 46" t2="Venice"/>
+        <connection t1="RR 47" t2="Trieste"/>
+        <connection t1="RR 48" t2="RR 49"/>
+        <connection t1="RR 48" t2="RR 53"/>
+        <connection t1="RR 48" t2="Sarajevo"/>
+        <connection t1="RR 48" t2="Trieste"/>
+        <connection t1="RR 48" t2="Vienna"/>
+        <connection t1="RR 49" t2="RR 53"/>
+        <connection t1="RR 49" t2="SZ 37"/>
+        <connection t1="RR 51" t2="SZ 30"/>
+        <connection t1="RR 52" t2="Sarajevo"/>
+        <connection t1="RR 53" t2="RR 57"/>
+        <connection t1="RR 53" t2="Sarajevo"/>
+        <connection t1="RR 55" t2="Tbilisi"/>
+        <connection t1="RR 57" t2="SZ 34"/>
+        <connection t1="RR 57" t2="Sarajevo"/>
+        <connection t1="RR 61" t2="Rize"/>
+        <connection t1="RR 61" t2="SZ 36"/>
+        <connection t1="RR 61" t2="Smyrna"/>
+        <connection t1="RR 62" t2="Rize"/>
+        <connection t1="RR 63" t2="SZ 35"/>
+        <connection t1="RR 65" t2="Tabriz"/>
+        <connection t1="RR 66" t2="Syria"/>
+        <connection t1="RR 70" t2="RR 83"/>
+        <connection t1="RR 70" t2="SZ 35"/>
+        <connection t1="RR 70" t2="SZ 83"/>
+        <connection t1="RR 70" t2="Tabuk"/>
+        <connection t1="RR 72" t2="SZ 26"/>
+        <connection t1="RR 75" t2="Tunesia"/>
+        <connection t1="RR 76" t2="SZ 30"/>
+        <connection t1="RR 76" t2="SZ 33"/>
+        <connection t1="RR 76" t2="Tripoli"/>
+        <connection t1="RR 76" t2="Tunesia"/>
+        <connection t1="RR 77" t2="Tripoli"/>
+        <connection t1="RR 78" t2="Sirte"/>
+        <connection t1="RR 80" t2="Tobruk"/>
+        <connection t1="RR 81" t2="RR 82"/>
+        <connection t1="RR 81" t2="SZ 35"/>
+        <connection t1="RR 81" t2="SZ 38"/>
+        <connection t1="RR 81" t2="SZ 83"/>
+        <connection t1="RR 81" t2="Tobruk"/>
+        <connection t1="RR 82" t2="RR 83"/>
+        <connection t1="RR 82" t2="SZ 38"/>
+        <connection t1="RR 82" t2="SZ 83"/>
+        <connection t1="RR 83" t2="SZ 38"/>
+        <connection t1="RR 83" t2="SZ 83"/>
+        <connection t1="RR 83" t2="Tabuk"/>
+        <connection t1="RR 84" t2="Tabuk"/>
+        <connection t1="RR 85" t2="SZ 39"/>
+        <connection t1="RR 85" t2="al-Hasa"/>
+        <connection t1="RR 87" t2="Senegal"/>
+        <connection t1="RR 88" t2="RR 96"/>
+        <connection t1="RR 88" t2="Upper Volta"/>
+        <connection t1="RR 91" t2="SZ 41"/>
+        <connection t1="RR 93" t2="Sierra Leone"/>
+        <connection t1="RR 94" t2="SZ 52"/>
+        <connection t1="RR 94" t2="Senegal"/>
+        <connection t1="RR 94" t2="Sierra Leone"/>
+        <connection t1="RR 94" t2="Togoland"/>
+        <connection t1="RR 94" t2="Upper Volta"/>
+        <connection t1="RR 95" t2="Togoland"/>
+        <connection t1="RR 96" t2="SZ 52"/>
+        <connection t1="RR 96" t2="Togoland"/>
+        <connection t1="RR 96" t2="Upper Volta"/>
+        <connection t1="RR 98" t2="Southern Sudan"/>
+        <connection t1="RR 101" t2="RR 102"/>
+        <connection t1="RR 101" t2="SZ 55"/>
+        <connection t1="RR 102" t2="RR 105"/>
+        <connection t1="RR 105" t2="RR 107"/>
+        <connection t1="RR 107" t2="S. Rhodesia"/>
+        <connection t1="RR 113" t2="S. Rhodesia"/>
+        <connection t1="RR 114" t2="S. Africa"/>
+        <connection t1="RR 114" t2="SZ 56"/>
+        <connection t1="RR 115" t2="Transvaal"/>
+        <connection t1="RR 116" t2="S. Africa"/>
+        <connection t1="RR 117" t2="S. Africa"/>
+        <connection t1="RR 117" t2="SZ 57"/>
+        <connection t1="RR 117" t2="SZ 58"/>
+        <connection t1="RR 117" t2="SZ 59"/>
+        <connection t1="RR 117" t2="Transvaal"/>
+        <connection t1="RR 118" t2="Ypres"/>
+        <connection t1="RR 122" t2="Rhineland"/>
+        <connection t1="RR 124" t2="RR 128"/>
+        <connection t1="RR 124" t2="Vimy"/>
+        <connection t1="RR 124" t2="Ypres"/>
+        <connection t1="RR 125" t2="Vimy"/>
+        <connection t1="RR 126" t2="RR 132"/>
+        <connection t1="RR 128" t2="Vimy"/>
+        <connection t1="RR 132" t2="RR 136"/>
+        <connection t1="RR 132" t2="Verdun"/>
+        <connection t1="RR 133" t2="Rhineland"/>
+        <connection t1="RR 135" t2="Verdun"/>
+        <connection t1="RR 136" t2="RR 140"/>
+        <connection t1="RR 136" t2="Rhineland"/>
+        <connection t1="RR 140" t2="Rhineland"/>
+        <connection t1="RR 141" t2="Saxony"/>
+        <connection t1="RR 141" t2="Switzerland"/>
+        <connection t1="RR 141" t2="Trieste"/>
+        <connection t1="RR 141" t2="Venice"/>
+        <connection t1="RR 141" t2="Vienna"/>
+        <connection t1="Rize" t2="SZ 36"/>
+        <connection t1="Rize" t2="Smyrna"/>
+        <connection t1="Rize" t2="Tabriz"/>
+        <connection t1="Rize" t2="Tbilisi"/>
+        <connection t1="S. Africa" t2="SZ 57"/>
+        <connection t1="S. Africa" t2="Transvaal"/>
+        <connection t1="S. Rhodesia" t2="Transvaal"/>
+        <connection t1="SZ 1" t2="SZ 2"/>
+        <connection t1="SZ 1" t2="SZ 11"/>
+        <connection t1="SZ 1" t2="SZ 67"/>
+        <connection t1="SZ 2" t2="SZ 3"/>
+        <connection t1="SZ 2" t2="SZ 12"/>
+        <connection t1="SZ 2" t2="SZ 67"/>
+        <connection t1="SZ 2" t2="SZ 72"/>
+        <connection t1="SZ 3" t2="SZ 4"/>
+        <connection t1="SZ 3" t2="SZ 13"/>
+        <connection t1="SZ 3" t2="SZ 14"/>
+        <connection t1="SZ 3" t2="SZ 72"/>
+        <connection t1="SZ 4" t2="SZ 5"/>
+        <connection t1="SZ 4" t2="SZ 6"/>
+        <connection t1="SZ 4" t2="SZ 14"/>
+        <connection t1="SZ 4" t2="Scotland"/>
+        <connection t1="SZ 5" t2="SZ 6"/>
+        <connection t1="SZ 5" t2="SZ 7"/>
+        <connection t1="SZ 5" t2="SZ 9"/>
+        <connection t1="SZ 5" t2="SZ 74"/>
+        <connection t1="SZ 5" t2="SZ 75"/>
+        <connection t1="SZ 6" t2="SZ 8"/>
+        <connection t1="SZ 6" t2="SZ 9"/>
+        <connection t1="SZ 6" t2="Scotland"/>
+        <connection t1="SZ 6" t2="York"/>
+        <connection t1="SZ 7" t2="SZ 9"/>
+        <connection t1="SZ 7" t2="SZ 74"/>
+        <connection t1="SZ 7" t2="SZ 79"/>
+        <connection t1="SZ 7" t2="Sweden"/>
+        <connection t1="SZ 8" t2="SZ 9"/>
+        <connection t1="SZ 8" t2="SZ 18"/>
+        <connection t1="SZ 8" t2="SZ 22"/>
+        <connection t1="SZ 9" t2="SZ 74"/>
+        <connection t1="SZ 10" t2="SZ 15"/>
+        <connection t1="SZ 10" t2="SZ 79"/>
+        <connection t1="SZ 10" t2="Sweden"/>
+        <connection t1="SZ 11" t2="SZ 12"/>
+        <connection t1="SZ 11" t2="SZ 16"/>
+        <connection t1="SZ 11" t2="SZ 67"/>
+        <connection t1="SZ 11" t2="SZ 68"/>
+        <connection t1="SZ 12" t2="SZ 13"/>
+        <connection t1="SZ 12" t2="SZ 17"/>
+        <connection t1="SZ 12" t2="SZ 67"/>
+        <connection t1="SZ 12" t2="SZ 68"/>
+        <connection t1="SZ 12" t2="SZ 71"/>
+        <connection t1="SZ 12" t2="SZ 72"/>
+        <connection t1="SZ 13" t2="SZ 14"/>
+        <connection t1="SZ 13" t2="SZ 18"/>
+        <connection t1="SZ 13" t2="SZ 71"/>
+        <connection t1="SZ 13" t2="SZ 72"/>
+        <connection t1="SZ 14" t2="SZ 18"/>
+        <connection t1="SZ 14" t2="Scotland"/>
+        <connection t1="SZ 14" t2="York"/>
+        <connection t1="SZ 15" t2="SZ 80"/>
+        <connection t1="SZ 15" t2="SZ 91"/>
+        <connection t1="SZ 15" t2="Sweden"/>
+        <connection t1="SZ 15" t2="Vilnius"/>
+        <connection t1="SZ 16" t2="SZ 17"/>
+        <connection t1="SZ 16" t2="SZ 19"/>
+        <connection t1="SZ 16" t2="SZ 68"/>
+        <connection t1="SZ 16" t2="SZ 69"/>
+        <connection t1="SZ 17" t2="SZ 18"/>
+        <connection t1="SZ 17" t2="SZ 20"/>
+        <connection t1="SZ 17" t2="SZ 68"/>
+        <connection t1="SZ 17" t2="SZ 69"/>
+        <connection t1="SZ 17" t2="SZ 70"/>
+        <connection t1="SZ 17" t2="SZ 71"/>
+        <connection t1="SZ 18" t2="SZ 21"/>
+        <connection t1="SZ 18" t2="SZ 22"/>
+        <connection t1="SZ 18" t2="SZ 70"/>
+        <connection t1="SZ 18" t2="SZ 71"/>
+        <connection t1="SZ 18" t2="York"/>
+        <connection t1="SZ 19" t2="SZ 20"/>
+        <connection t1="SZ 19" t2="SZ 69"/>
+        <connection t1="SZ 20" t2="SZ 21"/>
+        <connection t1="SZ 20" t2="SZ 25"/>
+        <connection t1="SZ 20" t2="SZ 69"/>
+        <connection t1="SZ 20" t2="SZ 70"/>
+        <connection t1="SZ 21" t2="SZ 22"/>
+        <connection t1="SZ 21" t2="SZ 25"/>
+        <connection t1="SZ 21" t2="SZ 70"/>
+        <connection t1="SZ 21" t2="Spain"/>
+        <connection t1="SZ 22" t2="SZ 73"/>
+        <connection t1="SZ 22" t2="Spain"/>
+        <connection t1="SZ 23" t2="SZ 24"/>
+        <connection t1="SZ 23" t2="SZ 76"/>
+        <connection t1="SZ 23" t2="United States"/>
+        <connection t1="SZ 24" t2="SZ 76"/>
+        <connection t1="SZ 24" t2="United States"/>
+        <connection t1="SZ 25" t2="SZ 26"/>
+        <connection t1="SZ 25" t2="SZ 27"/>
+        <connection t1="SZ 25" t2="SZ 78"/>
+        <connection t1="SZ 26" t2="SZ 27"/>
+        <connection t1="SZ 26" t2="SZ 78"/>
+        <connection t1="SZ 27" t2="Casablanca"/>
+        <connection t1="SZ 27" t2="SZ 28"/>
+        <connection t1="SZ 27" t2="Spain"/>
+        <connection t1="SZ 27" t2="Spanish Morocco"/>
+        <connection t1="SZ 28" t2="SZ 30"/>
+        <connection t1="SZ 28" t2="Sardinia"/>
+        <connection t1="SZ 28" t2="Spain"/>
+        <connection t1="SZ 28" t2="Tunesia"/>
+        <connection t1="SZ 30" t2="SZ 32"/>
+        <connection t1="SZ 30" t2="SZ 33"/>
+        <connection t1="SZ 30" t2="Sardinia"/>
+        <connection t1="SZ 30" t2="Sicily"/>
+        <connection t1="SZ 31" t2="SZ 32"/>
+        <connection t1="SZ 31" t2="Trieste"/>
+        <connection t1="SZ 31" t2="Venice"/>
+        <connection t1="SZ 32" t2="SZ 33"/>
+        <connection t1="SZ 32" t2="SZ 34"/>
+        <connection t1="SZ 32" t2="SZ 82"/>
+        <connection t1="SZ 32" t2="Sarajevo"/>
+        <connection t1="SZ 32" t2="Sicily"/>
+        <connection t1="SZ 33" t2="SZ 35"/>
+        <connection t1="SZ 33" t2="Sicily"/>
+        <connection t1="SZ 33" t2="Sirte"/>
+        <connection t1="SZ 33" t2="Tobruk"/>
+        <connection t1="SZ 33" t2="Tripoli"/>
+        <connection t1="SZ 34" t2="SZ 35"/>
+        <connection t1="SZ 34" t2="SZ 36"/>
+        <connection t1="SZ 35" t2="SZ 83"/>
+        <connection t1="SZ 35" t2="Syria"/>
+        <connection t1="SZ 36" t2="SZ 37"/>
+        <connection t1="SZ 36" t2="Tbilisi"/>
+        <connection t1="SZ 37" t2="Svastepole"/>
+        <connection t1="SZ 38" t2="Tabuk"/>
+        <connection t1="SZ 39" t2="al-Hasa"/>
+        <connection t1="SZ 40" t2="SZ 43"/>
+        <connection t1="SZ 41" t2="SZ 42"/>
+        <connection t1="SZ 42" t2="SZ 43"/>
+        <connection t1="SZ 42" t2="SZ 45"/>
+        <connection t1="SZ 42" t2="SZ 50"/>
+        <connection t1="SZ 42" t2="SZ 85"/>
+        <connection t1="SZ 43" t2="SZ 44"/>
+        <connection t1="SZ 43" t2="SZ 45"/>
+        <connection t1="SZ 43" t2="SZ 84"/>
+        <connection t1="SZ 44" t2="SZ 45"/>
+        <connection t1="SZ 44" t2="SZ 46"/>
+        <connection t1="SZ 44" t2="SZ 84"/>
+        <connection t1="SZ 45" t2="SZ 46"/>
+        <connection t1="SZ 45" t2="SZ 48"/>
+        <connection t1="SZ 45" t2="SZ 49"/>
+        <connection t1="SZ 45" t2="SZ 84"/>
+        <connection t1="SZ 45" t2="SZ 85"/>
+        <connection t1="SZ 46" t2="SZ 47"/>
+        <connection t1="SZ 46" t2="SZ 48"/>
+        <connection t1="SZ 47" t2="SZ 48"/>
+        <connection t1="SZ 47" t2="SZ 64"/>
+        <connection t1="SZ 47" t2="SZ 66"/>
+        <connection t1="SZ 48" t2="SZ 49"/>
+        <connection t1="SZ 48" t2="SZ 62"/>
+        <connection t1="SZ 48" t2="SZ 64"/>
+        <connection t1="SZ 49" t2="SZ 50"/>
+        <connection t1="SZ 49" t2="SZ 62"/>
+        <connection t1="SZ 49" t2="SZ 85"/>
+        <connection t1="SZ 50" t2="SZ 59"/>
+        <connection t1="SZ 50" t2="SZ 60"/>
+        <connection t1="SZ 50" t2="SZ 62"/>
+        <connection t1="SZ 50" t2="SZ 85"/>
+        <connection t1="SZ 51" t2="SZ 52"/>
+        <connection t1="SZ 51" t2="SZ 53"/>
+        <connection t1="SZ 51" t2="SZ 90"/>
+        <connection t1="SZ 51" t2="Senegal"/>
+        <connection t1="SZ 51" t2="Sierra Leone"/>
+        <connection t1="SZ 52" t2="SZ 55"/>
+        <connection t1="SZ 52" t2="Togoland"/>
+        <connection t1="SZ 53" t2="SZ 54"/>
+        <connection t1="SZ 53" t2="SZ 55"/>
+        <connection t1="SZ 53" t2="SZ 89"/>
+        <connection t1="SZ 53" t2="SZ 90"/>
+        <connection t1="SZ 54" t2="SZ 56"/>
+        <connection t1="SZ 54" t2="SZ 57"/>
+        <connection t1="SZ 54" t2="SZ 88"/>
+        <connection t1="SZ 54" t2="SZ 89"/>
+        <connection t1="SZ 55" t2="SZ 56"/>
+        <connection t1="SZ 55" t2="SZ 89"/>
+        <connection t1="SZ 55" t2="SZ 90"/>
+        <connection t1="SZ 56" t2="SZ 57"/>
+        <connection t1="SZ 56" t2="SZ 88"/>
+        <connection t1="SZ 56" t2="SZ 89"/>
+        <connection t1="SZ 57" t2="SZ 58"/>
+        <connection t1="SZ 57" t2="SZ 88"/>
+        <connection t1="SZ 58" t2="SZ 59"/>
+        <connection t1="SZ 58" t2="SZ 61"/>
+        <connection t1="SZ 59" t2="SZ 60"/>
+        <connection t1="SZ 59" t2="SZ 61"/>
+        <connection t1="SZ 59" t2="Transvaal"/>
+        <connection t1="SZ 60" t2="SZ 61"/>
+        <connection t1="SZ 60" t2="SZ 62"/>
+        <connection t1="SZ 60" t2="SZ 63"/>
+        <connection t1="SZ 61" t2="SZ 63"/>
+        <connection t1="SZ 62" t2="SZ 63"/>
+        <connection t1="SZ 62" t2="SZ 64"/>
+        <connection t1="SZ 62" t2="SZ 87"/>
+        <connection t1="SZ 63" t2="SZ 65"/>
+        <connection t1="SZ 63" t2="SZ 87"/>
+        <connection t1="SZ 64" t2="SZ 65"/>
+        <connection t1="SZ 64" t2="SZ 66"/>
+        <connection t1="SZ 64" t2="SZ 87"/>
+        <connection t1="SZ 65" t2="SZ 66"/>
+        <connection t1="SZ 65" t2="SZ 87"/>
+        <connection t1="SZ 66" t2="Australia"/>
+        <connection t1="SZ 75" t2="SZ 4"/>
+        <connection t1="SZ 77" t2="SZ 24"/>
+        <connection t1="SZ 79" t2="Sweden"/>
+        <connection t1="SZ 80" t2="SZ 91"/>
+        <connection t1="SZ 80" t2="Sweden"/>
+        <connection t1="SZ 81" t2="SZ 28"/>
+        <connection t1="SZ 82" t2="SZ 33"/>
+        <connection t1="SZ 86" t2="SZ 46"/>
+        <connection t1="SZ 86" t2="SZ 47"/>
+        <connection t1="SZ 90" t2="SZ 52"/>
+        <connection t1="SZ 91" t2="Sweden"/>
+        <connection t1="Sarajevo" t2="Trieste"/>
+        <connection t1="Saratov" t2="Tula"/>
+        <connection t1="Saratov" t2="Volgograd"/>
+        <connection t1="Saxony" t2="Silesia"/>
+        <connection t1="Scotland" t2="York"/>
+        <connection t1="Sirte" t2="Tripoli"/>
+        <connection t1="Smolensk" t2="Tula"/>
+        <connection t1="Smyrna" t2="Syria"/>
+        <connection t1="Smyrna" t2="Tabriz"/>
+        <connection t1="Southern Sudan" t2="Uganda"/>
+        <connection t1="Switzerland" t2="Venice"/>
+        <connection t1="Tabriz" t2="Tbilisi"/>
+        <connection t1="Togoland" t2="Upper Volta"/>
+        <connection t1="Trieste" t2="Venice"/>
+        <connection t1="Trieste" t2="Vienna"/>
+        <connection t1="US 1" t2="US 2"/>
+        <connection t1="US 2" t2="US 3"/>
+        <connection t1="US 3" t2="United States Mobilizes"/>
     </map>
     <resourceList>
         <resource name="PUs"/>
@@ -1227,7 +1225,7 @@
         <unit name="Bomber"/>
         <unit name="Freighter"/>
         <unit name="Troop-Transport"/>
-		<unit name="Carrier"/>
+        <unit name="Carrier"/>
         <unit name="Submarine"/>
         <unit name="Destroyer"/>
         <unit name="Battlecruiser"/>
@@ -1235,7 +1233,7 @@
         <unit name="Trenches"/>
         <unit name="Harbor-Defenses"/>
         <unit name="Factory"/>
-		<unit name="Shipyard"/>
+        <unit name="Shipyard"/>
         <unit name="AA-Gun"/>
         <unit name="Lenin"/>
         <unit name="Develop-Bomber"/>
@@ -1250,7 +1248,7 @@
         <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
         <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
         <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
-		<delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+        <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
         <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
         <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
         <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
@@ -1374,7 +1372,7 @@
             <cost resource="PUs" quantity="8"/>
             <result resourceOrUnit="Freighter" quantity="1"/>
         </productionRule>
-		<productionRule name="buyCarrier">
+        <productionRule name="buyCarrier">
             <cost resource="PUs" quantity="16"/>
             <result resourceOrUnit="Carrier" quantity="1"/>
         </productionRule>
@@ -1410,7 +1408,7 @@
             <cost resource="PUs" quantity="15"/>
             <result resourceOrUnit="Factory" quantity="1"/>
         </productionRule>
-		<productionRule name="buyShipyard">
+        <productionRule name="buyShipyard">
             <cost resource="PUs" quantity="15"/>
             <result resourceOrUnit="Shipyard" quantity="1"/>
         </productionRule>
@@ -1438,21 +1436,18 @@
             <cost resource="PUs" quantity="40"/>
             <result resourceOrUnit="Develop-Siege-Howitzer" quantity="1"/>
         </productionRule>
-		
-		<repairRule name="repairFactory">
-			<cost resource="PUs" quantity="1" />
+        <repairRule name="repairFactory">
+            <cost resource="PUs" quantity="1"/>
             <result resourceOrUnit="Factory" quantity="1"/>
-         </repairRule>
-         <repairRule name="repairShipyard">
-            <cost resource="PUs" quantity="1" />
+        </repairRule>
+        <repairRule name="repairShipyard">
+            <cost resource="PUs" quantity="1"/>
             <result resourceOrUnit="Shipyard" quantity="1"/>
-         </repairRule>
-		 
-		 <repairFrontier name="repair">
-           	<repairRules name="repairFactory"/>
-           	<repairRules name="repairShipyard"/>
+        </repairRule>
+        <repairFrontier name="repair">
+            <repairRules name="repairFactory"/>
+            <repairRules name="repairShipyard"/>
         </repairFrontier>
-		
         <productionFrontier name="GermansFrontier">
             <frontierRules name="buyInfantry"/>
             <frontierRules name="buyCavalry"/>
@@ -1469,7 +1464,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1492,7 +1487,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1515,7 +1510,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1538,7 +1533,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1561,7 +1556,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1584,7 +1579,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1607,7 +1602,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1630,7 +1625,7 @@
             <frontierRules name="buyHarbor-Defenses"/>
             <frontierRules name="buyAA-Gun"/>
             <frontierRules name="buyFactory"/>
-			<frontierRules name="buyShipyard"/>
+            <frontierRules name="buyShipyard"/>
             <frontierRules name="buyDevelop-Bomber"/>
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
@@ -1652,16 +1647,15 @@
         <playerProduction player="Italians" frontier="ItaliansFrontier"/>
         <playerProduction player="Americans" frontier="AmericansFrontier"/>
         <playerProduction player="Bolsheviks" frontier="BolsheviksFrontier"/>
-		
-		<playerRepair player="Germans" frontier="repair"/>
-		<playerRepair player="French" frontier="repair"/>
-		<playerRepair player="Russians" frontier="repair"/>
-		<playerRepair player="Austrians" frontier="repair"/>
+        <playerRepair player="Germans" frontier="repair"/>
+        <playerRepair player="French" frontier="repair"/>
+        <playerRepair player="Russians" frontier="repair"/>
+        <playerRepair player="Austrians" frontier="repair"/>
         <playerRepair player="Ottomans" frontier="repair"/>
-		<playerRepair player="British" frontier="repair"/>
+        <playerRepair player="British" frontier="repair"/>
         <playerRepair player="Italians" frontier="repair"/>
-		<playerRepair player="Americans" frontier="repair"/>
-		<playerRepair player="Bolsheviks" frontier="repair"/>
+        <playerRepair player="Americans" frontier="repair"/>
+        <playerRepair player="Bolsheviks" frontier="repair"/>
     </production>
     <attachmentList>
         <attachment name="techAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
@@ -1688,49 +1682,44 @@
         <attachment name="techAttachment" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-		
-		<attachment name="conditionAttachment-changeRounds" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="rounds" value="1-+"/>
+        <attachment name="conditionAttachment-changeRounds" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="rounds" value="1-+" count=""/>
         </attachment>
-        
-		<!-- BEGIN TEMPLATED ATTACHMENTS - Do not hand-edit, these are automatically generated from code -->
-
         <attachment name="unitAttachment" attachTo="Develop-Bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="movement" value="0" count=""/>
             <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" />
+            <option name="isInfrastructure" value="true" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Develop-Siege-Howitzer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="movement" value="0" count=""/>
             <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" />
+            <option name="isInfrastructure" value="true" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Develop-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="movement" value="0" count=""/>
             <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" />
+            <option name="isInfrastructure" value="true" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Develop-Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="movement" value="0" count=""/>
             <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" />
+            <option name="isInfrastructure" value="true" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Develop-Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="movement" value="0" count=""/>
             <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" />
+            <option name="isInfrastructure" value="true" count=""/>
         </attachment>
-
         <attachment name="conditionAttachment-Germans-Develop-Bomber" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
             <option name="unitPresence" value="Develop-Bomber" count="1"/>
@@ -2211,147 +2200,142 @@
             <option name="removeUnits" value="all:Develop-Mech-Infantry" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-
-		<attachment name="conditionAttachment-Germans-AlwaysTrue" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		<attachment name="conditionAttachment-British-AlwaysTrue" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		<attachment name="conditionAttachment-French-AlwaysTrue" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		<attachment name="conditionAttachment-Russians-AlwaysTrue" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		<attachment name="conditionAttachment-Austrians-AlwaysTrue" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		<attachment name="conditionAttachment-Ottomans-AlwaysTrue" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		<attachment name="conditionAttachment-Americans-AlwaysTrue" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		<attachment name="conditionAttachment-Italians-AlwaysTrue" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="techs" value="mechanizedInfantry" count="1" />
-		</attachment>
-		
-		<attachment name="triggerAttachment-infraDuringCombatMove-Germans-1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" />
-			<option name="when" value="before:GermansCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Germans-2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" />
-			<option name="when" value="before:GermansBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-British-1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-British-AlwaysTrue" />
-			<option name="when" value="before:BritishCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-British-2" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-British-AlwaysTrue" />
-			<option name="when" value="before:BritishBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-French-1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-French-AlwaysTrue" />
-			<option name="when" value="before:FrenchCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-French-2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-French-AlwaysTrue" />
-			<option name="when" value="before:FrenchBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Russians-1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" />
-			<option name="when" value="before:RussiansCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Russians-2" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" />
-			<option name="when" value="before:RussiansBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Austrians-1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" />
-			<option name="when" value="before:AustriansCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Austrians-2" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" />
-			<option name="when" value="before:AustriansBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
-			<option name="when" value="before:OttomansCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
-			<option name="when" value="before:OttomansBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Americans-1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" />
-			<option name="when" value="before:AmericansCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Americans-2" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" />
-			<option name="when" value="before:AmericansBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
-			<option name="when" value="before:ItaliansCombatMove" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
-			<option name="when" value="before:ItaliansBattle" />
-			<option name="unitType" value="Trenches"/>
-			<option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1"/>
-		</attachment>
-
-		<!-- END TEMPLATED ATTACHMENTS -->
-		
+        <attachment name="conditionAttachment-Germans-AlwaysTrue" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="conditionAttachment-British-AlwaysTrue" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="conditionAttachment-French-AlwaysTrue" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="conditionAttachment-Russians-AlwaysTrue" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="conditionAttachment-Austrians-AlwaysTrue" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="conditionAttachment-Ottomans-AlwaysTrue" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="conditionAttachment-Americans-AlwaysTrue" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="conditionAttachment-Italians-AlwaysTrue" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+            <option name="techs" value="mechanizedInfantry" count="1"/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Germans-1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
+            <option name="when" value="before:GermansCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Germans-2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
+            <option name="when" value="before:GermansBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-British-1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
+            <option name="when" value="before:BritishCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-British-2" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
+            <option name="when" value="before:BritishBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-French-1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
+            <option name="when" value="before:FrenchCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-French-2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
+            <option name="when" value="before:FrenchBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Russians-1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
+            <option name="when" value="before:RussiansCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Russians-2" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
+            <option name="when" value="before:RussiansBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Austrians-1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
+            <option name="when" value="before:AustriansCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Austrians-2" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
+            <option name="when" value="before:AustriansBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
+            <option name="when" value="before:OttomansCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
+            <option name="when" value="before:OttomansBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Americans-1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
+            <option name="when" value="before:AmericansCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Americans-2" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
+            <option name="when" value="before:AmericansBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Italians-1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
+            <option name="when" value="before:ItaliansCombatMove" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="true"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
+        <attachment name="triggerAttachment-infraDuringCombatMove-Italians-2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
+            <option name="when" value="before:ItaliansBattle" count=""/>
+            <option name="unitType" value="Trenches" count=""/>
+            <option name="unitProperty" value="isInfrastructure" count="false"/>
+            <option name="uses" value="1" count=""/>
+        </attachment>
         <attachment name="unitAttachment" attachTo="Lenin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="1" count=""/>
             <option name="transportCost" value="1" count=""/>
@@ -2370,7 +2354,7 @@
             <option name="defense" value="1" count=""/>
             <option name="artillerySupportable" value="true" count=""/>
             <option name="isInfantry" value="true" count=""/>
-			<option name="repairsUnits" value="Trenches" count="1" />
+            <option name="repairsUnits" value="Trenches" count="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2416,29 +2400,29 @@
             <option name="attack" value="2" count=""/>
             <option name="defense" value="2" count=""/>
             <option name="isStrategicBomber" value="true" count=""/>
-			<option name="carrierCost" value="3" />
+            <option name="carrierCost" value="3" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="3" count=""/>
             <option name="isAir" value="true" count=""/>
             <option name="attack" value="3" count=""/>
             <option name="defense" value="3" count=""/>
-			<option name="carrierCost" value="1" />
+            <option name="carrierCost" value="1" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Red-Baron" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="3" count=""/>
             <option name="isAir" value="true" count=""/>
             <option name="attack" value="5" count=""/>
             <option name="defense" value="4" count=""/>
-			<option name="carrierCost" value="1" />
+            <option name="carrierCost" value="1" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="5" count=""/>
             <option name="isAir" value="true" count=""/>
             <option name="attack" value="4" count=""/>
             <option name="defense" value="1" count=""/>
-			<option name="isStrategicBomber" value="true" count=""/>
-			<option name="carrierCost" value="3" />
+            <option name="isStrategicBomber" value="true" count=""/>
+            <option name="carrierCost" value="3" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2446,7 +2430,7 @@
             <option name="transportCapacity" value="3" count=""/>
             <option name="attack" value="0" count=""/>
             <option name="defense" value="1" count=""/>
-			<option name="requiresUnits" value="Shipyard:Factory"/>
+            <option name="requiresUnits" value="Shipyard:Factory" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Troop-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2454,15 +2438,15 @@
             <option name="transportCapacity" value="8" count=""/>
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
-			<option name="requiresUnits" value="Shipyard:Factory"/>
+            <option name="requiresUnits" value="Shipyard:Factory" count=""/>
         </attachment>
-		<attachment name="unitAttachment" attachTo="Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="0"/>
-            <option name="defense" value="0"/>
-            <option name="movement" value="2"/>
-            <option name="isSea" value="true"/>
-            <option name="carrierCapacity" value="2"/>
-			<option name="requiresUnits" value="Shipyard:Factory"/>
+        <attachment name="unitAttachment" attachTo="Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="attack" value="0" count=""/>
+            <option name="defense" value="0" count=""/>
+            <option name="movement" value="2" count=""/>
+            <option name="isSea" value="true" count=""/>
+            <option name="carrierCapacity" value="2" count=""/>
+            <option name="requiresUnits" value="Shipyard:Factory" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isSub" value="true" count=""/>
@@ -2470,7 +2454,7 @@
             <option name="isSea" value="true" count=""/>
             <option name="attack" value="2" count=""/>
             <option name="defense" value="1" count=""/>
-			<option name="requiresUnits" value="Shipyard:Factory"/>
+            <option name="requiresUnits" value="Shipyard:Factory" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2478,7 +2462,7 @@
             <option name="attack" value="2" count=""/>
             <option name="defense" value="2" count=""/>
             <option name="isDestroyer" value="true" count=""/>
-			<option name="requiresUnits" value="Shipyard:Factory"/>
+            <option name="requiresUnits" value="Shipyard:Factory" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Battlecruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2486,7 +2470,7 @@
             <option name="attack" value="3" count=""/>
             <option name="defense" value="3" count=""/>
             <option name="canBombard" value="false" count=""/>
-			<option name="requiresUnits" value="Shipyard:Factory"/>
+            <option name="requiresUnits" value="Shipyard:Factory" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2495,7 +2479,7 @@
             <option name="defense" value="4" count=""/>
             <option name="canBombard" value="false" count=""/>
             <option name="isTwoHit" value="true" count=""/>
-			<option name="requiresUnits" value="Shipyard:Factory"/>
+            <option name="requiresUnits" value="Shipyard:Factory" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Trenches" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="0" count=""/>
@@ -2512,36 +2496,33 @@
             <option name="attack" value="0" count=""/>
             <option name="defense" value="1" count=""/>
             <option name="isSea" value="true" count=""/>
-			<option name="isConstruction" value="true" count=""/>
+            <option name="isConstruction" value="true" count=""/>
             <option name="constructionType" value="Harbor-Defenses" count=""/>
             <option name="constructionsPerTerrPerTypePerTurn" value="2" count=""/>
             <option name="maxConstructionsPerTypePerTerr" value="10" count=""/>
-			<option name="requiresUnits" value="Shipyard"/>
+            <option name="requiresUnits" value="Shipyard" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isFactory" value="true" count=""/>
-			<option name="repairsUnits" value="Tank" count="5" />
-			
-			<option name="canBeDamaged" value="true"/>
-			<option name="maxDamage" value="2"/>
-			<option name="maxOperationalDamage" value="6"/>
-			<option name="canDieFromReachingMaxDamage" value="true"/>
+            <option name="repairsUnits" value="Tank" count="5"/>
+            <option name="canBeDamaged" value="true" count=""/>
+            <option name="maxDamage" value="2" count=""/>
+            <option name="maxOperationalDamage" value="6" count=""/>
+            <option name="canDieFromReachingMaxDamage" value="true" count=""/>
         </attachment>
-	    <attachment name="unitAttachment" attachTo="Shipyard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-		  <option name="isInfrastructure" value="true"/>
-		  <option name="repairsUnits" value="Battleship" count="5" />
-		  <option name="isConstruction" value="true"/>
-		  <option name="constructionType" value="Shipyard"/>
-		  <option name="constructionsPerTerrPerTypePerTurn" value="1"/>
-		  <option name="maxConstructionsPerTypePerTerr" value="1"/>
-		  <option name="movement" value="0"/>
-		  
-		  <option name="canBeDamaged" value="true"/>
-  		  <option name="maxDamage" value="12"/>
-		  <option name="maxOperationalDamage" value="6"/>
-		  <option name="canDieFromReachingMaxDamage" value="true"/>
-		</attachment>
-		
+        <attachment name="unitAttachment" attachTo="Shipyard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="isInfrastructure" value="true" count=""/>
+            <option name="repairsUnits" value="Battleship" count="5"/>
+            <option name="isConstruction" value="true" count=""/>
+            <option name="constructionType" value="Shipyard" count=""/>
+            <option name="constructionsPerTerrPerTypePerTurn" value="1" count=""/>
+            <option name="maxConstructionsPerTypePerTerr" value="1" count=""/>
+            <option name="movement" value="0" count=""/>
+            <option name="canBeDamaged" value="true" count=""/>
+            <option name="maxDamage" value="12" count=""/>
+            <option name="maxOperationalDamage" value="6" count=""/>
+            <option name="canDieFromReachingMaxDamage" value="true" count=""/>
+        </attachment>
         <attachment name="unitAttachment" attachTo="AA-Gun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isAA" value="true" count=""/>
             <option name="transportCost" value="3" count=""/>
@@ -2606,6 +2587,8 @@
         </attachment>
     </attachmentList>
     <initialize>
+        <ownerInitialize/>
+        <unitInitialize/>
         <resourceInitialize>
             <resourceGiven player="Germans" resource="PUs" quantity="92"/>
             <resourceGiven player="French" resource="PUs" quantity="57"/>
@@ -2618,10 +2601,10 @@
             <resourceGiven player="Bolsheviks" resource="PUs" quantity="15"/>
         </resourceInitialize>
     </initialize>
-	<propertyList>
-		<property name="WW2V3" value="true" editable="false">
-			<boolean/>
-		</property>
+    <propertyList>
+        <property value="true" name="WW2V3" editable="false" player="">
+            <boolean/>
+        </property>
         <property value="true" name="Movement By Territory Restricted" editable="false" player="">
             <boolean/>
         </property>
@@ -2634,9 +2617,9 @@
         <property value="true" name="Two hit Battleship" editable="false" player="">
             <boolean/>
         </property>
-		<property name="Two HitPoint Units Require Repair Facilities" value="true" editable="true">
-			<boolean/>
-		</property>
+        <property value="true" name="Two HitPoint Units Require Repair Facilities" editable="true" player="">
+            <boolean/>
+        </property>
         <property value="true" name="Partial Amphibious Retreat" editable="false" player="">
             <boolean/>
         </property>
@@ -2661,39 +2644,39 @@
         <property value="true" name="Unit Placement In Enemy Seas" editable="false" player="">
             <boolean/>
         </property>
-		<property name="Unit Placement Restrictions" value="true" editable="false">
-			<boolean/>
-		</property>
+        <property value="true" name="Unit Placement Restrictions" editable="false" player="">
+            <boolean/>
+        </property>
         <property value="true" name="Submersible Subs" editable="false" player="">
             <boolean/>
         </property>
         <property value="true" name="Previous Units Fight" editable="false" player="">
             <boolean/>
         </property>
-		<property name="Units May Give Bonus Movement" value="true" editable="false">
-			<boolean/>
-		</property>
-		<property name="Defending Suicide and Munition Units Do Not Fire" value="true" editable="false">
-			<boolean/>
-		</property>
-		<property name="SBR Affects Unit Production" value="false" editable="false">
-			<boolean/>
-		</property>
-		<property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
-			<boolean/>
-		</property>
-		<property name="Produce fighters on carriers" value="true" editable="false">
-			<boolean/>
-		</property>
-		<property name="Produce new fighters on old carriers" value="true" editable="false">
-			<boolean/>
-		</property>
-		<property name="Move existing fighters to new carriers" value="false" editable="false">
-			<boolean/>
-		</property>
-		<property name="Land existing fighters on new carriers" value="true" editable="false">
-			<boolean/>
-		</property>
+        <property value="true" name="Units May Give Bonus Movement" editable="false" player="">
+            <boolean/>
+        </property>
+        <property value="true" name="Defending Suicide and Munition Units Do Not Fire" editable="false" player="">
+            <boolean/>
+        </property>
+        <property value="false" name="SBR Affects Unit Production" editable="false" player="">
+            <boolean/>
+        </property>
+        <property value="true" name="Damage From Bombing Done To Units Instead Of Territories" editable="false" player="">
+            <boolean/>
+        </property>
+        <property value="true" name="Produce fighters on carriers" editable="false" player="">
+            <boolean/>
+        </property>
+        <property value="true" name="Produce new fighters on old carriers" editable="false" player="">
+            <boolean/>
+        </property>
+        <property value="false" name="Move existing fighters to new carriers" editable="false" player="">
+            <boolean/>
+        </property>
+        <property value="true" name="Land existing fighters on new carriers" editable="false" player="">
+            <boolean/>
+        </property>
         <property value="0" name="Germans bid" editable="true" player="">
             <number max="1000" min="0"/>
         </property>
