@@ -5,459 +5,457 @@
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <map>
-		<!-- Territory Definitions -->
-		<territory name="Aachen"/>
-		<territory name="Abyssinia"/>
-		<territory name="Algeria"/>
-		<territory name="American Isolationism"/>
-		<territory name="Angolia"/>
-		<territory name="Ankara"/>
-		<territory name="Antalya"/>
-		<territory name="Arar"/>
-		<territory name="Ardennes"/>
-		<territory name="Argonne"/>
-		<territory name="Arras"/>
-		<territory name="Astrakhan"/>
-		<territory name="Australia"/>
-		<territory name="B. Somaliland"/>
-		<territory name="BR 1"/>
-		<territory name="BR 2"/>
-		<territory name="BR 3"/>
-		<territory name="BR 4"/>
-		<territory name="BR 5"/>
-		<territory name="BR 6"/>
-		<territory name="Bagdad"/>
-		<territory name="Baku"/>
-		<territory name="Bandundu"/>
-		<territory name="Bar-Le-Duc"/>
-		<territory name="Basrah"/>
-		<territory name="Bavaria"/>
-		<territory name="Be'er Sheva"/>
-		<territory name="Belarus"/>
-		<territory name="Berlin"/>
-		<territory name="Bohemia"/>
-		<territory name="Bolshevik Revolution"/>
-		<territory name="Bordeaux"/>
-		<territory name="British E. Africa"/>
-		<territory name="Brussels"/>
-		<territory name="Bryansk"/>
-		<territory name="Buchuanaland"/>
-		<territory name="Bulgaria"/>
-		<territory name="Burgundy"/>
-		<territory name="Cabinda"/>
-		<territory name="Cairo"/>
-		<territory name="Cameroon"/>
-		<territory name="Canada"/>
-		<territory name="Casablanca"/>
-		<territory name="Caucusus"/>
-		<territory name="Chad"/>
-		<territory name="Chantilly"/>
-		<territory name="Charleroi"/>
-		<territory name="Chaumont"/>
-		<territory name="Chikapa"/>
-		<territory name="Cologne"/>
-		<territory name="Compiegne"/>
-		<territory name="Corsica"/>
-		<territory name="Crete"/>
-		<territory name="Cyprus"/>
-		<territory name="Cyreniaca"/>
-		<territory name="Damascus"/>
-		<territory name="Denmark"/>
-		<territory name="Douamont"/>
-		<territory name="Egypt"/>
-		<territory name="Finland"/>
-		<territory name="Flanders"/>
-		<territory name="Fontainbleu"/>
-		<territory name="Frankfurt"/>
-		<territory name="French Equitorial Africa"/>
-		<territory name="French Guinea"/>
-		<territory name="French Niger"/>
-		<territory name="French Sudan"/>
-		<territory name="French West Africa"/>
-		<territory name="Galacia"/>
-		<territory name="Gallipoli"/>
-		<territory name="German E. Afrika"/>
-		<territory name="German Southwest Africa"/>
-		<territory name="Gibraltar"/>
-		<territory name="Gorkiy"/>
-		<territory name="Greece"/>
-		<territory name="Grozny"/>
-		<territory name="Hanover"/>
-		<territory name="Hejaz"/>
-		<territory name="Holland"/>
-		<territory name="Hungary"/>
-		<territory name="Hurghada"/>
-		<territory name="I. Somaliland"/>
-		<territory name="India"/>
-		<territory name="Innsbruck"/>
-		<territory name="Ireland"/>
-		<territory name="Istanbul"/>
-		<territory name="Ivanova"/>
-		<territory name="Ivory Coast"/>
-		<territory name="Izhevsk"/>
-		<territory name="Izmir"/>
-		<territory name="Jerusalem"/>
-		<territory name="Kabinda"/>
-		<territory name="Kaluga"/>
-		<territory name="Karkov"/>
-		<territory name="Kazan"/>
-		<territory name="Kiel"/>
-		<territory name="Kiev"/>
-		<territory name="Konya"/>
-		<territory name="Krasnodar"/>
-		<territory name="Lisala"/>
-		<territory name="London"/>
-		<territory name="Luderitz"/>
-		<territory name="Luneville"/>
-		<territory name="Macedonia"/>
-		<territory name="Madagascar"/>
-		<territory name="Marseilles"/>
-		<territory name="Mauritania"/>
-		<territory name="Mesopotamia"/>
-		<territory name="Metz"/>
-		<territory name="Moldova"/>
-		<territory name="Mont Blanc"/>
-		<territory name="Moscow"/>
-		<territory name="Mosul"/>
-		<territory name="Mozambique"/>
-		<territory name="Mumbaza"/>
-		<territory name="Nancy"/>
-		<territory name="Naples"/>
-		<territory name="Natal"/>
-		<territory name="Niangara"/>
-		<territory name="Nigeria"/>
-		<territory name="Normandy"/>
-		<territory name="Northern Rhineland"/>
-		<territory name="Northern Sudan"/>
-		<territory name="Norway"/>
-		<territory name="Nye Lukemba"/>
-		<territory name="Oman"/>
-		<territory name="Oryol"/>
-		<territory name="Paris"/>
-		<territory name="Paschendale"/>
-		<territory name="Penza"/>
-		<territory name="Persia"/>
-		<territory name="Petrozavodsk"/>
-		<territory name="Picardy"/>
-		<territory name="Piedmont"/>
-		<territory name="Poland"/>
-		<territory name="Pomerania"/>
-		<territory name="Portugal"/>
-		<territory name="Portuguese E. Africa"/>
-		<territory name="Prussia"/>
-		<territory name="RR 1" water="true"/>
-		<territory name="RR 2" water="true"/>
-		<territory name="RR 3" water="true"/>
-		<territory name="RR 4" water="true"/>
-		<territory name="RR 5" water="true"/>
-		<territory name="RR 6" water="true"/>
-		<territory name="RR 7" water="true"/>
-		<territory name="RR 8" water="true"/>
-		<territory name="RR 9" water="true"/>
-		<territory name="RR 10" water="true"/>
-		<territory name="RR 11" water="true"/>
-		<territory name="RR 12" water="true"/>
-		<territory name="RR 13" water="true"/>
-		<territory name="RR 14" water="true"/>
-		<territory name="RR 15" water="true"/>
-		<territory name="RR 16" water="true"/>
-		<territory name="RR 17" water="true"/>
-		<territory name="RR 18" water="true"/>
-		<territory name="RR 19" water="true"/>
-		<territory name="RR 20" water="true"/>
-		<territory name="RR 21" water="true"/>
-		<territory name="RR 22" water="true"/>
-		<territory name="RR 23" water="true"/>
-		<territory name="RR 24" water="true"/>
-		<territory name="RR 25" water="true"/>
-		<territory name="RR 26" water="true"/>
-		<territory name="RR 27" water="true"/>
-		<territory name="RR 28" water="true"/>
-		<territory name="RR 29" water="true"/>
-		<territory name="RR 30" water="true"/>
-		<territory name="RR 31" water="true"/>
-		<territory name="RR 32" water="true"/>
-		<territory name="RR 33" water="true"/>
-		<territory name="RR 34" water="true"/>
-		<territory name="RR 35" water="true"/>
-		<territory name="RR 36" water="true"/>
-		<territory name="RR 37" water="true"/>
-		<territory name="RR 38" water="true"/>
-		<territory name="RR 39" water="true"/>
-		<territory name="RR 40" water="true"/>
-		<territory name="RR 41" water="true"/>
-		<territory name="RR 42" water="true"/>
-		<territory name="RR 43" water="true"/>
-		<territory name="RR 44" water="true"/>
-		<territory name="RR 45" water="true"/>
-		<territory name="RR 46" water="true"/>
-		<territory name="RR 47" water="true"/>
-		<territory name="RR 48" water="true"/>
-		<territory name="RR 49" water="true"/>
-		<territory name="RR 50" water="true"/>
-		<territory name="RR 51" water="true"/>
-		<territory name="RR 52" water="true"/>
-		<territory name="RR 53" water="true"/>
-		<territory name="RR 54" water="true"/>
-		<territory name="RR 55" water="true"/>
-		<territory name="RR 56" water="true"/>
-		<territory name="RR 57" water="true"/>
-		<territory name="RR 58" water="true"/>
-		<territory name="RR 59" water="true"/>
-		<territory name="RR 60" water="true"/>
-		<territory name="RR 61" water="true"/>
-		<territory name="RR 62" water="true"/>
-		<territory name="RR 63" water="true"/>
-		<territory name="RR 64" water="true"/>
-		<territory name="RR 65" water="true"/>
-		<territory name="RR 66" water="true"/>
-		<territory name="RR 67" water="true"/>
-		<territory name="RR 68" water="true"/>
-		<territory name="RR 69" water="true"/>
-		<territory name="RR 70" water="true"/>
-		<territory name="RR 71" water="true"/>
-		<territory name="RR 72" water="true"/>
-		<territory name="RR 73" water="true"/>
-		<territory name="RR 74" water="true"/>
-		<territory name="RR 75" water="true"/>
-		<territory name="RR 76" water="true"/>
-		<territory name="RR 77" water="true"/>
-		<territory name="RR 78" water="true"/>
-		<territory name="RR 79" water="true"/>
-		<territory name="RR 80" water="true"/>
-		<territory name="RR 81" water="true"/>
-		<territory name="RR 82" water="true"/>
-		<territory name="RR 83" water="true"/>
-		<territory name="RR 84" water="true"/>
-		<territory name="RR 85" water="true"/>
-		<territory name="RR 86" water="true"/>
-		<territory name="RR 87" water="true"/>
-		<territory name="RR 88" water="true"/>
-		<territory name="RR 89" water="true"/>
-		<territory name="RR 90" water="true"/>
-		<territory name="RR 91" water="true"/>
-		<territory name="RR 92" water="true"/>
-		<territory name="RR 93" water="true"/>
-		<territory name="RR 94" water="true"/>
-		<territory name="RR 95" water="true"/>
-		<territory name="RR 96" water="true"/>
-		<territory name="RR 97" water="true"/>
-		<territory name="RR 98" water="true"/>
-		<territory name="RR 99" water="true"/>
-		<territory name="RR 100" water="true"/>
-		<territory name="RR 101" water="true"/>
-		<territory name="RR 102" water="true"/>
-		<territory name="RR 103" water="true"/>
-		<territory name="RR 104" water="true"/>
-		<territory name="RR 105" water="true"/>
-		<territory name="RR 106" water="true"/>
-		<territory name="RR 107" water="true"/>
-		<territory name="RR 108" water="true"/>
-		<territory name="RR 109" water="true"/>
-		<territory name="RR 110" water="true"/>
-		<territory name="RR 111" water="true"/>
-		<territory name="RR 112" water="true"/>
-		<territory name="RR 113" water="true"/>
-		<territory name="RR 114" water="true"/>
-		<territory name="RR 115" water="true"/>
-		<territory name="RR 116" water="true"/>
-		<territory name="RR 117" water="true"/>
-		<territory name="RR 118" water="true"/>
-		<territory name="RR 119" water="true"/>
-		<territory name="RR 120" water="true"/>
-		<territory name="RR 121" water="true"/>
-		<territory name="RR 122" water="true"/>
-		<territory name="RR 123" water="true"/>
-		<territory name="RR 124" water="true"/>
-		<territory name="RR 125" water="true"/>
-		<territory name="RR 126" water="true"/>
-		<territory name="RR 127" water="true"/>
-		<territory name="RR 128" water="true"/>
-		<territory name="RR 129" water="true"/>
-		<territory name="RR 130" water="true"/>
-		<territory name="RR 131" water="true"/>
-		<territory name="RR 132" water="true"/>
-		<territory name="RR 133" water="true"/>
-		<territory name="RR 134" water="true"/>
-		<territory name="RR 135" water="true"/>
-		<territory name="RR 136" water="true"/>
-		<territory name="RR 137" water="true"/>
-		<territory name="RR 138" water="true"/>
-		<territory name="RR 139" water="true"/>
-		<territory name="RR 140" water="true"/>
-		<territory name="RR 141" water="true"/>
-		<territory name="RR 142" water="true"/>
-		<territory name="RR 143" water="true"/>
-		<territory name="RR 144" water="true"/>
-		<territory name="RR 145" water="true"/>
-		<territory name="RR 146" water="true"/>
-		<territory name="RR 147" water="true"/>
-		<territory name="RR 148" water="true"/>
-		<territory name="RR 149" water="true"/>
-		<territory name="Rhiems"/>
-		<territory name="Rhineland"/>
-		<territory name="Rhodesia"/>
-		<territory name="Riga"/>
-		<territory name="Rize"/>
-		<territory name="Romania"/>
-		<territory name="Rome"/>
-		<territory name="Rostov"/>
-		<territory name="Ruhr"/>
-		<territory name="Russian Infiltration"/>
-		<territory name="S. Africa"/>
-		<territory name="S. Rhodesia"/>
-		<territory name="SZ 1" water="true"/>
-		<territory name="SZ 2" water="true"/>
-		<territory name="SZ 3" water="true"/>
-		<territory name="SZ 4" water="true"/>
-		<territory name="SZ 5" water="true"/>
-		<territory name="SZ 6" water="true"/>
-		<territory name="SZ 7" water="true"/>
-		<territory name="SZ 8" water="true"/>
-		<territory name="SZ 9" water="true"/>
-		<territory name="SZ 10" water="true"/>
-		<territory name="SZ 11" water="true"/>
-		<territory name="SZ 12" water="true"/>
-		<territory name="SZ 13" water="true"/>
-		<territory name="SZ 14" water="true"/>
-		<territory name="SZ 15" water="true"/>
-		<territory name="SZ 16" water="true"/>
-		<territory name="SZ 17" water="true"/>
-		<territory name="SZ 18" water="true"/>
-		<territory name="SZ 19" water="true"/>
-		<territory name="SZ 20" water="true"/>
-		<territory name="SZ 21" water="true"/>
-		<territory name="SZ 22" water="true"/>
-		<territory name="SZ 23" water="true"/>
-		<territory name="SZ 24" water="true"/>
-		<territory name="SZ 25" water="true"/>
-		<territory name="SZ 26" water="true"/>
-		<territory name="SZ 27" water="true"/>
-		<territory name="SZ 28" water="true"/>
-		<territory name="SZ 29" water="true"/>
-		<territory name="SZ 30" water="true"/>
-		<territory name="SZ 31" water="true"/>
-		<territory name="SZ 32" water="true"/>
-		<territory name="SZ 33" water="true"/>
-		<territory name="SZ 34" water="true"/>
-		<territory name="SZ 35" water="true"/>
-		<territory name="SZ 36" water="true"/>
-		<territory name="SZ 37" water="true"/>
-		<territory name="SZ 38" water="true"/>
-		<territory name="SZ 39" water="true"/>
-		<territory name="SZ 40" water="true"/>
-		<territory name="SZ 41" water="true"/>
-		<territory name="SZ 42" water="true"/>
-		<territory name="SZ 43" water="true"/>
-		<territory name="SZ 44" water="true"/>
-		<territory name="SZ 45" water="true"/>
-		<territory name="SZ 46" water="true"/>
-		<territory name="SZ 47" water="true"/>
-		<territory name="SZ 48" water="true"/>
-		<territory name="SZ 49" water="true"/>
-		<territory name="SZ 50" water="true"/>
-		<territory name="SZ 51" water="true"/>
-		<territory name="SZ 52" water="true"/>
-		<territory name="SZ 53" water="true"/>
-		<territory name="SZ 54" water="true"/>
-		<territory name="SZ 55" water="true"/>
-		<territory name="SZ 56" water="true"/>
-		<territory name="SZ 57" water="true"/>
-		<territory name="SZ 58" water="true"/>
-		<territory name="SZ 59" water="true"/>
-		<territory name="SZ 60" water="true"/>
-		<territory name="SZ 61" water="true"/>
-		<territory name="SZ 62" water="true"/>
-		<territory name="SZ 63" water="true"/>
-		<territory name="SZ 64" water="true"/>
-		<territory name="SZ 65" water="true"/>
-		<territory name="SZ 66" water="true"/>
-		<territory name="SZ 67" water="true"/>
-		<territory name="SZ 68" water="true"/>
-		<territory name="SZ 69" water="true"/>
-		<territory name="SZ 70" water="true"/>
-		<territory name="SZ 71" water="true"/>
-		<territory name="SZ 72" water="true"/>
-		<territory name="SZ 73" water="true"/>
-		<territory name="SZ 74" water="true"/>
-		<territory name="SZ 75" water="true"/>
-		<territory name="SZ 76" water="true"/>
-		<territory name="SZ 77" water="true"/>
-		<territory name="SZ 78" water="true"/>
-		<territory name="SZ 79" water="true"/>
-		<territory name="SZ 80" water="true"/>
-		<territory name="SZ 81" water="true"/>
-		<territory name="SZ 82" water="true"/>
-		<territory name="SZ 83" water="true"/>
-		<territory name="SZ 84" water="true"/>
-		<territory name="SZ 85" water="true"/>
-		<territory name="SZ 86" water="true"/>
-		<territory name="SZ 87" water="true"/>
-		<territory name="SZ 88" water="true"/>
-		<territory name="SZ 89" water="true"/>
-		<territory name="SZ 90" water="true"/>
-		<territory name="SZ 91" water="true"/>
-		<territory name="Samara"/>
-		<territory name="Sarajevo"/>
-		<territory name="Saratov"/>
-		<territory name="Sardinia"/>
-		<territory name="Saxony"/>
-		<territory name="Scotland"/>
-		<territory name="Senegal"/>
-		<territory name="Serbia"/>
-		<territory name="Sicily"/>
-		<territory name="Sierra Leone"/>
-		<territory name="Silesia"/>
-		<territory name="Sirte"/>
-		<territory name="Smolensk"/>
-		<territory name="Smyrna"/>
-		<territory name="Soissons"/>
-		<territory name="Somme"/>
-		<territory name="Southern Sudan"/>
-		<territory name="Spain"/>
-		<territory name="Spanish Morocco"/>
-		<territory name="St. Petersburg"/>
-		<territory name="Strasbourg"/>
-		<territory name="Svastepole"/>
-		<territory name="Sweden"/>
-		<territory name="Switzerland"/>
-		<territory name="Syria"/>
-		<territory name="Tabriz"/>
-		<territory name="Tabuk"/>
-		<territory name="Tallin"/>
-		<territory name="Tambov"/>
-		<territory name="Tartarstan"/>
-		<territory name="Tbilisi"/>
-		<territory name="Tobruk"/>
-		<territory name="Togoland"/>
-		<territory name="Trabzon"/>
-		<territory name="Transvaal"/>
-		<territory name="Trieste"/>
-		<territory name="Tripoli"/>
-		<territory name="Tula"/>
-		<territory name="Tunesia"/>
-		<territory name="Tunis"/>
-		<territory name="Tuscany"/>
-		<territory name="US 1"/>
-		<territory name="US 2"/>
-		<territory name="US 3"/>
-		<territory name="Uganda"/>
-		<territory name="United States"/>
-		<territory name="United States Mobilizes"/>
-		<territory name="Upper Volta"/>
-		<territory name="Venice"/>
-		<territory name="Verdun"/>
-		<territory name="Vienna"/>
-		<territory name="Vilnius"/>
-		<territory name="Vimy"/>
-		<territory name="Volgograd"/>
-		<territory name="Vologda"/>
-		<territory name="Vyatka"/>
-		<territory name="Yaroslavl"/>
-		<territory name="York"/>
-		<territory name="Ypres"/>
-		<territory name="al-Hasa"/>
-	
+        <territory name="Aachen" water="false"/>
+        <territory name="Abyssinia" water="false"/>
+        <territory name="Algeria" water="false"/>
+        <territory name="American Isolationism" water="false"/>
+        <territory name="Angolia" water="false"/>
+        <territory name="Ankara" water="false"/>
+        <territory name="Antalya" water="false"/>
+        <territory name="Arar" water="false"/>
+        <territory name="Ardennes" water="false"/>
+        <territory name="Argonne" water="false"/>
+        <territory name="Arras" water="false"/>
+        <territory name="Astrakhan" water="false"/>
+        <territory name="Australia" water="false"/>
+        <territory name="B. Somaliland" water="false"/>
+        <territory name="BR 1" water="false"/>
+        <territory name="BR 2" water="false"/>
+        <territory name="BR 3" water="false"/>
+        <territory name="BR 4" water="false"/>
+        <territory name="BR 5" water="false"/>
+        <territory name="BR 6" water="false"/>
+        <territory name="Bagdad" water="false"/>
+        <territory name="Baku" water="false"/>
+        <territory name="Bandundu" water="false"/>
+        <territory name="Bar-Le-Duc" water="false"/>
+        <territory name="Basrah" water="false"/>
+        <territory name="Bavaria" water="false"/>
+        <territory name="Be'er Sheva" water="false"/>
+        <territory name="Belarus" water="false"/>
+        <territory name="Berlin" water="false"/>
+        <territory name="Bohemia" water="false"/>
+        <territory name="Bolshevik Revolution" water="false"/>
+        <territory name="Bordeaux" water="false"/>
+        <territory name="British E. Africa" water="false"/>
+        <territory name="Brussels" water="false"/>
+        <territory name="Bryansk" water="false"/>
+        <territory name="Buchuanaland" water="false"/>
+        <territory name="Bulgaria" water="false"/>
+        <territory name="Burgundy" water="false"/>
+        <territory name="Cabinda" water="false"/>
+        <territory name="Cairo" water="false"/>
+        <territory name="Cameroon" water="false"/>
+        <territory name="Canada" water="false"/>
+        <territory name="Casablanca" water="false"/>
+        <territory name="Caucusus" water="false"/>
+        <territory name="Chad" water="false"/>
+        <territory name="Chantilly" water="false"/>
+        <territory name="Charleroi" water="false"/>
+        <territory name="Chaumont" water="false"/>
+        <territory name="Chikapa" water="false"/>
+        <territory name="Cologne" water="false"/>
+        <territory name="Compiegne" water="false"/>
+        <territory name="Corsica" water="false"/>
+        <territory name="Crete" water="false"/>
+        <territory name="Cyprus" water="false"/>
+        <territory name="Cyreniaca" water="false"/>
+        <territory name="Damascus" water="false"/>
+        <territory name="Denmark" water="false"/>
+        <territory name="Douamont" water="false"/>
+        <territory name="Egypt" water="false"/>
+        <territory name="Finland" water="false"/>
+        <territory name="Flanders" water="false"/>
+        <territory name="Fontainbleu" water="false"/>
+        <territory name="Frankfurt" water="false"/>
+        <territory name="French Equitorial Africa" water="false"/>
+        <territory name="French Guinea" water="false"/>
+        <territory name="French Niger" water="false"/>
+        <territory name="French Sudan" water="false"/>
+        <territory name="French West Africa" water="false"/>
+        <territory name="Galacia" water="false"/>
+        <territory name="Gallipoli" water="false"/>
+        <territory name="German E. Afrika" water="false"/>
+        <territory name="German Southwest Africa" water="false"/>
+        <territory name="Gibraltar" water="false"/>
+        <territory name="Gorkiy" water="false"/>
+        <territory name="Greece" water="false"/>
+        <territory name="Grozny" water="false"/>
+        <territory name="Hanover" water="false"/>
+        <territory name="Hejaz" water="false"/>
+        <territory name="Holland" water="false"/>
+        <territory name="Hungary" water="false"/>
+        <territory name="Hurghada" water="false"/>
+        <territory name="I. Somaliland" water="false"/>
+        <territory name="India" water="false"/>
+        <territory name="Innsbruck" water="false"/>
+        <territory name="Ireland" water="false"/>
+        <territory name="Istanbul" water="false"/>
+        <territory name="Ivanova" water="false"/>
+        <territory name="Ivory Coast" water="false"/>
+        <territory name="Izhevsk" water="false"/>
+        <territory name="Izmir" water="false"/>
+        <territory name="Jerusalem" water="false"/>
+        <territory name="Kabinda" water="false"/>
+        <territory name="Kaluga" water="false"/>
+        <territory name="Karkov" water="false"/>
+        <territory name="Kazan" water="false"/>
+        <territory name="Kiel" water="false"/>
+        <territory name="Kiev" water="false"/>
+        <territory name="Konya" water="false"/>
+        <territory name="Krasnodar" water="false"/>
+        <territory name="Lisala" water="false"/>
+        <territory name="London" water="false"/>
+        <territory name="Luderitz" water="false"/>
+        <territory name="Luneville" water="false"/>
+        <territory name="Macedonia" water="false"/>
+        <territory name="Madagascar" water="false"/>
+        <territory name="Marseilles" water="false"/>
+        <territory name="Mauritania" water="false"/>
+        <territory name="Mesopotamia" water="false"/>
+        <territory name="Metz" water="false"/>
+        <territory name="Moldova" water="false"/>
+        <territory name="Mont Blanc" water="false"/>
+        <territory name="Moscow" water="false"/>
+        <territory name="Mosul" water="false"/>
+        <territory name="Mozambique" water="false"/>
+        <territory name="Mumbaza" water="false"/>
+        <territory name="Nancy" water="false"/>
+        <territory name="Naples" water="false"/>
+        <territory name="Natal" water="false"/>
+        <territory name="Niangara" water="false"/>
+        <territory name="Nigeria" water="false"/>
+        <territory name="Normandy" water="false"/>
+        <territory name="Northern Rhineland" water="false"/>
+        <territory name="Northern Sudan" water="false"/>
+        <territory name="Norway" water="false"/>
+        <territory name="Nye Lukemba" water="false"/>
+        <territory name="Oman" water="false"/>
+        <territory name="Oryol" water="false"/>
+        <territory name="Paris" water="false"/>
+        <territory name="Paschendale" water="false"/>
+        <territory name="Penza" water="false"/>
+        <territory name="Persia" water="false"/>
+        <territory name="Petrozavodsk" water="false"/>
+        <territory name="Picardy" water="false"/>
+        <territory name="Piedmont" water="false"/>
+        <territory name="Poland" water="false"/>
+        <territory name="Pomerania" water="false"/>
+        <territory name="Portugal" water="false"/>
+        <territory name="Portuguese E. Africa" water="false"/>
+        <territory name="Prussia" water="false"/>
+        <territory name="RR 1" water="true"/>
+        <territory name="RR 2" water="true"/>
+        <territory name="RR 3" water="true"/>
+        <territory name="RR 4" water="true"/>
+        <territory name="RR 5" water="true"/>
+        <territory name="RR 6" water="true"/>
+        <territory name="RR 7" water="true"/>
+        <territory name="RR 8" water="true"/>
+        <territory name="RR 9" water="true"/>
+        <territory name="RR 10" water="true"/>
+        <territory name="RR 11" water="true"/>
+        <territory name="RR 12" water="true"/>
+        <territory name="RR 13" water="true"/>
+        <territory name="RR 14" water="true"/>
+        <territory name="RR 15" water="true"/>
+        <territory name="RR 16" water="true"/>
+        <territory name="RR 17" water="true"/>
+        <territory name="RR 18" water="true"/>
+        <territory name="RR 19" water="true"/>
+        <territory name="RR 20" water="true"/>
+        <territory name="RR 21" water="true"/>
+        <territory name="RR 22" water="true"/>
+        <territory name="RR 23" water="true"/>
+        <territory name="RR 24" water="true"/>
+        <territory name="RR 25" water="true"/>
+        <territory name="RR 26" water="true"/>
+        <territory name="RR 27" water="true"/>
+        <territory name="RR 28" water="true"/>
+        <territory name="RR 29" water="true"/>
+        <territory name="RR 30" water="true"/>
+        <territory name="RR 31" water="true"/>
+        <territory name="RR 32" water="true"/>
+        <territory name="RR 33" water="true"/>
+        <territory name="RR 34" water="true"/>
+        <territory name="RR 35" water="true"/>
+        <territory name="RR 36" water="true"/>
+        <territory name="RR 37" water="true"/>
+        <territory name="RR 38" water="true"/>
+        <territory name="RR 39" water="true"/>
+        <territory name="RR 40" water="true"/>
+        <territory name="RR 41" water="true"/>
+        <territory name="RR 42" water="true"/>
+        <territory name="RR 43" water="true"/>
+        <territory name="RR 44" water="true"/>
+        <territory name="RR 45" water="true"/>
+        <territory name="RR 46" water="true"/>
+        <territory name="RR 47" water="true"/>
+        <territory name="RR 48" water="true"/>
+        <territory name="RR 49" water="true"/>
+        <territory name="RR 50" water="true"/>
+        <territory name="RR 51" water="true"/>
+        <territory name="RR 52" water="true"/>
+        <territory name="RR 53" water="true"/>
+        <territory name="RR 54" water="true"/>
+        <territory name="RR 55" water="true"/>
+        <territory name="RR 56" water="true"/>
+        <territory name="RR 57" water="true"/>
+        <territory name="RR 58" water="true"/>
+        <territory name="RR 59" water="true"/>
+        <territory name="RR 60" water="true"/>
+        <territory name="RR 61" water="true"/>
+        <territory name="RR 62" water="true"/>
+        <territory name="RR 63" water="true"/>
+        <territory name="RR 64" water="true"/>
+        <territory name="RR 65" water="true"/>
+        <territory name="RR 66" water="true"/>
+        <territory name="RR 67" water="true"/>
+        <territory name="RR 68" water="true"/>
+        <territory name="RR 69" water="true"/>
+        <territory name="RR 70" water="true"/>
+        <territory name="RR 71" water="true"/>
+        <territory name="RR 72" water="true"/>
+        <territory name="RR 73" water="true"/>
+        <territory name="RR 74" water="true"/>
+        <territory name="RR 75" water="true"/>
+        <territory name="RR 76" water="true"/>
+        <territory name="RR 77" water="true"/>
+        <territory name="RR 78" water="true"/>
+        <territory name="RR 79" water="true"/>
+        <territory name="RR 80" water="true"/>
+        <territory name="RR 81" water="true"/>
+        <territory name="RR 82" water="true"/>
+        <territory name="RR 83" water="true"/>
+        <territory name="RR 84" water="true"/>
+        <territory name="RR 85" water="true"/>
+        <territory name="RR 86" water="true"/>
+        <territory name="RR 87" water="true"/>
+        <territory name="RR 88" water="true"/>
+        <territory name="RR 89" water="true"/>
+        <territory name="RR 90" water="true"/>
+        <territory name="RR 91" water="true"/>
+        <territory name="RR 92" water="true"/>
+        <territory name="RR 93" water="true"/>
+        <territory name="RR 94" water="true"/>
+        <territory name="RR 95" water="true"/>
+        <territory name="RR 96" water="true"/>
+        <territory name="RR 97" water="true"/>
+        <territory name="RR 98" water="true"/>
+        <territory name="RR 99" water="true"/>
+        <territory name="RR 100" water="true"/>
+        <territory name="RR 101" water="true"/>
+        <territory name="RR 102" water="true"/>
+        <territory name="RR 103" water="true"/>
+        <territory name="RR 104" water="true"/>
+        <territory name="RR 105" water="true"/>
+        <territory name="RR 106" water="true"/>
+        <territory name="RR 107" water="true"/>
+        <territory name="RR 108" water="true"/>
+        <territory name="RR 109" water="true"/>
+        <territory name="RR 110" water="true"/>
+        <territory name="RR 111" water="true"/>
+        <territory name="RR 112" water="true"/>
+        <territory name="RR 113" water="true"/>
+        <territory name="RR 114" water="true"/>
+        <territory name="RR 115" water="true"/>
+        <territory name="RR 116" water="true"/>
+        <territory name="RR 117" water="true"/>
+        <territory name="RR 118" water="true"/>
+        <territory name="RR 119" water="true"/>
+        <territory name="RR 120" water="true"/>
+        <territory name="RR 121" water="true"/>
+        <territory name="RR 122" water="true"/>
+        <territory name="RR 123" water="true"/>
+        <territory name="RR 124" water="true"/>
+        <territory name="RR 125" water="true"/>
+        <territory name="RR 126" water="true"/>
+        <territory name="RR 127" water="true"/>
+        <territory name="RR 128" water="true"/>
+        <territory name="RR 129" water="true"/>
+        <territory name="RR 130" water="true"/>
+        <territory name="RR 131" water="true"/>
+        <territory name="RR 132" water="true"/>
+        <territory name="RR 133" water="true"/>
+        <territory name="RR 134" water="true"/>
+        <territory name="RR 135" water="true"/>
+        <territory name="RR 136" water="true"/>
+        <territory name="RR 137" water="true"/>
+        <territory name="RR 138" water="true"/>
+        <territory name="RR 139" water="true"/>
+        <territory name="RR 140" water="true"/>
+        <territory name="RR 141" water="true"/>
+        <territory name="RR 142" water="true"/>
+        <territory name="RR 143" water="true"/>
+        <territory name="RR 144" water="true"/>
+        <territory name="RR 145" water="true"/>
+        <territory name="RR 146" water="true"/>
+        <territory name="RR 147" water="true"/>
+        <territory name="RR 148" water="true"/>
+        <territory name="RR 149" water="true"/>
+        <territory name="Rhiems" water="false"/>
+        <territory name="Rhineland" water="false"/>
+        <territory name="Rhodesia" water="false"/>
+        <territory name="Riga" water="false"/>
+        <territory name="Rize" water="false"/>
+        <territory name="Romania" water="false"/>
+        <territory name="Rome" water="false"/>
+        <territory name="Rostov" water="false"/>
+        <territory name="Ruhr" water="false"/>
+        <territory name="Russian Infiltration" water="false"/>
+        <territory name="S. Africa" water="false"/>
+        <territory name="S. Rhodesia" water="false"/>
+        <territory name="SZ 1" water="true"/>
+        <territory name="SZ 2" water="true"/>
+        <territory name="SZ 3" water="true"/>
+        <territory name="SZ 4" water="true"/>
+        <territory name="SZ 5" water="true"/>
+        <territory name="SZ 6" water="true"/>
+        <territory name="SZ 7" water="true"/>
+        <territory name="SZ 8" water="true"/>
+        <territory name="SZ 9" water="true"/>
+        <territory name="SZ 10" water="true"/>
+        <territory name="SZ 11" water="true"/>
+        <territory name="SZ 12" water="true"/>
+        <territory name="SZ 13" water="true"/>
+        <territory name="SZ 14" water="true"/>
+        <territory name="SZ 15" water="true"/>
+        <territory name="SZ 16" water="true"/>
+        <territory name="SZ 17" water="true"/>
+        <territory name="SZ 18" water="true"/>
+        <territory name="SZ 19" water="true"/>
+        <territory name="SZ 20" water="true"/>
+        <territory name="SZ 21" water="true"/>
+        <territory name="SZ 22" water="true"/>
+        <territory name="SZ 23" water="true"/>
+        <territory name="SZ 24" water="true"/>
+        <territory name="SZ 25" water="true"/>
+        <territory name="SZ 26" water="true"/>
+        <territory name="SZ 27" water="true"/>
+        <territory name="SZ 28" water="true"/>
+        <territory name="SZ 29" water="true"/>
+        <territory name="SZ 30" water="true"/>
+        <territory name="SZ 31" water="true"/>
+        <territory name="SZ 32" water="true"/>
+        <territory name="SZ 33" water="true"/>
+        <territory name="SZ 34" water="true"/>
+        <territory name="SZ 35" water="true"/>
+        <territory name="SZ 36" water="true"/>
+        <territory name="SZ 37" water="true"/>
+        <territory name="SZ 38" water="true"/>
+        <territory name="SZ 39" water="true"/>
+        <territory name="SZ 40" water="true"/>
+        <territory name="SZ 41" water="true"/>
+        <territory name="SZ 42" water="true"/>
+        <territory name="SZ 43" water="true"/>
+        <territory name="SZ 44" water="true"/>
+        <territory name="SZ 45" water="true"/>
+        <territory name="SZ 46" water="true"/>
+        <territory name="SZ 47" water="true"/>
+        <territory name="SZ 48" water="true"/>
+        <territory name="SZ 49" water="true"/>
+        <territory name="SZ 50" water="true"/>
+        <territory name="SZ 51" water="true"/>
+        <territory name="SZ 52" water="true"/>
+        <territory name="SZ 53" water="true"/>
+        <territory name="SZ 54" water="true"/>
+        <territory name="SZ 55" water="true"/>
+        <territory name="SZ 56" water="true"/>
+        <territory name="SZ 57" water="true"/>
+        <territory name="SZ 58" water="true"/>
+        <territory name="SZ 59" water="true"/>
+        <territory name="SZ 60" water="true"/>
+        <territory name="SZ 61" water="true"/>
+        <territory name="SZ 62" water="true"/>
+        <territory name="SZ 63" water="true"/>
+        <territory name="SZ 64" water="true"/>
+        <territory name="SZ 65" water="true"/>
+        <territory name="SZ 66" water="true"/>
+        <territory name="SZ 67" water="true"/>
+        <territory name="SZ 68" water="true"/>
+        <territory name="SZ 69" water="true"/>
+        <territory name="SZ 70" water="true"/>
+        <territory name="SZ 71" water="true"/>
+        <territory name="SZ 72" water="true"/>
+        <territory name="SZ 73" water="true"/>
+        <territory name="SZ 74" water="true"/>
+        <territory name="SZ 75" water="true"/>
+        <territory name="SZ 76" water="true"/>
+        <territory name="SZ 77" water="true"/>
+        <territory name="SZ 78" water="true"/>
+        <territory name="SZ 79" water="true"/>
+        <territory name="SZ 80" water="true"/>
+        <territory name="SZ 81" water="true"/>
+        <territory name="SZ 82" water="true"/>
+        <territory name="SZ 83" water="true"/>
+        <territory name="SZ 84" water="true"/>
+        <territory name="SZ 85" water="true"/>
+        <territory name="SZ 86" water="true"/>
+        <territory name="SZ 87" water="true"/>
+        <territory name="SZ 88" water="true"/>
+        <territory name="SZ 89" water="true"/>
+        <territory name="SZ 90" water="true"/>
+        <territory name="SZ 91" water="true"/>
+        <territory name="Samara" water="false"/>
+        <territory name="Sarajevo" water="false"/>
+        <territory name="Saratov" water="false"/>
+        <territory name="Sardinia" water="false"/>
+        <territory name="Saxony" water="false"/>
+        <territory name="Scotland" water="false"/>
+        <territory name="Senegal" water="false"/>
+        <territory name="Serbia" water="false"/>
+        <territory name="Sicily" water="false"/>
+        <territory name="Sierra Leone" water="false"/>
+        <territory name="Silesia" water="false"/>
+        <territory name="Sirte" water="false"/>
+        <territory name="Smolensk" water="false"/>
+        <territory name="Smyrna" water="false"/>
+        <territory name="Soissons" water="false"/>
+        <territory name="Somme" water="false"/>
+        <territory name="Southern Sudan" water="false"/>
+        <territory name="Spain" water="false"/>
+        <territory name="Spanish Morocco" water="false"/>
+        <territory name="St. Petersburg" water="false"/>
+        <territory name="Strasbourg" water="false"/>
+        <territory name="Svastepole" water="false"/>
+        <territory name="Sweden" water="false"/>
+        <territory name="Switzerland" water="false"/>
+        <territory name="Syria" water="false"/>
+        <territory name="Tabriz" water="false"/>
+        <territory name="Tabuk" water="false"/>
+        <territory name="Tallin" water="false"/>
+        <territory name="Tambov" water="false"/>
+        <territory name="Tartarstan" water="false"/>
+        <territory name="Tbilisi" water="false"/>
+        <territory name="Tobruk" water="false"/>
+        <territory name="Togoland" water="false"/>
+        <territory name="Trabzon" water="false"/>
+        <territory name="Transvaal" water="false"/>
+        <territory name="Trieste" water="false"/>
+        <territory name="Tripoli" water="false"/>
+        <territory name="Tula" water="false"/>
+        <territory name="Tunesia" water="false"/>
+        <territory name="Tunis" water="false"/>
+        <territory name="Tuscany" water="false"/>
+        <territory name="US 1" water="false"/>
+        <territory name="US 2" water="false"/>
+        <territory name="US 3" water="false"/>
+        <territory name="Uganda" water="false"/>
+        <territory name="United States" water="false"/>
+        <territory name="United States Mobilizes" water="false"/>
+        <territory name="Upper Volta" water="false"/>
+        <territory name="Venice" water="false"/>
+        <territory name="Verdun" water="false"/>
+        <territory name="Vienna" water="false"/>
+        <territory name="Vilnius" water="false"/>
+        <territory name="Vimy" water="false"/>
+        <territory name="Volgograd" water="false"/>
+        <territory name="Vologda" water="false"/>
+        <territory name="Vyatka" water="false"/>
+        <territory name="Yaroslavl" water="false"/>
+        <territory name="York" water="false"/>
+        <territory name="Ypres" water="false"/>
+        <territory name="al-Hasa" water="false"/>
         <connection t1="Paschendale" t2="Somme"/>
         <connection t1="Paschendale" t2="Vimy"/>
         <connection t1="Paschendale" t2="Ypres"/>
@@ -2960,7 +2958,7 @@
             <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="India" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="3" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Canada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="4" count=""/>
@@ -3097,7 +3095,7 @@
             <option name="production" value="2" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="German E. Afrika" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="4" count=""/>
+            <option name="production" value="5" count=""/>
             <option name="capital" value="Imperial-German-Afrika" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Luneville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -3166,7 +3164,7 @@
             <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Australia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="4" count=""/>
+            <option name="production" value="5" count=""/>
             <option name="capital" value="British-Commonwealth" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Kabinda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -3330,7 +3328,7 @@
             <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Senegal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="3" count=""/>
+            <option name="production" value="5" count=""/>
             <option name="capital" value="French-Colonial-Africa" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Vilnius" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -3787,7 +3785,7 @@
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Cairo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="3" count=""/>
+            <option name="production" value="4" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="RR 137" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
@@ -4000,40 +3998,40 @@
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 79" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 78" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 77" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 76" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 71" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 70" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 75" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 74" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 73" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 72" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 68" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 67" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 66" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
@@ -4042,7 +4040,7 @@
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 69" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 60" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
@@ -4063,43 +4061,79 @@
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 90" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Holland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 89" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 88" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 87" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 82" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 81" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 80" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 86" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 85" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 84" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 83" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="0" count=""/>
+            <option name="production" value="5" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Denmark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="BR 4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="BR 5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="BR 6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="3"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Gorkiy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Ivanova" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Izhevsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Kazan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Penza" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Petrozavodsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Tambov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Vologda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Vyatka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="1"/>
         </attachment>
     </attachmentList>
     <initialize>
@@ -4289,8 +4323,421 @@
             <territoryOwner territory="Tula" owner="Russians"/>
             <territoryOwner territory="Chikapa" owner="French-Colonial-Africa"/>
             <territoryOwner territory="Rhineland" owner="Germans"/>
+            <territoryOwner territory="BR 4" owner="Bolsheviks"/>
+            <territoryOwner territory="BR 5" owner="Bolsheviks"/>
+            <territoryOwner territory="BR 6" owner="Bolsheviks"/>
+            <territoryOwner territory="Gorkiy" owner="Russians"/>
+            <territoryOwner territory="Ivanova" owner="Russians"/>
+            <territoryOwner territory="Izhevsk" owner="Russians"/>
+            <territoryOwner territory="Kazan" owner="Russians"/>
+            <territoryOwner territory="Penza" owner="Russians"/>
+            <territoryOwner territory="Petrozavodsk" owner="Russians"/>
+            <territoryOwner territory="SZ 1" owner="Germans"/>
+            <territoryOwner territory="SZ 11" owner="Germans"/>
+            <territoryOwner territory="SZ 12" owner="Germans"/>
+            <territoryOwner territory="SZ 13" owner="Germans"/>
+            <territoryOwner territory="SZ 14" owner="British"/>
+            <territoryOwner territory="SZ 17" owner="Germans"/>
+            <territoryOwner territory="SZ 18" owner="British"/>
+            <territoryOwner territory="SZ 2" owner="Germans"/>
+            <territoryOwner territory="SZ 23" owner="British"/>
+            <territoryOwner territory="SZ 27" owner="British"/>
+            <territoryOwner territory="SZ 29" owner="French"/>
+            <territoryOwner territory="SZ 3" owner="Germans"/>
+            <territoryOwner territory="SZ 31" owner="Austrians"/>
+            <territoryOwner territory="SZ 34" owner="British"/>
+            <territoryOwner territory="SZ 4" owner="Germans"/>
+            <territoryOwner territory="SZ 5" owner="Germans"/>
+            <territoryOwner territory="SZ 57" owner="British-Commonwealth"/>
+            <territoryOwner territory="SZ 6" owner="British"/>
+            <territoryOwner territory="SZ 66" owner="British-Commonwealth"/>
+            <territoryOwner territory="SZ 67" owner="British"/>
+            <territoryOwner territory="SZ 68" owner="British"/>
+            <territoryOwner territory="SZ 69" owner="French"/>
+            <territoryOwner territory="SZ 70" owner="French"/>
+            <territoryOwner territory="SZ 71" owner="British"/>
+            <territoryOwner territory="SZ 72" owner="British"/>
+            <territoryOwner territory="SZ 73" owner="French"/>
+            <territoryOwner territory="SZ 74" owner="Germans"/>
+            <territoryOwner territory="SZ 75" owner="Russians"/>
+            <territoryOwner territory="SZ 76" owner="Americans"/>
+            <territoryOwner territory="SZ 77" owner="Americans"/>
+            <territoryOwner territory="SZ 78" owner="French-Colonial-Africa"/>
+            <territoryOwner territory="SZ 79" owner="Germans"/>
+            <territoryOwner territory="SZ 8" owner="British"/>
+            <territoryOwner territory="SZ 80" owner="Russians"/>
+            <territoryOwner territory="SZ 81" owner="French"/>
+            <territoryOwner territory="SZ 82" owner="Italians"/>
+            <territoryOwner territory="SZ 83" owner="British-Commonwealth"/>
+            <territoryOwner territory="SZ 84" owner="British-Commonwealth"/>
+            <territoryOwner territory="SZ 85" owner="Imperial-German-Afrika"/>
+            <territoryOwner territory="SZ 86" owner="Imperial-German-Afrika"/>
+            <territoryOwner territory="SZ 87" owner="British-Commonwealth"/>
+            <territoryOwner territory="SZ 88" owner="British-Commonwealth"/>
+            <territoryOwner territory="SZ 89" owner="Imperial-German-Afrika"/>
+            <territoryOwner territory="SZ 9" owner="Germans"/>
+            <territoryOwner territory="SZ 90" owner="French-Colonial-Africa"/>
+            <territoryOwner territory="Tambov" owner="Russians"/>
+            <territoryOwner territory="Vologda" owner="Russians"/>
+            <territoryOwner territory="Vyatka" owner="Russians"/>
         </ownerInitialize>
-        <unitInitialize/>
+        <unitInitialize>
+            <unitPlacement unitType="Infantry" territory="Abyssinia" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="American Isolationism" quantity="1" owner="Americans"/>
+            <unitPlacement unitType="Infantry" territory="Ardennes" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="Arras" quantity="1" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Arras" quantity="2" owner="British"/>
+            <unitPlacement unitType="Fighter" territory="Arras" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Arras" quantity="5" owner="British"/>
+            <unitPlacement unitType="Trenches" territory="Arras" quantity="3" owner="British"/>
+            <unitPlacement unitType="AA-Gun" territory="Australia" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Cavalry" territory="Australia" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Factory" territory="Australia" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Field-Artillery" territory="Australia" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Australia" quantity="4" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Shipyard" territory="Australia" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="B. Somaliland" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Bavaria" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Bavaria" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Factory" territory="Bavaria" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Bavaria" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Bavaria" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Be'er Sheva" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Be'er Sheva" quantity="3" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="Be'er Sheva" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Berlin" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Factory" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Berlin" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Fighter" territory="Berlin" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Berlin" quantity="5" owner="Germans"/>
+            <unitPlacement unitType="Zeppelin" territory="Berlin" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Bohemia" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="British E. Africa" quantity="3" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="British E. Africa" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Brussels" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Brussels" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Brussels" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Brussels" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Buchuanaland" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Bulgaria" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Bulgaria" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Bulgaria" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Bulgaria" quantity="5" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Bulgaria" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Cairo" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Factory" territory="Cairo" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Field-Artillery" territory="Cairo" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Fighter" territory="Cairo" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="Cairo" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Cairo" quantity="4" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Shipyard" territory="Cairo" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="Cairo" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Canada" quantity="1" owner="British"/>
+            <unitPlacement unitType="Cavalry" territory="Canada" quantity="2" owner="British"/>
+            <unitPlacement unitType="Factory" territory="Canada" quantity="1" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Canada" quantity="2" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Canada" quantity="5" owner="British"/>
+            <unitPlacement unitType="Shipyard" territory="Canada" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Charleroi" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Cologne" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Cologne" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="Douamont" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Douamont" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Douamont" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Fighter" territory="Douamont" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Douamont" quantity="8" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Douamont" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Egypt" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Cavalry" territory="Flanders" quantity="2" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Flanders" quantity="2" owner="British"/>
+            <unitPlacement unitType="Fighter" territory="Flanders" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Flanders" quantity="6" owner="British"/>
+            <unitPlacement unitType="Tank" territory="Flanders" quantity="1" owner="British"/>
+            <unitPlacement unitType="Cavalry" territory="Frankfurt" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Frankfurt" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Frankfurt" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="Galacia" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Galacia" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Field-Artillery" territory="Galacia" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Fighter" territory="Galacia" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Galacia" quantity="5" owner="Austrians"/>
+            <unitPlacement unitType="Trenches" territory="Galacia" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Gallipoli" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Field-Artillery" territory="Gallipoli" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Gallipoli" quantity="6" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="Gallipoli" quantity="4" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Gibraltar" quantity="1" owner="British"/>
+            <unitPlacement unitType="Cavalry" territory="Greece" quantity="2" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Greece" quantity="2" owner="British"/>
+            <unitPlacement unitType="Fighter" territory="Greece" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Greece" quantity="5" owner="British"/>
+            <unitPlacement unitType="Trenches" territory="Greece" quantity="3" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Hanover" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Hanover" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Hungary" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Field-Artillery" territory="Hungary" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Hungary" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Hurghada" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Cavalry" territory="India" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Field-Artillery" territory="India" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="India" quantity="3" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Innsbruck" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Innsbruck" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Field-Artillery" territory="Innsbruck" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Innsbruck" quantity="4" owner="Austrians"/>
+            <unitPlacement unitType="Trenches" territory="Innsbruck" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Ireland" quantity="3" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Ivory Coast" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="Ivory Coast" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Kiel" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Kiel" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Factory" territory="Kiel" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Kiel" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Kiel" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Shipyard" territory="Kiel" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Kiel" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="London" quantity="1" owner="British"/>
+            <unitPlacement unitType="Cavalry" territory="London" quantity="2" owner="British"/>
+            <unitPlacement unitType="Factory" territory="London" quantity="1" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="London" quantity="2" owner="British"/>
+            <unitPlacement unitType="Fighter" territory="London" quantity="2" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="London" quantity="6" owner="British"/>
+            <unitPlacement unitType="Shipyard" territory="London" quantity="1" owner="British"/>
+            <unitPlacement unitType="Trenches" territory="London" quantity="2" owner="British"/>
+            <unitPlacement unitType="Zeppelin" territory="London" quantity="1" owner="British"/>
+            <unitPlacement unitType="AA-Gun" territory="Luneville" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Luneville" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Luneville" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Fighter" territory="Luneville" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Luneville" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Luneville" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Macedonia" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Macedonia" quantity="3" owner="British"/>
+            <unitPlacement unitType="Trenches" territory="Macedonia" quantity="2" owner="British"/>
+            <unitPlacement unitType="Cavalry" territory="Mauritania" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Mauritania" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Metz" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Metz" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Metz" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Metz" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Metz" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="Mont Blanc" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Mont Blanc" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Mont Blanc" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Mont Blanc" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Mont Blanc" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Mozambique" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Natal" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Field-Artillery" territory="Nigeria" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Nigeria" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Cavalry" territory="Northern Rhineland" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Northern Rhineland" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Northern Rhineland" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Northern Sudan" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Northern Sudan" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Paschendale" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Paschendale" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Paschendale" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Fighter" territory="Paschendale" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Paschendale" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Paschendale" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="Poland" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Poland" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Poland" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Poland" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Poland" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Pomerania" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Pomerania" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Portugal" quantity="3" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Portuguese E. Africa" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Prussia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Prussia" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Prussia" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Prussia" quantity="5" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Prussia" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Rhineland" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Rhineland" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Rhodesia" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Rhodesia" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="Rhodesia" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Romania" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Romania" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Field-Artillery" territory="Romania" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Fighter" territory="Romania" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Romania" quantity="6" owner="Austrians"/>
+            <unitPlacement unitType="Trenches" territory="Romania" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Ruhr" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Ruhr" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Ruhr" quantity="5" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="S. Africa" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Cavalry" territory="S. Africa" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Field-Artillery" territory="S. Africa" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Fighter" territory="S. Africa" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="S. Africa" quantity="3" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="S. Africa" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="S. Rhodesia" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Submarine" territory="SZ 1" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Submarine" territory="SZ 11" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Submarine" territory="SZ 12" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Submarine" territory="SZ 13" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 14" quantity="2" owner="British"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 14" quantity="3" owner="British"/>
+            <unitPlacement unitType="Submarine" territory="SZ 17" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 18" quantity="1" owner="British"/>
+            <unitPlacement unitType="Battleship" territory="SZ 18" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 18" quantity="2" owner="British"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 18" quantity="3" owner="British"/>
+            <unitPlacement unitType="Submarine" territory="SZ 18" quantity="1" owner="British"/>
+            <unitPlacement unitType="Submarine" territory="SZ 2" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 23" quantity="2" owner="British"/>
+            <unitPlacement unitType="Freighter" territory="SZ 23" quantity="1" owner="British"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 23" quantity="3" owner="British"/>
+            <unitPlacement unitType="Troop-Transport" territory="SZ 23" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 27" quantity="2" owner="British"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 27" quantity="3" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 29" quantity="2" owner="French"/>
+            <unitPlacement unitType="Freighter" territory="SZ 29" quantity="1" owner="French"/>
+            <unitPlacement unitType="Submarine" territory="SZ 29" quantity="1" owner="French"/>
+            <unitPlacement unitType="Submarine" territory="SZ 3" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 31" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Battleship" territory="SZ 31" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 31" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Freighter" territory="SZ 31" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 31" quantity="5" owner="Austrians"/>
+            <unitPlacement unitType="Submarine" territory="SZ 31" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 34" quantity="2" owner="British"/>
+            <unitPlacement unitType="Battleship" territory="SZ 34" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 34" quantity="2" owner="British"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 34" quantity="3" owner="British"/>
+            <unitPlacement unitType="Troop-Transport" territory="SZ 34" quantity="1" owner="British"/>
+            <unitPlacement unitType="Submarine" territory="SZ 4" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Submarine" territory="SZ 5" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 57" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Battleship" territory="SZ 57" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 57" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Freighter" territory="SZ 57" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 57" quantity="3" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 6" quantity="1" owner="British"/>
+            <unitPlacement unitType="Battleship" territory="SZ 6" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 6" quantity="3" owner="British"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 6" quantity="3" owner="British"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 66" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Battleship" territory="SZ 66" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 66" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Freighter" territory="SZ 66" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 66" quantity="3" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 67" quantity="2" owner="British"/>
+            <unitPlacement unitType="Freighter" territory="SZ 67" quantity="1" owner="British"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 68" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 68" quantity="3" owner="British"/>
+            <unitPlacement unitType="Freighter" territory="SZ 68" quantity="1" owner="British"/>
+            <unitPlacement unitType="Troop-Transport" territory="SZ 68" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 69" quantity="2" owner="French"/>
+            <unitPlacement unitType="Freighter" territory="SZ 69" quantity="1" owner="French"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 7" quantity="5"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 70" quantity="2" owner="French"/>
+            <unitPlacement unitType="Freighter" territory="SZ 70" quantity="1" owner="French"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 71" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 71" quantity="3" owner="British"/>
+            <unitPlacement unitType="Freighter" territory="SZ 71" quantity="1" owner="British"/>
+            <unitPlacement unitType="Troop-Transport" territory="SZ 71" quantity="1" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 72" quantity="2" owner="British"/>
+            <unitPlacement unitType="Freighter" territory="SZ 72" quantity="1" owner="British"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 73" quantity="1" owner="French"/>
+            <unitPlacement unitType="Battleship" territory="SZ 73" quantity="1" owner="French"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 73" quantity="2" owner="French"/>
+            <unitPlacement unitType="Freighter" territory="SZ 73" quantity="1" owner="French"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 73" quantity="3" owner="French"/>
+            <unitPlacement unitType="Submarine" territory="SZ 73" quantity="1" owner="French"/>
+            <unitPlacement unitType="Freighter" territory="SZ 76" quantity="1" owner="Americans"/>
+            <unitPlacement unitType="Troop-Transport" territory="SZ 76" quantity="1" owner="Americans"/>
+            <unitPlacement unitType="Freighter" territory="SZ 77" quantity="1" owner="Americans"/>
+            <unitPlacement unitType="Troop-Transport" territory="SZ 77" quantity="1" owner="Americans"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 79" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Battleship" territory="SZ 79" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 79" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Freighter" territory="SZ 79" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 79" quantity="5" owner="Germans"/>
+            <unitPlacement unitType="Submarine" territory="SZ 79" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 8" quantity="2" owner="British"/>
+            <unitPlacement unitType="Battleship" territory="SZ 8" quantity="2" owner="British"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 8" quantity="3" owner="British"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 8" quantity="5" owner="British"/>
+            <unitPlacement unitType="Troop-Transport" territory="SZ 8" quantity="1" owner="British"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 83" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Battleship" territory="SZ 83" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 83" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Freighter" territory="SZ 83" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 83" quantity="3" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Battlecruiser" territory="SZ 9" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Battleship" territory="SZ 9" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Destroyer" territory="SZ 9" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Freighter" territory="SZ 9" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Harbor-Defenses" territory="SZ 9" quantity="5" owner="Germans"/>
+            <unitPlacement unitType="Submarine" territory="SZ 9" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Sarajevo" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Sarajevo" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Trenches" territory="Sarajevo" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Saxony" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Saxony" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Saxony" quantity="3" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Scotland" quantity="1" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Scotland" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Scotland" quantity="3" owner="British"/>
+            <unitPlacement unitType="Trenches" territory="Scotland" quantity="1" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Serbia" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Serbia" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Trenches" territory="Serbia" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Sierra Leone" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Infantry" territory="Sierra Leone" quantity="2" owner="British-Commonwealth"/>
+            <unitPlacement unitType="Trenches" territory="Sierra Leone" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Silesia" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Silesia" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Silesia" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Silesia" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="AA-Gun" territory="Somme" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Somme" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Somme" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Somme" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Somme" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Southern Sudan" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Strasbourg" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Strasbourg" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Strasbourg" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Strasbourg" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Transvaal" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Trieste" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Trieste" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Factory" territory="Trieste" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Field-Artillery" territory="Trieste" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Fighter" territory="Trieste" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Trieste" quantity="4" owner="Austrians"/>
+            <unitPlacement unitType="Shipyard" territory="Trieste" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Trenches" territory="Trieste" quantity="3" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Uganda" quantity="1" owner="British-Commonwealth"/>
+            <unitPlacement unitType="AA-Gun" territory="Vienna" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Cavalry" territory="Vienna" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Factory" territory="Vienna" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Field-Artillery" territory="Vienna" quantity="2" owner="Austrians"/>
+            <unitPlacement unitType="Fighter" territory="Vienna" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="Infantry" territory="Vienna" quantity="8" owner="Austrians"/>
+            <unitPlacement unitType="Zeppelin" territory="Vienna" quantity="1" owner="Austrians"/>
+            <unitPlacement unitType="AA-Gun" territory="Vimy" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Cavalry" territory="Vimy" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="Vimy" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Fighter" territory="Vimy" quantity="2" owner="Germans"/>
+            <unitPlacement unitType="Infantry" territory="Vimy" quantity="6" owner="Germans"/>
+            <unitPlacement unitType="Red-Baron" territory="Vimy" quantity="1" owner="Germans"/>
+            <unitPlacement unitType="Trenches" territory="Vimy" quantity="4" owner="Germans"/>
+            <unitPlacement unitType="Field-Artillery" territory="York" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="York" quantity="4" owner="British"/>
+            <unitPlacement unitType="AA-Gun" territory="Ypres" quantity="1" owner="British"/>
+            <unitPlacement unitType="Field-Artillery" territory="Ypres" quantity="2" owner="British"/>
+            <unitPlacement unitType="Fighter" territory="Ypres" quantity="1" owner="British"/>
+            <unitPlacement unitType="Infantry" territory="Ypres" quantity="5" owner="British"/>
+            <unitPlacement unitType="Trenches" territory="Ypres" quantity="3" owner="British"/>
+        </unitInitialize>
         <resourceInitialize>
             <resourceGiven player="Germans" resource="PUs" quantity="92"/>
             <resourceGiven player="French" resource="PUs" quantity="57"/>
