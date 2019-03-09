@@ -16,6 +16,9 @@
 <territory name="BR 1"/>
 <territory name="BR 2"/>
 <territory name="BR 3"/>
+<territory name="BR 4"/>
+<territory name="BR 5"/>
+<territory name="BR 6"/>
 <territory name="Bagdad"/>
 <territory name="Baku"/>
 <territory name="Bandundu"/>
@@ -47,7 +50,6 @@
 <territory name="Chikapa"/>
 <territory name="Cologne"/>
 <territory name="Compiegne"/>
-<territory name="Corsica"/>
 <territory name="Crete"/>
 <territory name="Cyprus"/>
 <territory name="Cyreniaca"/>
@@ -66,9 +68,10 @@
 <territory name="French West Africa"/>
 <territory name="Galacia"/>
 <territory name="Gallipoli"/>
-<territory name="German E. Afria"/>
+<territory name="German E. Afrika"/>
 <territory name="German Southwest Africa"/>
 <territory name="Gibraltar"/>
+<territory name="Gorkiy"/>
 <territory name="Greece"/>
 <territory name="Grozny"/>
 <territory name="Hanover"/>
@@ -81,12 +84,15 @@
 <territory name="Innsbruck"/>
 <territory name="Ireland"/>
 <territory name="Istanbul"/>
+<territory name="Ivanova"/>
 <territory name="Ivory Coast"/>
+<territory name="Izhevsk"/>
 <territory name="Izmir"/>
 <territory name="Jerusalem"/>
 <territory name="Kabinda"/>
 <territory name="Kaluga"/>
 <territory name="Karkov"/>
+<territory name="Kazan"/>
 <territory name="Kiel"/>
 <territory name="Kiev"/>
 <territory name="Konya"/>
@@ -116,13 +122,14 @@
 <territory name="Northern Rhineland"/>
 <territory name="Northern Sudan"/>
 <territory name="Norway"/>
-<territory name="Novgorod"/>
 <territory name="Nye Lukemba"/>
 <territory name="Oman"/>
 <territory name="Oryol"/>
 <territory name="Paris"/>
 <territory name="Paschendale"/>
+<territory name="Penza"/>
 <territory name="Persia"/>
+<territory name="Petrozavodsk"/>
 <territory name="Picardy"/>
 <territory name="Piedmont"/>
 <territory name="Poland"/>
@@ -271,6 +278,14 @@
 <territory name="RR 139" water="true"/>
 <territory name="RR 140" water="true"/>
 <territory name="RR 141" water="true"/>
+<territory name="RR 142" water="true"/>
+<territory name="RR 143" water="true"/>
+<territory name="RR 144" water="true"/>
+<territory name="RR 145" water="true"/>
+<territory name="RR 146" water="true"/>
+<territory name="RR 147" water="true"/>
+<territory name="RR 148" water="true"/>
+<territory name="RR 149" water="true"/>
 <territory name="Rhiems"/>
 <territory name="Rhineland"/>
 <territory name="Rhodesia"/>
@@ -317,9 +332,10 @@
 <territory name="SZ 32" water="true"/>
 <territory name="SZ 33" water="true"/>
 <territory name="SZ 34" water="true"/>
+<territory name="SZ 35" water="true"/>
 <territory name="SZ 36" water="true"/>
 <territory name="SZ 37" water="true"/>
-<territory name="SZ 39" water="true"/>
+<territory name="SZ 38" water="true"/>
 <territory name="SZ 40" water="true"/>
 <territory name="SZ 41" water="true"/>
 <territory name="SZ 42" water="true"/>
@@ -372,6 +388,7 @@
 <territory name="SZ 89" water="true"/>
 <territory name="SZ 90" water="true"/>
 <territory name="SZ 91" water="true"/>
+<territory name="Samara"/>
 <territory name="Sarajevo"/>
 <territory name="Saratov"/>
 <territory name="Sardinia"/>
@@ -399,6 +416,7 @@
 <territory name="Tabriz"/>
 <territory name="Tabuk"/>
 <territory name="Tallin"/>
+<territory name="Tambov"/>
 <territory name="Tartarstan"/>
 <territory name="Tbilisi"/>
 <territory name="Tobruk"/>
@@ -424,17 +442,19 @@
 <territory name="Vilnius"/>
 <territory name="Vimy"/>
 <territory name="Volgograd"/>
+<territory name="Vologda"/>
+<territory name="Vyatka"/>
 <territory name="Yaroslavl"/>
 <territory name="York"/>
 <territory name="Ypres"/>
 <territory name="al-Hasa"/>
 
 <!-- Territory Connections -->
-<connection t1="Aachen" t2="Ardennes"/>
 <connection t1="Aachen" t2="Brussels"/>
-<connection t1="Aachen" t2="Charleroi"/>
 <connection t1="Aachen" t2="Cologne"/>
 <connection t1="Aachen" t2="RR 120"/>
+<connection t1="Aachen" t2="Ardennes"/>
+<connection t1="Aachen" t2="Charleroi"/>
 <connection t1="Abyssinia" t2="B. Somaliland"/>
 <connection t1="Abyssinia" t2="British E. Africa"/>
 <connection t1="Abyssinia" t2="I. Somaliland"/>
@@ -442,8 +462,8 @@
 <connection t1="Abyssinia" t2="Uganda"/>
 <connection t1="Algeria" t2="Casablanca"/>
 <connection t1="Algeria" t2="RR 74"/>
-<connection t1="Algeria" t2="SZ 28"/>
 <connection t1="Algeria" t2="Tunesia"/>
+<connection t1="Algeria" t2="SZ 28"/>
 <connection t1="American Isolationism" t2="US 1"/>
 <connection t1="Angolia" t2="Buchuanaland"/>
 <connection t1="Angolia" t2="Cabinda"/>
@@ -456,52 +476,63 @@
 <connection t1="Ankara" t2="Istanbul"/>
 <connection t1="Ankara" t2="Konya"/>
 <connection t1="Ankara" t2="RR 60"/>
-<connection t1="Ankara" t2="SZ 36"/>
 <connection t1="Ankara" t2="Smyrna"/>
 <connection t1="Ankara" t2="Trabzon"/>
-<connection t1="Antalya" t2="Cyprus"/>
+<connection t1="Ankara" t2="SZ 36"/>
 <connection t1="Antalya" t2="Istanbul"/>
-<connection t1="Antalya" t2="Izmir"/>
 <connection t1="Antalya" t2="Konya"/>
 <connection t1="Antalya" t2="RR 63"/>
+<connection t1="Antalya" t2="Izmir"/>
+<connection t1="Antalya" t2="SZ 35"/>
 <connection t1="Arar" t2="Bagdad"/>
 <connection t1="Arar" t2="Damascus"/>
 <connection t1="Arar" t2="Jerusalem"/>
 <connection t1="Arar" t2="Mosul"/>
 <connection t1="Arar" t2="Syria"/>
-<connection t1="Ardennes" t2="Charleroi"/>
 <connection t1="Ardennes" t2="Cologne"/>
 <connection t1="Ardennes" t2="Douamont"/>
 <connection t1="Ardennes" t2="Frankfurt"/>
 <connection t1="Ardennes" t2="Mont Blanc"/>
 <connection t1="Ardennes" t2="RR 126"/>
+<connection t1="Ardennes" t2="Charleroi"/>
 <connection t1="Argonne" t2="Chantilly"/>
-<connection t1="Argonne" t2="Chaumont"/>
 <connection t1="Argonne" t2="Mont Blanc"/>
 <connection t1="Argonne" t2="RR 131"/>
-<connection t1="Argonne" t2="Rhiems"/>
 <connection t1="Argonne" t2="Soissons"/>
-<connection t1="Argonne" t2="Verdun"/>
 <connection t1="Argonne" t2="Vimy"/>
-<connection t1="Arras" t2="Compiegne"/>
+<connection t1="Argonne" t2="Rhiems"/>
+<connection t1="Argonne" t2="Verdun"/>
+<connection t1="Argonne" t2="Chaumont"/>
 <connection t1="Arras" t2="Flanders"/>
 <connection t1="Arras" t2="RR 123"/>
-<connection t1="Arras" t2="Soissons"/>
 <connection t1="Arras" t2="Somme"/>
 <connection t1="Arras" t2="Ypres"/>
+<connection t1="Arras" t2="Soissons"/>
+<connection t1="Arras" t2="Compiegne"/>
 <connection t1="Astrakhan" t2="Caucusus"/>
 <connection t1="Astrakhan" t2="Grozny"/>
-<connection t1="Astrakhan" t2="Tartarstan"/>
+<connection t1="Astrakhan" t2="Penza"/>
 <connection t1="Australia" t2="SZ 66"/>
 <connection t1="B. Somaliland" t2="I. Somaliland"/>
 <connection t1="B. Somaliland" t2="Northern Sudan"/>
 <connection t1="B. Somaliland" t2="RR 99"/>
 <connection t1="B. Somaliland" t2="SZ 41"/>
+<connection t1="B. Somaliland" t2="RR 100"/>
 <connection t1="B. Somaliland" t2="Southern Sudan"/>
 <connection t1="BR 1" t2="BR 2"/>
 <connection t1="BR 1" t2="Bolshevik Revolution"/>
 <connection t1="BR 2" t2="BR 3"/>
 <connection t1="BR 3" t2="Russian Infiltration"/>
+<connection t1="BR 4" t2="RR 149"/>
+<connection t1="BR 4" t2="Vologda"/>
+<connection t1="BR 4" t2="Vyatka"/>
+<connection t1="BR 5" t2="Kazan"/>
+<connection t1="BR 5" t2="RR 146"/>
+<connection t1="BR 5" t2="Samara"/>
+<connection t1="BR 5" t2="Izhevsk"/>
+<connection t1="BR 6" t2="Penza"/>
+<connection t1="BR 6" t2="RR 144"/>
+<connection t1="BR 6" t2="Tartarstan"/>
 <connection t1="Bagdad" t2="Basrah"/>
 <connection t1="Bagdad" t2="Mesopotamia"/>
 <connection t1="Bagdad" t2="Mosul"/>
@@ -510,53 +541,53 @@
 <connection t1="Baku" t2="Grozny"/>
 <connection t1="Baku" t2="Tabriz"/>
 <connection t1="Baku" t2="Tbilisi"/>
-<connection t1="Bandundu" t2="Cabinda"/>
 <connection t1="Bandundu" t2="Cameroon"/>
-<connection t1="Bandundu" t2="Chikapa"/>
 <connection t1="Bandundu" t2="French Equitorial Africa"/>
 <connection t1="Bandundu" t2="Kabinda"/>
 <connection t1="Bandundu" t2="Lisala"/>
 <connection t1="Bandundu" t2="RR 102"/>
-<connection t1="Bar-Le-Duc" t2="Chaumont"/>
+<connection t1="Bandundu" t2="Cabinda"/>
+<connection t1="Bandundu" t2="Chikapa"/>
 <connection t1="Bar-Le-Duc" t2="Luneville"/>
 <connection t1="Bar-Le-Duc" t2="Nancy"/>
 <connection t1="Bar-Le-Duc" t2="RR 138"/>
 <connection t1="Bar-Le-Duc" t2="Rhiems"/>
+<connection t1="Bar-Le-Duc" t2="Chaumont"/>
 <connection t1="Basrah" t2="Mesopotamia"/>
 <connection t1="Basrah" t2="RR 85"/>
-<connection t1="Basrah" t2="SZ 39"/>
 <connection t1="Basrah" t2="al-Hasa"/>
-<connection t1="Bavaria" t2="Hanover"/>
 <connection t1="Bavaria" t2="Innsbruck"/>
 <connection t1="Bavaria" t2="RR 29"/>
-<connection t1="Bavaria" t2="Ruhr"/>
 <connection t1="Bavaria" t2="Saxony"/>
 <connection t1="Bavaria" t2="Switzerland"/>
+<connection t1="Bavaria" t2="Hanover"/>
+<connection t1="Bavaria" t2="Ruhr"/>
 <connection t1="Be'er Sheva" t2="Cairo"/>
-<connection t1="Be'er Sheva" t2="Jerusalem"/>
 <connection t1="Be'er Sheva" t2="RR 83"/>
-<connection t1="Be'er Sheva" t2="SZ 83"/>
+<connection t1="Be'er Sheva" t2="SZ 38"/>
 <connection t1="Be'er Sheva" t2="Tabuk"/>
+<connection t1="Be'er Sheva" t2="Jerusalem"/>
+<connection t1="Be'er Sheva" t2="SZ 83"/>
 <connection t1="Belarus" t2="Bryansk"/>
 <connection t1="Belarus" t2="Kiev"/>
-<connection t1="Belarus" t2="Oryol"/>
-<connection t1="Belarus" t2="Poland"/>
 <connection t1="Belarus" t2="RR 23"/>
-<connection t1="Belarus" t2="Riga"/>
+<connection t1="Belarus" t2="Oryol"/>
 <connection t1="Belarus" t2="Smolensk"/>
+<connection t1="Belarus" t2="Poland"/>
 <connection t1="Belarus" t2="Vilnius"/>
+<connection t1="Belarus" t2="Riga"/>
 <connection t1="Berlin" t2="Hanover"/>
-<connection t1="Berlin" t2="Pomerania"/>
 <connection t1="Berlin" t2="RR 20"/>
-<connection t1="Berlin" t2="Saxony"/>
+<connection t1="Berlin" t2="Pomerania"/>
 <connection t1="Berlin" t2="Silesia"/>
+<connection t1="Berlin" t2="Saxony"/>
+<connection t1="Berlin" t2="RR 30"/>
 <connection t1="Bohemia" t2="Galacia"/>
-<connection t1="Bohemia" t2="Innsbruck"/>
 <connection t1="Bohemia" t2="RR 31"/>
-<connection t1="Bohemia" t2="RR 32"/>
 <connection t1="Bohemia" t2="Saxony"/>
 <connection t1="Bohemia" t2="Silesia"/>
 <connection t1="Bohemia" t2="Vienna"/>
+<connection t1="Bohemia" t2="Innsbruck"/>
 <connection t1="Bordeaux" t2="Marseilles"/>
 <connection t1="Bordeaux" t2="Normandy"/>
 <connection t1="Bordeaux" t2="Paris"/>
@@ -569,34 +600,33 @@
 <connection t1="British E. Africa" t2="Mumbaza"/>
 <connection t1="British E. Africa" t2="RR 103"/>
 <connection t1="British E. Africa" t2="SZ 42"/>
-<connection t1="British E. Africa" t2="SZ 50"/>
 <connection t1="British E. Africa" t2="Uganda"/>
-<connection t1="Brussels" t2="Charleroi"/>
 <connection t1="Brussels" t2="Paschendale"/>
 <connection t1="Brussels" t2="RR 119"/>
 <connection t1="Brussels" t2="Vimy"/>
+<connection t1="Brussels" t2="Charleroi"/>
 <connection t1="Bryansk" t2="Karkov"/>
-<connection t1="Bryansk" t2="Kiev"/>
 <connection t1="Bryansk" t2="Oryol"/>
 <connection t1="Bryansk" t2="RR 34"/>
 <connection t1="Bryansk" t2="Volgograd"/>
+<connection t1="Bryansk" t2="Kiev"/>
 <connection t1="Buchuanaland" t2="German Southwest Africa"/>
 <connection t1="Buchuanaland" t2="Luderitz"/>
 <connection t1="Buchuanaland" t2="Rhodesia"/>
 <connection t1="Buchuanaland" t2="S. Africa"/>
 <connection t1="Buchuanaland" t2="S. Rhodesia"/>
 <connection t1="Buchuanaland" t2="Transvaal"/>
-<connection t1="Bulgaria" t2="Gallipoli"/>
-<connection t1="Bulgaria" t2="Macedonia"/>
 <connection t1="Bulgaria" t2="RR 54"/>
 <connection t1="Bulgaria" t2="Romania"/>
+<connection t1="Bulgaria" t2="Serbia"/>
+<connection t1="Bulgaria" t2="Gallipoli"/>
+<connection t1="Bulgaria" t2="Macedonia"/>
 <connection t1="Bulgaria" t2="SZ 34"/>
 <connection t1="Bulgaria" t2="SZ 36"/>
-<connection t1="Bulgaria" t2="Serbia"/>
-<connection t1="Burgundy" t2="Marseilles"/>
 <connection t1="Burgundy" t2="Paris"/>
 <connection t1="Burgundy" t2="Picardy"/>
 <connection t1="Burgundy" t2="RR 28"/>
+<connection t1="Burgundy" t2="Marseilles"/>
 <connection t1="Burgundy" t2="Switzerland"/>
 <connection t1="Cabinda" t2="Chikapa"/>
 <connection t1="Cabinda" t2="French Equitorial Africa"/>
@@ -604,12 +634,14 @@
 <connection t1="Cabinda" t2="SZ 55"/>
 <connection t1="Cairo" t2="Egypt"/>
 <connection t1="Cairo" t2="RR 82"/>
+<connection t1="Cairo" t2="SZ 38"/>
 <connection t1="Cairo" t2="SZ 83"/>
 <connection t1="Cameroon" t2="Chad"/>
 <connection t1="Cameroon" t2="French Equitorial Africa"/>
 <connection t1="Cameroon" t2="Lisala"/>
 <connection t1="Cameroon" t2="Nigeria"/>
 <connection t1="Cameroon" t2="RR 97"/>
+<connection t1="Cameroon" t2="RR 96"/>
 <connection t1="Cameroon" t2="SZ 52"/>
 <connection t1="Cameroon" t2="SZ 55"/>
 <connection t1="Canada" t2="SZ 23"/>
@@ -618,20 +650,20 @@
 <connection t1="Casablanca" t2="SZ 26"/>
 <connection t1="Casablanca" t2="SZ 28"/>
 <connection t1="Casablanca" t2="Spanish Morocco"/>
-<connection t1="Caucusus" t2="Grozny"/>
+<connection t1="Caucusus" t2="Penza"/>
 <connection t1="Caucusus" t2="RR 45"/>
 <connection t1="Caucusus" t2="Rostov"/>
 <connection t1="Caucusus" t2="Saratov"/>
-<connection t1="Caucusus" t2="Tartarstan"/>
 <connection t1="Caucusus" t2="Volgograd"/>
+<connection t1="Caucusus" t2="Grozny"/>
 <connection t1="Chad" t2="French Niger"/>
 <connection t1="Chad" t2="Lisala"/>
 <connection t1="Chad" t2="Niangara"/>
 <connection t1="Chad" t2="Southern Sudan"/>
 <connection t1="Chantilly" t2="Chaumont"/>
-<connection t1="Chantilly" t2="Compiegne"/>
 <connection t1="Chantilly" t2="Fontainbleu"/>
 <connection t1="Chantilly" t2="RR 134"/>
+<connection t1="Chantilly" t2="Compiegne"/>
 <connection t1="Chantilly" t2="Soissons"/>
 <connection t1="Charleroi" t2="Mont Blanc"/>
 <connection t1="Charleroi" t2="Vimy"/>
@@ -639,56 +671,51 @@
 <connection t1="Chaumont" t2="Rhiems"/>
 <connection t1="Chikapa" t2="Kabinda"/>
 <connection t1="Chikapa" t2="Rhodesia"/>
-<connection t1="Cologne" t2="Frankfurt"/>
 <connection t1="Cologne" t2="Northern Rhineland"/>
 <connection t1="Cologne" t2="RR 121"/>
+<connection t1="Cologne" t2="Frankfurt"/>
 <connection t1="Cologne" t2="Rhineland"/>
 <connection t1="Compiegne" t2="Flanders"/>
 <connection t1="Compiegne" t2="Fontainbleu"/>
 <connection t1="Compiegne" t2="RR 127"/>
 <connection t1="Compiegne" t2="Soissons"/>
-<connection t1="Corsica" t2="SZ 29"/>
-<connection t1="Crete" t2="Cyprus"/>
 <connection t1="Crete" t2="SZ 32"/>
 <connection t1="Crete" t2="SZ 33"/>
 <connection t1="Crete" t2="SZ 34"/>
-<connection t1="Cyprus" t2="Damascus"/>
-<connection t1="Cyprus" t2="Egypt"/>
-<connection t1="Cyprus" t2="Izmir"/>
-<connection t1="Cyprus" t2="Jerusalem"/>
-<connection t1="Cyprus" t2="Konya"/>
-<connection t1="Cyprus" t2="SZ 33"/>
-<connection t1="Cyprus" t2="SZ 34"/>
-<connection t1="Cyprus" t2="SZ 83"/>
-<connection t1="Cyprus" t2="Syria"/>
+<connection t1="Crete" t2="SZ 35"/>
+<connection t1="Cyprus" t2="SZ 35"/>
 <connection t1="Cyreniaca" t2="RR 79"/>
-<connection t1="Cyreniaca" t2="SZ 33"/>
 <connection t1="Cyreniaca" t2="Sirte"/>
 <connection t1="Cyreniaca" t2="Tobruk"/>
+<connection t1="Cyreniaca" t2="SZ 33"/>
 <connection t1="Damascus" t2="Jerusalem"/>
 <connection t1="Damascus" t2="RR 67"/>
 <connection t1="Damascus" t2="Syria"/>
+<connection t1="Damascus" t2="SZ 35"/>
 <connection t1="Denmark" t2="Kiel"/>
 <connection t1="Denmark" t2="SZ 7"/>
 <connection t1="Denmark" t2="SZ 9"/>
+<connection t1="Denmark" t2="SZ 79"/>
 <connection t1="Douamont" t2="Frankfurt"/>
-<connection t1="Douamont" t2="Metz"/>
 <connection t1="Douamont" t2="Mont Blanc"/>
-<connection t1="Douamont" t2="Nancy"/>
 <connection t1="Douamont" t2="RR 132"/>
+<connection t1="Douamont" t2="Metz"/>
+<connection t1="Douamont" t2="Nancy"/>
 <connection t1="Douamont" t2="Verdun"/>
-<connection t1="Egypt" t2="Hurghada"/>
 <connection t1="Egypt" t2="RR 81"/>
+<connection t1="Egypt" t2="SZ 35"/>
 <connection t1="Egypt" t2="SZ 83"/>
 <connection t1="Egypt" t2="Tobruk"/>
+<connection t1="Egypt" t2="Hurghada"/>
+<connection t1="Egypt" t2="SZ 38"/>
 <connection t1="Finland" t2="SZ 91"/>
 <connection t1="Finland" t2="St. Petersburg"/>
 <connection t1="Flanders" t2="RR 118"/>
 <connection t1="Flanders" t2="Ypres"/>
 <connection t1="Fontainbleu" t2="RR 137"/>
-<connection t1="Frankfurt" t2="Metz"/>
 <connection t1="Frankfurt" t2="RR 130"/>
 <connection t1="Frankfurt" t2="Rhineland"/>
+<connection t1="Frankfurt" t2="Metz"/>
 <connection t1="French Equitorial Africa" t2="RR 101"/>
 <connection t1="French Equitorial Africa" t2="SZ 55"/>
 <connection t1="French Guinea" t2="Ivory Coast"/>
@@ -696,9 +723,9 @@
 <connection t1="French Guinea" t2="Senegal"/>
 <connection t1="French Guinea" t2="Sierra Leone"/>
 <connection t1="French Niger" t2="French West Africa"/>
-<connection t1="French Niger" t2="Northern Sudan"/>
 <connection t1="French Niger" t2="RR 89"/>
 <connection t1="French Niger" t2="Southern Sudan"/>
+<connection t1="French Niger" t2="Northern Sudan"/>
 <connection t1="French Sudan" t2="French West Africa"/>
 <connection t1="French Sudan" t2="Ivory Coast"/>
 <connection t1="French Sudan" t2="Senegal"/>
@@ -706,27 +733,34 @@
 <connection t1="French West Africa" t2="Nigeria"/>
 <connection t1="French West Africa" t2="RR 88"/>
 <connection t1="French West Africa" t2="Upper Volta"/>
-<connection t1="Galacia" t2="Hungary"/>
 <connection t1="Galacia" t2="Kiev"/>
-<connection t1="Galacia" t2="Moldova"/>
 <connection t1="Galacia" t2="Poland"/>
 <connection t1="Galacia" t2="RR 32"/>
-<connection t1="Galacia" t2="Romania"/>
 <connection t1="Galacia" t2="Silesia"/>
 <connection t1="Galacia" t2="Vienna"/>
+<connection t1="Galacia" t2="Hungary"/>
+<connection t1="Galacia" t2="Moldova"/>
+<connection t1="Galacia" t2="Romania"/>
 <connection t1="Gallipoli" t2="SZ 34"/>
 <connection t1="Gallipoli" t2="SZ 36"/>
-<connection t1="German E. Afria" t2="Mumbaza"/>
-<connection t1="German E. Afria" t2="Portuguese E. Africa"/>
-<connection t1="German E. Afria" t2="RR 108"/>
-<connection t1="German E. Afria" t2="Rhodesia"/>
-<connection t1="German E. Afria" t2="SZ 50"/>
+<connection t1="German E. Afrika" t2="Mumbaza"/>
+<connection t1="German E. Afrika" t2="RR 108"/>
+<connection t1="German E. Afrika" t2="Rhodesia"/>
+<connection t1="German E. Afrika" t2="Portuguese E. Africa"/>
+<connection t1="German E. Afrika" t2="SZ 50"/>
 <connection t1="German Southwest Africa" t2="Luderitz"/>
 <connection t1="German Southwest Africa" t2="RR 112"/>
 <connection t1="German Southwest Africa" t2="SZ 56"/>
 <connection t1="Gibraltar" t2="Portugal"/>
 <connection t1="Gibraltar" t2="SZ 27"/>
 <connection t1="Gibraltar" t2="Spain"/>
+<connection t1="Gorkiy" t2="Ivanova"/>
+<connection t1="Gorkiy" t2="Kazan"/>
+<connection t1="Gorkiy" t2="Moscow"/>
+<connection t1="Gorkiy" t2="RR 15"/>
+<connection t1="Gorkiy" t2="Samara"/>
+<connection t1="Gorkiy" t2="Tambov"/>
+<connection t1="Gorkiy" t2="Tula"/>
 <connection t1="Greece" t2="Macedonia"/>
 <connection t1="Greece" t2="RR 58"/>
 <connection t1="Greece" t2="SZ 32"/>
@@ -742,44 +776,54 @@
 <connection t1="Hanover" t2="Saxony"/>
 <connection t1="Hejaz" t2="Oman"/>
 <connection t1="Hejaz" t2="RR 91"/>
+<connection t1="Hejaz" t2="RR 92"/>
 <connection t1="Hejaz" t2="SZ 41"/>
 <connection t1="Holland" t2="Kiel"/>
 <connection t1="Holland" t2="Ruhr"/>
 <connection t1="Holland" t2="SZ 9"/>
-<connection t1="Hungary" t2="RR 32"/>
 <connection t1="Hungary" t2="RR 48"/>
-<connection t1="Hungary" t2="Romania"/>
-<connection t1="Hungary" t2="Sarajevo"/>
-<connection t1="Hungary" t2="Serbia"/>
 <connection t1="Hungary" t2="Trieste"/>
 <connection t1="Hungary" t2="Vienna"/>
+<connection t1="Hungary" t2="Sarajevo"/>
+<connection t1="Hungary" t2="Serbia"/>
+<connection t1="Hungary" t2="Romania"/>
 <connection t1="Hurghada" t2="RR 86"/>
+<connection t1="Hurghada" t2="SZ 38"/>
 <connection t1="I. Somaliland" t2="RR 100"/>
 <connection t1="I. Somaliland" t2="SZ 42"/>
 <connection t1="India" t2="Persia"/>
 <connection t1="India" t2="SZ 44"/>
+<connection t1="Innsbruck" t2="RR 40"/>
 <connection t1="Innsbruck" t2="RR 141"/>
 <connection t1="Innsbruck" t2="Saxony"/>
-<connection t1="Innsbruck" t2="Switzerland"/>
-<connection t1="Innsbruck" t2="Trieste"/>
-<connection t1="Innsbruck" t2="Venice"/>
 <connection t1="Innsbruck" t2="Vienna"/>
+<connection t1="Innsbruck" t2="Venice"/>
+<connection t1="Innsbruck" t2="Switzerland"/>
 <connection t1="Ireland" t2="SZ 13"/>
 <connection t1="Ireland" t2="SZ 14"/>
 <connection t1="Ireland" t2="SZ 18"/>
 <connection t1="Istanbul" t2="Izmir"/>
 <connection t1="Istanbul" t2="RR 59"/>
 <connection t1="Istanbul" t2="SZ 36"/>
+<connection t1="Ivanova" t2="Moscow"/>
+<connection t1="Ivanova" t2="RR 147"/>
+<connection t1="Ivanova" t2="Vologda"/>
+<connection t1="Ivanova" t2="Vyatka"/>
+<connection t1="Ivanova" t2="Yaroslavl"/>
+<connection t1="Ivanova" t2="Kazan"/>
 <connection t1="Ivory Coast" t2="RR 94"/>
-<connection t1="Ivory Coast" t2="SZ 52"/>
 <connection t1="Ivory Coast" t2="Senegal"/>
 <connection t1="Ivory Coast" t2="Sierra Leone"/>
 <connection t1="Ivory Coast" t2="Togoland"/>
 <connection t1="Ivory Coast" t2="Upper Volta"/>
+<connection t1="Ivory Coast" t2="SZ 52"/>
+<connection t1="Izhevsk" t2="Kazan"/>
+<connection t1="Izhevsk" t2="Vyatka"/>
 <connection t1="Izmir" t2="SZ 34"/>
+<connection t1="Izmir" t2="SZ 35"/>
 <connection t1="Izmir" t2="SZ 36"/>
 <connection t1="Jerusalem" t2="RR 70"/>
-<connection t1="Jerusalem" t2="SZ 83"/>
+<connection t1="Jerusalem" t2="SZ 35"/>
 <connection t1="Jerusalem" t2="Tabuk"/>
 <connection t1="Kabinda" t2="Lisala"/>
 <connection t1="Kabinda" t2="Nye Lukemba"/>
@@ -789,27 +833,31 @@
 <connection t1="Kaluga" t2="RR 13"/>
 <connection t1="Kaluga" t2="Smolensk"/>
 <connection t1="Kaluga" t2="St. Petersburg"/>
-<connection t1="Kaluga" t2="Tula"/>
 <connection t1="Kaluga" t2="Yaroslavl"/>
-<connection t1="Karkov" t2="Kiev"/>
-<connection t1="Karkov" t2="Moldova"/>
+<connection t1="Kaluga" t2="Tula"/>
 <connection t1="Karkov" t2="RR 42"/>
 <connection t1="Karkov" t2="Rostov"/>
 <connection t1="Karkov" t2="SZ 37"/>
 <connection t1="Karkov" t2="Svastepole"/>
 <connection t1="Karkov" t2="Volgograd"/>
+<connection t1="Karkov" t2="Kiev"/>
+<connection t1="Karkov" t2="Moldova"/>
+<connection t1="Kazan" t2="RR 145"/>
+<connection t1="Kazan" t2="Vyatka"/>
+<connection t1="Kazan" t2="Samara"/>
 <connection t1="Kiel" t2="Pomerania"/>
 <connection t1="Kiel" t2="RR 4"/>
 <connection t1="Kiel" t2="Ruhr"/>
 <connection t1="Kiel" t2="SZ 7"/>
 <connection t1="Kiel" t2="SZ 9"/>
 <connection t1="Kiev" t2="Moldova"/>
-<connection t1="Kiev" t2="Poland"/>
-<connection t1="Kiev" t2="RR 32"/>
+<connection t1="Kiev" t2="RR 23"/>
 <connection t1="Kiev" t2="RR 33"/>
+<connection t1="Kiev" t2="Poland"/>
 <connection t1="Konya" t2="RR 64"/>
 <connection t1="Konya" t2="Smyrna"/>
 <connection t1="Konya" t2="Syria"/>
+<connection t1="Konya" t2="SZ 35"/>
 <connection t1="Krasnodar" t2="RR 50"/>
 <connection t1="Krasnodar" t2="Rostov"/>
 <connection t1="Krasnodar" t2="SZ 37"/>
@@ -822,47 +870,48 @@
 <connection t1="London" t2="SZ 18"/>
 <connection t1="London" t2="York"/>
 <connection t1="Luderitz" t2="RR 114"/>
+<connection t1="Luderitz" t2="RR 116"/>
 <connection t1="Luderitz" t2="S. Africa"/>
 <connection t1="Luderitz" t2="SZ 56"/>
-<connection t1="Luneville" t2="Metz"/>
-<connection t1="Luneville" t2="Nancy"/>
 <connection t1="Luneville" t2="RR 139"/>
 <connection t1="Luneville" t2="Strasbourg"/>
+<connection t1="Luneville" t2="Metz"/>
+<connection t1="Luneville" t2="Nancy"/>
 <connection t1="Macedonia" t2="RR 57"/>
 <connection t1="Macedonia" t2="SZ 34"/>
-<connection t1="Macedonia" t2="Sarajevo"/>
 <connection t1="Macedonia" t2="Serbia"/>
+<connection t1="Macedonia" t2="Sarajevo"/>
 <connection t1="Madagascar" t2="SZ 50"/>
 <connection t1="Madagascar" t2="SZ 59"/>
 <connection t1="Madagascar" t2="SZ 60"/>
-<connection t1="Marseilles" t2="Paris"/>
 <connection t1="Marseilles" t2="Piedmont"/>
 <connection t1="Marseilles" t2="RR 37"/>
 <connection t1="Marseilles" t2="SZ 29"/>
+<connection t1="Marseilles" t2="Paris"/>
 <connection t1="Marseilles" t2="Switzerland"/>
 <connection t1="Mauritania" t2="RR 72"/>
 <connection t1="Mauritania" t2="SZ 26"/>
-<connection t1="Mesopotamia" t2="Mosul"/>
 <connection t1="Mesopotamia" t2="RR 69"/>
 <connection t1="Mesopotamia" t2="Tabriz"/>
+<connection t1="Mesopotamia" t2="Mosul"/>
 <connection t1="Metz" t2="Nancy"/>
 <connection t1="Metz" t2="RR 136"/>
-<connection t1="Metz" t2="Rhineland"/>
+<connection t1="Metz" t2="RR 140"/>
 <connection t1="Metz" t2="Strasbourg"/>
-<connection t1="Moldova" t2="RR 32"/>
+<connection t1="Metz" t2="Rhineland"/>
 <connection t1="Moldova" t2="RR 41"/>
 <connection t1="Moldova" t2="Romania"/>
 <connection t1="Moldova" t2="SZ 37"/>
+<connection t1="Moldova" t2="RR 42"/>
 <connection t1="Mont Blanc" t2="RR 129"/>
-<connection t1="Mont Blanc" t2="Verdun"/>
 <connection t1="Mont Blanc" t2="Vimy"/>
-<connection t1="Moscow" t2="Novgorod"/>
+<connection t1="Mont Blanc" t2="Verdun"/>
 <connection t1="Moscow" t2="RR 14"/>
 <connection t1="Moscow" t2="Tula"/>
 <connection t1="Moscow" t2="Yaroslavl"/>
 <connection t1="Mosul" t2="RR 68"/>
-<connection t1="Mosul" t2="Smyrna"/>
 <connection t1="Mosul" t2="Syria"/>
+<connection t1="Mosul" t2="Smyrna"/>
 <connection t1="Mosul" t2="Tabriz"/>
 <connection t1="Mozambique" t2="Portuguese E. Africa"/>
 <connection t1="Mozambique" t2="RR 111"/>
@@ -872,8 +921,8 @@
 <connection t1="Mozambique" t2="Transvaal"/>
 <connection t1="Mumbaza" t2="Niangara"/>
 <connection t1="Mumbaza" t2="RR 106"/>
-<connection t1="Mumbaza" t2="SZ 50"/>
 <connection t1="Mumbaza" t2="Uganda"/>
+<connection t1="Mumbaza" t2="SZ 50"/>
 <connection t1="Nancy" t2="Rhiems"/>
 <connection t1="Nancy" t2="Verdun"/>
 <connection t1="Naples" t2="RR 56"/>
@@ -883,17 +932,18 @@
 <connection t1="Naples" t2="Tuscany"/>
 <connection t1="Natal" t2="RR 117"/>
 <connection t1="Natal" t2="S. Africa"/>
+<connection t1="Natal" t2="Transvaal"/>
 <connection t1="Natal" t2="SZ 57"/>
 <connection t1="Natal" t2="SZ 58"/>
 <connection t1="Natal" t2="SZ 59"/>
-<connection t1="Natal" t2="Transvaal"/>
 <connection t1="Niangara" t2="Nye Lukemba"/>
 <connection t1="Niangara" t2="Southern Sudan"/>
 <connection t1="Niangara" t2="Uganda"/>
 <connection t1="Nigeria" t2="RR 96"/>
-<connection t1="Nigeria" t2="SZ 52"/>
+<connection t1="Nigeria" t2="RR 88"/>
 <connection t1="Nigeria" t2="Togoland"/>
 <connection t1="Nigeria" t2="Upper Volta"/>
+<connection t1="Nigeria" t2="SZ 52"/>
 <connection t1="Normandy" t2="Paris"/>
 <connection t1="Normandy" t2="Picardy"/>
 <connection t1="Normandy" t2="RR 26"/>
@@ -901,18 +951,15 @@
 <connection t1="Normandy" t2="SZ 22"/>
 <connection t1="Normandy" t2="SZ 73"/>
 <connection t1="Northern Rhineland" t2="RR 122"/>
+<connection t1="Northern Rhineland" t2="RR 121"/>
 <connection t1="Northern Rhineland" t2="Rhineland"/>
 <connection t1="Northern Sudan" t2="RR 90"/>
 <connection t1="Northern Sudan" t2="SZ 41"/>
 <connection t1="Northern Sudan" t2="Southern Sudan"/>
+<connection t1="Northern Sudan" t2="RR 98"/>
 <connection t1="Norway" t2="SZ 5"/>
 <connection t1="Norway" t2="SZ 7"/>
 <connection t1="Norway" t2="Sweden"/>
-<connection t1="Novgorod" t2="RR 15"/>
-<connection t1="Novgorod" t2="Saratov"/>
-<connection t1="Novgorod" t2="Tartarstan"/>
-<connection t1="Novgorod" t2="Tula"/>
-<connection t1="Novgorod" t2="Yaroslavl"/>
 <connection t1="Nye Lukemba" t2="Rhodesia"/>
 <connection t1="Oman" t2="RR 92"/>
 <connection t1="Oman" t2="SZ 40"/>
@@ -921,26 +968,31 @@
 <connection t1="Oman" t2="SZ 43"/>
 <connection t1="Oryol" t2="RR 24"/>
 <connection t1="Oryol" t2="Saratov"/>
-<connection t1="Oryol" t2="Smolensk"/>
 <connection t1="Oryol" t2="Tula"/>
 <connection t1="Oryol" t2="Volgograd"/>
-<connection t1="Paris" t2="Picardy"/>
+<connection t1="Oryol" t2="Smolensk"/>
 <connection t1="Paris" t2="RR 27"/>
+<connection t1="Paris" t2="Picardy"/>
 <connection t1="Paschendale" t2="Somme"/>
 <connection t1="Paschendale" t2="Vimy"/>
 <connection t1="Paschendale" t2="Ypres"/>
+<connection t1="Penza" t2="RR 25"/>
+<connection t1="Penza" t2="Tambov"/>
+<connection t1="Penza" t2="Tartarstan"/>
+<connection t1="Penza" t2="Saratov"/>
 <connection t1="Persia" t2="SZ 40"/>
 <connection t1="Persia" t2="SZ 43"/>
+<connection t1="Petrozavodsk" t2="St. Petersburg"/>
+<connection t1="Petrozavodsk" t2="Yaroslavl"/>
 <connection t1="Picardy" t2="RR 17"/>
 <connection t1="Picardy" t2="SZ 8"/>
 <connection t1="Piedmont" t2="RR 38"/>
 <connection t1="Piedmont" t2="SZ 29"/>
-<connection t1="Piedmont" t2="Switzerland"/>
 <connection t1="Piedmont" t2="Tuscany"/>
 <connection t1="Piedmont" t2="Venice"/>
+<connection t1="Piedmont" t2="Switzerland"/>
 <connection t1="Poland" t2="Prussia"/>
 <connection t1="Poland" t2="RR 22"/>
-<connection t1="Poland" t2="RR 32"/>
 <connection t1="Poland" t2="Silesia"/>
 <connection t1="Poland" t2="Vilnius"/>
 <connection t1="Pomerania" t2="Prussia"/>
@@ -955,82 +1007,156 @@
 <connection t1="Portuguese E. Africa" t2="SZ 50"/>
 <connection t1="Portuguese E. Africa" t2="SZ 59"/>
 <connection t1="Prussia" t2="RR 6"/>
-<connection t1="Prussia" t2="SZ 10"/>
 <connection t1="Prussia" t2="Silesia"/>
 <connection t1="Prussia" t2="Vilnius"/>
+<connection t1="Prussia" t2="SZ 10"/>
+<connection t1="RR 1" t2="RR 2"/>
 <connection t1="RR 1" t2="Scotland"/>
 <connection t1="RR 2" t2="York"/>
+<connection t1="RR 3" t2="RR 2"/>
+<connection t1="RR 4" t2="Pomerania"/>
 <connection t1="RR 7" t2="Vilnius"/>
+<connection t1="RR 8" t2="RR 7"/>
 <connection t1="RR 8" t2="Riga"/>
+<connection t1="RR 8" t2="Vilnius"/>
+<connection t1="RR 9" t2="RR 10"/>
 <connection t1="RR 9" t2="Tallin"/>
 <connection t1="RR 10" t2="St. Petersburg"/>
+<connection t1="RR 11" t2="RR 14"/>
 <connection t1="RR 11" t2="Yaroslavl"/>
+<connection t1="RR 12" t2="Belarus"/>
+<connection t1="RR 12" t2="RR 23"/>
 <connection t1="RR 12" t2="Smolensk"/>
+<connection t1="RR 14" t2="Yaroslavl"/>
 <connection t1="RR 16" t2="Tula"/>
+<connection t1="RR 18" t2="RR 19"/>
 <connection t1="RR 18" t2="Ruhr"/>
 <connection t1="RR 21" t2="Silesia"/>
-<connection t1="RR 25" t2="Tartarstan"/>
+<connection t1="RR 26" t2="RR 17"/>
+<connection t1="RR 29" t2="RR 30"/>
+<connection t1="RR 30" t2="Bohemia"/>
 <connection t1="RR 30" t2="Saxony"/>
-<connection t1="RR 32" t2="Romania"/>
-<connection t1="RR 32" t2="Silesia"/>
-<connection t1="RR 32" t2="Vienna"/>
+<connection t1="RR 34" t2="Belarus"/>
+<connection t1="RR 35" t2="Oryol"/>
 <connection t1="RR 35" t2="Volgograd"/>
+<connection t1="RR 36" t2="RR 37"/>
+<connection t1="RR 38" t2="RR 39"/>
+<connection t1="RR 39" t2="Innsbruck"/>
 <connection t1="RR 39" t2="Venice"/>
 <connection t1="RR 40" t2="Vienna"/>
 <connection t1="RR 43" t2="Svastepole"/>
 <connection t1="RR 44" t2="Rostov"/>
+<connection t1="RR 46" t2="RR 38"/>
 <connection t1="RR 46" t2="Tuscany"/>
 <connection t1="RR 47" t2="Trieste"/>
+<connection t1="RR 47" t2="Venice"/>
+<connection t1="RR 49" t2="Moldova"/>
+<connection t1="RR 49" t2="RR 41"/>
 <connection t1="RR 49" t2="Romania"/>
 <connection t1="RR 51" t2="Rome"/>
+<connection t1="RR 51" t2="Tuscany"/>
+<connection t1="RR 52" t2="RR 47"/>
 <connection t1="RR 52" t2="Sarajevo"/>
 <connection t1="RR 53" t2="Serbia"/>
 <connection t1="RR 55" t2="Tbilisi"/>
+<connection t1="RR 56" t2="RR 51"/>
+<connection t1="RR 56" t2="Rome"/>
+<connection t1="RR 57" t2="Sarajevo"/>
 <connection t1="RR 61" t2="Trabzon"/>
 <connection t1="RR 62" t2="Rize"/>
 <connection t1="RR 65" t2="Tabriz"/>
 <connection t1="RR 66" t2="Syria"/>
+<connection t1="RR 71" t2="Mesopotamia"/>
+<connection t1="RR 72" t2="Casablanca"/>
+<connection t1="RR 72" t2="RR 73"/>
 <connection t1="RR 75" t2="Tunesia"/>
+<connection t1="RR 76" t2="Tripoli"/>
 <connection t1="RR 76" t2="Tunis"/>
+<connection t1="RR 77" t2="RR 76"/>
 <connection t1="RR 77" t2="Tripoli"/>
 <connection t1="RR 78" t2="Sirte"/>
+<connection t1="RR 78" t2="Tripoli"/>
+<connection t1="RR 80" t2="RR 79"/>
 <connection t1="RR 80" t2="Tobruk"/>
+<connection t1="RR 81" t2="Hurghada"/>
 <connection t1="RR 84" t2="Tabuk"/>
+<connection t1="RR 85" t2="RR 71"/>
+<connection t1="RR 86" t2="Egypt"/>
+<connection t1="RR 86" t2="RR 81"/>
 <connection t1="RR 87" t2="Senegal"/>
+<connection t1="RR 88" t2="RR 96"/>
+<connection t1="RR 89" t2="RR 98"/>
+<connection t1="RR 91" t2="RR 92"/>
+<connection t1="RR 93" t2="RR 94"/>
 <connection t1="RR 93" t2="Sierra Leone"/>
+<connection t1="RR 94" t2="RR 87"/>
 <connection t1="RR 95" t2="Togoland"/>
+<connection t1="RR 97" t2="RR 96"/>
+<connection t1="RR 97" t2="RR 101"/>
+<connection t1="RR 98" t2="RR 90"/>
 <connection t1="RR 98" t2="Southern Sudan"/>
+<connection t1="RR 99" t2="RR 90"/>
+<connection t1="RR 100" t2="RR 103"/>
+<connection t1="RR 102" t2="RR 105"/>
 <connection t1="RR 107" t2="Rhodesia"/>
+<connection t1="RR 108" t2="RR 107"/>
+<connection t1="RR 110" t2="RR 108"/>
+<connection t1="RR 111" t2="RR 110"/>
+<connection t1="RR 113" t2="RR 111"/>
 <connection t1="RR 113" t2="S. Rhodesia"/>
 <connection t1="RR 115" t2="Transvaal"/>
 <connection t1="RR 116" t2="S. Africa"/>
+<connection t1="RR 117" t2="RR 115"/>
+<connection t1="RR 118" t2="RR 127"/>
+<connection t1="RR 119" t2="RR 125"/>
+<connection t1="RR 123" t2="RR 128"/>
+<connection t1="RR 124" t2="RR 128"/>
 <connection t1="RR 124" t2="Somme"/>
 <connection t1="RR 125" t2="Vimy"/>
+<connection t1="RR 126" t2="RR 121"/>
 <connection t1="RR 128" t2="Soissons"/>
+<connection t1="RR 129" t2="Ardennes"/>
+<connection t1="RR 130" t2="RR 133"/>
+<connection t1="RR 131" t2="RR 129"/>
+<connection t1="RR 133" t2="Frankfurt"/>
 <connection t1="RR 133" t2="Rhineland"/>
+<connection t1="RR 134" t2="RR 137"/>
+<connection t1="RR 135" t2="RR 131"/>
 <connection t1="RR 135" t2="Rhiems"/>
+<connection t1="RR 136" t2="RR 132"/>
+<connection t1="RR 136" t2="RR 140"/>
+<connection t1="RR 137" t2="RR 127"/>
 <connection t1="RR 140" t2="Strasbourg"/>
+<connection t1="RR 141" t2="RR 40"/>
+<connection t1="RR 142" t2="al-Hasa"/>
+<connection t1="RR 143" t2="RR 25"/>
+<connection t1="RR 143" t2="Tambov"/>
+<connection t1="RR 144" t2="RR 25"/>
+<connection t1="RR 145" t2="Gorkiy"/>
+<connection t1="RR 147" t2="RR 14"/>
+<connection t1="RR 148" t2="Vyatka"/>
+<connection t1="RR 149" t2="RR 148"/>
 <connection t1="Rhiems" t2="Verdun"/>
 <connection t1="Rhineland" t2="Strasbourg"/>
 <connection t1="Rhodesia" t2="S. Rhodesia"/>
-<connection t1="Riga" t2="SZ 15"/>
 <connection t1="Riga" t2="Smolensk"/>
 <connection t1="Riga" t2="St. Petersburg"/>
 <connection t1="Riga" t2="Tallin"/>
 <connection t1="Riga" t2="Vilnius"/>
-<connection t1="Rize" t2="SZ 36"/>
+<connection t1="Riga" t2="SZ 15"/>
 <connection t1="Rize" t2="Smyrna"/>
 <connection t1="Rize" t2="Tabriz"/>
 <connection t1="Rize" t2="Tbilisi"/>
 <connection t1="Rize" t2="Trabzon"/>
+<connection t1="Rize" t2="SZ 36"/>
 <connection t1="Romania" t2="SZ 37"/>
 <connection t1="Romania" t2="Serbia"/>
-<connection t1="Rome" t2="SZ 30"/>
 <connection t1="Rome" t2="Tuscany"/>
+<connection t1="Rome" t2="SZ 30"/>
 <connection t1="Rostov" t2="SZ 37"/>
 <connection t1="Rostov" t2="Volgograd"/>
-<connection t1="S. Africa" t2="SZ 57"/>
 <connection t1="S. Africa" t2="Transvaal"/>
+<connection t1="S. Africa" t2="SZ 57"/>
 <connection t1="S. Rhodesia" t2="Transvaal"/>
 <connection t1="SZ 1" t2="SZ 2"/>
 <connection t1="SZ 1" t2="SZ 11"/>
@@ -1154,17 +1280,21 @@
 <connection t1="SZ 32" t2="SZ 82"/>
 <connection t1="SZ 32" t2="Sarajevo"/>
 <connection t1="SZ 32" t2="Sicily"/>
+<connection t1="SZ 33" t2="SZ 35"/>
 <connection t1="SZ 33" t2="Sicily"/>
 <connection t1="SZ 33" t2="Sirte"/>
 <connection t1="SZ 33" t2="Tobruk"/>
 <connection t1="SZ 33" t2="Tripoli"/>
 <connection t1="SZ 33" t2="Tunis"/>
+<connection t1="SZ 34" t2="SZ 35"/>
 <connection t1="SZ 34" t2="SZ 36"/>
+<connection t1="SZ 35" t2="SZ 83"/>
+<connection t1="SZ 35" t2="Syria"/>
 <connection t1="SZ 36" t2="SZ 37"/>
 <connection t1="SZ 36" t2="Tbilisi"/>
 <connection t1="SZ 36" t2="Trabzon"/>
 <connection t1="SZ 37" t2="Svastepole"/>
-<connection t1="SZ 39" t2="al-Hasa"/>
+<connection t1="SZ 38" t2="Tabuk"/>
 <connection t1="SZ 40" t2="SZ 43"/>
 <connection t1="SZ 41" t2="SZ 42"/>
 <connection t1="SZ 42" t2="SZ 43"/>
@@ -1246,20 +1376,26 @@
 <connection t1="SZ 80" t2="Sweden"/>
 <connection t1="SZ 81" t2="SZ 28"/>
 <connection t1="SZ 82" t2="SZ 33"/>
+<connection t1="SZ 83" t2="Jerusalem"/>
 <connection t1="SZ 86" t2="SZ 46"/>
 <connection t1="SZ 86" t2="SZ 47"/>
 <connection t1="SZ 90" t2="SZ 52"/>
 <connection t1="SZ 91" t2="St. Petersburg"/>
 <connection t1="SZ 91" t2="Sweden"/>
 <connection t1="SZ 91" t2="Tallin"/>
+<connection t1="Samara" t2="Tambov"/>
+<connection t1="Samara" t2="Tartarstan"/>
 <connection t1="Sarajevo" t2="Serbia"/>
 <connection t1="Sarajevo" t2="Trieste"/>
-<connection t1="Saratov" t2="Tartarstan"/>
+<connection t1="Saratov" t2="Tambov"/>
 <connection t1="Saratov" t2="Tula"/>
 <connection t1="Saratov" t2="Volgograd"/>
+<connection t1="Saxony" t2="RR 20"/>
 <connection t1="Saxony" t2="Silesia"/>
 <connection t1="Scotland" t2="York"/>
+<connection t1="Serbia" t2="RR 54"/>
 <connection t1="Sirte" t2="Tripoli"/>
+<connection t1="Sirte" t2="RR 77"/>
 <connection t1="Smolensk" t2="St. Petersburg"/>
 <connection t1="Smolensk" t2="Tula"/>
 <connection t1="Smyrna" t2="Syria"/>
@@ -1267,19 +1403,33 @@
 <connection t1="Smyrna" t2="Trabzon"/>
 <connection t1="Soissons" t2="Somme"/>
 <connection t1="Soissons" t2="Vimy"/>
+<connection t1="Somme" t2="RR 125"/>
 <connection t1="Somme" t2="Vimy"/>
 <connection t1="Somme" t2="Ypres"/>
 <connection t1="Southern Sudan" t2="Uganda"/>
 <connection t1="St. Petersburg" t2="Tallin"/>
 <connection t1="St. Petersburg" t2="Yaroslavl"/>
+<connection t1="Strasbourg" t2="RR 139"/>
+<connection t1="Strasbourg" t2="RR 136"/>
 <connection t1="Switzerland" t2="Venice"/>
 <connection t1="Tabriz" t2="Tbilisi"/>
+<connection t1="Tabriz" t2="RR 69"/>
+<connection t1="Tabuk" t2="RR 83"/>
+<connection t1="Tambov" t2="Tartarstan"/>
+<connection t1="Tambov" t2="Tula"/>
 <connection t1="Togoland" t2="Upper Volta"/>
+<connection t1="Trieste" t2="Innsbruck"/>
 <connection t1="Trieste" t2="Venice"/>
 <connection t1="Trieste" t2="Vienna"/>
 <connection t1="Tripoli" t2="Tunis"/>
+<connection t1="Tunesia" t2="RR 76"/>
 <connection t1="Tunesia" t2="Tunis"/>
 <connection t1="Tuscany" t2="Venice"/>
 <connection t1="US 1" t2="US 2"/>
 <connection t1="US 2" t2="US 3"/>
 <connection t1="US 3" t2="United States Mobilizes"/>
+<connection t1="Venice" t2="RR 141"/>
+<connection t1="Vienna" t2="RR 141"/>
+<connection t1="Vologda" t2="Vyatka"/>
+<connection t1="Vologda" t2="Yaroslavl"/>
+<connection t1="Yaroslavl" t2="RR 10"/>
