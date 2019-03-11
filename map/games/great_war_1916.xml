@@ -4100,40 +4100,43 @@
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="BR 4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="3" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="BR 5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="3" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="BR 6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="3"/>
+            <option name="production" value="3" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Gorkiy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Ivanova" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Izhevsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Kazan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Penza" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Petrozavodsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Tambov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Vologda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Vyatka" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
-            <option name="production" value="1"/>
+            <option name="production" value="1" count=""/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="Samara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0"/>
         </attachment>
     </attachmentList>
     <initialize>
