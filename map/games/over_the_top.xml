@@ -1436,7 +1436,7 @@
         <unit name="Cavalry"/>
         <unit name="Tank"/>
         <unit name="Field-Artillery"/>
-        <unit name="Siege-Howitzer"/>
+        <unit name="Heavy-Artillery"/>
         <unit name="Zeppelin"/>
         <unit name="Fighter"/>
         <unit name="Red-Baron"/>
@@ -1458,7 +1458,7 @@
         <unit name="Develop-Tank"/>
         <unit name="Develop-Mech-Infantry"/>
         <unit name="Develop-Carrier"/>
-        <unit name="Develop-Siege-Howitzer"/>
+        <unit name="Develop-Heavy-Artillery"/>
     </unitList>
     <gamePlay>
         <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
@@ -1566,9 +1566,9 @@
             <cost resource="PUs" quantity="5"/>
             <result resourceOrUnit="Field-Artillery" quantity="1"/>
         </productionRule>
-        <productionRule name="buySiege-Howitzer">
+        <productionRule name="buyHeavy-Artillery">
             <cost resource="PUs" quantity="10"/>
-            <result resourceOrUnit="Siege-Howitzer" quantity="1"/>
+            <result resourceOrUnit="Heavy-Artillery" quantity="1"/>
         </productionRule>
         <productionRule name="buyZeppelin">
             <cost resource="PUs" quantity="15"/>
@@ -1650,9 +1650,9 @@
             <cost resource="PUs" quantity="60"/>
             <result resourceOrUnit="Develop-Carrier" quantity="1"/>
         </productionRule>
-        <productionRule name="buyDevelop-Siege-Howitzer">
+        <productionRule name="buyDevelop-Heavy-Artillery">
             <cost resource="PUs" quantity="40"/>
-            <result resourceOrUnit="Develop-Siege-Howitzer" quantity="1"/>
+            <result resourceOrUnit="Develop-Heavy-Artillery" quantity="1"/>
         </productionRule>
         <repairRule name="repairFactory">
             <cost resource="PUs" quantity="1"/>
@@ -1687,7 +1687,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="FrenchFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1710,7 +1710,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="RussiansFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1733,7 +1733,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="AustriansFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1756,7 +1756,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="OttomansFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1779,7 +1779,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="BritishFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1802,7 +1802,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="ItaliansFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1825,7 +1825,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="AmericansFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1848,7 +1848,7 @@
             <frontierRules name="buyDevelop-Tank"/>
             <frontierRules name="buyDevelop-Mech-Infantry"/>
             <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Siege-Howitzer"/>
+            <frontierRules name="buyDevelop-Heavy-Artillery"/>
         </productionFrontier>
         <productionFrontier name="BolsheviksFrontier">
             <frontierRules name="buyInfantry"/>
@@ -1910,7 +1910,7 @@
             <option name="maxBuiltPerPlayer" value="1" count=""/>
             <option name="isInfrastructure" value="true" count=""/>
         </attachment>
-        <attachment name="unitAttachment" attachTo="Develop-Siege-Howitzer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+        <attachment name="unitAttachment" attachTo="Develop-Heavy-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="movement" value="0" count=""/>
@@ -2034,100 +2034,100 @@
             <option name="removeUnits" value="all:Develop-Bomber" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Germans-Develop-Siege-Howitzer" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-Germans-Develop-Heavy-Artillery" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-Germans-Develop-Siege-Howitzer" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Germans-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-Germans-Develop-Heavy-Artillery" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Germans-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:GermansPlace" count=""/>
-            <option name="productionRule" value="GermansFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="GermansFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="GermansFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="GermansFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-British-Develop-Siege-Howitzer" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-British-Develop-Heavy-Artillery" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-British-Develop-Siege-Howitzer" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-British-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-British-Develop-Heavy-Artillery" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-British-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:BritishPlace" count=""/>
-            <option name="productionRule" value="BritishFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="BritishFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="BritishFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="BritishFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-French-Develop-Siege-Howitzer" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-French-Develop-Heavy-Artillery" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-French-Develop-Siege-Howitzer" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-French-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-French-Develop-Heavy-Artillery" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-French-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:FrenchPlace" count=""/>
-            <option name="productionRule" value="FrenchFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="FrenchFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="FrenchFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="FrenchFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Russians-Develop-Siege-Howitzer" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-Russians-Develop-Heavy-Artillery" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-Russians-Develop-Siege-Howitzer" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Russians-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-Russians-Develop-Heavy-Artillery" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Russians-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:RussiansPlace" count=""/>
-            <option name="productionRule" value="RussiansFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="RussiansFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="RussiansFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="RussiansFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Austrians-Develop-Siege-Howitzer" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-Austrians-Develop-Heavy-Artillery" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-Austrians-Develop-Siege-Howitzer" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Austrians-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-Austrians-Develop-Heavy-Artillery" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Austrians-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:AustriansPlace" count=""/>
-            <option name="productionRule" value="AustriansFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="AustriansFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="AustriansFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="AustriansFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Ottomans-Develop-Siege-Howitzer" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-Ottomans-Develop-Heavy-Artillery" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-Ottomans-Develop-Siege-Howitzer" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Ottomans-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-Ottomans-Develop-Heavy-Artillery" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Ottomans-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:OttomansPlace" count=""/>
-            <option name="productionRule" value="OttomansFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="OttomansFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="OttomansFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="OttomansFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Americans-Develop-Siege-Howitzer" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-Americans-Develop-Heavy-Artillery" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-Americans-Develop-Siege-Howitzer" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Americans-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-Americans-Develop-Heavy-Artillery" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Americans-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:AmericansPlace" count=""/>
-            <option name="productionRule" value="AmericansFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="AmericansFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="AmericansFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="AmericansFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Italians-Develop-Siege-Howitzer" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+        <attachment name="conditionAttachment-Italians-Develop-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
             <option name="directPresenceTerritories" value="map" count="1"/>
-            <option name="unitPresence" value="Develop-Siege-Howitzer" count="1"/>
+            <option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
         </attachment>
-        <attachment name="triggerAttachment-Italians-Develop-Siege-Howitzer" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Italians-Develop-Siege-Howitzer" count=""/>
+        <attachment name="triggerAttachment-Italians-Develop-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Italians-Develop-Heavy-Artillery" count=""/>
             <option name="when" value="after:ItaliansPlace" count=""/>
-            <option name="productionRule" value="ItaliansFrontier:buySiege-Howitzer" count=""/>
-            <option name="productionRule" value="ItaliansFrontier:-buyDevelop-Siege-Howitzer" count=""/>
-            <option name="removeUnits" value="all:Develop-Siege-Howitzer" count="1"/>
+            <option name="productionRule" value="ItaliansFrontier:buyHeavy-Artillery" count=""/>
+            <option name="productionRule" value="ItaliansFrontier:-buyDevelop-Heavy-Artillery" count=""/>
+            <option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
             <option name="uses" value="1" count=""/>
         </attachment>
         <attachment name="conditionAttachment-Germans-Develop-Carrier" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
@@ -2605,7 +2605,7 @@
             <option name="defense" value="2" count=""/>
             <option name="artillery" value="true" count=""/>
         </attachment>
-        <attachment name="unitAttachment" attachTo="Siege-Howitzer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+        <attachment name="unitAttachment" attachTo="Heavy-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="1" count=""/>
             <option name="transportCost" value="4" count=""/>
             <option name="attack" value="4" count=""/>
