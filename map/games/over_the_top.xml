@@ -1672,7 +1672,7 @@
             <result resourceOrUnit="Munitions" quantity="1"/>
         </productionRule>
         <productionRule name="buyDevelop-Railgun">
-            <cost resource="Pus" quantity="50"/>
+            <cost resource="PUs" quantity="50"/>
             <result resourceOrUnit="Develop-Railgun" quantity="1"/>
         </productionRule>
         <productionRule name="buyRailgun">
@@ -2752,6 +2752,7 @@
             <option name="maxDamage" value="2" count=""/>
             <option name="maxOperationalDamage" value="6" count=""/>
             <option name="canDieFromReachingMaxDamage" value="true" count=""/>
+            <option name="movement" value="0"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Shipyard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="isInfrastructure" value="true" count=""/>
@@ -2791,14 +2792,14 @@
             <option name="isAir" value="true" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Develop-Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="0"/>
-            <option name="attack" value="0"/>
-            <option name="defense" value="0"/>
+            <option name="movement" value="0" count=""/>
+            <option name="attack" value="0" count=""/>
+            <option name="defense" value="0" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="2"/>
-            <option name="attack" value="0"/>
-            <option name="defense" value="0"/>
+            <option name="movement" value="2" count=""/>
+            <option name="attack" value="0" count=""/>
+            <option name="defense" value="0" count=""/>
         </attachment>
         <attachment name="playerAttachment" attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="1" count=""/>
