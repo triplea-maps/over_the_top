@@ -1459,6 +1459,11 @@
         <unit name="Develop-Mech-Infantry"/>
         <unit name="Develop-Carrier"/>
         <unit name="Develop-Heavy-Artillery"/>
+        <unit name="Armored-Train"/>
+        <unit name="Train"/>
+        <unit name="Munitions"/>
+        <unit name="Develop-Railgun"/>
+        <unit name="Railgun"/>
     </unitList>
     <gamePlay>
         <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
@@ -1653,6 +1658,26 @@
         <productionRule name="buyDevelop-Heavy-Artillery">
             <cost resource="PUs" quantity="40"/>
             <result resourceOrUnit="Develop-Heavy-Artillery" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyArmored-Train">
+            <cost resource="PUs" quantity="6"/>
+            <result resourceOrUnit="Armored-Train" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyTrain">
+            <cost resource="PUs" quantity="10"/>
+            <result resourceOrUnit="Train" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyMunitions">
+            <cost resource="PUs" quantity="1"/>
+            <result resourceOrUnit="Munitions" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyDevelop-Railgun">
+            <cost resource="Pus" quantity="50"/>
+            <result resourceOrUnit="Develop-Railgun" quantity="1"/>
+        </productionRule>
+        <productionRule name="buyRailgun">
+            <cost resource="PUs" quantity="12"/>
+            <result resourceOrUnit="Railgun" quantity="1"/>
         </productionRule>
         <repairRule name="repairFactory">
             <cost resource="PUs" quantity="1"/>
@@ -2660,7 +2685,7 @@
         </attachment>
         <attachment name="unitAttachment" attachTo="Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="attack" value="0" count=""/>
-            <option name="defense" value="0" count=""/>
+            <option name="defense" value="1" count=""/>
             <option name="movement" value="2" count=""/>
             <option name="isSea" value="true" count=""/>
             <option name="carrierCapacity" value="2" count=""/>
@@ -2745,6 +2770,35 @@
             <option name="isAA" value="true" count=""/>
             <option name="transportCost" value="3" count=""/>
             <option name="movement" value="1" count=""/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Armored-Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2" count=""/>
+            <option name="isSea" value="true" count=""/>
+            <option name="attack" value="0" count=""/>
+            <option name="defense" value="2" count=""/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2" count=""/>
+            <option name="isSea" value="true" count=""/>
+            <option name="attack" value="0" count=""/>
+            <option name="defense" value="0" count=""/>
+            <option name="transportCapacity" value="5" count=""/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2" count=""/>
+            <option name="attack" value="2" count=""/>
+            <option name="defense" value="0" count=""/>
+            <option name="isAir" value="true" count=""/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Develop-Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="0"/>
+            <option name="attack" value="0"/>
+            <option name="defense" value="0"/>
+        </attachment>
+        <attachment name="unitAttachment" attachTo="Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="2"/>
+            <option name="attack" value="0"/>
+            <option name="defense" value="0"/>
         </attachment>
         <attachment name="playerAttachment" attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="1" count=""/>
