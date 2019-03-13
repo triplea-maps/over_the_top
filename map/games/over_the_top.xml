@@ -2585,10 +2585,10 @@
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="artillerySupportable" value="false" count=""/>
-            <option name="isInfantry" value="true" count=""/>
+            <option name="isLandTransportable" value="true" count=""/>
             <option name="artillery" value="true" count=""/>
             <option name="unitSupportCount" value="10" count=""/>
-            <option name="canProduceUnits" value="true" count=""/>
+            <option name="createsUnitsList" value="true" count="1:Infantry"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="1" count=""/>
@@ -2596,7 +2596,7 @@
             <option name="attack" value="1" count=""/>
             <option name="defense" value="1" count=""/>
             <option name="artillerySupportable" value="true" count=""/>
-            <option name="isInfantry" value="true" count=""/>
+            <option name="isLandTransportable" value="true" count=""/>
             <option name="repairsUnits" value="Trenches" count="1"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -2714,6 +2714,7 @@
             <option name="defense" value="3" count=""/>
             <option name="canBombard" value="false" count=""/>
             <option name="requiresUnits" value="Shipyard:Factory" count=""/>
+			<option name="createsUnitsList" value="1:Munitions"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2723,6 +2724,7 @@
             <option name="canBombard" value="false" count=""/>
             <option name="isTwoHit" value="true" count=""/>
             <option name="requiresUnits" value="Shipyard:Factory" count=""/>
+			<option name="createsUnitsList" value="2:Munitions"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Trenches" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="0" count=""/>
@@ -2739,6 +2741,7 @@
             <option name="attack" value="0" count=""/>
             <option name="defense" value="1" count=""/>
             <option name="isSea" value="true" count=""/>
+			<option name="isSub" value="true" count=""/>
             <option name="isConstruction" value="true" count=""/>
             <option name="constructionType" value="Harbor-Defenses" count=""/>
             <option name="constructionsPerTerrPerTypePerTurn" value="2" count=""/>
@@ -2777,6 +2780,7 @@
             <option name="isSea" value="true" count=""/>
             <option name="attack" value="0" count=""/>
             <option name="defense" value="2" count=""/>
+			<option name="transportCapacity" value="1" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -2790,6 +2794,8 @@
             <option name="attack" value="2" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="isAir" value="true" count=""/>
+			<option name="isSuicide" value="0" count=""/>
+			<option name="isKamikaze" value="0" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Develop-Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="0" count=""/>
@@ -2800,6 +2806,8 @@
             <option name="movement" value="2" count=""/>
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
+			<option name="givesMovement" value="1:Munitions" count=""/>
+			<option name="createsUnitsList" value="1:Munitions"/>
         </attachment>
         <attachment name="playerAttachment" attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" type="player">
             <option name="retainCapitalNumber" value="1" count=""/>
