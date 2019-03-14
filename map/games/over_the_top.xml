@@ -1693,9 +1693,9 @@
         </repairFrontier>
 		
 		<!-- Templated production frontiers -->
-		<productionFrontier name="Imperial-German-Afrika-Frontier">
+				<productionFrontier name="Imperial-German-Afrika-Frontier">
 			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
+			<frontierRules name="buyArmored-Train"/>
 			<frontierRules name="buyBattlecruiser"/>
 			<frontierRules name="buyBattleship"/>
 			<frontierRules name="buyCavalry"/>
@@ -1713,11 +1713,9 @@
 			<frontierRules name="buyTroop-Transport"/>
 			<frontierRules name="buyZeppelin"/>
 		</productionFrontier>
-		<playerProduction player="Imperial-German-Afrika" frontier="Imperial-German-Afrika-Frontier"/>
-		<playerRepair player="Imperial-German-Afrika" frontier="repair"/>
 		<productionFrontier name="British-Commonwealth-Frontier">
 			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
+			<frontierRules name="buyArmored-Train"/>
 			<frontierRules name="buyBattlecruiser"/>
 			<frontierRules name="buyBattleship"/>
 			<frontierRules name="buyCavalry"/>
@@ -1735,11 +1733,9 @@
 			<frontierRules name="buyTroop-Transport"/>
 			<frontierRules name="buyZeppelin"/>
 		</productionFrontier>
-		<playerProduction player="British-Commonwealth" frontier="British-Commonwealth-Frontier"/>
-		<playerRepair player="British-Commonwealth" frontier="repair"/>
 		<productionFrontier name="French-Colonial-Africa-Frontier">
 			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
+			<frontierRules name="buyArmored-Train"/>
 			<frontierRules name="buyBattlecruiser"/>
 			<frontierRules name="buyBattleship"/>
 			<frontierRules name="buyCavalry"/>
@@ -1757,11 +1753,9 @@
 			<frontierRules name="buyTroop-Transport"/>
 			<frontierRules name="buyZeppelin"/>
 		</productionFrontier>
-		<playerProduction player="French-Colonial-Africa" frontier="French-Colonial-Africa-Frontier"/>
-		<playerRepair player="French-Colonial-Africa" frontier="repair"/>
 		<productionFrontier name="Bolsheviks-Frontier">
 			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
+			<frontierRules name="buyArmored-Train"/>
 			<frontierRules name="buyBattlecruiser"/>
 			<frontierRules name="buyBattleship"/>
 			<frontierRules name="buyCavalry"/>
@@ -1779,11 +1773,165 @@
 			<frontierRules name="buyTroop-Transport"/>
 			<frontierRules name="buyZeppelin"/>
 		</productionFrontier>
-		<playerProduction player="Bolsheviks" frontier="Bolsheviks-Frontier"/>
-		<playerRepair player="Bolsheviks" frontier="repair"/>
 		<productionFrontier name="Germans-Frontier">
 			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="British-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="French-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Russians-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Austrians-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Ottomans-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Americans-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
 			<frontierRules name="buyBattlecruiser"/>
 			<frontierRules name="buyBattleship"/>
 			<frontierRules name="buyCavalry"/>
@@ -1808,212 +1956,108 @@
 			<frontierRules name="buyZeppelin"/>
 		</productionFrontier>
 		<playerProduction player="Germans" frontier="Germans-Frontier"/>
-		<playerRepair player="Germans" frontier="repair"/>
-		<productionFrontier name="British-Frontier">
-			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
-			<frontierRules name="buyBattlecruiser"/>
-			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCavalry"/>
-			<frontierRules name="buyDestroyer"/>
-			<frontierRules name="buyDevelop-Bomber"/>
-			<frontierRules name="buyDevelop-Carrier"/>
-			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
-			<frontierRules name="buyDevelop-Tank"/>
-			<frontierRules name="buyFactory"/>
-			<frontierRules name="buyField-Artillery"/>
-			<frontierRules name="buyFighter"/>
-			<frontierRules name="buyFreighter"/>
-			<frontierRules name="buyHarbor-Defenses"/>
-			<frontierRules name="buyInfantry"/>
-			<frontierRules name="buyShipyard"/>
-			<frontierRules name="buySubmarine"/>
-			<frontierRules name="buyTrain"/>
-			<frontierRules name="buyTrenches"/>
-			<frontierRules name="buyTroop-Transport"/>
-			<frontierRules name="buyZeppelin"/>
-		</productionFrontier>
 		<playerProduction player="British" frontier="British-Frontier"/>
-		<playerRepair player="British" frontier="repair"/>
-		<productionFrontier name="French-Frontier">
-			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
-			<frontierRules name="buyBattlecruiser"/>
-			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCavalry"/>
-			<frontierRules name="buyDestroyer"/>
-			<frontierRules name="buyDevelop-Bomber"/>
-			<frontierRules name="buyDevelop-Carrier"/>
-			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
-			<frontierRules name="buyDevelop-Tank"/>
-			<frontierRules name="buyFactory"/>
-			<frontierRules name="buyField-Artillery"/>
-			<frontierRules name="buyFighter"/>
-			<frontierRules name="buyFreighter"/>
-			<frontierRules name="buyHarbor-Defenses"/>
-			<frontierRules name="buyInfantry"/>
-			<frontierRules name="buyShipyard"/>
-			<frontierRules name="buySubmarine"/>
-			<frontierRules name="buyTrain"/>
-			<frontierRules name="buyTrenches"/>
-			<frontierRules name="buyTroop-Transport"/>
-			<frontierRules name="buyZeppelin"/>
-		</productionFrontier>
 		<playerProduction player="French" frontier="French-Frontier"/>
-		<playerRepair player="French" frontier="repair"/>
-		<productionFrontier name="Russians-Frontier">
-			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
-			<frontierRules name="buyBattlecruiser"/>
-			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCavalry"/>
-			<frontierRules name="buyDestroyer"/>
-			<frontierRules name="buyDevelop-Bomber"/>
-			<frontierRules name="buyDevelop-Carrier"/>
-			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
-			<frontierRules name="buyDevelop-Tank"/>
-			<frontierRules name="buyFactory"/>
-			<frontierRules name="buyField-Artillery"/>
-			<frontierRules name="buyFighter"/>
-			<frontierRules name="buyFreighter"/>
-			<frontierRules name="buyHarbor-Defenses"/>
-			<frontierRules name="buyInfantry"/>
-			<frontierRules name="buyShipyard"/>
-			<frontierRules name="buySubmarine"/>
-			<frontierRules name="buyTrain"/>
-			<frontierRules name="buyTrenches"/>
-			<frontierRules name="buyTroop-Transport"/>
-			<frontierRules name="buyZeppelin"/>
-		</productionFrontier>
 		<playerProduction player="Russians" frontier="Russians-Frontier"/>
-		<playerRepair player="Russians" frontier="repair"/>
-		<productionFrontier name="Austrians-Frontier">
-			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
-			<frontierRules name="buyBattlecruiser"/>
-			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCavalry"/>
-			<frontierRules name="buyDestroyer"/>
-			<frontierRules name="buyDevelop-Bomber"/>
-			<frontierRules name="buyDevelop-Carrier"/>
-			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
-			<frontierRules name="buyDevelop-Tank"/>
-			<frontierRules name="buyFactory"/>
-			<frontierRules name="buyField-Artillery"/>
-			<frontierRules name="buyFighter"/>
-			<frontierRules name="buyFreighter"/>
-			<frontierRules name="buyHarbor-Defenses"/>
-			<frontierRules name="buyInfantry"/>
-			<frontierRules name="buyShipyard"/>
-			<frontierRules name="buySubmarine"/>
-			<frontierRules name="buyTrain"/>
-			<frontierRules name="buyTrenches"/>
-			<frontierRules name="buyTroop-Transport"/>
-			<frontierRules name="buyZeppelin"/>
-		</productionFrontier>
 		<playerProduction player="Austrians" frontier="Austrians-Frontier"/>
-		<playerRepair player="Austrians" frontier="repair"/>
-		<productionFrontier name="Ottomans-Frontier">
-			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
-			<frontierRules name="buyBattlecruiser"/>
-			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCavalry"/>
-			<frontierRules name="buyDestroyer"/>
-			<frontierRules name="buyDevelop-Bomber"/>
-			<frontierRules name="buyDevelop-Carrier"/>
-			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
-			<frontierRules name="buyDevelop-Tank"/>
-			<frontierRules name="buyFactory"/>
-			<frontierRules name="buyField-Artillery"/>
-			<frontierRules name="buyFighter"/>
-			<frontierRules name="buyFreighter"/>
-			<frontierRules name="buyHarbor-Defenses"/>
-			<frontierRules name="buyInfantry"/>
-			<frontierRules name="buyShipyard"/>
-			<frontierRules name="buySubmarine"/>
-			<frontierRules name="buyTrain"/>
-			<frontierRules name="buyTrenches"/>
-			<frontierRules name="buyTroop-Transport"/>
-			<frontierRules name="buyZeppelin"/>
-		</productionFrontier>
 		<playerProduction player="Ottomans" frontier="Ottomans-Frontier"/>
-		<playerRepair player="Ottomans" frontier="repair"/>
-		<productionFrontier name="Americans-Frontier">
-			<frontierRules name="buyAA-Gun"/>
-			<frontierRules name="buyArmoredTrain"/>
-			<frontierRules name="buyBattlecruiser"/>
-			<frontierRules name="buyBattleship"/>
-			<frontierRules name="buyCavalry"/>
-			<frontierRules name="buyDestroyer"/>
-			<frontierRules name="buyDevelop-Bomber"/>
-			<frontierRules name="buyDevelop-Carrier"/>
-			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
-			<frontierRules name="buyDevelop-Tank"/>
-			<frontierRules name="buyFactory"/>
-			<frontierRules name="buyField-Artillery"/>
-			<frontierRules name="buyFighter"/>
-			<frontierRules name="buyFreighter"/>
-			<frontierRules name="buyHarbor-Defenses"/>
-			<frontierRules name="buyInfantry"/>
-			<frontierRules name="buyShipyard"/>
-			<frontierRules name="buySubmarine"/>
-			<frontierRules name="buyTrain"/>
-			<frontierRules name="buyTrenches"/>
-			<frontierRules name="buyTroop-Transport"/>
-			<frontierRules name="buyZeppelin"/>
-		</productionFrontier>
 		<playerProduction player="Americans" frontier="Americans-Frontier"/>
+		<playerProduction player="Imperial-German-Afrika" frontier="Imperial-German-Afrika-Frontier"/>
+		<playerProduction player="British-Commonwealth" frontier="British-Commonwealth-Frontier"/>
+		<playerProduction player="French-Colonial-Africa" frontier="French-Colonial-Africa-Frontier"/>
+		<playerProduction player="Bolsheviks" frontier="Bolsheviks-Frontier"/>
+		<playerRepair player="Germans" frontier="repair"/>
+		<playerRepair player="British" frontier="repair"/>
+		<playerRepair player="French" frontier="repair"/>
+		<playerRepair player="Russians" frontier="repair"/>
+		<playerRepair player="Austrians" frontier="repair"/>
+		<playerRepair player="Ottomans" frontier="repair"/>
 		<playerRepair player="Americans" frontier="repair"/>
+		<playerRepair player="Imperial-German-Afrika" frontier="repair"/>
+		<playerRepair player="British-Commonwealth" frontier="repair"/>
+		<playerRepair player="French-Colonial-Africa" frontier="repair"/>
+		<playerRepair player="Bolsheviks" frontier="repair"/>
 		<!-- End templated production frontiers -->
     </production>
     <attachmentList>
 		<!-- Templated attachments -->
-        <attachment name="techAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+		<attachment name="techAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-Germans-AlwaysTrue" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="British" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-British-AlwaysTrue" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="French" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-French-AlwaysTrue" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-Russians-AlwaysTrue" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-Austrians-AlwaysTrue" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-Ottomans-AlwaysTrue" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-Americans-AlwaysTrue" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-British-Commonwealth-AlwaysTrue" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-French-Colonial-Africa-AlwaysTrue" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
         <attachment name="techAttachment" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
+		<attachment name="conditionAttachment-Bolsheviks-AlwaysTrue" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
 		<attachment name="unitAttachment" attachTo="Develop-Bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 			<option name="attack" value="0" count=""/>
 			<option name="defense" value="0" count=""/>
@@ -6466,7 +6510,7 @@
             <option name="isLandTransportable" value="true" count=""/>
             <option name="artillery" value="true" count=""/>
             <option name="unitSupportCount" value="10" count=""/>
-            <option name="createsUnitsList" value="true" count="1:Infantry"/>
+            <option name="createsUnitsList" value="1:Infantry" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="1" count=""/>
@@ -6672,8 +6716,8 @@
             <option name="attack" value="2" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="isAir" value="true" count=""/>
-			<option name="isSuicide" value="0" count=""/>
-			<option name="isKamikaze" value="0" count=""/>
+			<option name="isSuicide" value="true" count=""/>
+			<option name="isKamikaze" value="true" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
