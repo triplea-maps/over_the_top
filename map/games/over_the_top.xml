@@ -2824,77 +2824,137 @@
 			<option name="removeUnits" value="all:Develop-Tank" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Germans_Munitions_1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" />
-			<option name="when" value="after:GermansBattle" />
+			<option name="when" value="after:Germans-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_Germans_Munitions_2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" />
+            <option name="when" value="after:Germans-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_British_Munitions_1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-British-AlwaysTrue" />
-			<option name="when" value="after:BritishBattle" />
+			<option name="when" value="after:British-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_British_Munitions_2" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-British-AlwaysTrue" />
+            <option name="when" value="after:British-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_French_Munitions_1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-French-AlwaysTrue" />
-			<option name="when" value="after:FrenchBattle" />
+			<option name="when" value="after:French-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_French_Munitions_2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-French-AlwaysTrue" />
+            <option name="when" value="after:French-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Russians_Munitions_1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" />
-			<option name="when" value="after:RussiansBattle" />
+			<option name="when" value="after:Russians-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_Russians_Munitions_2" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" />
+            <option name="when" value="after:Russians-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Austrians_Munitions_1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" />
-			<option name="when" value="after:AustriansBattle" />
+			<option name="when" value="after:Austrians-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_Austrians_Munitions_2" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" />
+            <option name="when" value="after:Austrians-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Ottomans_Munitions_1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
-			<option name="when" value="after:OttomansBattle" />
+			<option name="when" value="after:Ottomans-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_Ottomans_Munitions_2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
+            <option name="when" value="after:Ottomans-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Italians_Munitions_1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
-			<option name="when" value="after:ItaliansBattle" />
+			<option name="when" value="after:Italians-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_Italians_Munitions_2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
+            <option name="when" value="after:Italians-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Americans_Munitions_1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" />
-			<option name="when" value="after:AmericansBattle" />
+			<option name="when" value="after:Americans-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_Americans_Munitions_2" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" />
+            <option name="when" value="after:Americans-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_1" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" />
-			<option name="when" value="after:Imperial-German-AfrikaBattle" />
+			<option name="when" value="after:Imperial-German-Afrika-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_2" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" />
+            <option name="when" value="after:Imperial-German-Afrika-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_British-Commonwealth_Munitions_1" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" />
-			<option name="when" value="after:British-CommonwealthBattle" />
+			<option name="when" value="after:British-Commonwealth-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_British-Commonwealth_Munitions_2" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" />
+            <option name="when" value="after:British-Commonwealth-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_1" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" />
-			<option name="when" value="after:French-Colonial-AfricaBattle" />
+			<option name="when" value="after:French-Colonial-Africa-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
-		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+        <attachment name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_2" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" />
+            <option name="when" value="after:French-Colonial-Africa-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings, remove at end of turn again since they get created again during the "real" end turn delegate -->
 		<attachment name="triggerAttachment_Remove_Bolsheviks_Munitions_1" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" />
-			<option name="when" value="after:BolsheviksBattle" />
+			<option name="when" value="after:Bolsheviks-Battle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <attachment name="triggerAttachment_Remove_Bolsheviks_Munitions_2" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" />
+            <option name="when" value="after:Bolsheviks-EndTurn" />
+            <option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
 		<!-- Set up trenches for Germans (and their colony if applicable) so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Germans-1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
