@@ -5721,15 +5721,18 @@
             <unitPlacement unitType="Lenin" territory="Soviet Far East" quantity="1" owner="Bolsheviks"/>
         </unitInitialize>
         <resourceInitialize>
-            <resourceGiven player="Germans" resource="PUs" quantity="92"/>
-            <resourceGiven player="French" resource="PUs" quantity="57"/>
-            <resourceGiven player="Russians" resource="PUs" quantity="47"/>
-            <resourceGiven player="Austrians" resource="PUs" quantity="32"/>
-            <resourceGiven player="Ottomans" resource="PUs" quantity="48"/>
-            <resourceGiven player="British" resource="PUs" quantity="83"/>
-            <resourceGiven player="Italians" resource="PUs" quantity="30"/>
+            <resourceGiven player="Germans" resource="PUs" quantity="99"/>
+			<resourceGiven player="Imperial-German-Afrika" resource="PUs" quantity="30"/>
+            <resourceGiven player="French" resource="PUs" quantity="71"/>
+			<resourceGiven player="French-Colonial-Africa" resource="PUs" quantity="36"/>
+            <resourceGiven player="Russians" resource="PUs" quantity="71"/>
+            <resourceGiven player="Austrians" resource="PUs" quantity="46"/>
+            <resourceGiven player="Ottomans" resource="PUs" quantity="54"/>
+            <resourceGiven player="British" resource="PUs" quantity="57"/>
+			<resourceGiven player="British-Commonwealth" resource="PUs" quantity="61"/>
+            <resourceGiven player="Italians" resource="PUs" quantity="42"/>
             <resourceGiven player="Americans" resource="PUs" quantity="0"/>
-            <resourceGiven player="Bolsheviks" resource="PUs" quantity="15"/>
+            <resourceGiven player="Bolsheviks" resource="PUs" quantity="27"/>
         </resourceInitialize>
     </initialize>
     <propertyList>
