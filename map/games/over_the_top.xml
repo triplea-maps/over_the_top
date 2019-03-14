@@ -1467,8 +1467,9 @@
     </unitList>
     <gamePlay>
         <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+		<delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
         <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
-        <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+		<delegate name="munitions" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Load Munitions"/>
         <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
         <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
         <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
@@ -1477,76 +1478,152 @@
         <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
         <sequence>
             <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
-            <step name="GermansBid" delegate="bid" player="Germans" maxRunCount="1"/>
-            <step name="GermansBidPlace" delegate="placeBid" player="Germans" maxRunCount="1"/>
-            <step name="FrenchBid" delegate="bid" player="French" maxRunCount="1"/>
-            <step name="FrenchBidPlace" delegate="placeBid" player="French" maxRunCount="1"/>
-            <step name="RussiansBid" delegate="bid" player="Russians" maxRunCount="1"/>
-            <step name="RussiansBidPlace" delegate="placeBid" player="Russians" maxRunCount="1"/>
-            <step name="AustriansBid" delegate="bid" player="Austrians" maxRunCount="1"/>
-            <step name="AustriansBidPlace" delegate="placeBid" player="Austrians" maxRunCount="1"/>
-            <step name="OttomansBid" delegate="bid" player="Ottomans" maxRunCount="1"/>
-            <step name="OttomansBidPlace" delegate="placeBid" player="Ottomans" maxRunCount="1"/>
-            <step name="BritishBid" delegate="bid" player="British" maxRunCount="1"/>
-            <step name="BritishBidPlace" delegate="placeBid" player="British" maxRunCount="1"/>
-            <step name="ItaliansBid" delegate="bid" player="Italians" maxRunCount="1"/>
-            <step name="ItaliansBidPlace" delegate="placeBid" player="Italians" maxRunCount="1"/>
-            <step name="AmericansBid" delegate="bid" player="Americans" maxRunCount="1"/>
-            <step name="AmericansBidPlace" delegate="placeBid" player="Americans" maxRunCount="1"/>
+			<!-- Templated game steps -->
             <step name="GermansCombatMove" delegate="move" player="Germans"/>
+            <step name="GermansCreateMunitions" delegate="munitions" player="Germans"/>
+            <step name="GermansMoveMunitions" delegate="move" player="Germans" display="Fire Munitions"/>
+            <step name="Imperial-German-AfrikaCombatMove" delegate="move" player="Imperial-German-Afrika"/>
+            <step name="Imperial-German-AfrikaCreateMunitions" delegate="munitions" player="Imperial-German-Afrika"/>
+            <step name="Imperial-German-AfrikaMoveMunitions" delegate="move" player="Imperial-German-Afrika" display="Fire Munitions"/>
             <step name="GermansPurchase" delegate="purchase" player="Germans"/>
+            <step name="Imperial-German-AfrikaPurchase" delegate="purchase" player="Imperial-German-Afrika"/>
             <step name="GermansBattle" delegate="battle" player="Germans"/>
+            <step name="Imperial-German-AfrikaBattle" delegate="battle" player="Imperial-German-Afrika"/>
             <step name="GermansNonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>
+            <step name="Imperial-German-AfrikaNonCombatMove" delegate="move" player="Imperial-German-Afrika" display="Non Combat Move"/>
             <step name="GermansPlace" delegate="place" player="Germans"/>
+            <step name="Imperial-German-AfrikaPlace" delegate="place" player="Imperial-German-Afrika"/>
             <step name="GermansEndTurn" delegate="endTurn" player="Germans"/>
+            <step name="Imperial-German-AfrikaEndTurn" delegate="endTurn" player="Imperial-German-Afrika"/>
+            <step name="GermansCombatMove" delegate="move" player="Germans"/>
+            <step name="GermansCreateMunitions" delegate="munitions" player="Germans"/>
+            <step name="GermansMoveMunitions" delegate="move" player="Germans" display="Fire Munitions"/>
+            <step name="Imperial-German-AfrikaCombatMove" delegate="move" player="Imperial-German-Afrika"/>
+            <step name="Imperial-German-AfrikaCreateMunitions" delegate="munitions" player="Imperial-German-Afrika"/>
+            <step name="Imperial-German-AfrikaMoveMunitions" delegate="move" player="Imperial-German-Afrika" display="Fire Munitions"/>
+            <step name="GermansPurchase" delegate="purchase" player="Germans"/>
+            <step name="Imperial-German-AfrikaPurchase" delegate="purchase" player="Imperial-German-Afrika"/>
+            <step name="GermansBattle" delegate="battle" player="Germans"/>
+            <step name="Imperial-German-AfrikaBattle" delegate="battle" player="Imperial-German-Afrika"/>
+            <step name="GermansNonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>
+            <step name="Imperial-German-AfrikaNonCombatMove" delegate="move" player="Imperial-German-Afrika" display="Non Combat Move"/>
+            <step name="GermansPlace" delegate="place" player="Germans"/>
+            <step name="Imperial-German-AfrikaPlace" delegate="place" player="Imperial-German-Afrika"/>
+            <step name="GermansEndTurn" delegate="endTurn" player="Germans"/>
+            <step name="Imperial-German-AfrikaEndTurn" delegate="endTurn" player="Imperial-German-Afrika"/>
             <step name="FrenchCombatMove" delegate="move" player="French"/>
+            <step name="FrenchCreateMunitions" delegate="munitions" player="French"/>
+            <step name="FrenchMoveMunitions" delegate="move" player="French" display="Fire Munitions"/>
+            <step name="French-Colonial-AfricaCombatMove" delegate="move" player="French-Colonial-Africa"/>
+            <step name="French-Colonial-AfricaCreateMunitions" delegate="munitions" player="French-Colonial-Africa"/>
+            <step name="French-Colonial-AfricaMoveMunitions" delegate="move" player="French-Colonial-Africa" display="Fire Munitions"/>
             <step name="FrenchPurchase" delegate="purchase" player="French"/>
+            <step name="French-Colonial-AfricaPurchase" delegate="purchase" player="French-Colonial-Africa"/>
             <step name="FrenchBattle" delegate="battle" player="French"/>
+            <step name="French-Colonial-AfricaBattle" delegate="battle" player="French-Colonial-Africa"/>
             <step name="FrenchNonCombatMove" delegate="move" player="French" display="Non Combat Move"/>
+            <step name="French-Colonial-AfricaNonCombatMove" delegate="move" player="French-Colonial-Africa" display="Non Combat Move"/>
             <step name="FrenchPlace" delegate="place" player="French"/>
+            <step name="French-Colonial-AfricaPlace" delegate="place" player="French-Colonial-Africa"/>
             <step name="FrenchEndTurn" delegate="endTurn" player="French"/>
+            <step name="French-Colonial-AfricaEndTurn" delegate="endTurn" player="French-Colonial-Africa"/>
+            <step name="FrenchCombatMove" delegate="move" player="French"/>
+            <step name="FrenchCreateMunitions" delegate="munitions" player="French"/>
+            <step name="FrenchMoveMunitions" delegate="move" player="French" display="Fire Munitions"/>
+            <step name="French-Colonial-AfricaCombatMove" delegate="move" player="French-Colonial-Africa"/>
+            <step name="French-Colonial-AfricaCreateMunitions" delegate="munitions" player="French-Colonial-Africa"/>
+            <step name="French-Colonial-AfricaMoveMunitions" delegate="move" player="French-Colonial-Africa" display="Fire Munitions"/>
+            <step name="FrenchPurchase" delegate="purchase" player="French"/>
+            <step name="French-Colonial-AfricaPurchase" delegate="purchase" player="French-Colonial-Africa"/>
+            <step name="FrenchBattle" delegate="battle" player="French"/>
+            <step name="French-Colonial-AfricaBattle" delegate="battle" player="French-Colonial-Africa"/>
+            <step name="FrenchNonCombatMove" delegate="move" player="French" display="Non Combat Move"/>
+            <step name="French-Colonial-AfricaNonCombatMove" delegate="move" player="French-Colonial-Africa" display="Non Combat Move"/>
+            <step name="FrenchPlace" delegate="place" player="French"/>
+            <step name="French-Colonial-AfricaPlace" delegate="place" player="French-Colonial-Africa"/>
+            <step name="FrenchEndTurn" delegate="endTurn" player="French"/>
+            <step name="French-Colonial-AfricaEndTurn" delegate="endTurn" player="French-Colonial-Africa"/>
             <step name="RussiansCombatMove" delegate="move" player="Russians"/>
+            <step name="RussiansCreateMunitions" delegate="munitions" player="Russians"/>
+            <step name="RussiansMoveMunitions" delegate="move" player="Russians" display="Fire Munitions"/>
             <step name="RussiansPurchase" delegate="purchase" player="Russians"/>
             <step name="RussiansBattle" delegate="battle" player="Russians"/>
             <step name="RussiansNonCombatMove" delegate="move" player="Russians" display="Non Combat Move"/>
             <step name="RussiansPlace" delegate="place" player="Russians"/>
             <step name="RussiansEndTurn" delegate="endTurn" player="Russians"/>
             <step name="AustriansCombatMove" delegate="move" player="Austrians"/>
+            <step name="AustriansCreateMunitions" delegate="munitions" player="Austrians"/>
+            <step name="AustriansMoveMunitions" delegate="move" player="Austrians" display="Fire Munitions"/>
             <step name="AustriansPurchase" delegate="purchase" player="Austrians"/>
             <step name="AustriansBattle" delegate="battle" player="Austrians"/>
             <step name="AustriansNonCombatMove" delegate="move" player="Austrians" display="Non Combat Move"/>
             <step name="AustriansPlace" delegate="place" player="Austrians"/>
             <step name="AustriansEndTurn" delegate="endTurn" player="Austrians"/>
             <step name="OttomansCombatMove" delegate="move" player="Ottomans"/>
+            <step name="OttomansCreateMunitions" delegate="munitions" player="Ottomans"/>
+            <step name="OttomansMoveMunitions" delegate="move" player="Ottomans" display="Fire Munitions"/>
             <step name="OttomansPurchase" delegate="purchase" player="Ottomans"/>
             <step name="OttomansBattle" delegate="battle" player="Ottomans"/>
             <step name="OttomansNonCombatMove" delegate="move" player="Ottomans" display="Non Combat Move"/>
             <step name="OttomansPlace" delegate="place" player="Ottomans"/>
             <step name="OttomansEndTurn" delegate="endTurn" player="Ottomans"/>
             <step name="BritishCombatMove" delegate="move" player="British"/>
+            <step name="BritishCreateMunitions" delegate="munitions" player="British"/>
+            <step name="BritishMoveMunitions" delegate="move" player="British" display="Fire Munitions"/>
+            <step name="British-CommonwealthCombatMove" delegate="move" player="British-Commonwealth"/>
+            <step name="British-CommonwealthCreateMunitions" delegate="munitions" player="British-Commonwealth"/>
+            <step name="British-CommonwealthMoveMunitions" delegate="move" player="British-Commonwealth" display="Fire Munitions"/>
             <step name="BritishPurchase" delegate="purchase" player="British"/>
+            <step name="British-CommonwealthPurchase" delegate="purchase" player="British-Commonwealth"/>
             <step name="BritishBattle" delegate="battle" player="British"/>
+            <step name="British-CommonwealthBattle" delegate="battle" player="British-Commonwealth"/>
             <step name="BritishNonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
+            <step name="British-CommonwealthNonCombatMove" delegate="move" player="British-Commonwealth" display="Non Combat Move"/>
             <step name="BritishPlace" delegate="place" player="British"/>
+            <step name="British-CommonwealthPlace" delegate="place" player="British-Commonwealth"/>
             <step name="BritishEndTurn" delegate="endTurn" player="British"/>
+            <step name="British-CommonwealthEndTurn" delegate="endTurn" player="British-Commonwealth"/>
+            <step name="BritishCombatMove" delegate="move" player="British"/>
+            <step name="BritishCreateMunitions" delegate="munitions" player="British"/>
+            <step name="BritishMoveMunitions" delegate="move" player="British" display="Fire Munitions"/>
+            <step name="British-CommonwealthCombatMove" delegate="move" player="British-Commonwealth"/>
+            <step name="British-CommonwealthCreateMunitions" delegate="munitions" player="British-Commonwealth"/>
+            <step name="British-CommonwealthMoveMunitions" delegate="move" player="British-Commonwealth" display="Fire Munitions"/>
+            <step name="BritishPurchase" delegate="purchase" player="British"/>
+            <step name="British-CommonwealthPurchase" delegate="purchase" player="British-Commonwealth"/>
+            <step name="BritishBattle" delegate="battle" player="British"/>
+            <step name="British-CommonwealthBattle" delegate="battle" player="British-Commonwealth"/>
+            <step name="BritishNonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
+            <step name="British-CommonwealthNonCombatMove" delegate="move" player="British-Commonwealth" display="Non Combat Move"/>
+            <step name="BritishPlace" delegate="place" player="British"/>
+            <step name="British-CommonwealthPlace" delegate="place" player="British-Commonwealth"/>
+            <step name="BritishEndTurn" delegate="endTurn" player="British"/>
+            <step name="British-CommonwealthEndTurn" delegate="endTurn" player="British-Commonwealth"/>
             <step name="ItaliansCombatMove" delegate="move" player="Italians"/>
+            <step name="ItaliansCreateMunitions" delegate="munitions" player="Italians"/>
+            <step name="ItaliansMoveMunitions" delegate="move" player="Italians" display="Fire Munitions"/>
             <step name="ItaliansPurchase" delegate="purchase" player="Italians"/>
             <step name="ItaliansBattle" delegate="battle" player="Italians"/>
             <step name="ItaliansNonCombatMove" delegate="move" player="Italians" display="Non Combat Move"/>
             <step name="ItaliansPlace" delegate="place" player="Italians"/>
             <step name="ItaliansEndTurn" delegate="endTurn" player="Italians"/>
             <step name="AmericansCombatMove" delegate="move" player="Americans"/>
+            <step name="AmericansCreateMunitions" delegate="munitions" player="Americans"/>
+            <step name="AmericansMoveMunitions" delegate="move" player="Americans" display="Fire Munitions"/>
             <step name="AmericansPurchase" delegate="purchase" player="Americans"/>
             <step name="AmericansBattle" delegate="battle" player="Americans"/>
             <step name="AmericansNonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>
             <step name="AmericansPlace" delegate="place" player="Americans"/>
             <step name="AmericansEndTurn" delegate="endTurn" player="Americans"/>
             <step name="BolsheviksCombatMove" delegate="move" player="Bolsheviks"/>
+            <step name="BolsheviksCreateMunitions" delegate="munitions" player="Bolsheviks"/>
+            <step name="BolsheviksMoveMunitions" delegate="move" player="Bolsheviks" display="Fire Munitions"/>
             <step name="BolsheviksPurchase" delegate="purchase" player="Bolsheviks"/>
             <step name="BolsheviksBattle" delegate="battle" player="Bolsheviks"/>
             <step name="BolsheviksNonCombatMove" delegate="move" player="Bolsheviks" display="Non Combat Move"/>
             <step name="BolsheviksPlace" delegate="place" player="Bolsheviks"/>
             <step name="BolsheviksEndTurn" delegate="endTurn" player="Bolsheviks"/>
+			<!-- End templated game steps -->
             <step name="endRoundStep" delegate="endRound"/>
         </sequence>
     </gamePlay>
@@ -1693,7 +1770,7 @@
         </repairFrontier>
 		
 		<!-- Templated production frontiers -->
-				<productionFrontier name="Imperial-German-Afrika-Frontier">
+		<productionFrontier name="Imperial-German-Afrika-Frontier">
 			<frontierRules name="buyAA-Gun"/>
 			<frontierRules name="buyArmored-Train"/>
 			<frontierRules name="buyBattlecruiser"/>
@@ -1929,6 +2006,32 @@
 			<frontierRules name="buyTroop-Transport"/>
 			<frontierRules name="buyZeppelin"/>
 		</productionFrontier>
+		<productionFrontier name="Italians-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
 		<productionFrontier name="Americans-Frontier">
 			<frontierRules name="buyAA-Gun"/>
 			<frontierRules name="buyArmored-Train"/>
@@ -1961,6 +2064,7 @@
 		<playerProduction player="Russians" frontier="Russians-Frontier"/>
 		<playerProduction player="Austrians" frontier="Austrians-Frontier"/>
 		<playerProduction player="Ottomans" frontier="Ottomans-Frontier"/>
+		<playerProduction player="Italians" frontier="Italians-Frontier"/>
 		<playerProduction player="Americans" frontier="Americans-Frontier"/>
 		<playerProduction player="Imperial-German-Afrika" frontier="Imperial-German-Afrika-Frontier"/>
 		<playerProduction player="British-Commonwealth" frontier="British-Commonwealth-Frontier"/>
@@ -1972,6 +2076,7 @@
 		<playerRepair player="Russians" frontier="repair"/>
 		<playerRepair player="Austrians" frontier="repair"/>
 		<playerRepair player="Ottomans" frontier="repair"/>
+		<playerRepair player="Italians" frontier="repair"/>
 		<playerRepair player="Americans" frontier="repair"/>
 		<playerRepair player="Imperial-German-Afrika" frontier="repair"/>
 		<playerRepair player="British-Commonwealth" frontier="repair"/>
@@ -1981,7 +2086,7 @@
     </production>
     <attachmentList>
 		<!-- Templated attachments -->
-		<attachment name="techAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+        <attachment name="techAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
 		<attachment name="conditionAttachment-Germans-AlwaysTrue" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
@@ -2020,6 +2125,13 @@
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
 		<attachment name="conditionAttachment-Ottomans-AlwaysTrue" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <attachment name="techAttachment" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+            <option name="mechanizedInfantry" value="true" count=""/>
+        </attachment>
+		<attachment name="conditionAttachment-Italians-AlwaysTrue" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 		    <option name="techs" value="mechanizedInfantry" count="1" />
 		</attachment>
         
@@ -2124,6 +2236,18 @@
 			<option name="removeUnits" value="all:Develop-Bomber" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
+		<attachment name="conditionAttachment-Italians-Develop-Bomber" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Bomber" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Bomber" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Bomber" count=""/>
+			<option name="when" value="after:ItaliansPlace" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Bomber" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyBomber" count=""/>
+			<option name="removeUnits" value="all:Develop-Bomber" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
 		<attachment name="conditionAttachment-Americans-Develop-Bomber" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
 			<option name="unitPresence" value="Develop-Bomber" count="1"/>
@@ -2157,6 +2281,18 @@
 			<option name="when" value="after:OttomansPlace" count=""/>
 			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Carrier" count=""/>
 			<option name="productionRule" value="Ottomans-Frontier:buyCarrier" count=""/>
+			<option name="removeUnits" value="all:Develop-Carrier" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="conditionAttachment-Italians-Develop-Carrier" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Carrier" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Carrier" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Carrier" count=""/>
+			<option name="when" value="after:ItaliansPlace" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Carrier" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyCarrier" count=""/>
 			<option name="removeUnits" value="all:Develop-Carrier" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
@@ -2196,6 +2332,18 @@
 			<option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
+		<attachment name="conditionAttachment-Italians-Develop-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Heavy-Artillery" count=""/>
+			<option name="when" value="after:ItaliansPlace" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Heavy-Artillery" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyHeavy-Artillery" count=""/>
+			<option name="removeUnits" value="all:Develop-Heavy-Artillery" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
 		<attachment name="conditionAttachment-Americans-Develop-Heavy-Artillery" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
 			<option name="unitPresence" value="Develop-Heavy-Artillery" count="1"/>
@@ -2229,6 +2377,18 @@
 			<option name="when" value="after:OttomansPlace" count=""/>
 			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Mech-Infantry" count=""/>
 			<option name="productionRule" value="Ottomans-Frontier:buyMech-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Mech-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="conditionAttachment-Italians-Develop-Mech-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Mech-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Mech-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Mech-Infantry" count=""/>
+			<option name="when" value="after:ItaliansPlace" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Mech-Infantry" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyMech-Infantry" count=""/>
 			<option name="removeUnits" value="all:Develop-Mech-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
@@ -2268,6 +2428,18 @@
 			<option name="removeUnits" value="all:Develop-Railgun" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
+		<attachment name="conditionAttachment-Italians-Develop-Railgun" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Railgun" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Railgun" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Railgun" count=""/>
+			<option name="when" value="after:ItaliansPlace" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Railgun" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyRailgun" count=""/>
+			<option name="removeUnits" value="all:Develop-Railgun" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
 		<attachment name="conditionAttachment-Americans-Develop-Railgun" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
 			<option name="unitPresence" value="Develop-Railgun" count="1"/>
@@ -2304,6 +2476,18 @@
 			<option name="removeUnits" value="all:Develop-Tank" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
+		<attachment name="conditionAttachment-Italians-Develop-Tank" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Tank" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Tank" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Tank" count=""/>
+			<option name="when" value="after:ItaliansPlace" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Tank" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyTank" count=""/>
+			<option name="removeUnits" value="all:Develop-Tank" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
 		<attachment name="conditionAttachment-Americans-Develop-Tank" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
 			<option name="unitPresence" value="Develop-Tank" count="1"/>
@@ -2337,6 +2521,18 @@
 			<option name="when" value="after:OttomansPlace" count=""/>
 			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Tank" count=""/>
 			<option name="productionRule" value="Ottomans-Frontier:buyTank" count=""/>
+			<option name="removeUnits" value="all:Develop-Tank" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="conditionAttachment-Italians-Develop-Tank" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Tank" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Tank" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Tank" count=""/>
+			<option name="when" value="after:ItaliansPlace" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Tank" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyTank" count=""/>
 			<option name="removeUnits" value="all:Develop-Tank" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
@@ -6026,6 +6222,12 @@
 		<attachment name="triggerAttachment_Remove_Ottomans_Munitions_1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
 			<option name="when" value="after:OttomansBattle" />
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Italians_Munitions_1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
+			<option name="when" value="after:ItaliansBattle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
 		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
@@ -6092,6 +6294,12 @@
 		<attachment name="triggerAttachment_Remove_Ottomans_Munitions_1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
 			<option name="when" value="after:OttomansBattle" />
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Italians_Munitions_1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
+			<option name="when" value="after:ItaliansBattle" />
 			<option name="removeUnits" value="all:Munitions" count="9999" />
 		</attachment>
 		<!-- Remove after battle to avoid "this unit cannot land" warnings -->
@@ -6222,6 +6430,23 @@
 		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
 		    <option name="when" value="before:OttomansBattle" />
+		    <option name="unitType" value="Trenches"/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1"/>
+		</attachment>
+		<attachment name="conditionAttachment-Italians-AlwaysTrue" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
+		    <option name="when" value="before:ItaliansCombatMove" />
+		    <option name="unitType" value="Trenches"/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
+		    <option name="when" value="before:ItaliansBattle" />
 		    <option name="unitType" value="Trenches"/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
 		    <option name="uses" value="1"/>
@@ -6409,6 +6634,23 @@
 		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" />
 		    <option name="when" value="before:OttomansBattle" />
+		    <option name="unitType" value="Trenches"/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1"/>
+		</attachment>
+		<attachment name="conditionAttachment-Italians-AlwaysTrue" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
+		    <option name="when" value="before:ItaliansCombatMove" />
+		    <option name="unitType" value="Trenches"/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" />
+		    <option name="when" value="before:ItaliansBattle" />
 		    <option name="unitType" value="Trenches"/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
 		    <option name="uses" value="1"/>
