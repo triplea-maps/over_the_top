@@ -1548,34 +1548,34 @@
             <step name="Germans-CombatMove" delegate="move" player="Germans"/>
             <step name="Germans-MunitionsTechActivation" delegate="munitions" player="Germans"/>
             <step name="Germans-MunitionsCombatMove" delegate="move" player="Germans" display="Fire Munitions"/>
+            <step name="Germans-Purchase" delegate="purchase" player="Germans"/>
+            <step name="Germans-Battle" delegate="battle" player="Germans"/>
+            <step name="Germans-NonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>
+            <step name="Germans-Place" delegate="place" player="Germans"/>
+            <step name="Germans-EndTurn" delegate="endTurn" player="Germans"/>
             <step name="Imperial-German-Afrika-CombatMove" delegate="move" player="Imperial-German-Afrika"/>
             <step name="Imperial-German-Afrika-MunitionsTechActivation" delegate="munitions" player="Imperial-German-Afrika"/>
             <step name="Imperial-German-Afrika-MunitionsCombatMove" delegate="move" player="Imperial-German-Afrika" display="Fire Munitions"/>
-            <step name="Germans-Purchase" delegate="purchase" player="Germans"/>
             <step name="Imperial-German-Afrika-Purchase" delegate="purchase" player="Imperial-German-Afrika"/>
-            <step name="Germans-Battle" delegate="battle" player="Germans"/>
             <step name="Imperial-German-Afrika-Battle" delegate="battle" player="Imperial-German-Afrika"/>
-            <step name="Germans-NonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>
             <step name="Imperial-German-Afrika-NonCombatMove" delegate="move" player="Imperial-German-Afrika" display="Non Combat Move"/>
-            <step name="Germans-Place" delegate="place" player="Germans"/>
             <step name="Imperial-German-Afrika-Place" delegate="place" player="Imperial-German-Afrika"/>
-            <step name="Germans-EndTurn" delegate="endTurn" player="Germans"/>
             <step name="Imperial-German-Afrika-EndTurn" delegate="endTurn" player="Imperial-German-Afrika"/>
             <step name="French-CombatMove" delegate="move" player="French"/>
             <step name="French-MunitionsTechActivation" delegate="munitions" player="French"/>
             <step name="French-MunitionsCombatMove" delegate="move" player="French" display="Fire Munitions"/>
+            <step name="French-Purchase" delegate="purchase" player="French"/>
+            <step name="French-Battle" delegate="battle" player="French"/>
+            <step name="French-NonCombatMove" delegate="move" player="French" display="Non Combat Move"/>
+            <step name="French-Place" delegate="place" player="French"/>
+            <step name="French-EndTurn" delegate="endTurn" player="French"/>
             <step name="French-Colonial-Africa-CombatMove" delegate="move" player="French-Colonial-Africa"/>
             <step name="French-Colonial-Africa-MunitionsTechActivation" delegate="munitions" player="French-Colonial-Africa"/>
             <step name="French-Colonial-Africa-MunitionsCombatMove" delegate="move" player="French-Colonial-Africa" display="Fire Munitions"/>
-            <step name="French-Purchase" delegate="purchase" player="French"/>
             <step name="French-Colonial-Africa-Purchase" delegate="purchase" player="French-Colonial-Africa"/>
-            <step name="French-Battle" delegate="battle" player="French"/>
             <step name="French-Colonial-Africa-Battle" delegate="battle" player="French-Colonial-Africa"/>
-            <step name="French-NonCombatMove" delegate="move" player="French" display="Non Combat Move"/>
             <step name="French-Colonial-Africa-NonCombatMove" delegate="move" player="French-Colonial-Africa" display="Non Combat Move"/>
-            <step name="French-Place" delegate="place" player="French"/>
             <step name="French-Colonial-Africa-Place" delegate="place" player="French-Colonial-Africa"/>
-            <step name="French-EndTurn" delegate="endTurn" player="French"/>
             <step name="French-Colonial-Africa-EndTurn" delegate="endTurn" player="French-Colonial-Africa"/>
             <step name="Russians-CombatMove" delegate="move" player="Russians"/>
             <step name="Russians-MunitionsTechActivation" delegate="munitions" player="Russians"/>
@@ -1604,18 +1604,18 @@
             <step name="British-CombatMove" delegate="move" player="British"/>
             <step name="British-MunitionsTechActivation" delegate="munitions" player="British"/>
             <step name="British-MunitionsCombatMove" delegate="move" player="British" display="Fire Munitions"/>
+            <step name="British-Purchase" delegate="purchase" player="British"/>
+            <step name="British-Battle" delegate="battle" player="British"/>
+            <step name="British-NonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
+            <step name="British-Place" delegate="place" player="British"/>
+            <step name="British-EndTurn" delegate="endTurn" player="British"/>
             <step name="British-Commonwealth-CombatMove" delegate="move" player="British-Commonwealth"/>
             <step name="British-Commonwealth-MunitionsTechActivation" delegate="munitions" player="British-Commonwealth"/>
             <step name="British-Commonwealth-MunitionsCombatMove" delegate="move" player="British-Commonwealth" display="Fire Munitions"/>
-            <step name="British-Purchase" delegate="purchase" player="British"/>
             <step name="British-Commonwealth-Purchase" delegate="purchase" player="British-Commonwealth"/>
-            <step name="British-Battle" delegate="battle" player="British"/>
             <step name="British-Commonwealth-Battle" delegate="battle" player="British-Commonwealth"/>
-            <step name="British-NonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
             <step name="British-Commonwealth-NonCombatMove" delegate="move" player="British-Commonwealth" display="Non Combat Move"/>
-            <step name="British-Place" delegate="place" player="British"/>
             <step name="British-Commonwealth-Place" delegate="place" player="British-Commonwealth"/>
-            <step name="British-EndTurn" delegate="endTurn" player="British"/>
             <step name="British-Commonwealth-EndTurn" delegate="endTurn" player="British-Commonwealth"/>
             <step name="Italians-CombatMove" delegate="move" player="Italians"/>
             <step name="Italians-MunitionsTechActivation" delegate="munitions" player="Italians"/>
