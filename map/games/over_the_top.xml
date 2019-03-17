@@ -3067,8 +3067,6 @@
             <option name="artillery" value="true" count=""/>
             <option name="unitSupportCount" value="10" count=""/>
             <option name="createsUnitsList" value="1:Infantry" count=""/>
-            <option name="isInfantry" value="true"/>
-            <option name="canProduceUnits" value="true"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="1" count=""/>
@@ -3078,7 +3076,6 @@
             <option name="artillerySupportable" value="true" count=""/>
             <option name="isLandTransportable" value="true" count=""/>
             <option name="repairsUnits" value="Trenches" count="1"/>
-            <option name="isInfantry" value="true"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
