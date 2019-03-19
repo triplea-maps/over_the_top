@@ -782,7 +782,6 @@
         <connection t1="Hanover" t2="Saxony"/>
         <connection t1="Hejaz" t2="Oman"/>
         <connection t1="Hejaz" t2="RR 91"/>
-        <connection t1="Hejaz" t2="RR 92"/>
         <connection t1="Hejaz" t2="SZ 41"/>
         <connection t1="Holland" t2="Kiel"/>
         <connection t1="Holland" t2="Ruhr"/>
@@ -875,7 +874,6 @@
         <connection t1="London" t2="SZ 8"/>
         <connection t1="London" t2="York"/>
         <connection t1="Luderitz" t2="RR 114"/>
-        <connection t1="Luderitz" t2="RR 116"/>
         <connection t1="Luderitz" t2="S. Africa"/>
         <connection t1="Luderitz" t2="SZ 56"/>
         <connection t1="Luneville" t2="Metz"/>
@@ -1015,7 +1013,6 @@
         <connection t1="RR 10" t2="RR 11"/>
         <connection t1="RR 10" t2="RR 9"/>
         <connection t1="RR 10" t2="St. Petersburg"/>
-        <connection t1="RR 10" t2="Yaroslavl"/>
         <connection t1="RR 100" t2="RR 103"/>
         <connection t1="RR 100" t2="RR 99"/>
         <connection t1="RR 101" t2="RR 102"/>
@@ -1084,7 +1081,6 @@
         <connection t1="RR 14" t2="RR 147"/>
         <connection t1="RR 14" t2="RR 15"/>
         <connection t1="RR 14" t2="RR 16"/>
-        <connection t1="RR 14" t2="Yaroslavl"/>
         <connection t1="RR 140" t2="Strasbourg"/>
         <connection t1="RR 141" t2="RR 30"/>
         <connection t1="RR 141" t2="RR 39"/>
@@ -1114,7 +1110,6 @@
         <connection t1="RR 20" t2="RR 21"/>
         <connection t1="RR 20" t2="RR 30"/>
         <connection t1="RR 20" t2="RR 5"/>
-        <connection t1="RR 20" t2="Saxony"/>
         <connection t1="RR 21" t2="RR 22"/>
         <connection t1="RR 21" t2="RR 32"/>
         <connection t1="RR 21" t2="Silesia"/>
@@ -1196,7 +1191,6 @@
         <connection t1="RR 67" t2="RR 70"/>
         <connection t1="RR 68" t2="RR 69"/>
         <connection t1="RR 69" t2="RR 71"/>
-        <connection t1="RR 69" t2="Tabriz"/>
         <connection t1="RR 7" t2="RR 8"/>
         <connection t1="RR 7" t2="Vilnius"/>
         <connection t1="RR 70" t2="RR 83"/>
