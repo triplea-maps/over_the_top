@@ -4772,1420 +4772,1420 @@
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR100toRR103" attachTo="RR 100" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR100toRR103"/>
-            <option name="landTerritories" value="I. Somaliland:British E. Africa"/>
+            <option name="canalName" value="RR100toRR103" count=""/>
+            <option name="landTerritories" value="I. Somaliland:British E. Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR100toRR103" attachTo="RR 103" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR100toRR103"/>
-            <option name="landTerritories" value="I. Somaliland:British E. Africa"/>
+            <option name="canalName" value="RR100toRR103" count=""/>
+            <option name="landTerritories" value="I. Somaliland:British E. Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR100toRR99" attachTo="RR 100" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR100toRR99"/>
-            <option name="landTerritories" value="I. Somaliland:B. Somaliland"/>
+            <option name="canalName" value="RR100toRR99" count=""/>
+            <option name="landTerritories" value="I. Somaliland:B. Somaliland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR100toRR99" attachTo="RR 99" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR100toRR99"/>
-            <option name="landTerritories" value="I. Somaliland:B. Somaliland"/>
+            <option name="canalName" value="RR100toRR99" count=""/>
+            <option name="landTerritories" value="I. Somaliland:B. Somaliland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR101toRR102" attachTo="RR 101" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR101toRR102"/>
-            <option name="landTerritories" value="French Equitorial Africa:Bandundu"/>
+            <option name="canalName" value="RR101toRR102" count=""/>
+            <option name="landTerritories" value="French Equitorial Africa:Bandundu" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR101toRR102" attachTo="RR 102" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR101toRR102"/>
-            <option name="landTerritories" value="French Equitorial Africa:Bandundu"/>
+            <option name="canalName" value="RR101toRR102" count=""/>
+            <option name="landTerritories" value="French Equitorial Africa:Bandundu" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR101toRR104" attachTo="RR 101" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR101toRR104"/>
-            <option name="landTerritories" value="French Equitorial Africa:Cabinda"/>
+            <option name="canalName" value="RR101toRR104" count=""/>
+            <option name="landTerritories" value="French Equitorial Africa:Cabinda" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR101toRR104" attachTo="RR 104" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR101toRR104"/>
-            <option name="landTerritories" value="French Equitorial Africa:Cabinda"/>
+            <option name="canalName" value="RR101toRR104" count=""/>
+            <option name="landTerritories" value="French Equitorial Africa:Cabinda" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR101toRR97" attachTo="RR 101" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR101toRR97"/>
-            <option name="landTerritories" value="French Equitorial Africa:Cameroon"/>
+            <option name="canalName" value="RR101toRR97" count=""/>
+            <option name="landTerritories" value="French Equitorial Africa:Cameroon" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR101toRR97" attachTo="RR 97" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR101toRR97"/>
-            <option name="landTerritories" value="French Equitorial Africa:Cameroon"/>
+            <option name="canalName" value="RR101toRR97" count=""/>
+            <option name="landTerritories" value="French Equitorial Africa:Cameroon" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR102toRR105" attachTo="RR 102" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR102toRR105"/>
-            <option name="landTerritories" value="Bandundu:Kabinda"/>
+            <option name="canalName" value="RR102toRR105" count=""/>
+            <option name="landTerritories" value="Bandundu:Kabinda" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR102toRR105" attachTo="RR 105" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR102toRR105"/>
-            <option name="landTerritories" value="Bandundu:Kabinda"/>
+            <option name="canalName" value="RR102toRR105" count=""/>
+            <option name="landTerritories" value="Bandundu:Kabinda" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR103toRR106" attachTo="RR 103" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR103toRR106"/>
-            <option name="landTerritories" value="British E. Africa:Mumbaza"/>
+            <option name="canalName" value="RR103toRR106" count=""/>
+            <option name="landTerritories" value="British E. Africa:Mumbaza" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR103toRR106" attachTo="RR 106" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR103toRR106"/>
-            <option name="landTerritories" value="British E. Africa:Mumbaza"/>
+            <option name="canalName" value="RR103toRR106" count=""/>
+            <option name="landTerritories" value="British E. Africa:Mumbaza" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR104toRR109" attachTo="RR 104" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR104toRR109"/>
-            <option name="landTerritories" value="Cabinda:Angolia"/>
+            <option name="canalName" value="RR104toRR109" count=""/>
+            <option name="landTerritories" value="Cabinda:Angolia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR104toRR109" attachTo="RR 109" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR104toRR109"/>
-            <option name="landTerritories" value="Cabinda:Angolia"/>
+            <option name="canalName" value="RR104toRR109" count=""/>
+            <option name="landTerritories" value="Cabinda:Angolia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR105toRR107" attachTo="RR 105" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR105toRR107"/>
-            <option name="landTerritories" value="Kabinda:Rhodesia"/>
+            <option name="canalName" value="RR105toRR107" count=""/>
+            <option name="landTerritories" value="Kabinda:Rhodesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR105toRR107" attachTo="RR 107" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR105toRR107"/>
-            <option name="landTerritories" value="Kabinda:Rhodesia"/>
+            <option name="canalName" value="RR105toRR107" count=""/>
+            <option name="landTerritories" value="Kabinda:Rhodesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR106toRR108" attachTo="RR 106" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR106toRR108"/>
-            <option name="landTerritories" value="Mumbaza:German E. Afrika"/>
+            <option name="canalName" value="RR106toRR108" count=""/>
+            <option name="landTerritories" value="Mumbaza:German E. Afrika" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR106toRR108" attachTo="RR 108" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR106toRR108"/>
-            <option name="landTerritories" value="Mumbaza:German E. Afrika"/>
+            <option name="canalName" value="RR106toRR108" count=""/>
+            <option name="landTerritories" value="Mumbaza:German E. Afrika" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR107toRR108" attachTo="RR 107" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR107toRR108"/>
-            <option name="landTerritories" value="Rhodesia:German E. Afrika"/>
+            <option name="canalName" value="RR107toRR108" count=""/>
+            <option name="landTerritories" value="Rhodesia:German E. Afrika" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR107toRR108" attachTo="RR 108" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR107toRR108"/>
-            <option name="landTerritories" value="Rhodesia:German E. Afrika"/>
+            <option name="canalName" value="RR107toRR108" count=""/>
+            <option name="landTerritories" value="Rhodesia:German E. Afrika" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR108toRR110" attachTo="RR 108" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR108toRR110"/>
-            <option name="landTerritories" value="German E. Afrika:Portuguese E. Africa"/>
+            <option name="canalName" value="RR108toRR110" count=""/>
+            <option name="landTerritories" value="German E. Afrika:Portuguese E. Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR108toRR110" attachTo="RR 110" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR108toRR110"/>
-            <option name="landTerritories" value="German E. Afrika:Portuguese E. Africa"/>
+            <option name="canalName" value="RR108toRR110" count=""/>
+            <option name="landTerritories" value="German E. Afrika:Portuguese E. Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR109toRR112" attachTo="RR 109" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR109toRR112"/>
-            <option name="landTerritories" value="Angolia:German Southwest Africa"/>
+            <option name="canalName" value="RR109toRR112" count=""/>
+            <option name="landTerritories" value="Angolia:German Southwest Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR109toRR112" attachTo="RR 112" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR109toRR112"/>
-            <option name="landTerritories" value="Angolia:German Southwest Africa"/>
+            <option name="canalName" value="RR109toRR112" count=""/>
+            <option name="landTerritories" value="Angolia:German Southwest Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR10toRR11" attachTo="RR 10" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR10toRR11"/>
-            <option name="landTerritories" value="St. Petersburg:Yaroslavl"/>
+            <option name="canalName" value="RR10toRR11" count=""/>
+            <option name="landTerritories" value="St. Petersburg:Yaroslavl" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR10toRR11" attachTo="RR 11" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR10toRR11"/>
-            <option name="landTerritories" value="St. Petersburg:Yaroslavl"/>
+            <option name="canalName" value="RR10toRR11" count=""/>
+            <option name="landTerritories" value="St. Petersburg:Yaroslavl" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR10toRR9" attachTo="RR 10" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR10toRR9"/>
-            <option name="landTerritories" value="St. Petersburg:Tallin"/>
+            <option name="canalName" value="RR10toRR9" count=""/>
+            <option name="landTerritories" value="St. Petersburg:Tallin" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR10toRR9" attachTo="RR 9" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR10toRR9"/>
-            <option name="landTerritories" value="St. Petersburg:Tallin"/>
+            <option name="canalName" value="RR10toRR9" count=""/>
+            <option name="landTerritories" value="St. Petersburg:Tallin" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR110toRR111" attachTo="RR 110" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR110toRR111"/>
-            <option name="landTerritories" value="Portuguese E. Africa:Mozambique"/>
+            <option name="canalName" value="RR110toRR111" count=""/>
+            <option name="landTerritories" value="Portuguese E. Africa:Mozambique" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR110toRR111" attachTo="RR 111" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR110toRR111"/>
-            <option name="landTerritories" value="Portuguese E. Africa:Mozambique"/>
+            <option name="canalName" value="RR110toRR111" count=""/>
+            <option name="landTerritories" value="Portuguese E. Africa:Mozambique" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR111toRR113" attachTo="RR 111" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR111toRR113"/>
-            <option name="landTerritories" value="Mozambique:S. Rhodesia"/>
+            <option name="canalName" value="RR111toRR113" count=""/>
+            <option name="landTerritories" value="Mozambique:S. Rhodesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR111toRR113" attachTo="RR 113" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR111toRR113"/>
-            <option name="landTerritories" value="Mozambique:S. Rhodesia"/>
+            <option name="canalName" value="RR111toRR113" count=""/>
+            <option name="landTerritories" value="Mozambique:S. Rhodesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR112toRR114" attachTo="RR 112" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR112toRR114"/>
-            <option name="landTerritories" value="German Southwest Africa:Luderitz"/>
+            <option name="canalName" value="RR112toRR114" count=""/>
+            <option name="landTerritories" value="German Southwest Africa:Luderitz" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR112toRR114" attachTo="RR 114" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR112toRR114"/>
-            <option name="landTerritories" value="German Southwest Africa:Luderitz"/>
+            <option name="canalName" value="RR112toRR114" count=""/>
+            <option name="landTerritories" value="German Southwest Africa:Luderitz" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR113toRR115" attachTo="RR 113" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR113toRR115"/>
-            <option name="landTerritories" value="S. Rhodesia:Transvaal"/>
+            <option name="canalName" value="RR113toRR115" count=""/>
+            <option name="landTerritories" value="S. Rhodesia:Transvaal" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR113toRR115" attachTo="RR 115" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR113toRR115"/>
-            <option name="landTerritories" value="S. Rhodesia:Transvaal"/>
+            <option name="canalName" value="RR113toRR115" count=""/>
+            <option name="landTerritories" value="S. Rhodesia:Transvaal" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR114toRR116" attachTo="RR 114" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR114toRR116"/>
-            <option name="landTerritories" value="Luderitz:S. Africa"/>
+            <option name="canalName" value="RR114toRR116" count=""/>
+            <option name="landTerritories" value="Luderitz:S. Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR114toRR116" attachTo="RR 116" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR114toRR116"/>
-            <option name="landTerritories" value="Luderitz:S. Africa"/>
+            <option name="canalName" value="RR114toRR116" count=""/>
+            <option name="landTerritories" value="Luderitz:S. Africa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR115toRR117" attachTo="RR 115" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR115toRR117"/>
-            <option name="landTerritories" value="Transvaal:Natal"/>
+            <option name="canalName" value="RR115toRR117" count=""/>
+            <option name="landTerritories" value="Transvaal:Natal" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR115toRR117" attachTo="RR 117" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR115toRR117"/>
-            <option name="landTerritories" value="Transvaal:Natal"/>
+            <option name="canalName" value="RR115toRR117" count=""/>
+            <option name="landTerritories" value="Transvaal:Natal" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR116toRR117" attachTo="RR 116" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR116toRR117"/>
-            <option name="landTerritories" value="S. Africa:Natal"/>
+            <option name="canalName" value="RR116toRR117" count=""/>
+            <option name="landTerritories" value="S. Africa:Natal" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR116toRR117" attachTo="RR 117" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR116toRR117"/>
-            <option name="landTerritories" value="S. Africa:Natal"/>
+            <option name="canalName" value="RR116toRR117" count=""/>
+            <option name="landTerritories" value="S. Africa:Natal" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR118toRR123" attachTo="RR 118" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR118toRR123"/>
-            <option name="landTerritories" value="Flanders:Arras"/>
+            <option name="canalName" value="RR118toRR123" count=""/>
+            <option name="landTerritories" value="Flanders:Arras" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR118toRR123" attachTo="RR 123" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR118toRR123"/>
-            <option name="landTerritories" value="Flanders:Arras"/>
+            <option name="canalName" value="RR118toRR123" count=""/>
+            <option name="landTerritories" value="Flanders:Arras" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR118toRR127" attachTo="RR 118" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR118toRR127"/>
-            <option name="landTerritories" value="Flanders:Compiegne"/>
+            <option name="canalName" value="RR118toRR127" count=""/>
+            <option name="landTerritories" value="Flanders:Compiegne" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR118toRR127" attachTo="RR 127" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR118toRR127"/>
-            <option name="landTerritories" value="Flanders:Compiegne"/>
+            <option name="canalName" value="RR118toRR127" count=""/>
+            <option name="landTerritories" value="Flanders:Compiegne" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR119toRR120" attachTo="RR 119" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR119toRR120"/>
-            <option name="landTerritories" value="Brussels:Aachen"/>
+            <option name="canalName" value="RR119toRR120" count=""/>
+            <option name="landTerritories" value="Brussels:Aachen" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR119toRR120" attachTo="RR 120" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR119toRR120"/>
-            <option name="landTerritories" value="Brussels:Aachen"/>
+            <option name="canalName" value="RR119toRR120" count=""/>
+            <option name="landTerritories" value="Brussels:Aachen" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR119toRR125" attachTo="RR 119" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR119toRR125"/>
-            <option name="landTerritories" value="Brussels:Vimy"/>
+            <option name="canalName" value="RR119toRR125" count=""/>
+            <option name="landTerritories" value="Brussels:Vimy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR119toRR125" attachTo="RR 125" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR119toRR125"/>
-            <option name="landTerritories" value="Brussels:Vimy"/>
+            <option name="canalName" value="RR119toRR125" count=""/>
+            <option name="landTerritories" value="Brussels:Vimy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR11toRR14" attachTo="RR 11" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR11toRR14"/>
-            <option name="landTerritories" value="Yaroslavl:Moscow"/>
+            <option name="canalName" value="RR11toRR14" count=""/>
+            <option name="landTerritories" value="Yaroslavl:Moscow" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR11toRR14" attachTo="RR 14" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR11toRR14"/>
-            <option name="landTerritories" value="Yaroslavl:Moscow"/>
+            <option name="canalName" value="RR11toRR14" count=""/>
+            <option name="landTerritories" value="Yaroslavl:Moscow" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR120toRR121" attachTo="RR 120" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR120toRR121"/>
-            <option name="landTerritories" value="Aachen:Cologne"/>
+            <option name="canalName" value="RR120toRR121" count=""/>
+            <option name="landTerritories" value="Aachen:Cologne" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR120toRR121" attachTo="RR 121" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR120toRR121"/>
-            <option name="landTerritories" value="Aachen:Cologne"/>
+            <option name="canalName" value="RR120toRR121" count=""/>
+            <option name="landTerritories" value="Aachen:Cologne" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR121toRR122" attachTo="RR 121" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR121toRR122"/>
-            <option name="landTerritories" value="Cologne:Northern Rhineland"/>
+            <option name="canalName" value="RR121toRR122" count=""/>
+            <option name="landTerritories" value="Cologne:Northern Rhineland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR121toRR122" attachTo="RR 122" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR121toRR122"/>
-            <option name="landTerritories" value="Cologne:Northern Rhineland"/>
+            <option name="canalName" value="RR121toRR122" count=""/>
+            <option name="landTerritories" value="Cologne:Northern Rhineland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR121toRR126" attachTo="RR 121" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR121toRR126"/>
-            <option name="landTerritories" value="Cologne:Ardennes"/>
+            <option name="canalName" value="RR121toRR126" count=""/>
+            <option name="landTerritories" value="Cologne:Ardennes" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR121toRR126" attachTo="RR 126" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR121toRR126"/>
-            <option name="landTerritories" value="Cologne:Ardennes"/>
+            <option name="canalName" value="RR121toRR126" count=""/>
+            <option name="landTerritories" value="Cologne:Ardennes" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR121toRR130" attachTo="RR 121" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR121toRR130"/>
-            <option name="landTerritories" value="Cologne:Frankfurt"/>
+            <option name="canalName" value="RR121toRR130" count=""/>
+            <option name="landTerritories" value="Cologne:Frankfurt" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR121toRR130" attachTo="RR 130" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR121toRR130"/>
-            <option name="landTerritories" value="Cologne:Frankfurt"/>
+            <option name="canalName" value="RR121toRR130" count=""/>
+            <option name="landTerritories" value="Cologne:Frankfurt" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR122toRR133" attachTo="RR 122" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR122toRR133"/>
-            <option name="landTerritories" value="Northern Rhineland:Rhineland"/>
+            <option name="canalName" value="RR122toRR133" count=""/>
+            <option name="landTerritories" value="Northern Rhineland:Rhineland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR122toRR133" attachTo="RR 133" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR122toRR133"/>
-            <option name="landTerritories" value="Northern Rhineland:Rhineland"/>
+            <option name="canalName" value="RR122toRR133" count=""/>
+            <option name="landTerritories" value="Northern Rhineland:Rhineland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR122toRR18" attachTo="RR 122" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR122toRR18"/>
-            <option name="landTerritories" value="Northern Rhineland:Ruhr"/>
+            <option name="canalName" value="RR122toRR18" count=""/>
+            <option name="landTerritories" value="Northern Rhineland:Ruhr" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR122toRR18" attachTo="RR 18" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR122toRR18"/>
-            <option name="landTerritories" value="Northern Rhineland:Ruhr"/>
+            <option name="canalName" value="RR122toRR18" count=""/>
+            <option name="landTerritories" value="Northern Rhineland:Ruhr" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR123toRR124" attachTo="RR 123" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR123toRR124"/>
-            <option name="landTerritories" value="Arras:Somme"/>
+            <option name="canalName" value="RR123toRR124" count=""/>
+            <option name="landTerritories" value="Arras:Somme" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR123toRR124" attachTo="RR 124" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR123toRR124"/>
-            <option name="landTerritories" value="Arras:Somme"/>
+            <option name="canalName" value="RR123toRR124" count=""/>
+            <option name="landTerritories" value="Arras:Somme" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR123toRR128" attachTo="RR 123" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR123toRR128"/>
-            <option name="landTerritories" value="Arras:Soissons"/>
+            <option name="canalName" value="RR123toRR128" count=""/>
+            <option name="landTerritories" value="Arras:Soissons" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR123toRR128" attachTo="RR 128" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR123toRR128"/>
-            <option name="landTerritories" value="Arras:Soissons"/>
+            <option name="canalName" value="RR123toRR128" count=""/>
+            <option name="landTerritories" value="Arras:Soissons" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR124toRR125" attachTo="RR 124" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR124toRR125"/>
-            <option name="landTerritories" value="Somme:Vimy"/>
+            <option name="canalName" value="RR124toRR125" count=""/>
+            <option name="landTerritories" value="Somme:Vimy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR124toRR125" attachTo="RR 125" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR124toRR125"/>
-            <option name="landTerritories" value="Somme:Vimy"/>
+            <option name="canalName" value="RR124toRR125" count=""/>
+            <option name="landTerritories" value="Somme:Vimy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR124toRR128" attachTo="RR 124" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR124toRR128"/>
-            <option name="landTerritories" value="Somme:Soissons"/>
+            <option name="canalName" value="RR124toRR128" count=""/>
+            <option name="landTerritories" value="Somme:Soissons" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR124toRR128" attachTo="RR 128" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR124toRR128"/>
-            <option name="landTerritories" value="Somme:Soissons"/>
+            <option name="canalName" value="RR124toRR128" count=""/>
+            <option name="landTerritories" value="Somme:Soissons" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR125toRR129" attachTo="RR 125" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR125toRR129"/>
-            <option name="landTerritories" value="Vimy:Mont Blanc"/>
+            <option name="canalName" value="RR125toRR129" count=""/>
+            <option name="landTerritories" value="Vimy:Mont Blanc" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR125toRR129" attachTo="RR 129" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR125toRR129"/>
-            <option name="landTerritories" value="Vimy:Mont Blanc"/>
+            <option name="canalName" value="RR125toRR129" count=""/>
+            <option name="landTerritories" value="Vimy:Mont Blanc" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR126toRR129" attachTo="RR 126" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR126toRR129"/>
-            <option name="landTerritories" value="Ardennes:Mont Blanc"/>
+            <option name="canalName" value="RR126toRR129" count=""/>
+            <option name="landTerritories" value="Ardennes:Mont Blanc" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR126toRR129" attachTo="RR 129" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR126toRR129"/>
-            <option name="landTerritories" value="Ardennes:Mont Blanc"/>
+            <option name="canalName" value="RR126toRR129" count=""/>
+            <option name="landTerritories" value="Ardennes:Mont Blanc" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR127toRR137" attachTo="RR 127" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR127toRR137"/>
-            <option name="landTerritories" value="Compiegne:Fontainbleu"/>
+            <option name="canalName" value="RR127toRR137" count=""/>
+            <option name="landTerritories" value="Compiegne:Fontainbleu" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR127toRR137" attachTo="RR 137" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR127toRR137"/>
-            <option name="landTerritories" value="Compiegne:Fontainbleu"/>
+            <option name="canalName" value="RR127toRR137" count=""/>
+            <option name="landTerritories" value="Compiegne:Fontainbleu" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR128toRR134" attachTo="RR 128" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR128toRR134"/>
-            <option name="landTerritories" value="Soissons:Chantilly"/>
+            <option name="canalName" value="RR128toRR134" count=""/>
+            <option name="landTerritories" value="Soissons:Chantilly" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR128toRR134" attachTo="RR 134" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR128toRR134"/>
-            <option name="landTerritories" value="Soissons:Chantilly"/>
+            <option name="canalName" value="RR128toRR134" count=""/>
+            <option name="landTerritories" value="Soissons:Chantilly" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR129toRR131" attachTo="RR 129" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR129toRR131"/>
-            <option name="landTerritories" value="Mont Blanc:Argonne"/>
+            <option name="canalName" value="RR129toRR131" count=""/>
+            <option name="landTerritories" value="Mont Blanc:Argonne" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR129toRR131" attachTo="RR 131" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR129toRR131"/>
-            <option name="landTerritories" value="Mont Blanc:Argonne"/>
+            <option name="canalName" value="RR129toRR131" count=""/>
+            <option name="landTerritories" value="Mont Blanc:Argonne" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR129toRR132" attachTo="RR 129" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR129toRR132"/>
-            <option name="landTerritories" value="Mont Blanc:Douamont"/>
+            <option name="canalName" value="RR129toRR132" count=""/>
+            <option name="landTerritories" value="Mont Blanc:Douamont" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR129toRR132" attachTo="RR 132" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR129toRR132"/>
-            <option name="landTerritories" value="Mont Blanc:Douamont"/>
+            <option name="canalName" value="RR129toRR132" count=""/>
+            <option name="landTerritories" value="Mont Blanc:Douamont" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR12toRR13" attachTo="RR 12" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR12toRR13"/>
-            <option name="landTerritories" value="Smolensk:Kaluga"/>
+            <option name="canalName" value="RR12toRR13" count=""/>
+            <option name="landTerritories" value="Smolensk:Kaluga" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR12toRR13" attachTo="RR 13" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR12toRR13"/>
-            <option name="landTerritories" value="Smolensk:Kaluga"/>
+            <option name="canalName" value="RR12toRR13" count=""/>
+            <option name="landTerritories" value="Smolensk:Kaluga" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR12toRR23" attachTo="RR 12" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR12toRR23"/>
-            <option name="landTerritories" value="Smolensk:Belarus"/>
+            <option name="canalName" value="RR12toRR23" count=""/>
+            <option name="landTerritories" value="Smolensk:Belarus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR12toRR23" attachTo="RR 23" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR12toRR23"/>
-            <option name="landTerritories" value="Smolensk:Belarus"/>
+            <option name="canalName" value="RR12toRR23" count=""/>
+            <option name="landTerritories" value="Smolensk:Belarus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR130toRR132" attachTo="RR 130" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR130toRR132"/>
-            <option name="landTerritories" value="Frankfurt:Douamont"/>
+            <option name="canalName" value="RR130toRR132" count=""/>
+            <option name="landTerritories" value="Frankfurt:Douamont" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR130toRR132" attachTo="RR 132" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR130toRR132"/>
-            <option name="landTerritories" value="Frankfurt:Douamont"/>
+            <option name="canalName" value="RR130toRR132" count=""/>
+            <option name="landTerritories" value="Frankfurt:Douamont" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR130toRR133" attachTo="RR 130" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR130toRR133"/>
-            <option name="landTerritories" value="Frankfurt:Rhineland"/>
+            <option name="canalName" value="RR130toRR133" count=""/>
+            <option name="landTerritories" value="Frankfurt:Rhineland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR130toRR133" attachTo="RR 133" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR130toRR133"/>
-            <option name="landTerritories" value="Frankfurt:Rhineland"/>
+            <option name="canalName" value="RR130toRR133" count=""/>
+            <option name="landTerritories" value="Frankfurt:Rhineland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR131toRR134" attachTo="RR 131" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR131toRR134"/>
-            <option name="landTerritories" value="Argonne:Chantilly"/>
+            <option name="canalName" value="RR131toRR134" count=""/>
+            <option name="landTerritories" value="Argonne:Chantilly" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR131toRR134" attachTo="RR 134" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR131toRR134"/>
-            <option name="landTerritories" value="Argonne:Chantilly"/>
+            <option name="canalName" value="RR131toRR134" count=""/>
+            <option name="landTerritories" value="Argonne:Chantilly" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR131toRR135" attachTo="RR 131" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR131toRR135"/>
-            <option name="landTerritories" value="Argonne:Rhiems"/>
+            <option name="canalName" value="RR131toRR135" count=""/>
+            <option name="landTerritories" value="Argonne:Rhiems" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR131toRR135" attachTo="RR 135" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR131toRR135"/>
-            <option name="landTerritories" value="Argonne:Rhiems"/>
+            <option name="canalName" value="RR131toRR135" count=""/>
+            <option name="landTerritories" value="Argonne:Rhiems" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR132toRR136" attachTo="RR 132" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR132toRR136"/>
-            <option name="landTerritories" value="Douamont:Metz"/>
+            <option name="canalName" value="RR132toRR136" count=""/>
+            <option name="landTerritories" value="Douamont:Metz" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR132toRR136" attachTo="RR 136" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR132toRR136"/>
-            <option name="landTerritories" value="Douamont:Metz"/>
+            <option name="canalName" value="RR132toRR136" count=""/>
+            <option name="landTerritories" value="Douamont:Metz" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR133toRR140" attachTo="RR 133" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR133toRR140"/>
-            <option name="landTerritories" value="Rhineland:Strasbourg"/>
+            <option name="canalName" value="RR133toRR140" count=""/>
+            <option name="landTerritories" value="Rhineland:Strasbourg" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR133toRR140" attachTo="RR 140" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR133toRR140"/>
-            <option name="landTerritories" value="Rhineland:Strasbourg"/>
+            <option name="canalName" value="RR133toRR140" count=""/>
+            <option name="landTerritories" value="Rhineland:Strasbourg" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR134toRR137" attachTo="RR 134" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR134toRR137"/>
-            <option name="landTerritories" value="Chantilly:Fontainbleu"/>
+            <option name="canalName" value="RR134toRR137" count=""/>
+            <option name="landTerritories" value="Chantilly:Fontainbleu" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR134toRR137" attachTo="RR 137" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR134toRR137"/>
-            <option name="landTerritories" value="Chantilly:Fontainbleu"/>
+            <option name="canalName" value="RR134toRR137" count=""/>
+            <option name="landTerritories" value="Chantilly:Fontainbleu" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR135toRR138" attachTo="RR 135" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR135toRR138"/>
-            <option name="landTerritories" value="Rhiems:Bar-Le-Duc"/>
+            <option name="canalName" value="RR135toRR138" count=""/>
+            <option name="landTerritories" value="Rhiems:Bar-Le-Duc" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR135toRR138" attachTo="RR 138" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR135toRR138"/>
-            <option name="landTerritories" value="Rhiems:Bar-Le-Duc"/>
+            <option name="canalName" value="RR135toRR138" count=""/>
+            <option name="landTerritories" value="Rhiems:Bar-Le-Duc" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR136toRR140" attachTo="RR 136" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR136toRR140"/>
-            <option name="landTerritories" value="Metz:Strasbourg"/>
+            <option name="canalName" value="RR136toRR140" count=""/>
+            <option name="landTerritories" value="Metz:Strasbourg" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR136toRR140" attachTo="RR 140" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR136toRR140"/>
-            <option name="landTerritories" value="Metz:Strasbourg"/>
+            <option name="canalName" value="RR136toRR140" count=""/>
+            <option name="landTerritories" value="Metz:Strasbourg" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR138toRR139" attachTo="RR 138" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR138toRR139"/>
-            <option name="landTerritories" value="Bar-Le-Duc:Luneville"/>
+            <option name="canalName" value="RR138toRR139" count=""/>
+            <option name="landTerritories" value="Bar-Le-Duc:Luneville" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR138toRR139" attachTo="RR 139" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR138toRR139"/>
-            <option name="landTerritories" value="Bar-Le-Duc:Luneville"/>
+            <option name="canalName" value="RR138toRR139" count=""/>
+            <option name="landTerritories" value="Bar-Le-Duc:Luneville" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR139toRR140" attachTo="RR 139" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR139toRR140"/>
-            <option name="landTerritories" value="Luneville:Strasbourg"/>
+            <option name="canalName" value="RR139toRR140" count=""/>
+            <option name="landTerritories" value="Luneville:Strasbourg" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR139toRR140" attachTo="RR 140" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR139toRR140"/>
-            <option name="landTerritories" value="Luneville:Strasbourg"/>
+            <option name="canalName" value="RR139toRR140" count=""/>
+            <option name="landTerritories" value="Luneville:Strasbourg" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR13toRR14" attachTo="RR 13" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR13toRR14"/>
-            <option name="landTerritories" value="Kaluga:Moscow"/>
+            <option name="canalName" value="RR13toRR14" count=""/>
+            <option name="landTerritories" value="Kaluga:Moscow" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR13toRR14" attachTo="RR 14" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR13toRR14"/>
-            <option name="landTerritories" value="Kaluga:Moscow"/>
+            <option name="canalName" value="RR13toRR14" count=""/>
+            <option name="landTerritories" value="Kaluga:Moscow" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR140toRR29" attachTo="RR 140" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR140toRR29"/>
-            <option name="landTerritories" value="Strasbourg:Bavaria"/>
+            <option name="canalName" value="RR140toRR29" count=""/>
+            <option name="landTerritories" value="Strasbourg:Bavaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR140toRR29" attachTo="RR 29" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR140toRR29"/>
-            <option name="landTerritories" value="Strasbourg:Bavaria"/>
+            <option name="canalName" value="RR140toRR29" count=""/>
+            <option name="landTerritories" value="Strasbourg:Bavaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR141toRR30" attachTo="RR 141" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR141toRR30"/>
-            <option name="landTerritories" value="Innsbruck:Saxony"/>
+            <option name="canalName" value="RR141toRR30" count=""/>
+            <option name="landTerritories" value="Innsbruck:Saxony" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR141toRR30" attachTo="RR 30" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR141toRR30"/>
-            <option name="landTerritories" value="Innsbruck:Saxony"/>
+            <option name="canalName" value="RR141toRR30" count=""/>
+            <option name="landTerritories" value="Innsbruck:Saxony" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR141toRR39" attachTo="RR 141" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR141toRR39"/>
-            <option name="landTerritories" value="Innsbruck:Venice"/>
+            <option name="canalName" value="RR141toRR39" count=""/>
+            <option name="landTerritories" value="Innsbruck:Venice" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR141toRR39" attachTo="RR 39" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR141toRR39"/>
-            <option name="landTerritories" value="Innsbruck:Venice"/>
+            <option name="canalName" value="RR141toRR39" count=""/>
+            <option name="landTerritories" value="Innsbruck:Venice" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR141toRR40" attachTo="RR 141" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR141toRR40"/>
-            <option name="landTerritories" value="Innsbruck:Vienna"/>
+            <option name="canalName" value="RR141toRR40" count=""/>
+            <option name="landTerritories" value="Innsbruck:Vienna" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR141toRR40" attachTo="RR 40" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR141toRR40"/>
-            <option name="landTerritories" value="Innsbruck:Vienna"/>
+            <option name="canalName" value="RR141toRR40" count=""/>
+            <option name="landTerritories" value="Innsbruck:Vienna" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR142toRR85" attachTo="RR 142" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR142toRR85"/>
-            <option name="landTerritories" value="al-Hasa:Basrah"/>
+            <option name="canalName" value="RR142toRR85" count=""/>
+            <option name="landTerritories" value="al-Hasa:Basrah" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR142toRR85" attachTo="RR 85" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR142toRR85"/>
-            <option name="landTerritories" value="al-Hasa:Basrah"/>
+            <option name="canalName" value="RR142toRR85" count=""/>
+            <option name="landTerritories" value="al-Hasa:Basrah" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR143toRR16" attachTo="RR 143" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR143toRR16"/>
-            <option name="landTerritories" value="Tambov:Tula"/>
+            <option name="canalName" value="RR143toRR16" count=""/>
+            <option name="landTerritories" value="Tambov:Tula" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR143toRR16" attachTo="RR 16" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR143toRR16"/>
-            <option name="landTerritories" value="Tambov:Tula"/>
+            <option name="canalName" value="RR143toRR16" count=""/>
+            <option name="landTerritories" value="Tambov:Tula" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR143toRR25" attachTo="RR 143" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR143toRR25"/>
-            <option name="landTerritories" value="Tambov:Penza"/>
+            <option name="canalName" value="RR143toRR25" count=""/>
+            <option name="landTerritories" value="Tambov:Penza" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR143toRR25" attachTo="RR 25" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR143toRR25"/>
-            <option name="landTerritories" value="Tambov:Penza"/>
+            <option name="canalName" value="RR143toRR25" count=""/>
+            <option name="landTerritories" value="Tambov:Penza" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR144toRR25" attachTo="RR 144" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR144toRR25"/>
-            <option name="landTerritories" value="BR 6:Penza"/>
+            <option name="canalName" value="RR144toRR25" count=""/>
+            <option name="landTerritories" value="BR 6:Penza" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR144toRR25" attachTo="RR 25" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR144toRR25"/>
-            <option name="landTerritories" value="BR 6:Penza"/>
+            <option name="canalName" value="RR144toRR25" count=""/>
+            <option name="landTerritories" value="BR 6:Penza" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR145toRR146" attachTo="RR 145" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR145toRR146"/>
-            <option name="landTerritories" value="Kazan:BR 5"/>
+            <option name="canalName" value="RR145toRR146" count=""/>
+            <option name="landTerritories" value="Kazan:BR 5" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR145toRR146" attachTo="RR 146" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR145toRR146"/>
-            <option name="landTerritories" value="Kazan:BR 5"/>
+            <option name="canalName" value="RR145toRR146" count=""/>
+            <option name="landTerritories" value="Kazan:BR 5" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR145toRR15" attachTo="RR 145" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR145toRR15"/>
-            <option name="landTerritories" value="Kazan:Gorkiy"/>
+            <option name="canalName" value="RR145toRR15" count=""/>
+            <option name="landTerritories" value="Kazan:Gorkiy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR145toRR15" attachTo="RR 15" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR145toRR15"/>
-            <option name="landTerritories" value="Kazan:Gorkiy"/>
+            <option name="canalName" value="RR145toRR15" count=""/>
+            <option name="landTerritories" value="Kazan:Gorkiy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR147toRR148" attachTo="RR 147" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR147toRR148"/>
-            <option name="landTerritories" value="Ivanova:Vyatka"/>
+            <option name="canalName" value="RR147toRR148" count=""/>
+            <option name="landTerritories" value="Ivanova:Vyatka" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR147toRR148" attachTo="RR 148" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR147toRR148"/>
-            <option name="landTerritories" value="Ivanova:Vyatka"/>
+            <option name="canalName" value="RR147toRR148" count=""/>
+            <option name="landTerritories" value="Ivanova:Vyatka" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR148toRR149" attachTo="RR 148" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR148toRR149"/>
-            <option name="landTerritories" value="Vyatka:BR 4"/>
+            <option name="canalName" value="RR148toRR149" count=""/>
+            <option name="landTerritories" value="Vyatka:BR 4" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR148toRR149" attachTo="RR 149" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR148toRR149"/>
-            <option name="landTerritories" value="Vyatka:BR 4"/>
+            <option name="canalName" value="RR148toRR149" count=""/>
+            <option name="landTerritories" value="Vyatka:BR 4" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR14toRR147" attachTo="RR 14" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR14toRR147"/>
-            <option name="landTerritories" value="Moscow:Ivanova"/>
+            <option name="canalName" value="RR14toRR147" count=""/>
+            <option name="landTerritories" value="Moscow:Ivanova" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR14toRR147" attachTo="RR 147" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR14toRR147"/>
-            <option name="landTerritories" value="Moscow:Ivanova"/>
+            <option name="canalName" value="RR14toRR147" count=""/>
+            <option name="landTerritories" value="Moscow:Ivanova" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR14toRR15" attachTo="RR 14" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR14toRR15"/>
-            <option name="landTerritories" value="Moscow:Gorkiy"/>
+            <option name="canalName" value="RR14toRR15" count=""/>
+            <option name="landTerritories" value="Moscow:Gorkiy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR14toRR15" attachTo="RR 15" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR14toRR15"/>
-            <option name="landTerritories" value="Moscow:Gorkiy"/>
+            <option name="canalName" value="RR14toRR15" count=""/>
+            <option name="landTerritories" value="Moscow:Gorkiy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR14toRR16" attachTo="RR 14" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR14toRR16"/>
-            <option name="landTerritories" value="Moscow:Tula"/>
+            <option name="canalName" value="RR14toRR16" count=""/>
+            <option name="landTerritories" value="Moscow:Tula" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR14toRR16" attachTo="RR 16" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR14toRR16"/>
-            <option name="landTerritories" value="Moscow:Tula"/>
+            <option name="canalName" value="RR14toRR16" count=""/>
+            <option name="landTerritories" value="Moscow:Tula" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR16toRR24" attachTo="RR 16" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR16toRR24"/>
-            <option name="landTerritories" value="Tula:Oryol"/>
+            <option name="canalName" value="RR16toRR24" count=""/>
+            <option name="landTerritories" value="Tula:Oryol" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR16toRR24" attachTo="RR 24" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR16toRR24"/>
-            <option name="landTerritories" value="Tula:Oryol"/>
+            <option name="canalName" value="RR16toRR24" count=""/>
+            <option name="landTerritories" value="Tula:Oryol" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR17toRR26" attachTo="RR 17" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR17toRR26"/>
-            <option name="landTerritories" value="Picardy:Normandy"/>
+            <option name="canalName" value="RR17toRR26" count=""/>
+            <option name="landTerritories" value="Picardy:Normandy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR17toRR26" attachTo="RR 26" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR17toRR26"/>
-            <option name="landTerritories" value="Picardy:Normandy"/>
+            <option name="canalName" value="RR17toRR26" count=""/>
+            <option name="landTerritories" value="Picardy:Normandy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR17toRR27" attachTo="RR 17" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR17toRR27"/>
-            <option name="landTerritories" value="Picardy:Paris"/>
+            <option name="canalName" value="RR17toRR27" count=""/>
+            <option name="landTerritories" value="Picardy:Paris" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR17toRR27" attachTo="RR 27" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR17toRR27"/>
-            <option name="landTerritories" value="Picardy:Paris"/>
+            <option name="canalName" value="RR17toRR27" count=""/>
+            <option name="landTerritories" value="Picardy:Paris" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR18toRR19" attachTo="RR 18" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR18toRR19"/>
-            <option name="landTerritories" value="Ruhr:Hanover"/>
+            <option name="canalName" value="RR18toRR19" count=""/>
+            <option name="landTerritories" value="Ruhr:Hanover" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR18toRR19" attachTo="RR 19" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR18toRR19"/>
-            <option name="landTerritories" value="Ruhr:Hanover"/>
+            <option name="canalName" value="RR18toRR19" count=""/>
+            <option name="landTerritories" value="Ruhr:Hanover" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR18toRR29" attachTo="RR 18" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR18toRR29"/>
-            <option name="landTerritories" value="Ruhr:Bavaria"/>
+            <option name="canalName" value="RR18toRR29" count=""/>
+            <option name="landTerritories" value="Ruhr:Bavaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR18toRR29" attachTo="RR 29" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR18toRR29"/>
-            <option name="landTerritories" value="Ruhr:Bavaria"/>
+            <option name="canalName" value="RR18toRR29" count=""/>
+            <option name="landTerritories" value="Ruhr:Bavaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR18toRR4" attachTo="RR 18" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR18toRR4"/>
-            <option name="landTerritories" value="Ruhr:Kiel"/>
+            <option name="canalName" value="RR18toRR4" count=""/>
+            <option name="landTerritories" value="Ruhr:Kiel" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR18toRR4" attachTo="RR 4" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR18toRR4"/>
-            <option name="landTerritories" value="Ruhr:Kiel"/>
+            <option name="canalName" value="RR18toRR4" count=""/>
+            <option name="landTerritories" value="Ruhr:Kiel" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR19toRR20" attachTo="RR 19" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR19toRR20"/>
-            <option name="landTerritories" value="Hanover:Berlin"/>
+            <option name="canalName" value="RR19toRR20" count=""/>
+            <option name="landTerritories" value="Hanover:Berlin" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR19toRR20" attachTo="RR 20" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR19toRR20"/>
-            <option name="landTerritories" value="Hanover:Berlin"/>
+            <option name="canalName" value="RR19toRR20" count=""/>
+            <option name="landTerritories" value="Hanover:Berlin" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR1toRR2" attachTo="RR 1" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR1toRR2"/>
-            <option name="landTerritories" value="Scotland:York"/>
+            <option name="canalName" value="RR1toRR2" count=""/>
+            <option name="landTerritories" value="Scotland:York" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR1toRR2" attachTo="RR 2" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR1toRR2"/>
-            <option name="landTerritories" value="Scotland:York"/>
+            <option name="canalName" value="RR1toRR2" count=""/>
+            <option name="landTerritories" value="Scotland:York" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR20toRR21" attachTo="RR 20" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR20toRR21"/>
-            <option name="landTerritories" value="Berlin:Silesia"/>
+            <option name="canalName" value="RR20toRR21" count=""/>
+            <option name="landTerritories" value="Berlin:Silesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR20toRR21" attachTo="RR 21" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR20toRR21"/>
-            <option name="landTerritories" value="Berlin:Silesia"/>
+            <option name="canalName" value="RR20toRR21" count=""/>
+            <option name="landTerritories" value="Berlin:Silesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR20toRR30" attachTo="RR 20" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR20toRR30"/>
-            <option name="landTerritories" value="Berlin:Saxony"/>
+            <option name="canalName" value="RR20toRR30" count=""/>
+            <option name="landTerritories" value="Berlin:Saxony" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR20toRR30" attachTo="RR 30" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR20toRR30"/>
-            <option name="landTerritories" value="Berlin:Saxony"/>
+            <option name="canalName" value="RR20toRR30" count=""/>
+            <option name="landTerritories" value="Berlin:Saxony" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR20toRR5" attachTo="RR 20" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR20toRR5"/>
-            <option name="landTerritories" value="Berlin:Pomerania"/>
+            <option name="canalName" value="RR20toRR5" count=""/>
+            <option name="landTerritories" value="Berlin:Pomerania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR20toRR5" attachTo="RR 5" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR20toRR5"/>
-            <option name="landTerritories" value="Berlin:Pomerania"/>
+            <option name="canalName" value="RR20toRR5" count=""/>
+            <option name="landTerritories" value="Berlin:Pomerania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR21toRR22" attachTo="RR 21" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR21toRR22"/>
-            <option name="landTerritories" value="Silesia:Poland"/>
+            <option name="canalName" value="RR21toRR22" count=""/>
+            <option name="landTerritories" value="Silesia:Poland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR21toRR22" attachTo="RR 22" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR21toRR22"/>
-            <option name="landTerritories" value="Silesia:Poland"/>
+            <option name="canalName" value="RR21toRR22" count=""/>
+            <option name="landTerritories" value="Silesia:Poland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR21toRR32" attachTo="RR 21" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR21toRR32"/>
-            <option name="landTerritories" value="Silesia:Galacia"/>
+            <option name="canalName" value="RR21toRR32" count=""/>
+            <option name="landTerritories" value="Silesia:Galacia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR21toRR32" attachTo="RR 32" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR21toRR32"/>
-            <option name="landTerritories" value="Silesia:Galacia"/>
+            <option name="canalName" value="RR21toRR32" count=""/>
+            <option name="landTerritories" value="Silesia:Galacia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR22toRR23" attachTo="RR 22" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR22toRR23"/>
-            <option name="landTerritories" value="Poland:Belarus"/>
+            <option name="canalName" value="RR22toRR23" count=""/>
+            <option name="landTerritories" value="Poland:Belarus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR22toRR23" attachTo="RR 23" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR22toRR23"/>
-            <option name="landTerritories" value="Poland:Belarus"/>
+            <option name="canalName" value="RR22toRR23" count=""/>
+            <option name="landTerritories" value="Poland:Belarus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR23toRR34" attachTo="RR 23" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR23toRR34"/>
-            <option name="landTerritories" value="Belarus:Bryansk"/>
+            <option name="canalName" value="RR23toRR34" count=""/>
+            <option name="landTerritories" value="Belarus:Bryansk" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR23toRR34" attachTo="RR 34" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR23toRR34"/>
-            <option name="landTerritories" value="Belarus:Bryansk"/>
+            <option name="canalName" value="RR23toRR34" count=""/>
+            <option name="landTerritories" value="Belarus:Bryansk" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR23toRR7" attachTo="RR 23" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR23toRR7"/>
-            <option name="landTerritories" value="Belarus:Vilnius"/>
+            <option name="canalName" value="RR23toRR7" count=""/>
+            <option name="landTerritories" value="Belarus:Vilnius" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR23toRR7" attachTo="RR 7" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR23toRR7"/>
-            <option name="landTerritories" value="Belarus:Vilnius"/>
+            <option name="canalName" value="RR23toRR7" count=""/>
+            <option name="landTerritories" value="Belarus:Vilnius" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR24toRR35" attachTo="RR 24" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR24toRR35"/>
-            <option name="landTerritories" value="Oryol:Volgograd"/>
+            <option name="canalName" value="RR24toRR35" count=""/>
+            <option name="landTerritories" value="Oryol:Volgograd" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR24toRR35" attachTo="RR 35" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR24toRR35"/>
-            <option name="landTerritories" value="Oryol:Volgograd"/>
+            <option name="canalName" value="RR24toRR35" count=""/>
+            <option name="landTerritories" value="Oryol:Volgograd" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR25toRR45" attachTo="RR 25" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR25toRR45"/>
-            <option name="landTerritories" value="Penza:Caucusus"/>
+            <option name="canalName" value="RR25toRR45" count=""/>
+            <option name="landTerritories" value="Penza:Caucusus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR25toRR45" attachTo="RR 45" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR25toRR45"/>
-            <option name="landTerritories" value="Penza:Caucusus"/>
+            <option name="canalName" value="RR25toRR45" count=""/>
+            <option name="landTerritories" value="Penza:Caucusus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR26toRR27" attachTo="RR 26" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR26toRR27"/>
-            <option name="landTerritories" value="Normandy:Paris"/>
+            <option name="canalName" value="RR26toRR27" count=""/>
+            <option name="landTerritories" value="Normandy:Paris" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR26toRR27" attachTo="RR 27" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR26toRR27"/>
-            <option name="landTerritories" value="Normandy:Paris"/>
+            <option name="canalName" value="RR26toRR27" count=""/>
+            <option name="landTerritories" value="Normandy:Paris" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR26toRR36" attachTo="RR 26" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR26toRR36"/>
-            <option name="landTerritories" value="Normandy:Bordeaux"/>
+            <option name="canalName" value="RR26toRR36" count=""/>
+            <option name="landTerritories" value="Normandy:Bordeaux" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR26toRR36" attachTo="RR 36" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR26toRR36"/>
-            <option name="landTerritories" value="Normandy:Bordeaux"/>
+            <option name="canalName" value="RR26toRR36" count=""/>
+            <option name="landTerritories" value="Normandy:Bordeaux" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR27toRR28" attachTo="RR 27" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR27toRR28"/>
-            <option name="landTerritories" value="Paris:Burgundy"/>
+            <option name="canalName" value="RR27toRR28" count=""/>
+            <option name="landTerritories" value="Paris:Burgundy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR27toRR28" attachTo="RR 28" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR27toRR28"/>
-            <option name="landTerritories" value="Paris:Burgundy"/>
+            <option name="canalName" value="RR27toRR28" count=""/>
+            <option name="landTerritories" value="Paris:Burgundy" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR27toRR37" attachTo="RR 27" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR27toRR37"/>
-            <option name="landTerritories" value="Paris:Marseilles"/>
+            <option name="canalName" value="RR27toRR37" count=""/>
+            <option name="landTerritories" value="Paris:Marseilles" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR27toRR37" attachTo="RR 37" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR27toRR37"/>
-            <option name="landTerritories" value="Paris:Marseilles"/>
+            <option name="canalName" value="RR27toRR37" count=""/>
+            <option name="landTerritories" value="Paris:Marseilles" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR28toRR37" attachTo="RR 28" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR28toRR37"/>
-            <option name="landTerritories" value="Burgundy:Marseilles"/>
+            <option name="canalName" value="RR28toRR37" count=""/>
+            <option name="landTerritories" value="Burgundy:Marseilles" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR28toRR37" attachTo="RR 37" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR28toRR37"/>
-            <option name="landTerritories" value="Burgundy:Marseilles"/>
+            <option name="canalName" value="RR28toRR37" count=""/>
+            <option name="landTerritories" value="Burgundy:Marseilles" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR29toRR30" attachTo="RR 29" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR29toRR30"/>
-            <option name="landTerritories" value="Bavaria:Saxony"/>
+            <option name="canalName" value="RR29toRR30" count=""/>
+            <option name="landTerritories" value="Bavaria:Saxony" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR29toRR30" attachTo="RR 30" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR29toRR30"/>
-            <option name="landTerritories" value="Bavaria:Saxony"/>
+            <option name="canalName" value="RR29toRR30" count=""/>
+            <option name="landTerritories" value="Bavaria:Saxony" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR2toRR3" attachTo="RR 2" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR2toRR3"/>
-            <option name="landTerritories" value="York:London"/>
+            <option name="canalName" value="RR2toRR3" count=""/>
+            <option name="landTerritories" value="York:London" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR2toRR3" attachTo="RR 3" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR2toRR3"/>
-            <option name="landTerritories" value="York:London"/>
+            <option name="canalName" value="RR2toRR3" count=""/>
+            <option name="landTerritories" value="York:London" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR30toRR31" attachTo="RR 30" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR30toRR31"/>
-            <option name="landTerritories" value="Saxony:Bohemia"/>
+            <option name="canalName" value="RR30toRR31" count=""/>
+            <option name="landTerritories" value="Saxony:Bohemia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR30toRR31" attachTo="RR 31" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR30toRR31"/>
-            <option name="landTerritories" value="Saxony:Bohemia"/>
+            <option name="canalName" value="RR30toRR31" count=""/>
+            <option name="landTerritories" value="Saxony:Bohemia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR31toRR32" attachTo="RR 31" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR31toRR32"/>
-            <option name="landTerritories" value="Bohemia:Galacia"/>
+            <option name="canalName" value="RR31toRR32" count=""/>
+            <option name="landTerritories" value="Bohemia:Galacia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR31toRR32" attachTo="RR 32" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR31toRR32"/>
-            <option name="landTerritories" value="Bohemia:Galacia"/>
+            <option name="canalName" value="RR31toRR32" count=""/>
+            <option name="landTerritories" value="Bohemia:Galacia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR31toRR40" attachTo="RR 31" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR31toRR40"/>
-            <option name="landTerritories" value="Bohemia:Vienna"/>
+            <option name="canalName" value="RR31toRR40" count=""/>
+            <option name="landTerritories" value="Bohemia:Vienna" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR31toRR40" attachTo="RR 40" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR31toRR40"/>
-            <option name="landTerritories" value="Bohemia:Vienna"/>
+            <option name="canalName" value="RR31toRR40" count=""/>
+            <option name="landTerritories" value="Bohemia:Vienna" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR32toRR33" attachTo="RR 32" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR32toRR33"/>
-            <option name="landTerritories" value="Galacia:Kiev"/>
+            <option name="canalName" value="RR32toRR33" count=""/>
+            <option name="landTerritories" value="Galacia:Kiev" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR32toRR33" attachTo="RR 33" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR32toRR33"/>
-            <option name="landTerritories" value="Galacia:Kiev"/>
+            <option name="canalName" value="RR32toRR33" count=""/>
+            <option name="landTerritories" value="Galacia:Kiev" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR32toRR40" attachTo="RR 32" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR32toRR40"/>
-            <option name="landTerritories" value="Galacia:Vienna"/>
+            <option name="canalName" value="RR32toRR40" count=""/>
+            <option name="landTerritories" value="Galacia:Vienna" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR32toRR40" attachTo="RR 40" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR32toRR40"/>
-            <option name="landTerritories" value="Galacia:Vienna"/>
+            <option name="canalName" value="RR32toRR40" count=""/>
+            <option name="landTerritories" value="Galacia:Vienna" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR32toRR48" attachTo="RR 32" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR32toRR48"/>
-            <option name="landTerritories" value="Galacia:Hungary"/>
+            <option name="canalName" value="RR32toRR48" count=""/>
+            <option name="landTerritories" value="Galacia:Hungary" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR32toRR48" attachTo="RR 48" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR32toRR48"/>
-            <option name="landTerritories" value="Galacia:Hungary"/>
+            <option name="canalName" value="RR32toRR48" count=""/>
+            <option name="landTerritories" value="Galacia:Hungary" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR33toRR41" attachTo="RR 33" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR33toRR41"/>
-            <option name="landTerritories" value="Kiev:Moldova"/>
+            <option name="canalName" value="RR33toRR41" count=""/>
+            <option name="landTerritories" value="Kiev:Moldova" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR33toRR41" attachTo="RR 41" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR33toRR41"/>
-            <option name="landTerritories" value="Kiev:Moldova"/>
+            <option name="canalName" value="RR33toRR41" count=""/>
+            <option name="landTerritories" value="Kiev:Moldova" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR34toRR42" attachTo="RR 34" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR34toRR42"/>
-            <option name="landTerritories" value="Bryansk:Karkov"/>
+            <option name="canalName" value="RR34toRR42" count=""/>
+            <option name="landTerritories" value="Bryansk:Karkov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR34toRR42" attachTo="RR 42" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR34toRR42"/>
-            <option name="landTerritories" value="Bryansk:Karkov"/>
+            <option name="canalName" value="RR34toRR42" count=""/>
+            <option name="landTerritories" value="Bryansk:Karkov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR35toRR44" attachTo="RR 35" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR35toRR44"/>
-            <option name="landTerritories" value="Volgograd:Rostov"/>
+            <option name="canalName" value="RR35toRR44" count=""/>
+            <option name="landTerritories" value="Volgograd:Rostov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR35toRR44" attachTo="RR 44" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR35toRR44"/>
-            <option name="landTerritories" value="Volgograd:Rostov"/>
+            <option name="canalName" value="RR35toRR44" count=""/>
+            <option name="landTerritories" value="Volgograd:Rostov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR36toRR37" attachTo="RR 36" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR36toRR37"/>
-            <option name="landTerritories" value="Bordeaux:Marseilles"/>
+            <option name="canalName" value="RR36toRR37" count=""/>
+            <option name="landTerritories" value="Bordeaux:Marseilles" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR36toRR37" attachTo="RR 37" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR36toRR37"/>
-            <option name="landTerritories" value="Bordeaux:Marseilles"/>
+            <option name="canalName" value="RR36toRR37" count=""/>
+            <option name="landTerritories" value="Bordeaux:Marseilles" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR37toRR38" attachTo="RR 37" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR37toRR38"/>
-            <option name="landTerritories" value="Marseilles:Piedmont"/>
+            <option name="canalName" value="RR37toRR38" count=""/>
+            <option name="landTerritories" value="Marseilles:Piedmont" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR37toRR38" attachTo="RR 38" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR37toRR38"/>
-            <option name="landTerritories" value="Marseilles:Piedmont"/>
+            <option name="canalName" value="RR37toRR38" count=""/>
+            <option name="landTerritories" value="Marseilles:Piedmont" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR38toRR39" attachTo="RR 38" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR38toRR39"/>
-            <option name="landTerritories" value="Piedmont:Venice"/>
+            <option name="canalName" value="RR38toRR39" count=""/>
+            <option name="landTerritories" value="Piedmont:Venice" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR38toRR39" attachTo="RR 39" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR38toRR39"/>
-            <option name="landTerritories" value="Piedmont:Venice"/>
+            <option name="canalName" value="RR38toRR39" count=""/>
+            <option name="landTerritories" value="Piedmont:Venice" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR38toRR46" attachTo="RR 38" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR38toRR46"/>
-            <option name="landTerritories" value="Piedmont:Tuscany"/>
+            <option name="canalName" value="RR38toRR46" count=""/>
+            <option name="landTerritories" value="Piedmont:Tuscany" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR38toRR46" attachTo="RR 46" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR38toRR46"/>
-            <option name="landTerritories" value="Piedmont:Tuscany"/>
+            <option name="canalName" value="RR38toRR46" count=""/>
+            <option name="landTerritories" value="Piedmont:Tuscany" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR39toRR46" attachTo="RR 39" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR39toRR46"/>
-            <option name="landTerritories" value="Venice:Tuscany"/>
+            <option name="canalName" value="RR39toRR46" count=""/>
+            <option name="landTerritories" value="Venice:Tuscany" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR39toRR46" attachTo="RR 46" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR39toRR46"/>
-            <option name="landTerritories" value="Venice:Tuscany"/>
+            <option name="canalName" value="RR39toRR46" count=""/>
+            <option name="landTerritories" value="Venice:Tuscany" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR39toRR47" attachTo="RR 39" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR39toRR47"/>
-            <option name="landTerritories" value="Venice:Trieste"/>
+            <option name="canalName" value="RR39toRR47" count=""/>
+            <option name="landTerritories" value="Venice:Trieste" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR39toRR47" attachTo="RR 47" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR39toRR47"/>
-            <option name="landTerritories" value="Venice:Trieste"/>
+            <option name="canalName" value="RR39toRR47" count=""/>
+            <option name="landTerritories" value="Venice:Trieste" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR40toRR48" attachTo="RR 40" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR40toRR48"/>
-            <option name="landTerritories" value="Vienna:Hungary"/>
+            <option name="canalName" value="RR40toRR48" count=""/>
+            <option name="landTerritories" value="Vienna:Hungary" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR40toRR48" attachTo="RR 48" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR40toRR48"/>
-            <option name="landTerritories" value="Vienna:Hungary"/>
+            <option name="canalName" value="RR40toRR48" count=""/>
+            <option name="landTerritories" value="Vienna:Hungary" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR41toRR42" attachTo="RR 41" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR41toRR42"/>
-            <option name="landTerritories" value="Moldova:Karkov"/>
+            <option name="canalName" value="RR41toRR42" count=""/>
+            <option name="landTerritories" value="Moldova:Karkov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR41toRR42" attachTo="RR 42" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR41toRR42"/>
-            <option name="landTerritories" value="Moldova:Karkov"/>
+            <option name="canalName" value="RR41toRR42" count=""/>
+            <option name="landTerritories" value="Moldova:Karkov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR41toRR49" attachTo="RR 41" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR41toRR49"/>
-            <option name="landTerritories" value="Moldova:Romania"/>
+            <option name="canalName" value="RR41toRR49" count=""/>
+            <option name="landTerritories" value="Moldova:Romania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR41toRR49" attachTo="RR 49" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR41toRR49"/>
-            <option name="landTerritories" value="Moldova:Romania"/>
+            <option name="canalName" value="RR41toRR49" count=""/>
+            <option name="landTerritories" value="Moldova:Romania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR42toRR43" attachTo="RR 42" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR42toRR43"/>
-            <option name="landTerritories" value="Karkov:Svastepole"/>
+            <option name="canalName" value="RR42toRR43" count=""/>
+            <option name="landTerritories" value="Karkov:Svastepole" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR42toRR43" attachTo="RR 43" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR42toRR43"/>
-            <option name="landTerritories" value="Karkov:Svastepole"/>
+            <option name="canalName" value="RR42toRR43" count=""/>
+            <option name="landTerritories" value="Karkov:Svastepole" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR42toRR44" attachTo="RR 42" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR42toRR44"/>
-            <option name="landTerritories" value="Karkov:Rostov"/>
+            <option name="canalName" value="RR42toRR44" count=""/>
+            <option name="landTerritories" value="Karkov:Rostov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR42toRR44" attachTo="RR 44" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR42toRR44"/>
-            <option name="landTerritories" value="Karkov:Rostov"/>
+            <option name="canalName" value="RR42toRR44" count=""/>
+            <option name="landTerritories" value="Karkov:Rostov" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR44toRR45" attachTo="RR 44" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR44toRR45"/>
-            <option name="landTerritories" value="Rostov:Caucusus"/>
+            <option name="canalName" value="RR44toRR45" count=""/>
+            <option name="landTerritories" value="Rostov:Caucusus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR44toRR45" attachTo="RR 45" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR44toRR45"/>
-            <option name="landTerritories" value="Rostov:Caucusus"/>
+            <option name="canalName" value="RR44toRR45" count=""/>
+            <option name="landTerritories" value="Rostov:Caucusus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR44toRR50" attachTo="RR 44" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR44toRR50"/>
-            <option name="landTerritories" value="Rostov:Krasnodar"/>
+            <option name="canalName" value="RR44toRR50" count=""/>
+            <option name="landTerritories" value="Rostov:Krasnodar" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR44toRR50" attachTo="RR 50" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR44toRR50"/>
-            <option name="landTerritories" value="Rostov:Krasnodar"/>
+            <option name="canalName" value="RR44toRR50" count=""/>
+            <option name="landTerritories" value="Rostov:Krasnodar" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR46toRR51" attachTo="RR 46" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR46toRR51"/>
-            <option name="landTerritories" value="Tuscany:Rome"/>
+            <option name="canalName" value="RR46toRR51" count=""/>
+            <option name="landTerritories" value="Tuscany:Rome" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR46toRR51" attachTo="RR 51" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR46toRR51"/>
-            <option name="landTerritories" value="Tuscany:Rome"/>
+            <option name="canalName" value="RR46toRR51" count=""/>
+            <option name="landTerritories" value="Tuscany:Rome" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR47toRR48" attachTo="RR 47" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR47toRR48"/>
-            <option name="landTerritories" value="Trieste:Hungary"/>
+            <option name="canalName" value="RR47toRR48" count=""/>
+            <option name="landTerritories" value="Trieste:Hungary" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR47toRR48" attachTo="RR 48" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR47toRR48"/>
-            <option name="landTerritories" value="Trieste:Hungary"/>
+            <option name="canalName" value="RR47toRR48" count=""/>
+            <option name="landTerritories" value="Trieste:Hungary" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR47toRR52" attachTo="RR 47" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR47toRR52"/>
-            <option name="landTerritories" value="Trieste:Sarajevo"/>
+            <option name="canalName" value="RR47toRR52" count=""/>
+            <option name="landTerritories" value="Trieste:Sarajevo" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR47toRR52" attachTo="RR 52" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR47toRR52"/>
-            <option name="landTerritories" value="Trieste:Sarajevo"/>
+            <option name="canalName" value="RR47toRR52" count=""/>
+            <option name="landTerritories" value="Trieste:Sarajevo" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR48toRR49" attachTo="RR 48" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR48toRR49"/>
-            <option name="landTerritories" value="Hungary:Romania"/>
+            <option name="canalName" value="RR48toRR49" count=""/>
+            <option name="landTerritories" value="Hungary:Romania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR48toRR49" attachTo="RR 49" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR48toRR49"/>
-            <option name="landTerritories" value="Hungary:Romania"/>
+            <option name="canalName" value="RR48toRR49" count=""/>
+            <option name="landTerritories" value="Hungary:Romania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR48toRR53" attachTo="RR 48" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR48toRR53"/>
-            <option name="landTerritories" value="Hungary:Serbia"/>
+            <option name="canalName" value="RR48toRR53" count=""/>
+            <option name="landTerritories" value="Hungary:Serbia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR48toRR53" attachTo="RR 53" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR48toRR53"/>
-            <option name="landTerritories" value="Hungary:Serbia"/>
+            <option name="canalName" value="RR48toRR53" count=""/>
+            <option name="landTerritories" value="Hungary:Serbia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR49toRR54" attachTo="RR 49" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR49toRR54"/>
-            <option name="landTerritories" value="Romania:Bulgaria"/>
+            <option name="canalName" value="RR49toRR54" count=""/>
+            <option name="landTerritories" value="Romania:Bulgaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR49toRR54" attachTo="RR 54" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR49toRR54"/>
-            <option name="landTerritories" value="Romania:Bulgaria"/>
+            <option name="canalName" value="RR49toRR54" count=""/>
+            <option name="landTerritories" value="Romania:Bulgaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR4toRR5" attachTo="RR 4" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR4toRR5"/>
-            <option name="landTerritories" value="Kiel:Pomerania"/>
+            <option name="canalName" value="RR4toRR5" count=""/>
+            <option name="landTerritories" value="Kiel:Pomerania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR4toRR5" attachTo="RR 5" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR4toRR5"/>
-            <option name="landTerritories" value="Kiel:Pomerania"/>
+            <option name="canalName" value="RR4toRR5" count=""/>
+            <option name="landTerritories" value="Kiel:Pomerania" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR50toRR55" attachTo="RR 50" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR50toRR55"/>
-            <option name="landTerritories" value="Krasnodar:Tbilisi"/>
+            <option name="canalName" value="RR50toRR55" count=""/>
+            <option name="landTerritories" value="Krasnodar:Tbilisi" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR50toRR55" attachTo="RR 55" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR50toRR55"/>
-            <option name="landTerritories" value="Krasnodar:Tbilisi"/>
+            <option name="canalName" value="RR50toRR55" count=""/>
+            <option name="landTerritories" value="Krasnodar:Tbilisi" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR51toRR56" attachTo="RR 51" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR51toRR56"/>
-            <option name="landTerritories" value="Rome:Naples"/>
+            <option name="canalName" value="RR51toRR56" count=""/>
+            <option name="landTerritories" value="Rome:Naples" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR51toRR56" attachTo="RR 56" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR51toRR56"/>
-            <option name="landTerritories" value="Rome:Naples"/>
+            <option name="canalName" value="RR51toRR56" count=""/>
+            <option name="landTerritories" value="Rome:Naples" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR52toRR57" attachTo="RR 52" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR52toRR57"/>
-            <option name="landTerritories" value="Sarajevo:Macedonia"/>
+            <option name="canalName" value="RR52toRR57" count=""/>
+            <option name="landTerritories" value="Sarajevo:Macedonia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR52toRR57" attachTo="RR 57" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR52toRR57"/>
-            <option name="landTerritories" value="Sarajevo:Macedonia"/>
+            <option name="canalName" value="RR52toRR57" count=""/>
+            <option name="landTerritories" value="Sarajevo:Macedonia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR53toRR54" attachTo="RR 53" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR53toRR54"/>
-            <option name="landTerritories" value="Serbia:Bulgaria"/>
+            <option name="canalName" value="RR53toRR54" count=""/>
+            <option name="landTerritories" value="Serbia:Bulgaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR53toRR54" attachTo="RR 54" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR53toRR54"/>
-            <option name="landTerritories" value="Serbia:Bulgaria"/>
+            <option name="canalName" value="RR53toRR54" count=""/>
+            <option name="landTerritories" value="Serbia:Bulgaria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR53toRR57" attachTo="RR 53" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR53toRR57"/>
-            <option name="landTerritories" value="Serbia:Macedonia"/>
+            <option name="canalName" value="RR53toRR57" count=""/>
+            <option name="landTerritories" value="Serbia:Macedonia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR53toRR57" attachTo="RR 57" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR53toRR57"/>
-            <option name="landTerritories" value="Serbia:Macedonia"/>
+            <option name="canalName" value="RR53toRR57" count=""/>
+            <option name="landTerritories" value="Serbia:Macedonia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR55toRR62" attachTo="RR 55" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR55toRR62"/>
-            <option name="landTerritories" value="Tbilisi:Rize"/>
+            <option name="canalName" value="RR55toRR62" count=""/>
+            <option name="landTerritories" value="Tbilisi:Rize" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR55toRR62" attachTo="RR 62" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR55toRR62"/>
-            <option name="landTerritories" value="Tbilisi:Rize"/>
+            <option name="canalName" value="RR55toRR62" count=""/>
+            <option name="landTerritories" value="Tbilisi:Rize" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR55toRR65" attachTo="RR 55" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR55toRR65"/>
-            <option name="landTerritories" value="Tbilisi:Tabriz"/>
+            <option name="canalName" value="RR55toRR65" count=""/>
+            <option name="landTerritories" value="Tbilisi:Tabriz" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR55toRR65" attachTo="RR 65" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR55toRR65"/>
-            <option name="landTerritories" value="Tbilisi:Tabriz"/>
+            <option name="canalName" value="RR55toRR65" count=""/>
+            <option name="landTerritories" value="Tbilisi:Tabriz" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR57toRR58" attachTo="RR 57" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR57toRR58"/>
-            <option name="landTerritories" value="Macedonia:Greece"/>
+            <option name="canalName" value="RR57toRR58" count=""/>
+            <option name="landTerritories" value="Macedonia:Greece" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR57toRR58" attachTo="RR 58" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR57toRR58"/>
-            <option name="landTerritories" value="Macedonia:Greece"/>
+            <option name="canalName" value="RR57toRR58" count=""/>
+            <option name="landTerritories" value="Macedonia:Greece" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR59toRR60" attachTo="RR 59" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR59toRR60"/>
-            <option name="landTerritories" value="Istanbul:Ankara"/>
+            <option name="canalName" value="RR59toRR60" count=""/>
+            <option name="landTerritories" value="Istanbul:Ankara" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR59toRR60" attachTo="RR 60" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR59toRR60"/>
-            <option name="landTerritories" value="Istanbul:Ankara"/>
+            <option name="canalName" value="RR59toRR60" count=""/>
+            <option name="landTerritories" value="Istanbul:Ankara" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR59toRR63" attachTo="RR 59" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR59toRR63"/>
-            <option name="landTerritories" value="Istanbul:Antalya"/>
+            <option name="canalName" value="RR59toRR63" count=""/>
+            <option name="landTerritories" value="Istanbul:Antalya" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR59toRR63" attachTo="RR 63" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR59toRR63"/>
-            <option name="landTerritories" value="Istanbul:Antalya"/>
+            <option name="canalName" value="RR59toRR63" count=""/>
+            <option name="landTerritories" value="Istanbul:Antalya" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR5toRR6" attachTo="RR 5" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR5toRR6"/>
-            <option name="landTerritories" value="Pomerania:Prussia"/>
+            <option name="canalName" value="RR5toRR6" count=""/>
+            <option name="landTerritories" value="Pomerania:Prussia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR5toRR6" attachTo="RR 6" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR5toRR6"/>
-            <option name="landTerritories" value="Pomerania:Prussia"/>
+            <option name="canalName" value="RR5toRR6" count=""/>
+            <option name="landTerritories" value="Pomerania:Prussia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR60toRR61" attachTo="RR 60" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR60toRR61"/>
-            <option name="landTerritories" value="Ankara:Trabzon"/>
+            <option name="canalName" value="RR60toRR61" count=""/>
+            <option name="landTerritories" value="Ankara:Trabzon" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR60toRR61" attachTo="RR 61" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR60toRR61"/>
-            <option name="landTerritories" value="Ankara:Trabzon"/>
+            <option name="canalName" value="RR60toRR61" count=""/>
+            <option name="landTerritories" value="Ankara:Trabzon" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR61toRR62" attachTo="RR 61" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR61toRR62"/>
-            <option name="landTerritories" value="Trabzon:Rize"/>
+            <option name="canalName" value="RR61toRR62" count=""/>
+            <option name="landTerritories" value="Trabzon:Rize" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR61toRR62" attachTo="RR 62" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR61toRR62"/>
-            <option name="landTerritories" value="Trabzon:Rize"/>
+            <option name="canalName" value="RR61toRR62" count=""/>
+            <option name="landTerritories" value="Trabzon:Rize" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR63toRR64" attachTo="RR 63" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR63toRR64"/>
-            <option name="landTerritories" value="Antalya:Konya"/>
+            <option name="canalName" value="RR63toRR64" count=""/>
+            <option name="landTerritories" value="Antalya:Konya" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR63toRR64" attachTo="RR 64" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR63toRR64"/>
-            <option name="landTerritories" value="Antalya:Konya"/>
+            <option name="canalName" value="RR63toRR64" count=""/>
+            <option name="landTerritories" value="Antalya:Konya" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR64toRR66" attachTo="RR 64" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR64toRR66"/>
-            <option name="landTerritories" value="Konya:Syria"/>
+            <option name="canalName" value="RR64toRR66" count=""/>
+            <option name="landTerritories" value="Konya:Syria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR64toRR66" attachTo="RR 66" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR64toRR66"/>
-            <option name="landTerritories" value="Konya:Syria"/>
+            <option name="canalName" value="RR64toRR66" count=""/>
+            <option name="landTerritories" value="Konya:Syria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR66toRR67" attachTo="RR 66" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR66toRR67"/>
-            <option name="landTerritories" value="Syria:Damascus"/>
+            <option name="canalName" value="RR66toRR67" count=""/>
+            <option name="landTerritories" value="Syria:Damascus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR66toRR67" attachTo="RR 67" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR66toRR67"/>
-            <option name="landTerritories" value="Syria:Damascus"/>
+            <option name="canalName" value="RR66toRR67" count=""/>
+            <option name="landTerritories" value="Syria:Damascus" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR66toRR68" attachTo="RR 66" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR66toRR68"/>
-            <option name="landTerritories" value="Syria:Mosul"/>
+            <option name="canalName" value="RR66toRR68" count=""/>
+            <option name="landTerritories" value="Syria:Mosul" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR66toRR68" attachTo="RR 68" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR66toRR68"/>
-            <option name="landTerritories" value="Syria:Mosul"/>
+            <option name="canalName" value="RR66toRR68" count=""/>
+            <option name="landTerritories" value="Syria:Mosul" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR67toRR70" attachTo="RR 67" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR67toRR70"/>
-            <option name="landTerritories" value="Damascus:Jerusalem"/>
+            <option name="canalName" value="RR67toRR70" count=""/>
+            <option name="landTerritories" value="Damascus:Jerusalem" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR67toRR70" attachTo="RR 70" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR67toRR70"/>
-            <option name="landTerritories" value="Damascus:Jerusalem"/>
+            <option name="canalName" value="RR67toRR70" count=""/>
+            <option name="landTerritories" value="Damascus:Jerusalem" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR68toRR69" attachTo="RR 68" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR68toRR69"/>
-            <option name="landTerritories" value="Mosul:Mesopotamia"/>
+            <option name="canalName" value="RR68toRR69" count=""/>
+            <option name="landTerritories" value="Mosul:Mesopotamia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR68toRR69" attachTo="RR 69" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR68toRR69"/>
-            <option name="landTerritories" value="Mosul:Mesopotamia"/>
+            <option name="canalName" value="RR68toRR69" count=""/>
+            <option name="landTerritories" value="Mosul:Mesopotamia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR69toRR71" attachTo="RR 69" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR69toRR71"/>
-            <option name="landTerritories" value="Mesopotamia:Bagdad"/>
+            <option name="canalName" value="RR69toRR71" count=""/>
+            <option name="landTerritories" value="Mesopotamia:Bagdad" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR69toRR71" attachTo="RR 71" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR69toRR71"/>
-            <option name="landTerritories" value="Mesopotamia:Bagdad"/>
+            <option name="canalName" value="RR69toRR71" count=""/>
+            <option name="landTerritories" value="Mesopotamia:Bagdad" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR6toRR7" attachTo="RR 6" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR6toRR7"/>
-            <option name="landTerritories" value="Prussia:Vilnius"/>
+            <option name="canalName" value="RR6toRR7" count=""/>
+            <option name="landTerritories" value="Prussia:Vilnius" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR6toRR7" attachTo="RR 7" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR6toRR7"/>
-            <option name="landTerritories" value="Prussia:Vilnius"/>
+            <option name="canalName" value="RR6toRR7" count=""/>
+            <option name="landTerritories" value="Prussia:Vilnius" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR70toRR83" attachTo="RR 70" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR70toRR83"/>
-            <option name="landTerritories" value="Jerusalem:Be'er Sheva"/>
+            <option name="canalName" value="RR70toRR83" count=""/>
+            <option name="landTerritories" value="Jerusalem:Be'er Sheva" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR70toRR83" attachTo="RR 83" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR70toRR83"/>
-            <option name="landTerritories" value="Jerusalem:Be'er Sheva"/>
+            <option name="canalName" value="RR70toRR83" count=""/>
+            <option name="landTerritories" value="Jerusalem:Be'er Sheva" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR71toRR85" attachTo="RR 71" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR71toRR85"/>
-            <option name="landTerritories" value="Bagdad:Basrah"/>
+            <option name="canalName" value="RR71toRR85" count=""/>
+            <option name="landTerritories" value="Bagdad:Basrah" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR71toRR85" attachTo="RR 85" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR71toRR85"/>
-            <option name="landTerritories" value="Bagdad:Basrah"/>
+            <option name="canalName" value="RR71toRR85" count=""/>
+            <option name="landTerritories" value="Bagdad:Basrah" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR72toRR73" attachTo="RR 72" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR72toRR73"/>
-            <option name="landTerritories" value="Mauritania:Casablanca"/>
+            <option name="canalName" value="RR72toRR73" count=""/>
+            <option name="landTerritories" value="Mauritania:Casablanca" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR72toRR73" attachTo="RR 73" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR72toRR73"/>
-            <option name="landTerritories" value="Mauritania:Casablanca"/>
+            <option name="canalName" value="RR72toRR73" count=""/>
+            <option name="landTerritories" value="Mauritania:Casablanca" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR72toRR81" attachTo="RR 72" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR72toRR81"/>
-            <option name="landTerritories" value="Mauritania:Egypt"/>
+            <option name="canalName" value="RR72toRR81" count=""/>
+            <option name="landTerritories" value="Mauritania:Egypt" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR72toRR81" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR72toRR81"/>
-            <option name="landTerritories" value="Mauritania:Egypt"/>
+            <option name="canalName" value="RR72toRR81" count=""/>
+            <option name="landTerritories" value="Mauritania:Egypt" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR73toRR74" attachTo="RR 73" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR73toRR74"/>
-            <option name="landTerritories" value="Casablanca:Algeria"/>
+            <option name="canalName" value="RR73toRR74" count=""/>
+            <option name="landTerritories" value="Casablanca:Algeria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR73toRR74" attachTo="RR 74" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR73toRR74"/>
-            <option name="landTerritories" value="Casablanca:Algeria"/>
+            <option name="canalName" value="RR73toRR74" count=""/>
+            <option name="landTerritories" value="Casablanca:Algeria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR74toRR75" attachTo="RR 74" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR74toRR75"/>
-            <option name="landTerritories" value="Algeria:Tunesia"/>
+            <option name="canalName" value="RR74toRR75" count=""/>
+            <option name="landTerritories" value="Algeria:Tunesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR74toRR75" attachTo="RR 75" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR74toRR75"/>
-            <option name="landTerritories" value="Algeria:Tunesia"/>
+            <option name="canalName" value="RR74toRR75" count=""/>
+            <option name="landTerritories" value="Algeria:Tunesia" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR75toRR76" attachTo="RR 75" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR75toRR76"/>
-            <option name="landTerritories" value="Tunesia:Tunis"/>
+            <option name="canalName" value="RR75toRR76" count=""/>
+            <option name="landTerritories" value="Tunesia:Tunis" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR75toRR76" attachTo="RR 76" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR75toRR76"/>
-            <option name="landTerritories" value="Tunesia:Tunis"/>
+            <option name="canalName" value="RR75toRR76" count=""/>
+            <option name="landTerritories" value="Tunesia:Tunis" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR76toRR77" attachTo="RR 76" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR76toRR77"/>
-            <option name="landTerritories" value="Tunis:Tripoli"/>
+            <option name="canalName" value="RR76toRR77" count=""/>
+            <option name="landTerritories" value="Tunis:Tripoli" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR76toRR77" attachTo="RR 77" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR76toRR77"/>
-            <option name="landTerritories" value="Tunis:Tripoli"/>
+            <option name="canalName" value="RR76toRR77" count=""/>
+            <option name="landTerritories" value="Tunis:Tripoli" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR77toRR78" attachTo="RR 77" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR77toRR78"/>
-            <option name="landTerritories" value="Tripoli:Sirte"/>
+            <option name="canalName" value="RR77toRR78" count=""/>
+            <option name="landTerritories" value="Tripoli:Sirte" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR77toRR78" attachTo="RR 78" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR77toRR78"/>
-            <option name="landTerritories" value="Tripoli:Sirte"/>
+            <option name="canalName" value="RR77toRR78" count=""/>
+            <option name="landTerritories" value="Tripoli:Sirte" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR78toRR79" attachTo="RR 78" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR78toRR79"/>
-            <option name="landTerritories" value="Sirte:Cyreniaca"/>
+            <option name="canalName" value="RR78toRR79" count=""/>
+            <option name="landTerritories" value="Sirte:Cyreniaca" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR78toRR79" attachTo="RR 79" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR78toRR79"/>
-            <option name="landTerritories" value="Sirte:Cyreniaca"/>
+            <option name="canalName" value="RR78toRR79" count=""/>
+            <option name="landTerritories" value="Sirte:Cyreniaca" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR79toRR80" attachTo="RR 79" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR79toRR80"/>
-            <option name="landTerritories" value="Cyreniaca:Tobruk"/>
+            <option name="canalName" value="RR79toRR80" count=""/>
+            <option name="landTerritories" value="Cyreniaca:Tobruk" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR79toRR80" attachTo="RR 80" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR79toRR80"/>
-            <option name="landTerritories" value="Cyreniaca:Tobruk"/>
+            <option name="canalName" value="RR79toRR80" count=""/>
+            <option name="landTerritories" value="Cyreniaca:Tobruk" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR7toRR8" attachTo="RR 7" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR7toRR8"/>
-            <option name="landTerritories" value="Vilnius:Riga"/>
+            <option name="canalName" value="RR7toRR8" count=""/>
+            <option name="landTerritories" value="Vilnius:Riga" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR7toRR8" attachTo="RR 8" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR7toRR8"/>
-            <option name="landTerritories" value="Vilnius:Riga"/>
+            <option name="canalName" value="RR7toRR8" count=""/>
+            <option name="landTerritories" value="Vilnius:Riga" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR80toRR81" attachTo="RR 80" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR80toRR81"/>
-            <option name="landTerritories" value="Tobruk:Egypt"/>
+            <option name="canalName" value="RR80toRR81" count=""/>
+            <option name="landTerritories" value="Tobruk:Egypt" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR80toRR81" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR80toRR81"/>
-            <option name="landTerritories" value="Tobruk:Egypt"/>
+            <option name="canalName" value="RR80toRR81" count=""/>
+            <option name="landTerritories" value="Tobruk:Egypt" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR81toRR82" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR81toRR82"/>
-            <option name="landTerritories" value="Egypt:Cairo"/>
+            <option name="canalName" value="RR81toRR82" count=""/>
+            <option name="landTerritories" value="Egypt:Cairo" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR81toRR82" attachTo="RR 82" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR81toRR82"/>
-            <option name="landTerritories" value="Egypt:Cairo"/>
+            <option name="canalName" value="RR81toRR82" count=""/>
+            <option name="landTerritories" value="Egypt:Cairo" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR81toRR86" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR81toRR86"/>
-            <option name="landTerritories" value="Egypt:Hurghada"/>
+            <option name="canalName" value="RR81toRR86" count=""/>
+            <option name="landTerritories" value="Egypt:Hurghada" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR81toRR86" attachTo="RR 86" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR81toRR86"/>
-            <option name="landTerritories" value="Egypt:Hurghada"/>
+            <option name="canalName" value="RR81toRR86" count=""/>
+            <option name="landTerritories" value="Egypt:Hurghada" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR82toRR83" attachTo="RR 82" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR82toRR83"/>
-            <option name="landTerritories" value="Cairo:Be'er Sheva"/>
+            <option name="canalName" value="RR82toRR83" count=""/>
+            <option name="landTerritories" value="Cairo:Be'er Sheva" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR82toRR83" attachTo="RR 83" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR82toRR83"/>
-            <option name="landTerritories" value="Cairo:Be'er Sheva"/>
+            <option name="canalName" value="RR82toRR83" count=""/>
+            <option name="landTerritories" value="Cairo:Be'er Sheva" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR83toRR84" attachTo="RR 83" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR83toRR84"/>
-            <option name="landTerritories" value="Be'er Sheva:Tabuk"/>
+            <option name="canalName" value="RR83toRR84" count=""/>
+            <option name="landTerritories" value="Be'er Sheva:Tabuk" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR83toRR84" attachTo="RR 84" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR83toRR84"/>
-            <option name="landTerritories" value="Be'er Sheva:Tabuk"/>
+            <option name="canalName" value="RR83toRR84" count=""/>
+            <option name="landTerritories" value="Be'er Sheva:Tabuk" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR87toRR94" attachTo="RR 87" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR87toRR94"/>
-            <option name="landTerritories" value="Senegal:Ivory Coast"/>
+            <option name="canalName" value="RR87toRR94" count=""/>
+            <option name="landTerritories" value="Senegal:Ivory Coast" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR87toRR94" attachTo="RR 94" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR87toRR94"/>
-            <option name="landTerritories" value="Senegal:Ivory Coast"/>
+            <option name="canalName" value="RR87toRR94" count=""/>
+            <option name="landTerritories" value="Senegal:Ivory Coast" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR88toRR89" attachTo="RR 88" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR88toRR89"/>
-            <option name="landTerritories" value="French West Africa:French Niger"/>
+            <option name="canalName" value="RR88toRR89" count=""/>
+            <option name="landTerritories" value="French West Africa:French Niger" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR88toRR89" attachTo="RR 89" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR88toRR89"/>
-            <option name="landTerritories" value="French West Africa:French Niger"/>
+            <option name="canalName" value="RR88toRR89" count=""/>
+            <option name="landTerritories" value="French West Africa:French Niger" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR88toRR96" attachTo="RR 88" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR88toRR96"/>
-            <option name="landTerritories" value="French West Africa:Nigeria"/>
+            <option name="canalName" value="RR88toRR96" count=""/>
+            <option name="landTerritories" value="French West Africa:Nigeria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR88toRR96" attachTo="RR 96" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR88toRR96"/>
-            <option name="landTerritories" value="French West Africa:Nigeria"/>
+            <option name="canalName" value="RR88toRR96" count=""/>
+            <option name="landTerritories" value="French West Africa:Nigeria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR89toRR98" attachTo="RR 89" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR89toRR98"/>
-            <option name="landTerritories" value="French Niger:Southern Sudan"/>
+            <option name="canalName" value="RR89toRR98" count=""/>
+            <option name="landTerritories" value="French Niger:Southern Sudan" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR89toRR98" attachTo="RR 98" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR89toRR98"/>
-            <option name="landTerritories" value="French Niger:Southern Sudan"/>
+            <option name="canalName" value="RR89toRR98" count=""/>
+            <option name="landTerritories" value="French Niger:Southern Sudan" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR8toRR9" attachTo="RR 8" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR8toRR9"/>
-            <option name="landTerritories" value="Riga:Tallin"/>
+            <option name="canalName" value="RR8toRR9" count=""/>
+            <option name="landTerritories" value="Riga:Tallin" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR8toRR9" attachTo="RR 9" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR8toRR9"/>
-            <option name="landTerritories" value="Riga:Tallin"/>
+            <option name="canalName" value="RR8toRR9" count=""/>
+            <option name="landTerritories" value="Riga:Tallin" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR90toRR98" attachTo="RR 90" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR90toRR98"/>
-            <option name="landTerritories" value="Northern Sudan:Southern Sudan"/>
+            <option name="canalName" value="RR90toRR98" count=""/>
+            <option name="landTerritories" value="Northern Sudan:Southern Sudan" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR90toRR98" attachTo="RR 98" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR90toRR98"/>
-            <option name="landTerritories" value="Northern Sudan:Southern Sudan"/>
+            <option name="canalName" value="RR90toRR98" count=""/>
+            <option name="landTerritories" value="Northern Sudan:Southern Sudan" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR90toRR99" attachTo="RR 90" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR90toRR99"/>
-            <option name="landTerritories" value="Northern Sudan:B. Somaliland"/>
+            <option name="canalName" value="RR90toRR99" count=""/>
+            <option name="landTerritories" value="Northern Sudan:B. Somaliland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR90toRR99" attachTo="RR 99" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR90toRR99"/>
-            <option name="landTerritories" value="Northern Sudan:B. Somaliland"/>
+            <option name="canalName" value="RR90toRR99" count=""/>
+            <option name="landTerritories" value="Northern Sudan:B. Somaliland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR91toRR92" attachTo="RR 91" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR91toRR92"/>
-            <option name="landTerritories" value="Hejaz:Oman"/>
+            <option name="canalName" value="RR91toRR92" count=""/>
+            <option name="landTerritories" value="Hejaz:Oman" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR91toRR92" attachTo="RR 92" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR91toRR92"/>
-            <option name="landTerritories" value="Hejaz:Oman"/>
+            <option name="canalName" value="RR91toRR92" count=""/>
+            <option name="landTerritories" value="Hejaz:Oman" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR92toRR142" attachTo="RR 92" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR92toRR142"/>
-            <option name="landTerritories" value="Oman:al-Hasa"/>
+            <option name="canalName" value="RR92toRR142" count=""/>
+            <option name="landTerritories" value="Oman:al-Hasa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR92toRR142" attachTo="RR 142" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR92toRR142"/>
-            <option name="landTerritories" value="Oman:al-Hasa"/>
+            <option name="canalName" value="RR92toRR142" count=""/>
+            <option name="landTerritories" value="Oman:al-Hasa" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR93toRR94" attachTo="RR 93" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR93toRR94"/>
-            <option name="landTerritories" value="Sierra Leone:Ivory Coast"/>
+            <option name="canalName" value="RR93toRR94" count=""/>
+            <option name="landTerritories" value="Sierra Leone:Ivory Coast" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR93toRR94" attachTo="RR 94" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR93toRR94"/>
-            <option name="landTerritories" value="Sierra Leone:Ivory Coast"/>
+            <option name="canalName" value="RR93toRR94" count=""/>
+            <option name="landTerritories" value="Sierra Leone:Ivory Coast" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR94toRR95" attachTo="RR 94" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR94toRR95"/>
-            <option name="landTerritories" value="Ivory Coast:Togoland"/>
+            <option name="canalName" value="RR94toRR95" count=""/>
+            <option name="landTerritories" value="Ivory Coast:Togoland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR94toRR95" attachTo="RR 95" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR94toRR95"/>
-            <option name="landTerritories" value="Ivory Coast:Togoland"/>
+            <option name="canalName" value="RR94toRR95" count=""/>
+            <option name="landTerritories" value="Ivory Coast:Togoland" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR95toRR96" attachTo="RR 95" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR95toRR96"/>
-            <option name="landTerritories" value="Togoland:Nigeria"/>
+            <option name="canalName" value="RR95toRR96" count=""/>
+            <option name="landTerritories" value="Togoland:Nigeria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR95toRR96" attachTo="RR 96" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR95toRR96"/>
-            <option name="landTerritories" value="Togoland:Nigeria"/>
+            <option name="canalName" value="RR95toRR96" count=""/>
+            <option name="landTerritories" value="Togoland:Nigeria" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR96toRR97" attachTo="RR 96" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR96toRR97"/>
-            <option name="landTerritories" value="Nigeria:Cameroon"/>
+            <option name="canalName" value="RR96toRR97" count=""/>
+            <option name="landTerritories" value="Nigeria:Cameroon" count=""/>
         </attachment>
         <attachment name="canalAttachmentRR96toRR97" attachTo="RR 97" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
-            <option name="canalName" value="RR96toRR97"/>
-            <option name="landTerritories" value="Nigeria:Cameroon"/>
+            <option name="canalName" value="RR96toRR97" count=""/>
+            <option name="landTerritories" value="Nigeria:Cameroon" count=""/>
         </attachment>
     </attachmentList>
     <initialize>
