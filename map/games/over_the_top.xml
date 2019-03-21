@@ -468,7 +468,7 @@
 
         <connection t1="al-Hasa" t2="Oman"/>
         <connection t1="SZ 39" t2="SZ 40"/>
-        <connection t1="RR 92" t2="SZ 142"/>
+        <connection t1="RR 92" t2="RR 142"/>
 		
         <connection t1="SZ 23" t2="SZ 1"/>
         <connection t1="SZ 23" t2="SZ 11"/>
