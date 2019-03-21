@@ -3359,7 +3359,7 @@
             <option name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="movement" value="2" count=""/>
+            <option name="movement" value="1" count=""/>
             <option name="attack" value="2" count=""/>
             <option name="defense" value="0" count=""/>
             <option name="isAir" value="true" count=""/>
@@ -3370,6 +3370,7 @@
             <option name="movement" value="2" count=""/>
             <option name="attack" value="0" count=""/>
             <option name="defense" value="0" count=""/>
+			<option name="isSea" value="true" count=""/>
             <option name="givesMovement" value="1:Munitions" count=""/>
             <option name="createsUnitsList" value="1:Munitions" count=""/>
         </attachment>
