@@ -458,35 +458,35 @@
         <territory name="al-Hasa" water="false"/>
 		
 		<!-- Inset connections that can't be auto discovered -->
-		<connection t1="Mauritania" t2="Senegal"/>
-		<connection t1="SZ 26" t2="SZ 51"/>
-		<connection t1="RR 72" t2="RR 81"/>
+        <connection t1="Mauritania" t2="Senegal"/>
+        <connection t1="SZ 26" t2="SZ 51"/>
+        <connection t1="RR 72" t2="RR 81"/>
 
-		<connection t1="Hurghada" t2="Northern Sudan"/>
-		<connection t1="SZ 38" t2="SZ 41"/>
-		<connection t1="RR 86" t2="SZ 91"/>
+        <connection t1="Hurghada" t2="Northern Sudan"/>
+        <connection t1="SZ 38" t2="SZ 41"/>
+        <connection t1="RR 86" t2="SZ 91"/>
 
-		<connection t1="al-Hasa" t2="Oman"/>
-		<connection t1="SZ 39" t2="SZ 40"/>
-		<connection t1="RR 92" t2="SZ 142"/>
+        <connection t1="al-Hasa" t2="Oman"/>
+        <connection t1="SZ 39" t2="SZ 40"/>
+        <connection t1="RR 92" t2="SZ 142"/>
 		
-		<connection t1="SZ 23" t2="SZ 1"/>
-		<connection t1="SZ 23" t2="SZ 11"/>
-		<connection t1="SZ 24" t2="SZ 16"/>
-		<connection t1="SZ 24" t2="SZ 19"/>
+        <connection t1="SZ 23" t2="SZ 1"/>
+        <connection t1="SZ 23" t2="SZ 11"/>
+        <connection t1="SZ 24" t2="SZ 16"/>
+        <connection t1="SZ 24" t2="SZ 19"/>
 		
-		<connection t1="Northern Rhineland" t2="Ruhr"/>
-		<connection t1="Rhineland" t2="Ruhr"/>
-		<connection t1="RR 122" t2="RR 18"/>
+        <connection t1="Northern Rhineland" t2="Ruhr"/>
+        <connection t1="Rhineland" t2="Ruhr"/>
+        <connection t1="RR 122" t2="RR 18"/>
 		
-		<connection t1="Strasbourg" t2="Bavaria"/>
-		<connection t1="Rhineland" t2="Bavaria"/>
-		<connection t1="RR 140" t2="RR 29"/>
+        <connection t1="Strasbourg" t2="Bavaria"/>
+        <connection t1="Rhineland" t2="Bavaria"/>
+        <connection t1="RR 140" t2="RR 29"/>
 		
-		<connection t1="American Isolationism" t2="United States"/>
-		<connection t1="Russian Infiltration" t2="BR 4"/>
-		<connection t1="Russian Infiltration" t2="BR 5"/>
-		<connection t1="Russian Infiltration" t2="BR 6"/>
+        <connection t1="American Isolationism" t2="United States"/>
+        <connection t1="Russian Infiltration" t2="BR 4"/>
+        <connection t1="Russian Infiltration" t2="BR 5"/>
+        <connection t1="Russian Infiltration" t2="BR 6"/>
 		
 		<!-- Automatic connections from polygon adjacency -->
         <connection t1="Aachen" t2="Ardennes"/>
@@ -5201,6 +5201,14 @@
             <option name="canalName" value="RR122toRR133"/>
             <option name="landTerritories" value="Northern Rhineland"/>
         </attachment>
+        <attachment name="canalAttachmentRR122toRR18" attachTo="RR 122" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR122toRR18"/>
+            <option name="landTerritories" value="Northern Rhineland"/>
+        </attachment>
+        <attachment name="canalAttachmentRR122toRR18" attachTo="RR 18" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR122toRR18"/>
+            <option name="landTerritories" value="Northern Rhineland"/>
+        </attachment>
         <attachment name="canalAttachmentRR123toRR118" attachTo="RR 123" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR123toRR118"/>
             <option name="landTerritories" value="Arras"/>
@@ -5617,6 +5625,14 @@
             <option name="canalName" value="RR140toRR139"/>
             <option name="landTerritories" value="Strasbourg"/>
         </attachment>
+        <attachment name="canalAttachmentRR140toRR29" attachTo="RR 140" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR140toRR29"/>
+            <option name="landTerritories" value="Strasbourg"/>
+        </attachment>
+        <attachment name="canalAttachmentRR140toRR29" attachTo="RR 29" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR140toRR29"/>
+            <option name="landTerritories" value="Strasbourg"/>
+        </attachment>
         <attachment name="canalAttachmentRR141toRR30" attachTo="RR 141" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR141toRR30"/>
             <option name="landTerritories" value="Innsbruck"/>
@@ -5832,6 +5848,14 @@
         <attachment name="canalAttachmentRR17toRR27" attachTo="RR 27" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR17toRR27"/>
             <option name="landTerritories" value="Picardy"/>
+        </attachment>
+        <attachment name="canalAttachmentRR18toRR122" attachTo="RR 18" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR18toRR122"/>
+            <option name="landTerritories" value="Ruhr"/>
+        </attachment>
+        <attachment name="canalAttachmentRR18toRR122" attachTo="RR 122" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR18toRR122"/>
+            <option name="landTerritories" value="Ruhr"/>
         </attachment>
         <attachment name="canalAttachmentRR18toRR19" attachTo="RR 18" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR18toRR19"/>
@@ -6096,6 +6120,14 @@
         <attachment name="canalAttachmentRR28toRR37" attachTo="RR 37" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR28toRR37"/>
             <option name="landTerritories" value="Burgundy"/>
+        </attachment>
+        <attachment name="canalAttachmentRR29toRR140" attachTo="RR 29" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR29toRR140"/>
+            <option name="landTerritories" value="Bavaria"/>
+        </attachment>
+        <attachment name="canalAttachmentRR29toRR140" attachTo="RR 140" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR29toRR140"/>
+            <option name="landTerritories" value="Bavaria"/>
         </attachment>
         <attachment name="canalAttachmentRR29toRR18" attachTo="RR 29" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR29toRR18"/>
@@ -7065,6 +7097,14 @@
             <option name="canalName" value="RR72toRR73"/>
             <option name="landTerritories" value="Mauritania"/>
         </attachment>
+        <attachment name="canalAttachmentRR72toRR81" attachTo="RR 72" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR72toRR81"/>
+            <option name="landTerritories" value="Mauritania"/>
+        </attachment>
+        <attachment name="canalAttachmentRR72toRR81" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR72toRR81"/>
+            <option name="landTerritories" value="Mauritania"/>
+        </attachment>
         <attachment name="canalAttachmentRR73toRR72" attachTo="RR 73" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR73toRR72"/>
             <option name="landTerritories" value="Casablanca"/>
@@ -7216,6 +7256,14 @@
         <attachment name="canalAttachmentRR80toRR81" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR80toRR81"/>
             <option name="landTerritories" value="Tobruk"/>
+        </attachment>
+        <attachment name="canalAttachmentRR81toRR72" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR81toRR72"/>
+            <option name="landTerritories" value="Egypt"/>
+        </attachment>
+        <attachment name="canalAttachmentRR81toRR72" attachTo="RR 72" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="RR81toRR72"/>
+            <option name="landTerritories" value="Egypt"/>
         </attachment>
         <attachment name="canalAttachmentRR81toRR80" attachTo="RR 81" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="RR81toRR80"/>
