@@ -935,7 +935,6 @@
         <connection t1="Natal" t2="S. Africa"/>
         <connection t1="Natal" t2="SZ 57"/>
         <connection t1="Natal" t2="SZ 58"/>
-        <connection t1="Natal" t2="SZ 59"/>
         <connection t1="Natal" t2="Transvaal"/>
         <connection t1="Niangara" t2="Nye Lukemba"/>
         <connection t1="Niangara" t2="Southern Sudan"/>
@@ -3587,6 +3586,7 @@
         </attachment>
         <attachment name="territoryAttachment" attachTo="Soviet Far East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="6" count=""/>
+			<option name="capital" value="Bolsheviks" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Tabriz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2" count=""/>
