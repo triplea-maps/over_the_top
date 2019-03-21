@@ -497,7 +497,7 @@
         <connection t1="Russian Infiltration" t2="BR 6"/>
 		
 		<!-- Fixes that automatic method didn't find -->
-		<connection t1="RR 65" t2="BR 69"/>
+		<connection t1="RR 65" t2="RR 69"/>
 		
 		<!-- Automatic connections from polygon adjacency -->
         <connection t1="Aachen" t2="Ardennes"/>
