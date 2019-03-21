@@ -3071,132 +3071,186 @@
             <option name="when" value="after:Bolsheviks-EndTurn" count=""/>
             <option name="removeUnits" value="all:Munitions" count="9999"/>
         </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Germans-1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
-            <option name="when" value="before:Germans-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Germans-2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
-            <option name="when" value="before:Germans-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-British-1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
-            <option name="when" value="before:British-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-British-2" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
-            <option name="when" value="before:British-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-French-1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
-            <option name="when" value="before:French-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-French-2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
-            <option name="when" value="before:French-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Russians-1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
-            <option name="when" value="before:Russians-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Russians-2" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
-            <option name="when" value="before:Russians-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Austrians-1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
-            <option name="when" value="before:Austrians-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Austrians-2" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
-            <option name="when" value="before:Austrians-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
-            <option name="when" value="before:Ottomans-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
-            <option name="when" value="before:Ottomans-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Italians-1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
-            <option name="when" value="before:Italians-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Italians-2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
-            <option name="when" value="before:Italians-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Americans-1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
-            <option name="when" value="before:Americans-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Americans-2" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
-            <option name="when" value="before:Americans-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Bolsheviks-1" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
-            <option name="when" value="before:Bolsheviks-Combat-Move" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="true"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
-        <attachment name="triggerAttachment-infraDuringCombatMove-Bolsheviks-2" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-            <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
-            <option name="when" value="before:Bolsheviks-Battle" count=""/>
-            <option name="unitType" value="Trenches" count=""/>
-            <option name="unitProperty" value="isInfrastructure" count="false"/>
-            <option name="uses" value="1" count=""/>
-        </attachment>
+		<!-- Set up trenches for Germans so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Germans-1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Germans-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Germans-2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Germans-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for British so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-British-1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
+		    <option name="when" value="before:British-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-British-2" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
+		    <option name="when" value="before:British-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for French so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-French-1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
+		    <option name="when" value="before:French-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-French-2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
+		    <option name="when" value="before:French-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for Russians so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Russians-1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Russians-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Russians-2" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Russians-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for Austrians so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Austrians-1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Austrians-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Austrians-2" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Austrians-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for Ottomans so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Ottomans-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Ottomans-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for Italians so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Italians-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Italians-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for Americans so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Americans-1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Americans-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Americans-2" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Americans-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for Imperial-German-Afrika so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Imperial-German-Afrika-1" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Imperial-German-Afrika-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Imperial-German-Afrika-2" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Imperial-German-Afrika-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for British-Commonwealth so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-British-Commonwealth-1" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" count=""/>
+		    <option name="when" value="before:British-Commonwealth-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-British-Commonwealth-2" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" count=""/>
+		    <option name="when" value="before:British-Commonwealth-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for French-Colonial-Africa so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-French-Colonial-Africa-1" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" count=""/>
+		    <option name="when" value="before:French-Colonial-Africa-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-French-Colonial-Africa-2" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" count=""/>
+		    <option name="when" value="before:French-Colonial-Africa-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Set up trenches for Bolsheviks so that undefended trenches are capturable during combat but can take hits during battle -->
+		<attachment name="triggerAttachment-infraDuringCombatMove-Bolsheviks-1" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Bolsheviks-CombatMove" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="true"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
+		<attachment name="triggerAttachment-infraDuringCombatMove-Bolsheviks-2" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		    <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
+		    <option name="when" value="before:Bolsheviks-Battle" count=""/>
+		    <option name="unitType" value="Trenches" count=""/>
+		    <option name="unitProperty" value="isInfrastructure" count="false"/>
+		    <option name="uses" value="1" count=""/>
+		</attachment>
         <attachment name="unitAttachment" attachTo="Lenin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="1" count=""/>
             <option name="transportCost" value="1" count=""/>
