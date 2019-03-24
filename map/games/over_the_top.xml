@@ -1635,97 +1635,97 @@
         <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
         <sequence>
             <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
-            <step name="Germans-CombatMove" delegate="move" player="Germans"/>
-            <step name="Germans-MunitionsTechActivation" delegate="munitions" player="Germans"/>
-            <step name="Germans-MunitionsCombatMove" delegate="move" player="Germans" display="Fire Munitions"/>
+            <step name="Germans-CombatMove" delegate="move" player="Germans" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Germans-MunitionsTechActivation" delegate="munitions" player="Germans" display="Load Munitions"/>
+            <step name="Germans-MunitionsCombatMove" delegate="move" player="Germans" display="Fire Munitions and Combat Move"/>
             <step name="Germans-Purchase" delegate="purchase" player="Germans"/>
             <step name="Germans-Battle" delegate="battle" player="Germans"/>
             <step name="Germans-NonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>
             <step name="Germans-Place" delegate="place" player="Germans"/>
             <step name="Germans-EndTurn" delegate="endTurn" player="Germans"/>
-            <step name="Imperial-German-Afrika-CombatMove" delegate="move" player="Imperial-German-Afrika"/>
-            <step name="Imperial-German-Afrika-MunitionsTechActivation" delegate="munitions" player="Imperial-German-Afrika"/>
-            <step name="Imperial-German-Afrika-MunitionsCombatMove" delegate="move" player="Imperial-German-Afrika" display="Fire Munitions"/>
+            <step name="Imperial-German-Afrika-CombatMove" delegate="move" player="Imperial-German-Afrika" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Imperial-German-Afrika-MunitionsTechActivation" delegate="munitions" player="Imperial-German-Afrika" display="Load Munitions"/>
+            <step name="Imperial-German-Afrika-MunitionsCombatMove" delegate="move" player="Imperial-German-Afrika" display="Fire Munitions and Combat Move"/>
             <step name="Imperial-German-Afrika-Purchase" delegate="purchase" player="Imperial-German-Afrika"/>
             <step name="Imperial-German-Afrika-Battle" delegate="battle" player="Imperial-German-Afrika"/>
             <step name="Imperial-German-Afrika-NonCombatMove" delegate="move" player="Imperial-German-Afrika" display="Non Combat Move"/>
             <step name="Imperial-German-Afrika-Place" delegate="place" player="Imperial-German-Afrika"/>
             <step name="Imperial-German-Afrika-EndTurn" delegate="endTurn" player="Imperial-German-Afrika"/>
-            <step name="French-CombatMove" delegate="move" player="French"/>
-            <step name="French-MunitionsTechActivation" delegate="munitions" player="French"/>
-            <step name="French-MunitionsCombatMove" delegate="move" player="French" display="Fire Munitions"/>
+            <step name="French-CombatMove" delegate="move" player="French" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="French-MunitionsTechActivation" delegate="munitions" player="French" display="Load Munitions"/>
+            <step name="French-MunitionsCombatMove" delegate="move" player="French" display="Fire Munitions and Combat Move"/>
             <step name="French-Purchase" delegate="purchase" player="French"/>
             <step name="French-Battle" delegate="battle" player="French"/>
             <step name="French-NonCombatMove" delegate="move" player="French" display="Non Combat Move"/>
             <step name="French-Place" delegate="place" player="French"/>
             <step name="French-EndTurn" delegate="endTurn" player="French"/>
-            <step name="French-Colonial-Africa-CombatMove" delegate="move" player="French-Colonial-Africa"/>
-            <step name="French-Colonial-Africa-MunitionsTechActivation" delegate="munitions" player="French-Colonial-Africa"/>
-            <step name="French-Colonial-Africa-MunitionsCombatMove" delegate="move" player="French-Colonial-Africa" display="Fire Munitions"/>
+            <step name="French-Colonial-Africa-CombatMove" delegate="move" player="French-Colonial-Africa" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="French-Colonial-Africa-MunitionsTechActivation" delegate="munitions" player="French-Colonial-Africa" display="Load Munitions"/>
+            <step name="French-Colonial-Africa-MunitionsCombatMove" delegate="move" player="French-Colonial-Africa" display="Fire Munitions and Combat Move"/>
             <step name="French-Colonial-Africa-Purchase" delegate="purchase" player="French-Colonial-Africa"/>
             <step name="French-Colonial-Africa-Battle" delegate="battle" player="French-Colonial-Africa"/>
             <step name="French-Colonial-Africa-NonCombatMove" delegate="move" player="French-Colonial-Africa" display="Non Combat Move"/>
             <step name="French-Colonial-Africa-Place" delegate="place" player="French-Colonial-Africa"/>
             <step name="French-Colonial-Africa-EndTurn" delegate="endTurn" player="French-Colonial-Africa"/>
-            <step name="Russians-CombatMove" delegate="move" player="Russians"/>
-            <step name="Russians-MunitionsTechActivation" delegate="munitions" player="Russians"/>
-            <step name="Russians-MunitionsCombatMove" delegate="move" player="Russians" display="Fire Munitions"/>
+            <step name="Russians-CombatMove" delegate="move" player="Russians" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Russians-MunitionsTechActivation" delegate="munitions" player="Russians" display="Load Munitions"/>
+            <step name="Russians-MunitionsCombatMove" delegate="move" player="Russians" display="Fire Munitions and Combat Move"/>
             <step name="Russians-Purchase" delegate="purchase" player="Russians"/>
             <step name="Russians-Battle" delegate="battle" player="Russians"/>
             <step name="Russians-NonCombatMove" delegate="move" player="Russians" display="Non Combat Move"/>
             <step name="Russians-Place" delegate="place" player="Russians"/>
             <step name="Russians-EndTurn" delegate="endTurn" player="Russians"/>
-            <step name="Austrians-CombatMove" delegate="move" player="Austrians"/>
-            <step name="Austrians-MunitionsTechActivation" delegate="munitions" player="Austrians"/>
-            <step name="Austrians-MunitionsCombatMove" delegate="move" player="Austrians" display="Fire Munitions"/>
+            <step name="Austrians-CombatMove" delegate="move" player="Austrians" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Austrians-MunitionsTechActivation" delegate="munitions" player="Austrians" display="Load Munitions"/>
+            <step name="Austrians-MunitionsCombatMove" delegate="move" player="Austrians" display="Fire Munitions and Combat Move"/>
             <step name="Austrians-Purchase" delegate="purchase" player="Austrians"/>
             <step name="Austrians-Battle" delegate="battle" player="Austrians"/>
             <step name="Austrians-NonCombatMove" delegate="move" player="Austrians" display="Non Combat Move"/>
             <step name="Austrians-Place" delegate="place" player="Austrians"/>
             <step name="Austrians-EndTurn" delegate="endTurn" player="Austrians"/>
-            <step name="Ottomans-CombatMove" delegate="move" player="Ottomans"/>
-            <step name="Ottomans-MunitionsTechActivation" delegate="munitions" player="Ottomans"/>
-            <step name="Ottomans-MunitionsCombatMove" delegate="move" player="Ottomans" display="Fire Munitions"/>
+            <step name="Ottomans-CombatMove" delegate="move" player="Ottomans" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Ottomans-MunitionsTechActivation" delegate="munitions" player="Ottomans" display="Load Munitions"/>
+            <step name="Ottomans-MunitionsCombatMove" delegate="move" player="Ottomans" display="Fire Munitions and Combat Move"/>
             <step name="Ottomans-Purchase" delegate="purchase" player="Ottomans"/>
             <step name="Ottomans-Battle" delegate="battle" player="Ottomans"/>
             <step name="Ottomans-NonCombatMove" delegate="move" player="Ottomans" display="Non Combat Move"/>
             <step name="Ottomans-Place" delegate="place" player="Ottomans"/>
             <step name="Ottomans-EndTurn" delegate="endTurn" player="Ottomans"/>
-            <step name="British-CombatMove" delegate="move" player="British"/>
-            <step name="British-MunitionsTechActivation" delegate="munitions" player="British"/>
-            <step name="British-MunitionsCombatMove" delegate="move" player="British" display="Fire Munitions"/>
+            <step name="British-CombatMove" delegate="move" player="British" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="British-MunitionsTechActivation" delegate="munitions" player="British" display="Load Munitions"/>
+            <step name="British-MunitionsCombatMove" delegate="move" player="British" display="Fire Munitions and Combat Move"/>
             <step name="British-Purchase" delegate="purchase" player="British"/>
             <step name="British-Battle" delegate="battle" player="British"/>
             <step name="British-NonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
             <step name="British-Place" delegate="place" player="British"/>
             <step name="British-EndTurn" delegate="endTurn" player="British"/>
-            <step name="British-Commonwealth-CombatMove" delegate="move" player="British-Commonwealth"/>
-            <step name="British-Commonwealth-MunitionsTechActivation" delegate="munitions" player="British-Commonwealth"/>
-            <step name="British-Commonwealth-MunitionsCombatMove" delegate="move" player="British-Commonwealth" display="Fire Munitions"/>
+            <step name="British-Commonwealth-CombatMove" delegate="move" player="British-Commonwealth" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="British-Commonwealth-MunitionsTechActivation" delegate="munitions" player="British-Commonwealth" display="Load Munitions"/>
+            <step name="British-Commonwealth-MunitionsCombatMove" delegate="move" player="British-Commonwealth" display="Fire Munitions and Combat Move"/>
             <step name="British-Commonwealth-Purchase" delegate="purchase" player="British-Commonwealth"/>
             <step name="British-Commonwealth-Battle" delegate="battle" player="British-Commonwealth"/>
             <step name="British-Commonwealth-NonCombatMove" delegate="move" player="British-Commonwealth" display="Non Combat Move"/>
             <step name="British-Commonwealth-Place" delegate="place" player="British-Commonwealth"/>
             <step name="British-Commonwealth-EndTurn" delegate="endTurn" player="British-Commonwealth"/>
-            <step name="Italians-CombatMove" delegate="move" player="Italians"/>
-            <step name="Italians-MunitionsTechActivation" delegate="munitions" player="Italians"/>
-            <step name="Italians-MunitionsCombatMove" delegate="move" player="Italians" display="Fire Munitions"/>
+            <step name="Italians-CombatMove" delegate="move" player="Italians" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Italians-MunitionsTechActivation" delegate="munitions" player="Italians" display="Load Munitions"/>
+            <step name="Italians-MunitionsCombatMove" delegate="move" player="Italians" display="Fire Munitions and Combat Move"/>
             <step name="Italians-Purchase" delegate="purchase" player="Italians"/>
             <step name="Italians-Battle" delegate="battle" player="Italians"/>
             <step name="Italians-NonCombatMove" delegate="move" player="Italians" display="Non Combat Move"/>
             <step name="Italians-Place" delegate="place" player="Italians"/>
             <step name="Italians-EndTurn" delegate="endTurn" player="Italians"/>
-            <step name="Americans-CombatMove" delegate="move" player="Americans"/>
-            <step name="Americans-MunitionsTechActivation" delegate="munitions" player="Americans"/>
-            <step name="Americans-MunitionsCombatMove" delegate="move" player="Americans" display="Fire Munitions"/>
+            <step name="Americans-CombatMove" delegate="move" player="Americans" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Americans-MunitionsTechActivation" delegate="munitions" player="Americans" display="Load Munitions"/>
+            <step name="Americans-MunitionsCombatMove" delegate="move" player="Americans" display="Fire Munitions and Combat Move"/>
             <step name="Americans-Purchase" delegate="purchase" player="Americans"/>
             <step name="Americans-Battle" delegate="battle" player="Americans"/>
             <step name="Americans-NonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>
             <step name="Americans-Place" delegate="place" player="Americans"/>
             <step name="Americans-EndTurn" delegate="endTurn" player="Americans"/>
-            <step name="Bolsheviks-CombatMove" delegate="move" player="Bolsheviks"/>
-            <step name="Bolsheviks-MunitionsTechActivation" delegate="munitions" player="Bolsheviks"/>
-            <step name="Bolsheviks-MunitionsCombatMove" delegate="move" player="Bolsheviks" display="Fire Munitions"/>
+            <step name="Bolsheviks-CombatMove" delegate="move" player="Bolsheviks" display="Move Battleships, Cruisers and Railguns"/>
+            <step name="Bolsheviks-MunitionsTechActivation" delegate="munitions" player="Bolsheviks" display="Load Munitions"/>
+            <step name="Bolsheviks-MunitionsCombatMove" delegate="move" player="Bolsheviks" display="Fire Munitions and Combat Move"/>
             <step name="Bolsheviks-Purchase" delegate="purchase" player="Bolsheviks"/>
             <step name="Bolsheviks-Battle" delegate="battle" player="Bolsheviks"/>
             <step name="Bolsheviks-NonCombatMove" delegate="move" player="Bolsheviks" display="Non Combat Move"/>
@@ -4566,6 +4566,7 @@
         </attachment>
         <attachment name="territoryAttachment" attachTo="Norway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
+			<option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 34" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
