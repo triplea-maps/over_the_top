@@ -6308,6 +6308,24 @@
             <option name="canalName" value="RR96toRR97" count=""/>
             <option name="landTerritories" value="Nigeria:Cameroon" count=""/>
         </attachment>
+		
+		<!-- Actual canals -->
+		<attachment name="canalAttachment" attachTo="SZ 38" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="Suez Canal" count=""/>
+            <option name="landTerritories" value="Cairo" count=""/>
+        </attachment>
+        <attachment name="canalAttachment" attachTo="SZ 83" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="Suez Canal" count=""/>
+            <option name="landTerritories" value="Cairo" count=""/>
+        </attachment>
+        <attachment name="canalAttachment" attachTo="SZ 34" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="Dardanelles" count=""/>
+            <option name="landTerritories" value="Istanbul:Izmir:Gallipoli" count=""/>
+        </attachment>
+        <attachment name="canalAttachment" attachTo="SZ 36" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+            <option name="canalName" value="Dardanelles" count=""/>
+            <option name="landTerritories" value="Istanbul:Izmir:Gallipoli" count=""/>
+        </attachment>
     </attachmentList>
     <initialize>
         <ownerInitialize>
