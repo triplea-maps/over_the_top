@@ -465,6 +465,9 @@
         <connection t1="Hurghada" t2="Northern Sudan"/>
         <connection t1="SZ 38" t2="SZ 41"/>
         <connection t1="RR 86" t2="RR 90"/>
+		
+		<connection t1="Hejaz" t2="Tabuk"/>
+        <connection t1="SZ 84" t2="SZ 91"/>
 
         <connection t1="al-Hasa" t2="Oman"/>
         <connection t1="SZ 39" t2="SZ 40"/>
