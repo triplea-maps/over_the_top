@@ -3535,7 +3535,7 @@
         </attachment>
         <attachment name="triggerAttachment_Americans_Declare_War" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment_Americans_Own_USA" count=""/>
-            <option name="when" value="after:AmericansCombatMove" count=""/>
+            <option name="when" value="after:Americans-CombatMove" count=""/>
             <option name="uses" value="1" count=""/>
             <option name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Bolsheviks" count=""/>
             <option name="playerAttachmentName" value="RulesAttachment" count="rulesAttachment"/>
@@ -3543,7 +3543,7 @@
         </attachment>
         <attachment name="triggerAttachment_Americans_Track" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment_Americans_Own_USA" count=""/>
-            <option name="when" value="after:AmericansCombatMove" count=""/>
+            <option name="when" value="after:Americans-CombatMove" count=""/>
             <option name="uses" value="1" count=""/>
             <option name="territories" value="American Isolationism:US 1:US 2:US 3:United States Mobilizes" count=""/>
             <option name="territoryProperty" value="production" count="0"/>
