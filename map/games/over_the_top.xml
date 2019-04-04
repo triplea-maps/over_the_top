@@ -3435,9 +3435,10 @@
             <option name="isFactory" value="true" count=""/>
             <option name="repairsUnits" value="Tank" count="5"/>
             <option name="canBeDamaged" value="true" count=""/>
-            <option name="maxDamage" value="2" count=""/>
+            <option name="maxDamage" value="12" count=""/>
             <option name="maxOperationalDamage" value="6" count=""/>
             <option name="canDieFromReachingMaxDamage" value="true" count=""/>
+			<option name="isAAforBombingThisUnitOnly" value="true"/>
             <option name="movement" value="0" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Shipyard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -3452,11 +3453,14 @@
             <option name="maxDamage" value="12" count=""/>
             <option name="maxOperationalDamage" value="6" count=""/>
             <option name="canDieFromReachingMaxDamage" value="true" count=""/>
+			<option name="isAAforBombingThisUnitOnly" value="true"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="AA-Gun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="isAA" value="true" count=""/>
-            <option name="transportCost" value="3" count=""/>
-            <option name="movement" value="1" count=""/>
+		    <option name="isAAforCombatOnly" value="true"/>
+			<option name="canNotMoveDuringCombatMove" value="true"/>
+			<option name="movement" value="1"/>
+			<option name="transportCost" value="3"/>
+			<option name="maxAAattacks" value="3"/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Armored-Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
