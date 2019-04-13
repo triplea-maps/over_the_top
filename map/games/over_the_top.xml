@@ -3439,6 +3439,7 @@
             <option name="maxOperationalDamage" value="6" count=""/>
             <option name="canDieFromReachingMaxDamage" value="true" count=""/>
 			<option name="isAAforBombingThisUnitOnly" value="true"/>
+			<option name="targetsAA" value="Zeppelin:Bomber:Fighter" />
             <option name="movement" value="0" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Shipyard" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -3454,6 +3455,7 @@
             <option name="maxOperationalDamage" value="6" count=""/>
             <option name="canDieFromReachingMaxDamage" value="true" count=""/>
 			<option name="isAAforBombingThisUnitOnly" value="true"/>
+			<option name="targetsAA" value="Zeppelin:Bomber:Fighter" />
         </attachment>
         <attachment name="unitAttachment" attachTo="AA-Gun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 		    <option name="isAAforCombatOnly" value="true"/>
@@ -3461,6 +3463,7 @@
 			<option name="movement" value="1"/>
 			<option name="transportCost" value="3"/>
 			<option name="maxAAattacks" value="3"/>
+			<option name="targetsAA" value="Zeppelin:Bomber:Fighter" />
         </attachment>
         <attachment name="unitAttachment" attachTo="Armored-Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -7486,9 +7489,6 @@
             <boolean/>
         </property>
         <property value="true" name="Attacker Retreat Planes" editable="false" player="">
-            <boolean/>
-        </property>
-        <property value="true" name="Shore Bombard Per Ground Unit Restricted" editable="false" player="">
             <boolean/>
         </property>
         <property value="true" name="Use Triggers" editable="false" player="">
