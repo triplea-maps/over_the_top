@@ -6,6 +6,7 @@
     <triplea minimumVersion="1.9"/>
     <map>
         <territory name="OVER THE TOP" water="false"/>
+		<territory name="By DKJD" water="false"/>
         <territory name="Aachen" water="false"/>
         <territory name="Abyssinia" water="false"/>
         <territory name="Algeria" water="false"/>
@@ -1609,6 +1610,7 @@
         <unit name="Battlecruiser"/>
         <unit name="Battleship"/>
         <unit name="Trenches"/>
+		<unit name="Trenches-If-Defended"/>
         <unit name="Harbor-Defenses"/>
         <unit name="Factory"/>
         <unit name="Shipyard"/>
@@ -2982,7 +2984,7 @@
 		<attachment name="triggerAttachment_Add_Germans_Munitions" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
             <option name="when" value="before:Germans-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Germans_Munitions_1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3000,7 +3002,7 @@
 		<attachment name="triggerAttachment_Add_British_Munitions" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
             <option name="when" value="before:British-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_British_Munitions_1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3018,7 +3020,7 @@
 		<attachment name="triggerAttachment_Add_French_Munitions" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
             <option name="when" value="before:French-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_French_Munitions_1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3036,7 +3038,7 @@
 		<attachment name="triggerAttachment_Add_Russians_Munitions" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
             <option name="when" value="before:Russians-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Russians_Munitions_1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3054,7 +3056,7 @@
 		<attachment name="triggerAttachment_Add_Austrians_Munitions" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
             <option name="when" value="before:Austrians-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Austrians_Munitions_1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3072,7 +3074,7 @@
 		<attachment name="triggerAttachment_Add_Ottomans_Munitions" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
             <option name="when" value="before:Ottomans-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Ottomans_Munitions_1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3090,7 +3092,7 @@
 		<attachment name="triggerAttachment_Add_Italians_Munitions" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
             <option name="when" value="before:Italians-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Italians_Munitions_1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3108,7 +3110,7 @@
 		<attachment name="triggerAttachment_Add_Americans_Munitions" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
             <option name="when" value="before:Americans-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Americans_Munitions_1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3126,7 +3128,7 @@
 		<attachment name="triggerAttachment_Add_Imperial-German-Afrika_Munitions" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" count=""/>
             <option name="when" value="before:Imperial-German-Afrika-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_1" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3144,7 +3146,7 @@
 		<attachment name="triggerAttachment_Add_British-Commonwealth_Munitions" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" count=""/>
             <option name="when" value="before:British-Commonwealth-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_British-Commonwealth_Munitions_1" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3162,7 +3164,7 @@
 		<attachment name="triggerAttachment_Add_French-Colonial-Africa_Munitions" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" count=""/>
             <option name="when" value="before:French-Colonial-Africa-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_1" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3180,7 +3182,7 @@
 		<attachment name="triggerAttachment_Add_Bolsheviks_Munitions" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
             <option name="when" value="before:Bolsheviks-CombatMove" count=""/>
-            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
+            <option name="placement" value="By DKJD:Munitions" count="1" />
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment name="triggerAttachment_Remove_Bolsheviks_Munitions_1" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3518,6 +3520,12 @@
             <option name="constructionsPerTerrPerTypePerTurn" value="2" count=""/>
             <option name="maxConstructionsPerTypePerTerr" value="10" count=""/>
         </attachment>
+		<attachment name="unitAttachment" attachTo="Trenches-If-Defended" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="0" count=""/>
+            <option name="attack" value="0" count=""/>
+            <option name="defense" value="0" count=""/>
+            <option name="isTwoHit" value="true" count=""/>
+        </attachment>
         <attachment name="unitAttachment" attachTo="Harbor-Defenses" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="0" count=""/>
             <option name="attack" value="0" count=""/>
@@ -3659,6 +3667,9 @@
             <option name="territoryProperty" value="production" count="0"/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="OVER THE TOP" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0" count=""/>
+        </attachment>
+		<attachment name="territoryAttachment" attachTo="By DKJD" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Bordeaux" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -6738,6 +6749,18 @@
             <territoryOwner territory="RR 56" owner="Italians"/>
         </ownerInitialize>
         <unitInitialize>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="Germans"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="Imperial-German-Afrika"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="French"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="French-Colonial-Africa"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="Russians"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="Austrians"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="Ottomans"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="British"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="British-Commonwealth"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="Americans"/>
+			<unitPlacement unitType="Trenches-If-Defended" territory="OVER THE TOP" quantity="1" owner="Bolsheviks"/>
+		
             <unitPlacement unitType="Infantry" territory="Abyssinia" quantity="1" owner="British-Commonwealth"/>
             <unitPlacement unitType="Infantry" territory="American Isolationism" quantity="1" owner="Americans"/>
             <unitPlacement unitType="Infantry" territory="Ardennes" quantity="4" owner="Germans"/>
