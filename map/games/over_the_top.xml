@@ -5,6 +5,7 @@
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <map>
+        <territory name="OVER THE TOP" water="false"/>
         <territory name="Aachen" water="false"/>
         <territory name="Abyssinia" water="false"/>
         <territory name="Algeria" water="false"/>
@@ -3560,6 +3561,9 @@
             <option name="uses" value="1" count=""/>
             <option name="territories" value="American Isolationism:US 1:US 2:US 3:United States Mobilizes" count=""/>
             <option name="territoryProperty" value="production" count="0"/>
+        </attachment>
+        <attachment name="territoryAttachment" attachTo="OVER THE TOP" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+            <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Bordeaux" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="2" count=""/>
