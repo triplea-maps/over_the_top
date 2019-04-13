@@ -7546,6 +7546,9 @@
         <property value="true" name="Land existing fighters on new carriers" editable="false" player="">
             <boolean/>
         </property>
+		<property value="true" name="Unplaced units live when not placed" editable="false" player="">
+            <boolean/>
+        </property>
 		<property name="Use Bombing Max Dice Sides And Bonus" value="true" editable="false">
 			<boolean/>
 		</property>
