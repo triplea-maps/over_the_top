@@ -2192,120 +2192,144 @@
         <playerRepair player="Bolsheviks" frontier="repair"/>
     </production>
     <attachmentList>
+        <!-- Give mech inf to Germans so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Germans-AlwaysTrue" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-Germans-AlwaysTrue" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to British so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="British" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-British-AlwaysTrue" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-British-AlwaysTrue" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to French so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="French" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-French-AlwaysTrue" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-French-AlwaysTrue" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to Russians so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Russians-AlwaysTrue" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-Russians-AlwaysTrue" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to Austrians so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Austrians-AlwaysTrue" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-Austrians-AlwaysTrue" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to Ottomans so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Ottomans-AlwaysTrue" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-Ottomans-AlwaysTrue" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to Italians so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Italians-AlwaysTrue" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-Italians-AlwaysTrue" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to Americans so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Americans-AlwaysTrue" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-Americans-AlwaysTrue" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to Imperial-German-Afrika so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to British-Commonwealth so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-British-Commonwealth-AlwaysTrue" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-British-Commonwealth-AlwaysTrue" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to French-Colonial-Africa so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-French-Colonial-Africa-AlwaysTrue" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
+		<attachment name="conditionAttachment-French-Colonial-Africa-AlwaysTrue" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+        <!-- Give mech inf to Bolsheviks so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment name="techAttachment" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
             <option name="mechanizedInfantry" value="true" count=""/>
         </attachment>
-        <attachment name="conditionAttachment-Bolsheviks-AlwaysTrue" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-            <option name="techs" value="mechanizedInfantry" count="1"/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="Develop-Bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="0" count=""/>
-            <option name="defense" value="0" count=""/>
-            <option name="movement" value="0" count=""/>
-            <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" count=""/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="Develop-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="0" count=""/>
-            <option name="defense" value="0" count=""/>
-            <option name="movement" value="0" count=""/>
-            <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" count=""/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="Develop-Heavy-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="0" count=""/>
-            <option name="defense" value="0" count=""/>
-            <option name="movement" value="0" count=""/>
-            <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" count=""/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="Develop-Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="0" count=""/>
-            <option name="defense" value="0" count=""/>
-            <option name="movement" value="0" count=""/>
-            <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" count=""/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="Develop-Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="0" count=""/>
-            <option name="defense" value="0" count=""/>
-            <option name="movement" value="0" count=""/>
-            <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" count=""/>
-        </attachment>
-        <attachment name="unitAttachment" attachTo="Develop-Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
-            <option name="attack" value="0" count=""/>
-            <option name="defense" value="0" count=""/>
-            <option name="movement" value="0" count=""/>
-            <option name="maxBuiltPerPlayer" value="1" count=""/>
-            <option name="isInfrastructure" value="true" count=""/>
-        </attachment>
+		<attachment name="conditionAttachment-Bolsheviks-AlwaysTrue" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		    <option name="techs" value="mechanizedInfantry" count="1" />
+		</attachment>
+        
+		<attachment name="unitAttachment" attachTo="Develop-Bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="attack" value="0" count=""/>
+			<option name="defense" value="0" count=""/>
+			<option name="movement" value="0" count=""/>
+			<option name="maxBuiltPerPlayer" value="1" count=""/>
+			<option name="isInfrastructure" value="true" count=""/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="Develop-Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="attack" value="0" count=""/>
+			<option name="defense" value="0" count=""/>
+			<option name="movement" value="0" count=""/>
+			<option name="maxBuiltPerPlayer" value="1" count=""/>
+			<option name="isInfrastructure" value="true" count=""/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="Develop-Heavy-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="attack" value="0" count=""/>
+			<option name="defense" value="0" count=""/>
+			<option name="movement" value="0" count=""/>
+			<option name="maxBuiltPerPlayer" value="1" count=""/>
+			<option name="isInfrastructure" value="true" count=""/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="Develop-Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="attack" value="0" count=""/>
+			<option name="defense" value="0" count=""/>
+			<option name="movement" value="0" count=""/>
+			<option name="maxBuiltPerPlayer" value="1" count=""/>
+			<option name="isInfrastructure" value="true" count=""/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="Develop-Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="attack" value="0" count=""/>
+			<option name="defense" value="0" count=""/>
+			<option name="movement" value="0" count=""/>
+			<option name="maxBuiltPerPlayer" value="1" count=""/>
+			<option name="isInfrastructure" value="true" count=""/>
+		</attachment>
+		<attachment name="unitAttachment" attachTo="Develop-Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="attack" value="0" count=""/>
+			<option name="defense" value="0" count=""/>
+			<option name="movement" value="0" count=""/>
+			<option name="maxBuiltPerPlayer" value="1" count=""/>
+			<option name="isInfrastructure" value="true" count=""/>
+		</attachment>
 		<!-- Develop Bomber for Austrians -->
 		<attachment name="conditionAttachment-Austrians-Develop-Bomber" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
@@ -2954,140 +2978,234 @@
 			<option name="removeUnits" value="all:Develop-Tank" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-        <attachment name="triggerAttachment_Remove_Germans_Munitions_1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Germans_Munitions" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
-            <option name="when" value="after:Germans-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Germans-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Germans_Munitions_1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
+			<option name="when" value="after:Germans-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Germans_Munitions_2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
             <option name="when" value="after:Germans-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_British_Munitions_1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_British_Munitions" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
-            <option name="when" value="after:British-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:British-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_British_Munitions_1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
+			<option name="when" value="after:British-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_British_Munitions_2" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
             <option name="when" value="after:British-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_French_Munitions_1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_French_Munitions" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
-            <option name="when" value="after:French-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:French-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_French_Munitions_1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
+			<option name="when" value="after:French-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_French_Munitions_2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
             <option name="when" value="after:French-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_Russians_Munitions_1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Russians_Munitions" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
-            <option name="when" value="after:Russians-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Russians-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Russians_Munitions_1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
+			<option name="when" value="after:Russians-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Russians_Munitions_2" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
             <option name="when" value="after:Russians-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_Austrians_Munitions_1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Austrians_Munitions" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
-            <option name="when" value="after:Austrians-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Austrians-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Austrians_Munitions_1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
+			<option name="when" value="after:Austrians-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Austrians_Munitions_2" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
             <option name="when" value="after:Austrians-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_Ottomans_Munitions_1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Ottomans_Munitions" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
-            <option name="when" value="after:Ottomans-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Ottomans-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Ottomans_Munitions_1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
+			<option name="when" value="after:Ottomans-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Ottomans_Munitions_2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
             <option name="when" value="after:Ottomans-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_Italians_Munitions_1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Italians_Munitions" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
-            <option name="when" value="after:Italians-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Italians-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Italians_Munitions_1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
+			<option name="when" value="after:Italians-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Italians_Munitions_2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
             <option name="when" value="after:Italians-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_Americans_Munitions_1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Americans_Munitions" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
-            <option name="when" value="after:Americans-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Americans-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Americans_Munitions_1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
+			<option name="when" value="after:Americans-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Americans_Munitions_2" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
             <option name="when" value="after:Americans-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_1" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Imperial-German-Afrika_Munitions" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" count=""/>
-            <option name="when" value="after:Imperial-German-Afrika-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Imperial-German-Afrika-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_1" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" count=""/>
+			<option name="when" value="after:Imperial-German-Afrika-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_2" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" count=""/>
             <option name="when" value="after:Imperial-German-Afrika-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_British-Commonwealth_Munitions_1" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_British-Commonwealth_Munitions" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" count=""/>
-            <option name="when" value="after:British-Commonwealth-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:British-Commonwealth-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_British-Commonwealth_Munitions_1" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" count=""/>
+			<option name="when" value="after:British-Commonwealth-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_British-Commonwealth_Munitions_2" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" count=""/>
             <option name="when" value="after:British-Commonwealth-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_1" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_French-Colonial-Africa_Munitions" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" count=""/>
-            <option name="when" value="after:French-Colonial-Africa-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:French-Colonial-Africa-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_1" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" count=""/>
+			<option name="when" value="after:French-Colonial-Africa-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_2" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" count=""/>
             <option name="when" value="after:French-Colonial-Africa-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
-        <attachment name="triggerAttachment_Remove_Bolsheviks_Munitions_1" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+        <!-- Add single unit so it shows up in battle calculator during both combat moves -->
+		<attachment name="triggerAttachment_Add_Bolsheviks_Munitions" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
-            <option name="when" value="after:Bolsheviks-Battle" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
+            <option name="when" value="before:Bolsheviks-CombatMove" count=""/>
+            <option name="placement" value="OVER THE TOP:Munitions" count="1" />
         </attachment>
+        <!-- Remove after battle to avoid "this unit cannot land" warnings -->
+		<attachment name="triggerAttachment_Remove_Bolsheviks_Munitions_1" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
+			<option name="when" value="after:Bolsheviks-Battle" count=""/>
+			<option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
+		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment name="triggerAttachment_Remove_Bolsheviks_Munitions_2" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
             <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
             <option name="when" value="after:Bolsheviks-EndTurn" count=""/>
-            <option name="removeUnits" value="all:Munitions" count="9999"/>
-        </attachment>
+            <option name="removeUnits" value="all:Munitions" count="9999" />
+		</attachment>
 		<!-- Set up trenches for Germans so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Germans-1" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Germans-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Germans-2" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Germans-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Germans-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for British so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-British-1" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3095,14 +3213,12 @@
 		    <option name="when" value="before:British-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-British-2" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-British-AlwaysTrue" count=""/>
 		    <option name="when" value="before:British-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for French so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-French-1" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3110,14 +3226,12 @@
 		    <option name="when" value="before:French-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-French-2" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-French-AlwaysTrue" count=""/>
 		    <option name="when" value="before:French-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for Russians so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Russians-1" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3125,14 +3239,12 @@
 		    <option name="when" value="before:Russians-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Russians-2" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Russians-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Russians-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for Austrians so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Austrians-1" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3140,14 +3252,12 @@
 		    <option name="when" value="before:Austrians-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Austrians-2" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Austrians-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Austrians-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for Ottomans so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-1" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3155,14 +3265,12 @@
 		    <option name="when" value="before:Ottomans-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Ottomans-2" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Ottomans-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for Italians so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-1" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3170,14 +3278,12 @@
 		    <option name="when" value="before:Italians-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Italians-2" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Italians-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Italians-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for Americans so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Americans-1" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3185,14 +3291,12 @@
 		    <option name="when" value="before:Americans-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Americans-2" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Americans-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Americans-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for Imperial-German-Afrika so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Imperial-German-Afrika-1" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3200,14 +3304,12 @@
 		    <option name="when" value="before:Imperial-German-Afrika-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Imperial-German-Afrika-2" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Imperial-German-Afrika-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for British-Commonwealth so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-British-Commonwealth-1" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3215,14 +3317,12 @@
 		    <option name="when" value="before:British-Commonwealth-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-British-Commonwealth-2" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue" count=""/>
 		    <option name="when" value="before:British-Commonwealth-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for French-Colonial-Africa so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-French-Colonial-Africa-1" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3230,14 +3330,12 @@
 		    <option name="when" value="before:French-Colonial-Africa-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-French-Colonial-Africa-2" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue" count=""/>
 		    <option name="when" value="before:French-Colonial-Africa-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Set up trenches for Bolsheviks so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment name="triggerAttachment-infraDuringCombatMove-Bolsheviks-1" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -3245,14 +3343,12 @@
 		    <option name="when" value="before:Bolsheviks-CombatMove" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="true"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
 		<attachment name="triggerAttachment-infraDuringCombatMove-Bolsheviks-2" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 		    <option name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue" count=""/>
 		    <option name="when" value="before:Bolsheviks-Battle" count=""/>
 		    <option name="unitType" value="Trenches" count=""/>
 		    <option name="unitProperty" value="isInfrastructure" count="false"/>
-		    <option name="uses" value="1" count=""/>
 		</attachment>
         <attachment name="unitAttachment" attachTo="Lenin" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="1" count=""/>
@@ -3318,8 +3414,8 @@
             <option name="attack" value="2" count=""/>
             <option name="defense" value="2" count=""/>
             <option name="isStrategicBomber" value="true" count=""/>
-			<option name="bombingMaxDieSides" value="4" count=""/>
-			<option name="bombingBonus" value="-1" count=""/>
+            <option name="bombingMaxDieSides" value="4" count=""/>
+            <option name="bombingBonus" value="-1" count=""/>
             <option name="carrierCost" value="3" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -3342,8 +3438,8 @@
             <option name="attack" value="4" count=""/>
             <option name="defense" value="1" count=""/>
             <option name="isStrategicBomber" value="true" count=""/>
-			<option name="bombingMaxDieSides" value="5" count=""/>
-			<option name="bombingBonus" value="-1" count=""/>
+            <option name="bombingMaxDieSides" value="5" count=""/>
+            <option name="bombingBonus" value="-1" count=""/>
             <option name="carrierCost" value="3" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -3492,9 +3588,9 @@
             <option name="isAir" value="true" count=""/>
             <option name="isSuicide" value="true" count=""/>
             <option name="isKamikaze" value="true" count=""/>
-			<option name="isStrategicBomber" value="true" count=""/>
-			<option name="bombingMaxDieSides" value="3" count=""/>
-			<option name="bombingBonus" value="-1" count=""/>
+            <option name="isStrategicBomber" value="true" count=""/>
+            <option name="bombingMaxDieSides" value="3" count=""/>
+            <option name="bombingBonus" value="-1" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -4498,7 +4594,7 @@
         </attachment>
         <attachment name="territoryAttachment" attachTo="Persia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 9" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
@@ -4571,22 +4667,22 @@
         </attachment>
         <attachment name="territoryAttachment" attachTo="Switzerland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Spain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="RR 99" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Spanish Morocco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="Norway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 34" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
@@ -4680,7 +4776,7 @@
         </attachment>
         <attachment name="territoryAttachment" attachTo="Sweden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 46" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
@@ -4834,7 +4930,7 @@
         </attachment>
         <attachment name="territoryAttachment" attachTo="Holland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="SZ 89" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="5" count=""/>
@@ -4868,7 +4964,7 @@
         </attachment>
         <attachment name="territoryAttachment" attachTo="Denmark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="0" count=""/>
-			<option name="isImpassable" value="true" count=""/>
+            <option name="isImpassable" value="true" count=""/>
         </attachment>
         <attachment name="territoryAttachment" attachTo="BR 4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
             <option name="production" value="3" count=""/>
@@ -6330,7 +6426,7 @@
         </attachment>
 		
 		<!-- Actual canals -->
-		<attachment name="canalAttachment" attachTo="SZ 38" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+        <attachment name="canalAttachment" attachTo="SZ 38" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
             <option name="canalName" value="Suez Canal" count=""/>
             <option name="landTerritories" value="Cairo" count=""/>
         </attachment>
@@ -7549,12 +7645,12 @@
         <property value="true" name="Land existing fighters on new carriers" editable="false" player="">
             <boolean/>
         </property>
-		<property value="true" name="Unplaced units live when not placed" editable="false" player="">
+        <property value="true" name="Unplaced units live when not placed" editable="false" player="">
             <boolean/>
         </property>
         <property value="true" name="Use Bombing Max Dice Sides And Bonus" editable="false" player="">
-			<boolean/>
-		</property>
+            <boolean/>
+        </property>
         <property value="0" name="Germans bid" editable="true" player="">
             <number max="1000" min="0"/>
         </property>
