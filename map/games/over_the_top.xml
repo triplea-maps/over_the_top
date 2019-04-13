@@ -3318,6 +3318,8 @@
             <option name="attack" value="2" count=""/>
             <option name="defense" value="2" count=""/>
             <option name="isStrategicBomber" value="true" count=""/>
+			<option name="bombingMaxDieSides" value="4" count=""/>
+			<option name="bombingBonus" value="-1" count=""/>
             <option name="carrierCost" value="3" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -3340,6 +3342,8 @@
             <option name="attack" value="4" count=""/>
             <option name="defense" value="1" count=""/>
             <option name="isStrategicBomber" value="true" count=""/>
+			<option name="bombingMaxDieSides" value="5" count=""/>
+			<option name="bombingBonus" value="-1" count=""/>
             <option name="carrierCost" value="3" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Freighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -3488,6 +3492,9 @@
             <option name="isAir" value="true" count=""/>
             <option name="isSuicide" value="true" count=""/>
             <option name="isKamikaze" value="true" count=""/>
+			<option name="isStrategicBomber" value="true" count=""/>
+			<option name="bombingMaxDieSides" value="3" count=""/>
+			<option name="bombingBonus" value="-1" count=""/>
         </attachment>
         <attachment name="unitAttachment" attachTo="Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
             <option name="movement" value="2" count=""/>
@@ -7539,6 +7546,9 @@
         <property value="true" name="Land existing fighters on new carriers" editable="false" player="">
             <boolean/>
         </property>
+		<property name="Use Bombing Max Dice Sides And Bonus" value="true" editable="false">
+			<boolean/>
+		</property>
         <property value="0" name="Germans bid" editable="true" player="">
             <number max="1000" min="0"/>
         </property>
