@@ -5,461 +5,461 @@
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <map>
-        <territory name="OVER THE TOP" water="false"/>
-		<territory name="By DKJD" water="false"/>
-        <territory name="Aachen" water="false"/>
-        <territory name="Abyssinia" water="false"/>
-        <territory name="Algeria" water="false"/>
-        <territory name="American Isolationism" water="false"/>
-        <territory name="Angolia" water="false"/>
-        <territory name="Ankara" water="false"/>
-        <territory name="Antalya" water="false"/>
-        <territory name="Arar" water="false"/>
-        <territory name="Ardennes" water="false"/>
-        <territory name="Argonne" water="false"/>
-        <territory name="Arras" water="false"/>
-        <territory name="Astrakhan" water="false"/>
-        <territory name="Australia" water="false"/>
-        <territory name="B. Somaliland" water="false"/>
-        <territory name="BR 1" water="false"/>
-        <territory name="BR 2" water="false"/>
-        <territory name="BR 3" water="false"/>
-        <territory name="BR 4" water="false"/>
-        <territory name="BR 5" water="false"/>
-        <territory name="BR 6" water="false"/>
-        <territory name="Bagdad" water="false"/>
-        <territory name="Baku" water="false"/>
-        <territory name="Bandundu" water="false"/>
-        <territory name="Bar-Le-Duc" water="false"/>
-        <territory name="Basrah" water="false"/>
-        <territory name="Bavaria" water="false"/>
-        <territory name="Be'er Sheva" water="false"/>
-        <territory name="Belarus" water="false"/>
-        <territory name="Berlin" water="false"/>
-        <territory name="Bohemia" water="false"/>
-        <territory name="Soviet Far East" water="false"/>
-        <territory name="Bordeaux" water="false"/>
-        <territory name="British E. Africa" water="false"/>
-        <territory name="Brussels" water="false"/>
-        <territory name="Bryansk" water="false"/>
-        <territory name="Buchuanaland" water="false"/>
-        <territory name="Bulgaria" water="false"/>
-        <territory name="Burgundy" water="false"/>
-        <territory name="Cabinda" water="false"/>
-        <territory name="Cairo" water="false"/>
-        <territory name="Cameroon" water="false"/>
-        <territory name="Canada" water="false"/>
-        <territory name="Casablanca" water="false"/>
-        <territory name="Caucusus" water="false"/>
-        <territory name="Chad" water="false"/>
-        <territory name="Chantilly" water="false"/>
-        <territory name="Charleroi" water="false"/>
-        <territory name="Chaumont" water="false"/>
-        <territory name="Chikapa" water="false"/>
-        <territory name="Cologne" water="false"/>
-        <territory name="Compiegne" water="false"/>
-        <territory name="Corsica" water="false"/>
-        <territory name="Crete" water="false"/>
-        <territory name="Cyprus" water="false"/>
-        <territory name="Cyreniaca" water="false"/>
-        <territory name="Damascus" water="false"/>
-        <territory name="Denmark" water="false"/>
-        <territory name="Douamont" water="false"/>
-        <territory name="Egypt" water="false"/>
-        <territory name="Finland" water="false"/>
-        <territory name="Flanders" water="false"/>
-        <territory name="Fontainbleu" water="false"/>
-        <territory name="Frankfurt" water="false"/>
-        <territory name="French Equitorial Africa" water="false"/>
-        <territory name="French Guinea" water="false"/>
-        <territory name="French Niger" water="false"/>
-        <territory name="French Sudan" water="false"/>
-        <territory name="French West Africa" water="false"/>
-        <territory name="Galacia" water="false"/>
-        <territory name="Gallipoli" water="false"/>
-        <territory name="German E. Afrika" water="false"/>
-        <territory name="German Southwest Africa" water="false"/>
-        <territory name="Gibraltar" water="false"/>
-        <territory name="Gorkiy" water="false"/>
-        <territory name="Greece" water="false"/>
-        <territory name="Grozny" water="false"/>
-        <territory name="Hanover" water="false"/>
-        <territory name="Hejaz" water="false"/>
-        <territory name="Holland" water="false"/>
-        <territory name="Hungary" water="false"/>
-        <territory name="Hurghada" water="false"/>
-        <territory name="I. Somaliland" water="false"/>
-        <territory name="India" water="false"/>
-        <territory name="Innsbruck" water="false"/>
-        <territory name="Ireland" water="false"/>
-        <territory name="Istanbul" water="false"/>
-        <territory name="Ivanova" water="false"/>
-        <territory name="Ivory Coast" water="false"/>
-        <territory name="Izhevsk" water="false"/>
-        <territory name="Izmir" water="false"/>
-        <territory name="Jerusalem" water="false"/>
-        <territory name="Kabinda" water="false"/>
-        <territory name="Kaluga" water="false"/>
-        <territory name="Karkov" water="false"/>
-        <territory name="Kazan" water="false"/>
-        <territory name="Kiel" water="false"/>
-        <territory name="Kiev" water="false"/>
-        <territory name="Konya" water="false"/>
-        <territory name="Krasnodar" water="false"/>
-        <territory name="Lisala" water="false"/>
-        <territory name="London" water="false"/>
-        <territory name="Luderitz" water="false"/>
-        <territory name="Luneville" water="false"/>
-        <territory name="Macedonia" water="false"/>
-        <territory name="Madagascar" water="false"/>
-        <territory name="Marseilles" water="false"/>
-        <territory name="Mauritania" water="false"/>
-        <territory name="Mesopotamia" water="false"/>
-        <territory name="Metz" water="false"/>
-        <territory name="Moldova" water="false"/>
-        <territory name="Mont Blanc" water="false"/>
-        <territory name="Moscow" water="false"/>
-        <territory name="Mosul" water="false"/>
-        <territory name="Mozambique" water="false"/>
-        <territory name="Mumbaza" water="false"/>
-        <territory name="Nancy" water="false"/>
-        <territory name="Naples" water="false"/>
-        <territory name="Natal" water="false"/>
-        <territory name="Niangara" water="false"/>
-        <territory name="Nigeria" water="false"/>
-        <territory name="Normandy" water="false"/>
-        <territory name="Northern Rhineland" water="false"/>
-        <territory name="Northern Sudan" water="false"/>
-        <territory name="Norway" water="false"/>
-        <territory name="Nye Lukemba" water="false"/>
-        <territory name="Oman" water="false"/>
-        <territory name="Oryol" water="false"/>
-        <territory name="Paris" water="false"/>
-        <territory name="Paschendale" water="false"/>
-        <territory name="Penza" water="false"/>
-        <territory name="Persia" water="false"/>
-        <territory name="Petrozavodsk" water="false"/>
-        <territory name="Picardy" water="false"/>
-        <territory name="Piedmont" water="false"/>
-        <territory name="Poland" water="false"/>
-        <territory name="Pomerania" water="false"/>
-        <territory name="Portugal" water="false"/>
-        <territory name="Portuguese E. Africa" water="false"/>
-        <territory name="Prussia" water="false"/>
-        <territory name="RR 1" water="true"/>
-        <territory name="RR 2" water="true"/>
-        <territory name="RR 3" water="true"/>
-        <territory name="RR 4" water="true"/>
-        <territory name="RR 5" water="true"/>
-        <territory name="RR 6" water="true"/>
-        <territory name="RR 7" water="true"/>
-        <territory name="RR 8" water="true"/>
-        <territory name="RR 9" water="true"/>
-        <territory name="RR 10" water="true"/>
-        <territory name="RR 11" water="true"/>
-        <territory name="RR 12" water="true"/>
-        <territory name="RR 13" water="true"/>
-        <territory name="RR 14" water="true"/>
-        <territory name="RR 15" water="true"/>
-        <territory name="RR 16" water="true"/>
-        <territory name="RR 17" water="true"/>
-        <territory name="RR 18" water="true"/>
-        <territory name="RR 19" water="true"/>
-        <territory name="RR 20" water="true"/>
-        <territory name="RR 21" water="true"/>
-        <territory name="RR 22" water="true"/>
-        <territory name="RR 23" water="true"/>
-        <territory name="RR 24" water="true"/>
-        <territory name="RR 25" water="true"/>
-        <territory name="RR 26" water="true"/>
-        <territory name="RR 27" water="true"/>
-        <territory name="RR 28" water="true"/>
-        <territory name="RR 29" water="true"/>
-        <territory name="RR 30" water="true"/>
-        <territory name="RR 31" water="true"/>
-        <territory name="RR 32" water="true"/>
-        <territory name="RR 33" water="true"/>
-        <territory name="RR 34" water="true"/>
-        <territory name="RR 35" water="true"/>
-        <territory name="RR 36" water="true"/>
-        <territory name="RR 37" water="true"/>
-        <territory name="RR 38" water="true"/>
-        <territory name="RR 39" water="true"/>
-        <territory name="RR 40" water="true"/>
-        <territory name="RR 41" water="true"/>
-        <territory name="RR 42" water="true"/>
-        <territory name="RR 43" water="true"/>
-        <territory name="RR 44" water="true"/>
-        <territory name="RR 45" water="true"/>
-        <territory name="RR 46" water="true"/>
-        <territory name="RR 47" water="true"/>
-        <territory name="RR 48" water="true"/>
-        <territory name="RR 49" water="true"/>
-        <territory name="RR 50" water="true"/>
-        <territory name="RR 51" water="true"/>
-        <territory name="RR 52" water="true"/>
-        <territory name="RR 53" water="true"/>
-        <territory name="RR 54" water="true"/>
-        <territory name="RR 55" water="true"/>
-        <territory name="RR 56" water="true"/>
-        <territory name="RR 57" water="true"/>
-        <territory name="RR 58" water="true"/>
-        <territory name="RR 59" water="true"/>
-        <territory name="RR 60" water="true"/>
-        <territory name="RR 61" water="true"/>
-        <territory name="RR 62" water="true"/>
-        <territory name="RR 63" water="true"/>
-        <territory name="RR 64" water="true"/>
-        <territory name="RR 65" water="true"/>
-        <territory name="RR 66" water="true"/>
-        <territory name="RR 67" water="true"/>
-        <territory name="RR 68" water="true"/>
-        <territory name="RR 69" water="true"/>
-        <territory name="RR 70" water="true"/>
-        <territory name="RR 71" water="true"/>
-        <territory name="RR 72" water="true"/>
-        <territory name="RR 73" water="true"/>
-        <territory name="RR 74" water="true"/>
-        <territory name="RR 75" water="true"/>
-        <territory name="RR 76" water="true"/>
-        <territory name="RR 77" water="true"/>
-        <territory name="RR 78" water="true"/>
-        <territory name="RR 79" water="true"/>
-        <territory name="RR 80" water="true"/>
-        <territory name="RR 81" water="true"/>
-        <territory name="RR 82" water="true"/>
-        <territory name="RR 83" water="true"/>
-        <territory name="RR 84" water="true"/>
-        <territory name="RR 85" water="true"/>
-        <territory name="RR 86" water="true"/>
-        <territory name="RR 87" water="true"/>
-        <territory name="RR 88" water="true"/>
-        <territory name="RR 89" water="true"/>
-        <territory name="RR 90" water="true"/>
-        <territory name="RR 91" water="true"/>
-        <territory name="RR 92" water="true"/>
-        <territory name="RR 93" water="true"/>
-        <territory name="RR 94" water="true"/>
-        <territory name="RR 95" water="true"/>
-        <territory name="RR 96" water="true"/>
-        <territory name="RR 97" water="true"/>
-        <territory name="RR 98" water="true"/>
-        <territory name="RR 99" water="true"/>
-        <territory name="RR 100" water="true"/>
-        <territory name="RR 101" water="true"/>
-        <territory name="RR 102" water="true"/>
-        <territory name="RR 103" water="true"/>
-        <territory name="RR 104" water="true"/>
-        <territory name="RR 105" water="true"/>
-        <territory name="RR 106" water="true"/>
-        <territory name="RR 107" water="true"/>
-        <territory name="RR 108" water="true"/>
-        <territory name="RR 109" water="true"/>
-        <territory name="RR 110" water="true"/>
-        <territory name="RR 111" water="true"/>
-        <territory name="RR 112" water="true"/>
-        <territory name="RR 113" water="true"/>
-        <territory name="RR 114" water="true"/>
-        <territory name="RR 115" water="true"/>
-        <territory name="RR 116" water="true"/>
-        <territory name="RR 117" water="true"/>
-        <territory name="RR 118" water="true"/>
-        <territory name="RR 119" water="true"/>
-        <territory name="RR 120" water="true"/>
-        <territory name="RR 121" water="true"/>
-        <territory name="RR 122" water="true"/>
-        <territory name="RR 123" water="true"/>
-        <territory name="RR 124" water="true"/>
-        <territory name="RR 125" water="true"/>
-        <territory name="RR 126" water="true"/>
-        <territory name="RR 127" water="true"/>
-        <territory name="RR 128" water="true"/>
-        <territory name="RR 129" water="true"/>
-        <territory name="RR 130" water="true"/>
-        <territory name="RR 131" water="true"/>
-        <territory name="RR 132" water="true"/>
-        <territory name="RR 133" water="true"/>
-        <territory name="RR 134" water="true"/>
-        <territory name="RR 135" water="true"/>
-        <territory name="RR 136" water="true"/>
-        <territory name="RR 137" water="true"/>
-        <territory name="RR 138" water="true"/>
-        <territory name="RR 139" water="true"/>
-        <territory name="RR 140" water="true"/>
-        <territory name="RR 141" water="true"/>
-        <territory name="RR 142" water="true"/>
-        <territory name="RR 143" water="true"/>
-        <territory name="RR 144" water="true"/>
-        <territory name="RR 145" water="true"/>
-        <territory name="RR 146" water="true"/>
-        <territory name="RR 147" water="true"/>
-        <territory name="RR 148" water="true"/>
-        <territory name="RR 149" water="true"/>
-        <territory name="Rhiems" water="false"/>
-        <territory name="Rhineland" water="false"/>
-        <territory name="Rhodesia" water="false"/>
-        <territory name="Riga" water="false"/>
-        <territory name="Rize" water="false"/>
-        <territory name="Romania" water="false"/>
-        <territory name="Rome" water="false"/>
-        <territory name="Rostov" water="false"/>
-        <territory name="Ruhr" water="false"/>
-        <territory name="Russian Infiltration" water="false"/>
-        <territory name="S. Africa" water="false"/>
-        <territory name="S. Rhodesia" water="false"/>
-        <territory name="SZ 1" water="true"/>
-        <territory name="SZ 2" water="true"/>
-        <territory name="SZ 3" water="true"/>
-        <territory name="SZ 4" water="true"/>
-        <territory name="SZ 5" water="true"/>
-        <territory name="SZ 6" water="true"/>
-        <territory name="SZ 7" water="true"/>
-        <territory name="SZ 8" water="true"/>
-        <territory name="SZ 9" water="true"/>
-        <territory name="SZ 10" water="true"/>
-        <territory name="SZ 11" water="true"/>
-        <territory name="SZ 12" water="true"/>
-        <territory name="SZ 13" water="true"/>
-        <territory name="SZ 14" water="true"/>
-        <territory name="SZ 15" water="true"/>
-        <territory name="SZ 16" water="true"/>
-        <territory name="SZ 17" water="true"/>
-        <territory name="SZ 18" water="true"/>
-        <territory name="SZ 19" water="true"/>
-        <territory name="SZ 20" water="true"/>
-        <territory name="SZ 21" water="true"/>
-        <territory name="SZ 22" water="true"/>
-        <territory name="SZ 23" water="true"/>
-        <territory name="SZ 24" water="true"/>
-        <territory name="SZ 25" water="true"/>
-        <territory name="SZ 26" water="true"/>
-        <territory name="SZ 27" water="true"/>
-        <territory name="SZ 28" water="true"/>
-        <territory name="SZ 29" water="true"/>
-        <territory name="SZ 30" water="true"/>
-        <territory name="SZ 31" water="true"/>
-        <territory name="SZ 32" water="true"/>
-        <territory name="SZ 33" water="true"/>
-        <territory name="SZ 34" water="true"/>
-        <territory name="SZ 35" water="true"/>
-        <territory name="SZ 36" water="true"/>
-        <territory name="SZ 37" water="true"/>
-        <territory name="SZ 38" water="true"/>
-        <territory name="SZ 39" water="true"/>
-        <territory name="SZ 40" water="true"/>
-        <territory name="SZ 41" water="true"/>
-        <territory name="SZ 42" water="true"/>
-        <territory name="SZ 43" water="true"/>
-        <territory name="SZ 44" water="true"/>
-        <territory name="SZ 45" water="true"/>
-        <territory name="SZ 46" water="true"/>
-        <territory name="SZ 47" water="true"/>
-        <territory name="SZ 48" water="true"/>
-        <territory name="SZ 49" water="true"/>
-        <territory name="SZ 50" water="true"/>
-        <territory name="SZ 51" water="true"/>
-        <territory name="SZ 52" water="true"/>
-        <territory name="SZ 53" water="true"/>
-        <territory name="SZ 54" water="true"/>
-        <territory name="SZ 55" water="true"/>
-        <territory name="SZ 56" water="true"/>
-        <territory name="SZ 57" water="true"/>
-        <territory name="SZ 58" water="true"/>
-        <territory name="SZ 59" water="true"/>
-        <territory name="SZ 60" water="true"/>
-        <territory name="SZ 61" water="true"/>
-        <territory name="SZ 62" water="true"/>
-        <territory name="SZ 63" water="true"/>
-        <territory name="SZ 64" water="true"/>
-        <territory name="SZ 65" water="true"/>
-        <territory name="SZ 66" water="true"/>
-        <territory name="SZ 67" water="true"/>
-        <territory name="SZ 68" water="true"/>
-        <territory name="SZ 69" water="true"/>
-        <territory name="SZ 70" water="true"/>
-        <territory name="SZ 71" water="true"/>
-        <territory name="SZ 72" water="true"/>
-        <territory name="SZ 73" water="true"/>
-        <territory name="SZ 74" water="true"/>
-        <territory name="SZ 75" water="true"/>
-        <territory name="SZ 76" water="true"/>
-        <territory name="SZ 77" water="true"/>
-        <territory name="SZ 78" water="true"/>
-        <territory name="SZ 79" water="true"/>
-        <territory name="SZ 80" water="true"/>
-        <territory name="SZ 81" water="true"/>
-        <territory name="SZ 82" water="true"/>
-        <territory name="SZ 83" water="true"/>
-        <territory name="SZ 84" water="true"/>
-        <territory name="SZ 85" water="true"/>
-        <territory name="SZ 86" water="true"/>
-        <territory name="SZ 87" water="true"/>
-        <territory name="SZ 88" water="true"/>
-        <territory name="SZ 89" water="true"/>
-        <territory name="SZ 90" water="true"/>
-        <territory name="SZ 91" water="true"/>
-        <territory name="Samara" water="false"/>
-        <territory name="Sarajevo" water="false"/>
-        <territory name="Saratov" water="false"/>
-        <territory name="Sardinia" water="false"/>
-        <territory name="Saxony" water="false"/>
-        <territory name="Scotland" water="false"/>
-        <territory name="Senegal" water="false"/>
-        <territory name="Serbia" water="false"/>
-        <territory name="Sicily" water="false"/>
-        <territory name="Sierra Leone" water="false"/>
-        <territory name="Silesia" water="false"/>
-        <territory name="Sirte" water="false"/>
-        <territory name="Smolensk" water="false"/>
-        <territory name="Smyrna" water="false"/>
-        <territory name="Soissons" water="false"/>
-        <territory name="Somme" water="false"/>
-        <territory name="Southern Sudan" water="false"/>
-        <territory name="Spain" water="false"/>
-        <territory name="Spanish Morocco" water="false"/>
-        <territory name="St. Petersburg" water="false"/>
-        <territory name="Strasbourg" water="false"/>
-        <territory name="Svastepole" water="false"/>
-        <territory name="Sweden" water="false"/>
-        <territory name="Switzerland" water="false"/>
-        <territory name="Syria" water="false"/>
-        <territory name="Tabriz" water="false"/>
-        <territory name="Tabuk" water="false"/>
-        <territory name="Tallin" water="false"/>
-        <territory name="Tambov" water="false"/>
-        <territory name="Tartarstan" water="false"/>
-        <territory name="Tbilisi" water="false"/>
-        <territory name="Tobruk" water="false"/>
-        <territory name="Togoland" water="false"/>
-        <territory name="Trabzon" water="false"/>
-        <territory name="Transvaal" water="false"/>
-        <territory name="Trieste" water="false"/>
-        <territory name="Tripoli" water="false"/>
-        <territory name="Tula" water="false"/>
-        <territory name="Tunesia" water="false"/>
-        <territory name="Tunis" water="false"/>
-        <territory name="Tuscany" water="false"/>
-        <territory name="US 1" water="false"/>
-        <territory name="US 2" water="false"/>
-        <territory name="US 3" water="false"/>
-        <territory name="Uganda" water="false"/>
-        <territory name="United States" water="false"/>
-        <territory name="United States Mobilizes" water="false"/>
-        <territory name="Upper Volta" water="false"/>
-        <territory name="Venice" water="false"/>
-        <territory name="Verdun" water="false"/>
-        <territory name="Vienna" water="false"/>
-        <territory name="Vilnius" water="false"/>
-        <territory name="Vimy" water="false"/>
-        <territory name="Volgograd" water="false"/>
-        <territory name="Vologda" water="false"/>
-        <territory name="Vyatka" water="false"/>
-        <territory name="Yaroslavl" water="false"/>
-        <territory name="York" water="false"/>
-        <territory name="Ypres" water="false"/>
-        <territory name="al-Hasa" water="false"/>
-		
-		<!-- Inset connections that can't be auto discovered -->
+<territory name="OVER THE TOP" water="false"/>
+<territory name="By DKJD" water="false"/>
+<territory name="Aachen" water="false"/>
+<territory name="Abyssinia" water="false"/>
+<territory name="Algeria" water="false"/>
+<territory name="American Isolationism" water="false"/>
+<territory name="Angolia" water="false"/>
+<territory name="Ankara" water="false"/>
+<territory name="Antalya" water="false"/>
+<territory name="Arar" water="false"/>
+<territory name="Ardennes" water="false"/>
+<territory name="Argonne" water="false"/>
+<territory name="Arras" water="false"/>
+<territory name="Astrakhan" water="false"/>
+<territory name="Australia" water="false"/>
+<territory name="B. Somaliland" water="false"/>
+<territory name="BR 1" water="false"/>
+<territory name="BR 2" water="false"/>
+<territory name="BR 3" water="false"/>
+<territory name="BR 4" water="false"/>
+<territory name="BR 5" water="false"/>
+<territory name="BR 6" water="false"/>
+<territory name="Bagdad" water="false"/>
+<territory name="Baku" water="false"/>
+<territory name="Bandundu" water="false"/>
+<territory name="Bar-Le-Duc" water="false"/>
+<territory name="Basrah" water="false"/>
+<territory name="Bavaria" water="false"/>
+<territory name="Be'er Sheva" water="false"/>
+<territory name="Belarus" water="false"/>
+<territory name="Berlin" water="false"/>
+<territory name="Bohemia" water="false"/>
+<territory name="Soviet Far East" water="false"/>
+<territory name="Bordeaux" water="false"/>
+<territory name="British E. Africa" water="false"/>
+<territory name="Brussels" water="false"/>
+<territory name="Bryansk" water="false"/>
+<territory name="Buchuanaland" water="false"/>
+<territory name="Bulgaria" water="false"/>
+<territory name="Burgundy" water="false"/>
+<territory name="Cabinda" water="false"/>
+<territory name="Cairo" water="false"/>
+<territory name="Cameroon" water="false"/>
+<territory name="Canada" water="false"/>
+<territory name="Casablanca" water="false"/>
+<territory name="Caucusus" water="false"/>
+<territory name="Chad" water="false"/>
+<territory name="Chantilly" water="false"/>
+<territory name="Charleroi" water="false"/>
+<territory name="Chaumont" water="false"/>
+<territory name="Chikapa" water="false"/>
+<territory name="Cologne" water="false"/>
+<territory name="Compiegne" water="false"/>
+<territory name="Corsica" water="false"/>
+<territory name="Crete" water="false"/>
+<territory name="Cyprus" water="false"/>
+<territory name="Cyreniaca" water="false"/>
+<territory name="Damascus" water="false"/>
+<territory name="Denmark" water="false"/>
+<territory name="Douamont" water="false"/>
+<territory name="Egypt" water="false"/>
+<territory name="Finland" water="false"/>
+<territory name="Flanders" water="false"/>
+<territory name="Fontainbleu" water="false"/>
+<territory name="Frankfurt" water="false"/>
+<territory name="French Equitorial Africa" water="false"/>
+<territory name="French Guinea" water="false"/>
+<territory name="French Niger" water="false"/>
+<territory name="French Sudan" water="false"/>
+<territory name="French West Africa" water="false"/>
+<territory name="Galacia" water="false"/>
+<territory name="Gallipoli" water="false"/>
+<territory name="German E. Afrika" water="false"/>
+<territory name="German Southwest Africa" water="false"/>
+<territory name="Gibraltar" water="false"/>
+<territory name="Gorkiy" water="false"/>
+<territory name="Greece" water="false"/>
+<territory name="Grozny" water="false"/>
+<territory name="Hanover" water="false"/>
+<territory name="Hejaz" water="false"/>
+<territory name="Holland" water="false"/>
+<territory name="Hungary" water="false"/>
+<territory name="Hurghada" water="false"/>
+<territory name="I. Somaliland" water="false"/>
+<territory name="India" water="false"/>
+<territory name="Innsbruck" water="false"/>
+<territory name="Ireland" water="false"/>
+<territory name="Istanbul" water="false"/>
+<territory name="Ivanova" water="false"/>
+<territory name="Ivory Coast" water="false"/>
+<territory name="Izhevsk" water="false"/>
+<territory name="Izmir" water="false"/>
+<territory name="Jerusalem" water="false"/>
+<territory name="Kabinda" water="false"/>
+<territory name="Kaluga" water="false"/>
+<territory name="Karkov" water="false"/>
+<territory name="Kazan" water="false"/>
+<territory name="Kiel" water="false"/>
+<territory name="Kiev" water="false"/>
+<territory name="Konya" water="false"/>
+<territory name="Krasnodar" water="false"/>
+<territory name="Lisala" water="false"/>
+<territory name="London" water="false"/>
+<territory name="Luderitz" water="false"/>
+<territory name="Luneville" water="false"/>
+<territory name="Macedonia" water="false"/>
+<territory name="Madagascar" water="false"/>
+<territory name="Marseilles" water="false"/>
+<territory name="Mauritania" water="false"/>
+<territory name="Mesopotamia" water="false"/>
+<territory name="Metz" water="false"/>
+<territory name="Moldova" water="false"/>
+<territory name="Mont Blanc" water="false"/>
+<territory name="Moscow" water="false"/>
+<territory name="Mosul" water="false"/>
+<territory name="Mozambique" water="false"/>
+<territory name="Mumbaza" water="false"/>
+<territory name="Nancy" water="false"/>
+<territory name="Naples" water="false"/>
+<territory name="Natal" water="false"/>
+<territory name="Niangara" water="false"/>
+<territory name="Nigeria" water="false"/>
+<territory name="Normandy" water="false"/>
+<territory name="Northern Rhineland" water="false"/>
+<territory name="Northern Sudan" water="false"/>
+<territory name="Norway" water="false"/>
+<territory name="Nye Lukemba" water="false"/>
+<territory name="Oman" water="false"/>
+<territory name="Oryol" water="false"/>
+<territory name="Paris" water="false"/>
+<territory name="Paschendale" water="false"/>
+<territory name="Penza" water="false"/>
+<territory name="Persia" water="false"/>
+<territory name="Petrozavodsk" water="false"/>
+<territory name="Picardy" water="false"/>
+<territory name="Piedmont" water="false"/>
+<territory name="Poland" water="false"/>
+<territory name="Pomerania" water="false"/>
+<territory name="Portugal" water="false"/>
+<territory name="Portuguese E. Africa" water="false"/>
+<territory name="Prussia" water="false"/>
+<territory name="RR 1" water="true"/>
+<territory name="RR 2" water="true"/>
+<territory name="RR 3" water="true"/>
+<territory name="RR 4" water="true"/>
+<territory name="RR 5" water="true"/>
+<territory name="RR 6" water="true"/>
+<territory name="RR 7" water="true"/>
+<territory name="RR 8" water="true"/>
+<territory name="RR 9" water="true"/>
+<territory name="RR 10" water="true"/>
+<territory name="RR 11" water="true"/>
+<territory name="RR 12" water="true"/>
+<territory name="RR 13" water="true"/>
+<territory name="RR 14" water="true"/>
+<territory name="RR 15" water="true"/>
+<territory name="RR 16" water="true"/>
+<territory name="RR 17" water="true"/>
+<territory name="RR 18" water="true"/>
+<territory name="RR 19" water="true"/>
+<territory name="RR 20" water="true"/>
+<territory name="RR 21" water="true"/>
+<territory name="RR 22" water="true"/>
+<territory name="RR 23" water="true"/>
+<territory name="RR 24" water="true"/>
+<territory name="RR 25" water="true"/>
+<territory name="RR 26" water="true"/>
+<territory name="RR 27" water="true"/>
+<territory name="RR 28" water="true"/>
+<territory name="RR 29" water="true"/>
+<territory name="RR 30" water="true"/>
+<territory name="RR 31" water="true"/>
+<territory name="RR 32" water="true"/>
+<territory name="RR 33" water="true"/>
+<territory name="RR 34" water="true"/>
+<territory name="RR 35" water="true"/>
+<territory name="RR 36" water="true"/>
+<territory name="RR 37" water="true"/>
+<territory name="RR 38" water="true"/>
+<territory name="RR 39" water="true"/>
+<territory name="RR 40" water="true"/>
+<territory name="RR 41" water="true"/>
+<territory name="RR 42" water="true"/>
+<territory name="RR 43" water="true"/>
+<territory name="RR 44" water="true"/>
+<territory name="RR 45" water="true"/>
+<territory name="RR 46" water="true"/>
+<territory name="RR 47" water="true"/>
+<territory name="RR 48" water="true"/>
+<territory name="RR 49" water="true"/>
+<territory name="RR 50" water="true"/>
+<territory name="RR 51" water="true"/>
+<territory name="RR 52" water="true"/>
+<territory name="RR 53" water="true"/>
+<territory name="RR 54" water="true"/>
+<territory name="RR 55" water="true"/>
+<territory name="RR 56" water="true"/>
+<territory name="RR 57" water="true"/>
+<territory name="RR 58" water="true"/>
+<territory name="RR 59" water="true"/>
+<territory name="RR 60" water="true"/>
+<territory name="RR 61" water="true"/>
+<territory name="RR 62" water="true"/>
+<territory name="RR 63" water="true"/>
+<territory name="RR 64" water="true"/>
+<territory name="RR 65" water="true"/>
+<territory name="RR 66" water="true"/>
+<territory name="RR 67" water="true"/>
+<territory name="RR 68" water="true"/>
+<territory name="RR 69" water="true"/>
+<territory name="RR 70" water="true"/>
+<territory name="RR 71" water="true"/>
+<territory name="RR 72" water="true"/>
+<territory name="RR 73" water="true"/>
+<territory name="RR 74" water="true"/>
+<territory name="RR 75" water="true"/>
+<territory name="RR 76" water="true"/>
+<territory name="RR 77" water="true"/>
+<territory name="RR 78" water="true"/>
+<territory name="RR 79" water="true"/>
+<territory name="RR 80" water="true"/>
+<territory name="RR 81" water="true"/>
+<territory name="RR 82" water="true"/>
+<territory name="RR 83" water="true"/>
+<territory name="RR 84" water="true"/>
+<territory name="RR 85" water="true"/>
+<territory name="RR 86" water="true"/>
+<territory name="RR 87" water="true"/>
+<territory name="RR 88" water="true"/>
+<territory name="RR 89" water="true"/>
+<territory name="RR 90" water="true"/>
+<territory name="RR 91" water="true"/>
+<territory name="RR 92" water="true"/>
+<territory name="RR 93" water="true"/>
+<territory name="RR 94" water="true"/>
+<territory name="RR 95" water="true"/>
+<territory name="RR 96" water="true"/>
+<territory name="RR 97" water="true"/>
+<territory name="RR 98" water="true"/>
+<territory name="RR 99" water="true"/>
+<territory name="RR 100" water="true"/>
+<territory name="RR 101" water="true"/>
+<territory name="RR 102" water="true"/>
+<territory name="RR 103" water="true"/>
+<territory name="RR 104" water="true"/>
+<territory name="RR 105" water="true"/>
+<territory name="RR 106" water="true"/>
+<territory name="RR 107" water="true"/>
+<territory name="RR 108" water="true"/>
+<territory name="RR 109" water="true"/>
+<territory name="RR 110" water="true"/>
+<territory name="RR 111" water="true"/>
+<territory name="RR 112" water="true"/>
+<territory name="RR 113" water="true"/>
+<territory name="RR 114" water="true"/>
+<territory name="RR 115" water="true"/>
+<territory name="RR 116" water="true"/>
+<territory name="RR 117" water="true"/>
+<territory name="RR 118" water="true"/>
+<territory name="RR 119" water="true"/>
+<territory name="RR 120" water="true"/>
+<territory name="RR 121" water="true"/>
+<territory name="RR 122" water="true"/>
+<territory name="RR 123" water="true"/>
+<territory name="RR 124" water="true"/>
+<territory name="RR 125" water="true"/>
+<territory name="RR 126" water="true"/>
+<territory name="RR 127" water="true"/>
+<territory name="RR 128" water="true"/>
+<territory name="RR 129" water="true"/>
+<territory name="RR 130" water="true"/>
+<territory name="RR 131" water="true"/>
+<territory name="RR 132" water="true"/>
+<territory name="RR 133" water="true"/>
+<territory name="RR 134" water="true"/>
+<territory name="RR 135" water="true"/>
+<territory name="RR 136" water="true"/>
+<territory name="RR 137" water="true"/>
+<territory name="RR 138" water="true"/>
+<territory name="RR 139" water="true"/>
+<territory name="RR 140" water="true"/>
+<territory name="RR 141" water="true"/>
+<territory name="RR 142" water="true"/>
+<territory name="RR 143" water="true"/>
+<territory name="RR 144" water="true"/>
+<territory name="RR 145" water="true"/>
+<territory name="RR 146" water="true"/>
+<territory name="RR 147" water="true"/>
+<territory name="RR 148" water="true"/>
+<territory name="RR 149" water="true"/>
+<territory name="Rhiems" water="false"/>
+<territory name="Rhineland" water="false"/>
+<territory name="Rhodesia" water="false"/>
+<territory name="Riga" water="false"/>
+<territory name="Rize" water="false"/>
+<territory name="Romania" water="false"/>
+<territory name="Rome" water="false"/>
+<territory name="Rostov" water="false"/>
+<territory name="Ruhr" water="false"/>
+<territory name="Russian Infiltration" water="false"/>
+<territory name="S. Africa" water="false"/>
+<territory name="S. Rhodesia" water="false"/>
+<territory name="SZ 1" water="true"/>
+<territory name="SZ 2" water="true"/>
+<territory name="SZ 3" water="true"/>
+<territory name="SZ 4" water="true"/>
+<territory name="SZ 5" water="true"/>
+<territory name="SZ 6" water="true"/>
+<territory name="SZ 7" water="true"/>
+<territory name="SZ 8" water="true"/>
+<territory name="SZ 9" water="true"/>
+<territory name="SZ 10" water="true"/>
+<territory name="SZ 11" water="true"/>
+<territory name="SZ 12" water="true"/>
+<territory name="SZ 13" water="true"/>
+<territory name="SZ 14" water="true"/>
+<territory name="SZ 15" water="true"/>
+<territory name="SZ 16" water="true"/>
+<territory name="SZ 17" water="true"/>
+<territory name="SZ 18" water="true"/>
+<territory name="SZ 19" water="true"/>
+<territory name="SZ 20" water="true"/>
+<territory name="SZ 21" water="true"/>
+<territory name="SZ 22" water="true"/>
+<territory name="SZ 23" water="true"/>
+<territory name="SZ 24" water="true"/>
+<territory name="SZ 25" water="true"/>
+<territory name="SZ 26" water="true"/>
+<territory name="SZ 27" water="true"/>
+<territory name="SZ 28" water="true"/>
+<territory name="SZ 29" water="true"/>
+<territory name="SZ 30" water="true"/>
+<territory name="SZ 31" water="true"/>
+<territory name="SZ 32" water="true"/>
+<territory name="SZ 33" water="true"/>
+<territory name="SZ 34" water="true"/>
+<territory name="SZ 35" water="true"/>
+<territory name="SZ 36" water="true"/>
+<territory name="SZ 37" water="true"/>
+<territory name="SZ 38" water="true"/>
+<territory name="SZ 39" water="true"/>
+<territory name="SZ 40" water="true"/>
+<territory name="SZ 41" water="true"/>
+<territory name="SZ 42" water="true"/>
+<territory name="SZ 43" water="true"/>
+<territory name="SZ 44" water="true"/>
+<territory name="SZ 45" water="true"/>
+<territory name="SZ 46" water="true"/>
+<territory name="SZ 47" water="true"/>
+<territory name="SZ 48" water="true"/>
+<territory name="SZ 49" water="true"/>
+<territory name="SZ 50" water="true"/>
+<territory name="SZ 51" water="true"/>
+<territory name="SZ 52" water="true"/>
+<territory name="SZ 53" water="true"/>
+<territory name="SZ 54" water="true"/>
+<territory name="SZ 55" water="true"/>
+<territory name="SZ 56" water="true"/>
+<territory name="SZ 57" water="true"/>
+<territory name="SZ 58" water="true"/>
+<territory name="SZ 59" water="true"/>
+<territory name="SZ 60" water="true"/>
+<territory name="SZ 61" water="true"/>
+<territory name="SZ 62" water="true"/>
+<territory name="SZ 63" water="true"/>
+<territory name="SZ 64" water="true"/>
+<territory name="SZ 65" water="true"/>
+<territory name="SZ 66" water="true"/>
+<territory name="SZ 67" water="true"/>
+<territory name="SZ 68" water="true"/>
+<territory name="SZ 69" water="true"/>
+<territory name="SZ 70" water="true"/>
+<territory name="SZ 71" water="true"/>
+<territory name="SZ 72" water="true"/>
+<territory name="SZ 73" water="true"/>
+<territory name="SZ 74" water="true"/>
+<territory name="SZ 75" water="true"/>
+<territory name="SZ 76" water="true"/>
+<territory name="SZ 77" water="true"/>
+<territory name="SZ 78" water="true"/>
+<territory name="SZ 79" water="true"/>
+<territory name="SZ 80" water="true"/>
+<territory name="SZ 81" water="true"/>
+<territory name="SZ 82" water="true"/>
+<territory name="SZ 83" water="true"/>
+<territory name="SZ 84" water="true"/>
+<territory name="SZ 85" water="true"/>
+<territory name="SZ 86" water="true"/>
+<territory name="SZ 87" water="true"/>
+<territory name="SZ 88" water="true"/>
+<territory name="SZ 89" water="true"/>
+<territory name="SZ 90" water="true"/>
+<territory name="SZ 91" water="true"/>
+<territory name="Samara" water="false"/>
+<territory name="Sarajevo" water="false"/>
+<territory name="Saratov" water="false"/>
+<territory name="Sardinia" water="false"/>
+<territory name="Saxony" water="false"/>
+<territory name="Scotland" water="false"/>
+<territory name="Senegal" water="false"/>
+<territory name="Serbia" water="false"/>
+<territory name="Sicily" water="false"/>
+<territory name="Sierra Leone" water="false"/>
+<territory name="Silesia" water="false"/>
+<territory name="Sirte" water="false"/>
+<territory name="Smolensk" water="false"/>
+<territory name="Smyrna" water="false"/>
+<territory name="Soissons" water="false"/>
+<territory name="Somme" water="false"/>
+<territory name="Southern Sudan" water="false"/>
+<territory name="Spain" water="false"/>
+<territory name="Spanish Morocco" water="false"/>
+<territory name="St. Petersburg" water="false"/>
+<territory name="Strasbourg" water="false"/>
+<territory name="Svastepole" water="false"/>
+<territory name="Sweden" water="false"/>
+<territory name="Switzerland" water="false"/>
+<territory name="Syria" water="false"/>
+<territory name="Tabriz" water="false"/>
+<territory name="Tabuk" water="false"/>
+<territory name="Tallin" water="false"/>
+<territory name="Tambov" water="false"/>
+<territory name="Tartarstan" water="false"/>
+<territory name="Tbilisi" water="false"/>
+<territory name="Tobruk" water="false"/>
+<territory name="Togoland" water="false"/>
+<territory name="Trabzon" water="false"/>
+<territory name="Transvaal" water="false"/>
+<territory name="Trieste" water="false"/>
+<territory name="Tripoli" water="false"/>
+<territory name="Tula" water="false"/>
+<territory name="Tunesia" water="false"/>
+<territory name="Tunis" water="false"/>
+<territory name="Tuscany" water="false"/>
+<territory name="US 1" water="false"/>
+<territory name="US 2" water="false"/>
+<territory name="US 3" water="false"/>
+<territory name="Uganda" water="false"/>
+<territory name="United States" water="false"/>
+<territory name="United States Mobilizes" water="false"/>
+<territory name="Upper Volta" water="false"/>
+<territory name="Venice" water="false"/>
+<territory name="Verdun" water="false"/>
+<territory name="Vienna" water="false"/>
+<territory name="Vilnius" water="false"/>
+<territory name="Vimy" water="false"/>
+<territory name="Volgograd" water="false"/>
+<territory name="Vologda" water="false"/>
+<territory name="Vyatka" water="false"/>
+<territory name="Yaroslavl" water="false"/>
+<territory name="York" water="false"/>
+<territory name="Ypres" water="false"/>
+<territory name="al-Hasa" water="false"/>
+        
+		<!-- Inset connections that can't be auto discovered -->
         <connection t1="Mauritania" t2="Senegal"/>
         <connection t1="SZ 26" t2="SZ 51"/>
         <connection t1="RR 72" t2="RR 87"/>
@@ -7607,6 +7607,8 @@
             <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Fighter"/>
             <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Zeppelin"/>
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="AA-Gun"/>
+			<unitPlacement quantity="1" territory="United States" unitType="Factory"/>
+			<unitPlacement quantity="1" territory="United States" unitType="Shipyard"/>
         </unitInitialize>
         <resourceInitialize>
             <resourceGiven player="Germans" quantity="99" resource="PUs"/>
