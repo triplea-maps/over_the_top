@@ -40,7 +40,7 @@
 	                        <goal>copy-resources</goal>
 	                    </goals>
 	                    <configuration>
-	                        <outputDirectory>D:\Games\TripleA\1.9.0.0.3627\maps_dl</outputDirectory>
+	                        <outputDirectory>${user.home}/triplea/downloadedMaps</outputDirectory>
 	                        <resources>
 	                            <resource>
 	                                <directory>${project.build.directory}</directory>
