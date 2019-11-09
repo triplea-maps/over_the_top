@@ -682,6 +682,7 @@
         <connection t1="Burgundy" t2="Picardy"/>
         <connection t1="Burgundy" t2="RR 28"/>
         <connection t1="Burgundy" t2="Switzerland"/>
+        <connection t1="By DKJD" t2="Norway"/>
         <connection t1="Cabinda" t2="Chikapa"/>
         <connection t1="Cabinda" t2="French Equitorial Africa"/>
         <connection t1="Cabinda" t2="RR 104"/>
@@ -981,6 +982,7 @@
         <connection t1="Naples" t2="Tuscany"/>
         <connection t1="Natal" t2="RR 117"/>
         <connection t1="Natal" t2="S. Africa"/>
+        <connection t1="Natal" t2="SZ 57"/>
         <connection t1="Natal" t2="SZ 58"/>
         <connection t1="Natal" t2="Transvaal"/>
         <connection t1="Niangara" t2="Nye Lukemba"/>
@@ -1001,6 +1003,7 @@
         <connection t1="Northern Sudan" t2="RR 90"/>
         <connection t1="Northern Sudan" t2="SZ 41"/>
         <connection t1="Northern Sudan" t2="Southern Sudan"/>
+        <connection t1="Norway" t2="OVER THE TOP"/>
         <connection t1="Norway" t2="SZ 5"/>
         <connection t1="Norway" t2="SZ 7"/>
         <connection t1="Norway" t2="Sweden"/>
@@ -1626,6 +1629,7 @@
         <unit name="Munitions"/>
         <unit name="Develop-Railgun"/>
         <unit name="Railgun"/>
+<unit name="Develop-Elite-Infantry"/>
     </unitList>
     <gamePlay>
         <delegate display="Initializing Delegates" javaClass="games.strategy.triplea.delegate.InitializationDelegate" name="initDelegate"/>
@@ -1868,6 +1872,10 @@
             <cost quantity="12" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Railgun"/>
         </productionRule>
+<productionRule name="buyDevelop-Elite-Infantry">
+<cost quantity="20" resource="PUs"/>
+<result quantity="1" resourceOrUnit="Develop-Elite-Infantry"/>
+</productionRule>
         <repairRule name="repairFactory">
             <cost quantity="1" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Factory"/>
@@ -1880,294 +1888,302 @@
             <repairRules name="repairFactory"/>
             <repairRules name="repairShipyard"/>
         </repairFrontier>
-        <productionFrontier name="Imperial-German-Afrika-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="British-Commonwealth-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="French-Colonial-Africa-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="Bolsheviks-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="Germans-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="British-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="French-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="Russians-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="Austrians-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="Ottomans-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="Italians-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
-        <productionFrontier name="Americans-Frontier">
-            <frontierRules name="buyAA-Gun"/>
-            <frontierRules name="buyArmored-Train"/>
-            <frontierRules name="buyBattlecruiser"/>
-            <frontierRules name="buyBattleship"/>
-            <frontierRules name="buyCavalry"/>
-            <frontierRules name="buyDestroyer"/>
-            <frontierRules name="buyDevelop-Bomber"/>
-            <frontierRules name="buyDevelop-Carrier"/>
-            <frontierRules name="buyDevelop-Heavy-Artillery"/>
-            <frontierRules name="buyDevelop-Mech-Infantry"/>
-            <frontierRules name="buyDevelop-Railgun"/>
-            <frontierRules name="buyDevelop-Tank"/>
-            <frontierRules name="buyFactory"/>
-            <frontierRules name="buyField-Artillery"/>
-            <frontierRules name="buyFighter"/>
-            <frontierRules name="buyFreighter"/>
-            <frontierRules name="buyHarbor-Defenses"/>
-            <frontierRules name="buyInfantry"/>
-            <frontierRules name="buyShipyard"/>
-            <frontierRules name="buySubmarine"/>
-            <frontierRules name="buyTrain"/>
-            <frontierRules name="buyTrenches"/>
-            <frontierRules name="buyTroop-Transport"/>
-            <frontierRules name="buyZeppelin"/>
-        </productionFrontier>
+		<productionFrontier name="Imperial-German-Afrika-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="British-Commonwealth-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="French-Colonial-Africa-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Bolsheviks-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Germans-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="British-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="French-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Russians-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Austrians-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Ottomans-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Italians-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
+		<productionFrontier name="Americans-Frontier">
+			<frontierRules name="buyAA-Gun"/>
+			<frontierRules name="buyArmored-Train"/>
+			<frontierRules name="buyBattlecruiser"/>
+			<frontierRules name="buyBattleship"/>
+			<frontierRules name="buyCavalry"/>
+			<frontierRules name="buyDestroyer"/>
+			<frontierRules name="buyDevelop-Bomber"/>
+			<frontierRules name="buyDevelop-Carrier"/>
+			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Infantry"/>
+			<frontierRules name="buyDevelop-Mech-Infantry"/>
+			<frontierRules name="buyDevelop-Railgun"/>
+			<frontierRules name="buyDevelop-Tank"/>
+			<frontierRules name="buyFactory"/>
+			<frontierRules name="buyField-Artillery"/>
+			<frontierRules name="buyFighter"/>
+			<frontierRules name="buyFreighter"/>
+			<frontierRules name="buyHarbor-Defenses"/>
+			<frontierRules name="buyInfantry"/>
+			<frontierRules name="buyShipyard"/>
+			<frontierRules name="buySubmarine"/>
+			<frontierRules name="buyTrain"/>
+			<frontierRules name="buyTrenches"/>
+			<frontierRules name="buyTroop-Transport"/>
+			<frontierRules name="buyZeppelin"/>
+		</productionFrontier>
         <playerProduction frontier="Germans-Frontier" player="Germans"/>
         <playerProduction frontier="British-Frontier" player="British"/>
         <playerProduction frontier="French-Frontier" player="French"/>
@@ -2487,6 +2503,58 @@
 			<option count="" name="productionRule" value="Americans-Frontier:buyHeavy-Artillery"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
+		</attachment>
+		<!-- Develop Elite-Infantry for Austrians -->
+		<attachment name="conditionAttachment-Austrians-Develop-Elite-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Austrians-Develop-Elite-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Austrians-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:Austrians-Place" count=""/>
+			<option name="productionRule" value="Austrians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="Austrians-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Infantry for Ottomans -->
+		<attachment name="conditionAttachment-Ottomans-Develop-Elite-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Ottomans-Develop-Elite-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Ottomans-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:Ottomans-Place" count=""/>
+			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="Ottomans-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Infantry for Italians -->
+		<attachment name="conditionAttachment-Italians-Develop-Elite-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Elite-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:Italians-Place" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Infantry for Americans -->
+		<attachment name="conditionAttachment-Americans-Develop-Elite-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Americans-Develop-Elite-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Americans-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:Americans-Place" count=""/>
+			<option name="productionRule" value="Americans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="Americans-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Develop Mech-Infantry for Austrians -->
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Austrians-Develop-Mech-Infantry" type="player">
@@ -2811,6 +2879,62 @@
 			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyHeavy-Artillery"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
+		</attachment>
+		<!-- Develop Elite-Infantry for Germans AND Imperial-German-Afrika -->
+		<attachment name="conditionAttachment-Germans-Develop-Elite-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Germans-Develop-Elite-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Germans-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:Germans-Place" count=""/>
+			<option name="productionRule" value="Germans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="Germans-Frontier:buyElite-Infantry" count=""/>
+			<option name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Infantry for British AND British-Commonwealth -->
+		<attachment name="conditionAttachment-British-Develop-Elite-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-British-Develop-Elite-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-British-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:British-Place" count=""/>
+			<option name="productionRule" value="British-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="British-Frontier:buyElite-Infantry" count=""/>
+			<option name="productionRule" value="British-Commonwealth-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Infantry for French AND French-Colonial-Africa -->
+		<attachment name="conditionAttachment-French-Develop-Elite-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-French-Develop-Elite-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-French-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:French-Place" count=""/>
+			<option name="productionRule" value="French-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="French-Frontier:buyElite-Infantry" count=""/>
+			<option name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Infantry for Russians AND Bolsheviks -->
+		<attachment name="conditionAttachment-Russians-Develop-Elite-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Russians-Develop-Elite-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Russians-Develop-Elite-Infantry" count=""/>
+			<option name="when" value="after:Russians-Place" count=""/>
+			<option name="productionRule" value="Russians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
+			<option name="productionRule" value="Russians-Frontier:buyElite-Infantry" count=""/>
+			<option name="productionRule" value="Bolsheviks-Frontier:buyElite-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Develop Mech-Infantry for Germans AND Imperial-German-Afrika -->
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Germans-Develop-Mech-Infantry" type="player">
@@ -3621,6 +3745,13 @@
             <option count="" name="createsUnitsList" value="1:Munitions"/>
             <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99"/>
         </attachment>
+        <attachment attachTo="Develop-Elite-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+<option count="" name="movement" value="0"/>
+<option count="" name="attack" value="0"/>
+<option count="" name="defense" value="0"/>
+<option count="" name="maxBuiltPerPlayer" value="1"/>
+<option count="" name="isInfrastructure" value="true"/>
+</attachment>
         <attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" name="playerAttachment" type="player">
             <option count="" name="retainCapitalNumber" value="1"/>
             <option count="" name="retainCapitalProduceNumber" value="1"/>
@@ -3678,10 +3809,10 @@
             <option count="" name="territories" value="American Isolationism:US 1:US 2:US 3:United States Mobilizes"/>
             <option count="0" name="territoryProperty" value="production"/>
         </attachment>
-        <attachment attachTo="OVER THE TOP" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+		<attachment attachTo="OVER THE TOP" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
-		<attachment attachTo="By DKJD" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+        <attachment attachTo="By DKJD" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="Bordeaux" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -3809,7 +3940,7 @@
             <option count="" name="production" value="3"/>
         </attachment>
         <attachment attachTo="American Isolationism" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
+            <option count="" name="production" value="4"/>
         </attachment>
         <attachment attachTo="Tartarstan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -3857,7 +3988,7 @@
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="United States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="35"/>
+            <option count="" name="production" value="25"/>
             <option count="" name="capital" value="Americans"/>
         </attachment>
         <attachment attachTo="Soissons" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -3977,7 +4108,7 @@
             <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="German E. Afrika" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
+            <option count="" name="production" value="6"/>
             <option count="" name="capital" value="Imperial-German-Afrika"/>
         </attachment>
         <attachment attachTo="Luneville" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -4104,7 +4235,7 @@
             <option count="" name="production" value="3"/>
         </attachment>
         <attachment attachTo="United States Mobilizes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
+            <option count="" name="production" value="4"/>
         </attachment>
         <attachment attachTo="Romania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="4"/>
@@ -4122,7 +4253,7 @@
             <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="US 1" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
+            <option count="" name="production" value="4"/>
         </attachment>
         <attachment attachTo="Douamont" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="2"/>
@@ -4137,10 +4268,10 @@
             <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="US 3" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
+            <option count="" name="production" value="4"/>
         </attachment>
         <attachment attachTo="US 2" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
+            <option count="" name="production" value="4"/>
         </attachment>
         <attachment attachTo="Istanbul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
@@ -4882,7 +5013,7 @@
         <attachment attachTo="SZ 14" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
-        <attachment attachTo="RR 10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+		<attachment attachTo="RR 10" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
 		<attachment attachTo="RR 142" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -4909,7 +5040,7 @@
 		<attachment attachTo="RR 149" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
 			<option count="" name="production" value="0"/>
 		</attachment>
-		<attachment attachTo="SZ 38" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+        <attachment attachTo="SZ 38" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
 			<option count="" name="production" value="0"/>
 		</attachment>
         <attachment attachTo="SZ 79" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -6488,7 +6619,7 @@
             <option count="" name="canalName" value="Dardanelles"/>
             <option count="" name="landTerritories" value="Istanbul:Izmir:Gallipoli"/>
         </attachment>
-        <attachment attachTo="SZ 36" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachment" type="territory">
+<attachment attachTo="SZ 36" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachment" type="territory">
             <option count="" name="canalName" value="Dardanelles"/>
             <option count="" name="landTerritories" value="Istanbul:Izmir:Gallipoli"/>
         </attachment>
@@ -6635,7 +6766,7 @@
             <territoryOwner owner="Imperial-German-Afrika" territory="Togoland"/>
             <territoryOwner owner="Ottomans" territory="Ankara"/>
             <territoryOwner owner="French-Colonial-Africa" territory="Tunis"/>
-            <territoryOwner owner="French" territory="Fontainbleu"/>
+            <territoryOwner owner="Americans" territory="Fontainbleu"/>
             <territoryOwner owner="Germans" territory="Douamont"/>
             <territoryOwner owner="Russians" territory="Yaroslavl"/>
             <territoryOwner owner="British" territory="Greece"/>
@@ -6844,12 +6975,12 @@
             <unitPlacement owner="Germans" quantity="5" territory="Bulgaria" unitType="Infantry"/>
             <unitPlacement owner="Germans" quantity="3" territory="Bulgaria" unitType="Trenches"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="Cairo" unitType="Cavalry"/>
-            <unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="Factory"/>
+            <unitPlacement owner="British-Commonwealth" quantity="0" territory="Cairo" unitType="Factory"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="Cairo" unitType="Field-Artillery"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="Fighter"/>
             <unitPlacement owner="British-Commonwealth" quantity="0" territory="Cairo" unitType="Harbor-Defenses"/>
             <unitPlacement owner="British-Commonwealth" quantity="4" territory="Cairo" unitType="Infantry"/>
-            <unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="Shipyard"/>
+            <unitPlacement owner="British-Commonwealth" quantity="0" territory="Cairo" unitType="Shipyard"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="Cairo" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="Canada" unitType="AA-Gun"/>
             <unitPlacement owner="British" quantity="2" territory="Canada" unitType="Cavalry"/>
@@ -6903,7 +7034,7 @@
             <unitPlacement owner="Austrians" quantity="1" territory="Innsbruck" unitType="AA-Gun"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Innsbruck" unitType="Cavalry"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Innsbruck" unitType="Field-Artillery"/>
-            <unitPlacement owner="Austrians" quantity="4" territory="Innsbruck" unitType="Infantry"/>
+            <unitPlacement owner="Austrians" quantity="6" territory="Innsbruck" unitType="Infantry"/>
             <unitPlacement owner="Austrians" quantity="3" territory="Innsbruck" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="3" territory="Ireland" unitType="Infantry"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="Ivory Coast" unitType="Infantry"/>
@@ -7019,11 +7150,11 @@
             <unitPlacement owner="French" quantity="1" territory="SZ 29" unitType="Submarine"/>
             <unitPlacement owner="Germans" quantity="3" territory="SZ 3" unitType="Submarine"/>
             <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Battlecruiser"/>
-            <unitPlacement owner="Austrians" quantity="1" territory="SZ 31" unitType="Battleship"/>
+            <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Battleship"/>
             <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Destroyer"/>
             <unitPlacement owner="Austrians" quantity="1" territory="SZ 31" unitType="Freighter"/>
             <unitPlacement owner="Austrians" quantity="5" territory="SZ 31" unitType="Harbor-Defenses"/>
-            <unitPlacement owner="Austrians" quantity="1" territory="SZ 31" unitType="Submarine"/>
+            <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Submarine"/>
             <unitPlacement owner="British" quantity="2" territory="SZ 34" unitType="Battlecruiser"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 34" unitType="Battleship"/>
             <unitPlacement owner="British" quantity="2" territory="SZ 34" unitType="Destroyer"/>
@@ -7045,22 +7176,22 @@
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="SZ 66" unitType="Destroyer"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 66" unitType="Freighter"/>
             <unitPlacement owner="British-Commonwealth" quantity="3" territory="SZ 66" unitType="Harbor-Defenses"/>
-            <unitPlacement owner="British" quantity="2" territory="SZ 67" unitType="Destroyer"/>
+            <unitPlacement owner="British" quantity="1" territory="SZ 67" unitType="Destroyer"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 67" unitType="Freighter"/>
             <unitPlacement owner="British" quantity="0" territory="SZ 68" unitType="Battlecruiser"/>
-            <unitPlacement owner="British" quantity="2" territory="SZ 68" unitType="Destroyer"/>
+            <unitPlacement owner="British" quantity="1" territory="SZ 68" unitType="Destroyer"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 68" unitType="Freighter"/>
             <unitPlacement owner="British" quantity="0" territory="SZ 68" unitType="Troop-Transport"/>
-            <unitPlacement owner="French" quantity="2" territory="SZ 69" unitType="Destroyer"/>
+            <unitPlacement owner="French" quantity="1" territory="SZ 69" unitType="Destroyer"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 69" unitType="Freighter"/>
             <unitPlacement owner="Germans" quantity="5" territory="SZ 7" unitType="Harbor-Defenses"/>
-            <unitPlacement owner="French" quantity="2" territory="SZ 70" unitType="Destroyer"/>
+            <unitPlacement owner="French" quantity="1" territory="SZ 70" unitType="Destroyer"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 70" unitType="Freighter"/>
             <unitPlacement owner="British" quantity="0" territory="SZ 71" unitType="Battlecruiser"/>
-            <unitPlacement owner="British" quantity="2" territory="SZ 71" unitType="Destroyer"/>
+            <unitPlacement owner="British" quantity="1" territory="SZ 71" unitType="Destroyer"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 71" unitType="Freighter"/>
             <unitPlacement owner="British" quantity="0" territory="SZ 71" unitType="Troop-Transport"/>
-            <unitPlacement owner="British" quantity="2" territory="SZ 72" unitType="Destroyer"/>
+            <unitPlacement owner="British" quantity="1" territory="SZ 72" unitType="Destroyer"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 72" unitType="Freighter"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 73" unitType="Battlecruiser"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 73" unitType="Battleship"/>
@@ -7068,8 +7199,8 @@
             <unitPlacement owner="French" quantity="1" territory="SZ 73" unitType="Freighter"/>
             <unitPlacement owner="French" quantity="3" territory="SZ 73" unitType="Harbor-Defenses"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 73" unitType="Submarine"/>
-            <unitPlacement owner="Americans" quantity="0" territory="SZ 76" unitType="Freighter"/>
-            <unitPlacement owner="Americans" quantity="0" territory="SZ 76" unitType="Troop-Transport"/>
+            <unitPlacement owner="Americans" quantity="2" territory="SZ 76" unitType="Freighter"/>
+            <unitPlacement owner="Americans" quantity="2" territory="SZ 76" unitType="Troop-Transport"/>
             <unitPlacement owner="Americans" quantity="0" territory="SZ 77" unitType="Freighter"/>
             <unitPlacement owner="Americans" quantity="0" territory="SZ 77" unitType="Troop-Transport"/>
             <unitPlacement owner="Germans" quantity="2" territory="SZ 79" unitType="Battlecruiser"/>
@@ -7130,7 +7261,7 @@
             <unitPlacement owner="Austrians" quantity="1" territory="Trieste" unitType="Factory"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Trieste" unitType="Field-Artillery"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Trieste" unitType="Fighter"/>
-            <unitPlacement owner="Austrians" quantity="4" territory="Trieste" unitType="Infantry"/>
+            <unitPlacement owner="Austrians" quantity="6" territory="Trieste" unitType="Infantry"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Trieste" unitType="Shipyard"/>
             <unitPlacement owner="Austrians" quantity="3" territory="Trieste" unitType="Trenches"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Uganda" unitType="Cavalry"/>
@@ -7174,15 +7305,15 @@
             <unitPlacement owner="Bolsheviks" quantity="3" territory="BR 2" unitType="Cavalry"/>
             <unitPlacement owner="Bolsheviks" quantity="2" territory="BR 2" unitType="Field-Artillery"/>
             <unitPlacement owner="Bolsheviks" quantity="6" territory="BR 2" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="BR 4" unitType="Cavalry"/>
-            <unitPlacement owner="Bolsheviks" quantity="3" territory="BR 4" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="2" territory="BR 4" unitType="Trenches"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="BR 5" unitType="Cavalry"/>
-            <unitPlacement owner="Bolsheviks" quantity="3" territory="BR 5" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="2" territory="BR 5" unitType="Trenches"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="BR 6" unitType="Cavalry"/>
-            <unitPlacement owner="Bolsheviks" quantity="3" territory="BR 6" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="2" territory="BR 6" unitType="Trenches"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 4" unitType="Cavalry"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 4" unitType="Infantry"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 4" unitType="Trenches"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 5" unitType="Cavalry"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 5" unitType="Infantry"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 5" unitType="Trenches"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 6" unitType="Cavalry"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 6" unitType="Infantry"/>
+            <unitPlacement owner="Bolsheviks" quantity="0" territory="BR 6" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Bagdad" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Baku" unitType="Cavalry"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Baku" unitType="Field-Artillery"/>
@@ -7235,7 +7366,7 @@
             <unitPlacement owner="Ottomans" quantity="1" territory="Damascus" unitType="Field-Artillery"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Damascus" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Finland" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="2" territory="Fontainbleu" unitType="Infantry"/>
+            <unitPlacement owner="Americans" quantity="4" territory="Fontainbleu" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="French Equitorial Africa" unitType="Cavalry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="French Equitorial Africa" unitType="Field-Artillery"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="French Equitorial Africa" unitType="Infantry"/>
@@ -7269,8 +7400,8 @@
             <unitPlacement owner="Ottomans" quantity="1" territory="Istanbul" unitType="Shipyard"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Istanbul" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Istanbul" unitType="Zeppelin"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Izhevsk" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Izhevsk" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Izhevsk" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Izhevsk" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Izmir" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Jerusalem" unitType="Cavalry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Jerusalem" unitType="Field-Artillery"/>
@@ -7281,8 +7412,8 @@
             <unitPlacement owner="Russians" quantity="1" territory="Kaluga" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Karkov" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Karkov" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Kazan" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="1" territory="Kazan" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Kazan" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Kazan" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="2" territory="Kiev" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Kiev" unitType="Field-Artillery"/>
             <unitPlacement owner="Russians" quantity="1" territory="Kiev" unitType="Fighter"/>
@@ -7437,8 +7568,8 @@
             <unitPlacement owner="Russians" quantity="1" territory="SZ 91" unitType="Freighter"/>
             <unitPlacement owner="Russians" quantity="3" territory="SZ 91" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Russians" quantity="1" territory="SZ 91" unitType="Submarine"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Samara" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="1" territory="Samara" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Samara" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Samara" unitType="Trenches"/>
             <unitPlacement owner="Italians" quantity="1" territory="Sardinia" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="AA-Gun"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="Cavalry"/>
@@ -7485,8 +7616,8 @@
             <unitPlacement owner="Ottomans" quantity="3" territory="Tabuk" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Tabuk" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="2" territory="Tallin" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Tartarstan" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="1" territory="Tartarstan" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Tartarstan" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Tartarstan" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Tbilisi" unitType="Cavalry"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Tbilisi" unitType="Field-Artillery"/>
             <unitPlacement owner="Ottomans" quantity="6" territory="Tbilisi" unitType="Infantry"/>
@@ -7528,10 +7659,10 @@
             <unitPlacement owner="Russians" quantity="6" territory="Vilnius" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="3" territory="Vilnius" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="Volgograd" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Vologda" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="1" territory="Vologda" unitType="Trenches"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Vyatka" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="1" territory="Vyatka" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Vologda" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Vologda" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Vyatka" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Vyatka" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="Yaroslavl" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="al-Hasa" unitType="Infantry"/>
             <unitPlacement owner="Bolsheviks" quantity="1" territory="Soviet Far East" unitType="AA-Gun"/>
@@ -7545,11 +7676,11 @@
             <unitPlacement owner="Austrians" quantity="3" territory="Bohemia" unitType="Field-Artillery"/>
             <unitPlacement owner="Germans" quantity="1" territory="Charleroi" unitType="Field-Artillery"/>
             <unitPlacement owner="Russians" quantity="1" territory="Oryol" unitType="Cavalry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Penza" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Penza" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Penza" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="0" territory="Penza" unitType="Trenches"/>
             <unitPlacement owner="Germans" quantity="1" territory="Poland" unitType="Fighter"/>
             <unitPlacement owner="Germans" quantity="1" territory="Prussia" unitType="Fighter"/>
-            <unitPlacement owner="Russians" quantity="1" territory="RR 10" unitType="Armored-Train"/>
+            <unitPlacement owner="Russians" quantity="0" territory="RR 10" unitType="Armored-Train"/>
             <unitPlacement owner="Russians" quantity="1" territory="RR 10" unitType="Train"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="1" territory="RR 108" unitType="Armored-Train"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="1" territory="RR 108" unitType="Train"/>
@@ -7561,32 +7692,32 @@
             <unitPlacement owner="British" quantity="1" territory="RR 118" unitType="Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 119" unitType="Armored-Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 119" unitType="Train"/>
-            <unitPlacement owner="Russians" quantity="1" territory="RR 12" unitType="Armored-Train"/>
-            <unitPlacement owner="Russians" quantity="1" territory="RR 12" unitType="Train"/>
-            <unitPlacement owner="Germans" quantity="1" territory="RR 122" unitType="Armored-Train"/>
+            <unitPlacement owner="Russians" quantity="0" territory="RR 12" unitType="Armored-Train"/>
+            <unitPlacement owner="Russians" quantity="0" territory="RR 12" unitType="Train"/>
+            <unitPlacement owner="Germans" quantity="0" territory="RR 122" unitType="Armored-Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 122" unitType="Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 130" unitType="Train"/>
             <unitPlacement owner="French" quantity="1" territory="RR 134" unitType="Armored-Train"/>
             <unitPlacement owner="French" quantity="1" territory="RR 134" unitType="Train"/>
-            <unitPlacement owner="French" quantity="1" territory="RR 135" unitType="Armored-Train"/>
-            <unitPlacement owner="French" quantity="1" territory="RR 135" unitType="Train"/>
+            <unitPlacement owner="French" quantity="0" territory="RR 135" unitType="Armored-Train"/>
+            <unitPlacement owner="French" quantity="0" territory="RR 135" unitType="Train"/>
             <unitPlacement owner="Russians" quantity="1" territory="RR 14" unitType="Armored-Train"/>
             <unitPlacement owner="Russians" quantity="1" territory="RR 14" unitType="Train"/>
-            <unitPlacement owner="Germans" quantity="1" territory="RR 140" unitType="Armored-Train"/>
+            <unitPlacement owner="Germans" quantity="0" territory="RR 140" unitType="Armored-Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 140" unitType="Train"/>
-            <unitPlacement owner="French" quantity="1" territory="RR 17" unitType="Armored-Train"/>
-            <unitPlacement owner="French" quantity="1" territory="RR 17" unitType="Train"/>
+            <unitPlacement owner="French" quantity="0" territory="RR 17" unitType="Armored-Train"/>
+            <unitPlacement owner="French" quantity="0" territory="RR 17" unitType="Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 18" unitType="Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 20" unitType="Armored-Train"/>
             <unitPlacement owner="Germans" quantity="2" territory="RR 20" unitType="Train"/>
-            <unitPlacement owner="Germans" quantity="1" territory="RR 21" unitType="Armored-Train"/>
-            <unitPlacement owner="Germans" quantity="1" territory="RR 21" unitType="Train"/>
-            <unitPlacement owner="Russians" quantity="1" territory="RR 24" unitType="Armored-Train"/>
-            <unitPlacement owner="Russians" quantity="1" territory="RR 24" unitType="Train"/>
+            <unitPlacement owner="Germans" quantity="0" territory="RR 21" unitType="Armored-Train"/>
+            <unitPlacement owner="Germans" quantity="0" territory="RR 21" unitType="Train"/>
+            <unitPlacement owner="Russians" quantity="0" territory="RR 24" unitType="Armored-Train"/>
+            <unitPlacement owner="Russians" quantity="0" territory="RR 24" unitType="Train"/>
             <unitPlacement owner="French" quantity="1" territory="RR 27" unitType="Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 29" unitType="Train"/>
-            <unitPlacement owner="French" quantity="1" territory="RR 37" unitType="Armored-Train"/>
-            <unitPlacement owner="French" quantity="1" territory="RR 37" unitType="Train"/>
+            <unitPlacement owner="French" quantity="0" territory="RR 37" unitType="Armored-Train"/>
+            <unitPlacement owner="French" quantity="0" territory="RR 37" unitType="Train"/>
             <unitPlacement owner="Germans" quantity="1" territory="RR 4" unitType="Train"/>
             <unitPlacement owner="Austrians" quantity="1" territory="RR 40" unitType="Armored-Train"/>
             <unitPlacement owner="Austrians" quantity="2" territory="RR 40" unitType="Train"/>
@@ -7598,10 +7729,10 @@
             <unitPlacement owner="Italians" quantity="1" territory="RR 51" unitType="Train"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="RR 59" unitType="Armored-Train"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="RR 59" unitType="Train"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="RR 61" unitType="Train"/>
+            <unitPlacement owner="Ottomans" quantity="0" territory="RR 61" unitType="Train"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="RR 66" unitType="Train"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="RR 69" unitType="Armored-Train"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="RR 69" unitType="Train"/>
+            <unitPlacement owner="Ottomans" quantity="0" territory="RR 69" unitType="Armored-Train"/>
+            <unitPlacement owner="Ottomans" quantity="0" territory="RR 69" unitType="Train"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="RR 73" unitType="Train"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="RR 82" unitType="Armored-Train"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="RR 82" unitType="Train"/>
@@ -7613,14 +7744,25 @@
             <unitPlacement owner="Italians" quantity="1" territory="Naples" unitType="Field-Artillery"/>
             <unitPlacement owner="Italians" quantity="2" territory="Naples" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="RR 1" unitType="Train"/>
-            <unitPlacement owner="Italians" quantity="1" territory="RR 56" unitType="Armored-Train"/>
-            <unitPlacement owner="Italians" quantity="1" territory="RR 56" unitType="Train"/>
+            <unitPlacement owner="Italians" quantity="0" territory="RR 56" unitType="Armored-Train"/>
+            <unitPlacement owner="Italians" quantity="0" territory="RR 56" unitType="Train"/>
             <unitPlacement owner="Italians" quantity="2" territory="Tuscany" unitType="Cavalry"/>
             <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Fighter"/>
             <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Zeppelin"/>
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="AA-Gun"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Factory"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Shipyard"/>
+<unitPlacement owner="Bolsheviks" quantity="2" territory="BR 1" unitType="Cavalry"/>
+<unitPlacement owner="Bolsheviks" quantity="1" territory="BR 1" unitType="Field-Artillery"/>
+<unitPlacement owner="Bolsheviks" quantity="4" territory="BR 1" unitType="Infantry"/>
+<unitPlacement owner="Bolsheviks" quantity="2" territory="BR 3" unitType="Cavalry"/>
+<unitPlacement owner="Bolsheviks" quantity="1" territory="BR 3" unitType="Field-Artillery"/>
+<unitPlacement owner="Bolsheviks" quantity="4" territory="BR 3" unitType="Infantry"/>
+<unitPlacement owner="Americans" quantity="2" territory="Fontainbleu" unitType="Cavalry"/>
+<unitPlacement owner="Americans" quantity="1" territory="Fontainbleu" unitType="Factory"/>
+<unitPlacement owner="Americans" quantity="1" territory="Fontainbleu" unitType="Field-Artillery"/>
+<unitPlacement owner="Americans" quantity="2" territory="Fontainbleu" unitType="Fighter"/>
+<unitPlacement owner="British-Commonwealth" quantity="1" territory="India" unitType="Factory"/>
         </unitInitialize>
         <resourceInitialize>
             <resourceGiven player="Germans" quantity="99" resource="PUs"/>
