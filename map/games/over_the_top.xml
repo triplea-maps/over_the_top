@@ -1629,7 +1629,10 @@
         <unit name="Munitions"/>
         <unit name="Develop-Railgun"/>
         <unit name="Railgun"/>
-<unit name="Develop-Elite-Infantry"/>
+<unit name="Develop-Elite-Defensive-Infantry"/>
+<unit name="Develop-Elite-Offensive-Infantry"/>
+<unit name="Elite-Defensive-Infantry"/>
+<unit name="Elite-Offensive-Infantry"/>
     </unitList>
     <gamePlay>
         <delegate display="Initializing Delegates" javaClass="games.strategy.triplea.delegate.InitializationDelegate" name="initDelegate"/>
@@ -1872,9 +1875,21 @@
             <cost quantity="12" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Railgun"/>
         </productionRule>
-<productionRule name="buyDevelop-Elite-Infantry">
+<productionRule name="buyDevelop-Elite-Defensive-Infantry">
 <cost quantity="20" resource="PUs"/>
-<result quantity="1" resourceOrUnit="Develop-Elite-Infantry"/>
+<result quantity="1" resourceOrUnit="Develop-Elite-Defensive-Infantry"/>
+</productionRule>
+<productionRule name="buyDevelop-Elite-Offensive-Infantry">
+<cost quantity="20" resource="PUs"/>
+<result quantity="1" resourceOrUnit="Develop-Elite-Offensive-Infantry"/>
+</productionRule>
+<productionRule name="buyElite-Defensive-Infantry">
+<cost quantity="3" resource="PUs"/>
+<result quantity="1" resourceOrUnit="Elite-Defensive-Infantry"/>
+</productionRule>
+<productionRule name="buyElite-Offensive-Infantry">
+<cost quantity="3" resource="PUs"/>
+<result quantity="1" resourceOrUnit="Elite-Offensive-Infantry"/>
 </productionRule>
         <repairRule name="repairFactory">
             <cost quantity="1" resource="PUs"/>
@@ -1978,7 +1993,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2005,7 +2019,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2032,7 +2045,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2059,7 +2071,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2086,7 +2097,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2113,7 +2123,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2140,7 +2149,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2167,7 +2175,6 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
-			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -3745,12 +3752,36 @@
             <option count="" name="createsUnitsList" value="1:Munitions"/>
             <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99"/>
         </attachment>
-        <attachment attachTo="Develop-Elite-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+        <attachment attachTo="Develop-Elite-Defensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
 <option count="" name="movement" value="0"/>
 <option count="" name="attack" value="0"/>
 <option count="" name="defense" value="0"/>
 <option count="" name="maxBuiltPerPlayer" value="1"/>
 <option count="" name="isInfrastructure" value="true"/>
+</attachment>
+        <attachment attachTo="Develop-Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+<option count="" name="movement" value="0"/>
+<option count="" name="attack" value="0"/>
+<option count="" name="defense" value="0"/>
+<option count="" name="maxBuiltPerPlayer" value="1"/>
+<option count="" name="isInfrastructure" value="true"/>
+</attachment>
+        <attachment attachTo="Elite-Defensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+<option count="" name="movement" value="1"/>
+<option count="" name="transportCost" value="1"/>
+<option count="" name="attack" value="1"/>
+<option count="" name="defense" value="2"/>
+<option count="" name="repairsUnits" value="Trenches"/>
+<option count="" name="isLandTransportable" value="true"/>
+</attachment>
+        <attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+<option count="" name="movement" value="1"/>
+<option count="" name="transportCost" value="1"/>
+<option count="" name="attack" value="2"/>
+<option count="" name="defense" value="1"/>
+<option count="" name="artillerySupportable" value="true"/>
+<option count="" name="repairsUnits" value="Trenches"/>
+<option count="" name="isLandTransportable" value="true"/>
 </attachment>
         <attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" name="playerAttachment" type="player">
             <option count="" name="retainCapitalNumber" value="1"/>
