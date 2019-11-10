@@ -1993,6 +1993,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2019,6 +2021,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2045,6 +2049,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2071,6 +2077,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2097,6 +2105,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2123,6 +2133,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2149,6 +2161,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2175,6 +2189,8 @@
 			<frontierRules name="buyDevelop-Bomber"/>
 			<frontierRules name="buyDevelop-Carrier"/>
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
+			<frontierRules name="buyDevelop-Elite-Offensive-Infantry"/>
+			<frontierRules name="buyDevelop-Elite-Defensive-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
 			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
@@ -2511,56 +2527,108 @@
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
-		<!-- Develop Elite-Infantry for Austrians -->
-		<attachment name="conditionAttachment-Austrians-Develop-Elite-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for Austrians -->
+		<attachment name="conditionAttachment-Austrians-Develop-Elite-Offensive-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-Austrians-Develop-Elite-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Austrians-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-Austrians-Develop-Elite-Offensive-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Austrians-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:Austrians-Place" count=""/>
-			<option name="productionRule" value="Austrians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Austrians-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="Austrians-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Austrians-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-		<!-- Develop Elite-Infantry for Ottomans -->
-		<attachment name="conditionAttachment-Ottomans-Develop-Elite-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for Ottomans -->
+		<attachment name="conditionAttachment-Ottomans-Develop-Elite-Offensive-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-Ottomans-Develop-Elite-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Ottomans-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-Ottomans-Develop-Elite-Offensive-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Ottomans-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:Ottomans-Place" count=""/>
-			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Ottomans-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Ottomans-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-		<!-- Develop Elite-Infantry for Italians -->
-		<attachment name="conditionAttachment-Italians-Develop-Elite-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for Italians -->
+		<attachment name="conditionAttachment-Italians-Develop-Elite-Offensive-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-Italians-Develop-Elite-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Italians-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-Italians-Develop-Elite-Offensive-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:Italians-Place" count=""/>
-			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Italians-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-		<!-- Develop Elite-Infantry for Americans -->
-		<attachment name="conditionAttachment-Americans-Develop-Elite-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for Americans -->
+		<attachment name="conditionAttachment-Americans-Develop-Elite-Offensive-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-Americans-Develop-Elite-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Americans-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-Americans-Develop-Elite-Offensive-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Americans-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:Americans-Place" count=""/>
-			<option name="productionRule" value="Americans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Americans-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="Americans-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Americans-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for Austrians -->
+		<attachment name="conditionAttachment-Austrians-Develop-Elite-Defensive-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Austrians-Develop-Elite-Defensive-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Austrians-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:Austrians-Place" count=""/>
+			<option name="productionRule" value="Austrians-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Austrians-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for Ottomans -->
+		<attachment name="conditionAttachment-Ottomans-Develop-Elite-Defensive-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Ottomans-Develop-Elite-Defensive-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Ottomans-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:Ottomans-Place" count=""/>
+			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Ottomans-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for Italians -->
+		<attachment name="conditionAttachment-Italians-Develop-Elite-Defensive-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Italians-Develop-Elite-Defensive-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Italians-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:Italians-Place" count=""/>
+			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Italians-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for Americans -->
+		<attachment name="conditionAttachment-Americans-Develop-Elite-Defensive-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Americans-Develop-Elite-Defensive-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Americans-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:Americans-Place" count=""/>
+			<option name="productionRule" value="Americans-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Americans-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Develop Mech-Infantry for Austrians -->
@@ -2887,60 +2955,116 @@
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
-		<!-- Develop Elite-Infantry for Germans AND Imperial-German-Afrika -->
-		<attachment name="conditionAttachment-Germans-Develop-Elite-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for Germans AND Imperial-German-Afrika -->
+		<attachment name="conditionAttachment-Germans-Develop-Elite-Offensive-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-Germans-Develop-Elite-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Germans-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-Germans-Develop-Elite-Offensive-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Germans-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:Germans-Place" count=""/>
-			<option name="productionRule" value="Germans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Germans-Frontier:buyElite-Infantry" count=""/>
-			<option name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="Germans-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Germans-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-		<!-- Develop Elite-Infantry for British AND British-Commonwealth -->
-		<attachment name="conditionAttachment-British-Develop-Elite-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for British AND British-Commonwealth -->
+		<attachment name="conditionAttachment-British-Develop-Elite-Offensive-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-British-Develop-Elite-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-British-Develop-Elite-Offensive-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-British-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:British-Place" count=""/>
-			<option name="productionRule" value="British-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="British-Frontier:buyElite-Infantry" count=""/>
-			<option name="productionRule" value="British-Commonwealth-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="British-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="British-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="British-Commonwealth-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-		<!-- Develop Elite-Infantry for French AND French-Colonial-Africa -->
-		<attachment name="conditionAttachment-French-Develop-Elite-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for French AND French-Colonial-Africa -->
+		<attachment name="conditionAttachment-French-Develop-Elite-Offensive-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-French-Develop-Elite-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-French-Develop-Elite-Offensive-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-French-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:French-Place" count=""/>
-			<option name="productionRule" value="French-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="French-Frontier:buyElite-Infantry" count=""/>
-			<option name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="French-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="French-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
-		<!-- Develop Elite-Infantry for Russians AND Bolsheviks -->
-		<attachment name="conditionAttachment-Russians-Develop-Elite-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<!-- Develop Elite-Offensive-Infantry for Russians AND Bolsheviks -->
+		<attachment name="conditionAttachment-Russians-Develop-Elite-Offensive-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Offensive-Infantry" count="1"/>
 		</attachment>
-		<attachment name="triggerAttachment-Russians-Develop-Elite-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Russians-Develop-Elite-Infantry" count=""/>
+		<attachment name="triggerAttachment-Russians-Develop-Elite-Offensive-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Russians-Develop-Elite-Offensive-Infantry" count=""/>
 			<option name="when" value="after:Russians-Place" count=""/>
-			<option name="productionRule" value="Russians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Russians-Frontier:buyElite-Infantry" count=""/>
-			<option name="productionRule" value="Bolsheviks-Frontier:buyElite-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
+			<option name="productionRule" value="Russians-Frontier:-buyDevelop-Elite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Russians-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="productionRule" value="Bolsheviks-Frontier:buyElite-Offensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Offensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for Germans AND Imperial-German-Afrika -->
+		<attachment name="conditionAttachment-Germans-Develop-Elite-Defensive-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Germans-Develop-Elite-Defensive-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Germans-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:Germans-Place" count=""/>
+			<option name="productionRule" value="Germans-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Germans-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for British AND British-Commonwealth -->
+		<attachment name="conditionAttachment-British-Develop-Elite-Defensive-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-British-Develop-Elite-Defensive-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-British-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:British-Place" count=""/>
+			<option name="productionRule" value="British-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="British-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="British-Commonwealth-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for French AND French-Colonial-Africa -->
+		<attachment name="conditionAttachment-French-Develop-Elite-Defensive-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-French-Develop-Elite-Defensive-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-French-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:French-Place" count=""/>
+			<option name="productionRule" value="French-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="French-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
+			<option name="uses" value="1" count=""/>
+		</attachment>
+		<!-- Develop Elite-Defensive-Infantry for Russians AND Bolsheviks -->
+		<attachment name="conditionAttachment-Russians-Develop-Elite-Defensive-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="directPresenceTerritories" value="map" count="1"/>
+			<option name="unitPresence" value="Develop-Elite-Defensive-Infantry" count="1"/>
+		</attachment>
+		<attachment name="triggerAttachment-Russians-Develop-Elite-Defensive-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="conditions" value="conditionAttachment-Russians-Develop-Elite-Defensive-Infantry" count=""/>
+			<option name="when" value="after:Russians-Place" count=""/>
+			<option name="productionRule" value="Russians-Frontier:-buyDevelop-Elite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Russians-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="productionRule" value="Bolsheviks-Frontier:buyElite-Defensive-Infantry" count=""/>
+			<option name="removeUnits" value="all:Develop-Elite-Defensive-Infantry" count="1"/>
 			<option name="uses" value="1" count=""/>
 		</attachment>
 		<!-- Develop Mech-Infantry for Germans AND Imperial-German-Afrika -->
