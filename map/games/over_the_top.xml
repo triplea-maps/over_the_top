@@ -1646,6 +1646,30 @@
         <delegate display="Round Complete" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" name="endRound"/>
         <sequence>
             <step delegate="initDelegate" maxRunCount="1" name="gameInitDelegate"/>
+            <step name="Germans-Bid" delegate="bid" player="Germans" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Germans-BidPlace" delegate="placeBid" player="Germans" display="Bid Placement" maxRunCount="1"/>
+            <step name="Imperial-German-Afrika-Bid" delegate="bid" player="Imperial-German-Afrika" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Imperial-German-Afrika-BidPlace" delegate="placeBid" player="Imperial-German-Afrika" display="Bid Placement" maxRunCount="1"/>
+            <step name="French-Bid" delegate="bid" player="French" display="Bid Purchase" maxRunCount="1"/>
+            <step name="French-BidPlace" delegate="placeBid" player="French" display="Bid Placement" maxRunCount="1"/>
+            <step name="French-Colonial-Africa-Bid" delegate="bid" player="French-Colonial-Africa" display="Bid Purchase" maxRunCount="1"/>
+            <step name="French-Colonial-Africa-BidPlace" delegate="placeBid" player="French-Colonial-Africa" display="Bid Placement" maxRunCount="1"/>
+            <step name="Russians-Bid" delegate="bid" player="Russians" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Russians-BidPlace" delegate="placeBid" player="Russians" display="Bid Placement" maxRunCount="1"/>
+            <step name="Austrians-Bid" delegate="bid" player="Austrians" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Austrians-BidPlace" delegate="placeBid" player="Austrians" display="Bid Placement" maxRunCount="1"/>
+            <step name="Ottomans-Bid" delegate="bid" player="Ottomans" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Ottomans-BidPlace" delegate="placeBid" player="Ottomans" display="Bid Placement" maxRunCount="1"/>
+            <step name="British-Bid" delegate="bid" player="British" display="Bid Purchase" maxRunCount="1"/>
+            <step name="British-BidPlace" delegate="placeBid" player="British" display="Bid Placement" maxRunCount="1"/>
+            <step name="British-Commonwealth-Bid" delegate="bid" player="British-Commonwealth" display="Bid Purchase" maxRunCount="1"/>
+            <step name="British-Commonwealth-BidPlace" delegate="placeBid" player="British-Commonwealth" display="Bid Placement" maxRunCount="1"/>
+            <step name="Italians-Bid" delegate="bid" player="Italians" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Italians-BidPlace" delegate="placeBid" player="Italians" display="Bid Placement" maxRunCount="1"/>
+            <step name="Americans-Bid" delegate="bid" player="Americans" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Americans-BidPlace" delegate="placeBid" player="Americans" display="Bid Placement" maxRunCount="1"/>
+            <step name="Bolsheviks-Bid" delegate="bid" player="Bolsheviks" display="Bid Purchase" maxRunCount="1"/>
+            <step name="Bolsheviks-BidPlace" delegate="placeBid" player="Bolsheviks" display="Bid Placement" maxRunCount="1"/>            
             <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Germans-CombatMove" player="Germans"/>
             <step delegate="munitions" display="Load Munitions" name="Germans-MunitionsTechActivation" player="Germans"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Germans-MunitionsCombatMove" player="Germans"/>
