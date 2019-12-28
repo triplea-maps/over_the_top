@@ -3712,7 +3712,6 @@
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="1"/>
             <option count="" name="isSea" value="true"/>
-            <option count="" name="isSub" value="true"/>
             <option count="" name="isConstruction" value="true"/>
             <option count="" name="constructionType" value="Harbor-Defenses"/>
             <option count="" name="constructionsPerTerrPerTypePerTurn" value="2"/>
