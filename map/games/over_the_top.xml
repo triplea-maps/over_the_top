@@ -466,6 +466,7 @@
 
         <connection t1="Hurghada" t2="Northern Sudan"/>
         <connection t1="SZ 38" t2="SZ 41"/>
+		<connection t1="SZ 38" t2="SZ 83"/>
         <connection t1="RR 86" t2="RR 90"/>
 		
 		<connection t1="Hejaz" t2="Tabuk"/>
@@ -6699,7 +6700,7 @@
             <option count="" name="canalName" value="Dardanelles"/>
             <option count="" name="landTerritories" value="Istanbul:Izmir:Gallipoli"/>
         </attachment>
-<attachment attachTo="SZ 36" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachment" type="territory">
+		<attachment attachTo="SZ 36" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachment" type="territory">
             <option count="" name="canalName" value="Dardanelles"/>
             <option count="" name="landTerritories" value="Istanbul:Izmir:Gallipoli"/>
         </attachment>
