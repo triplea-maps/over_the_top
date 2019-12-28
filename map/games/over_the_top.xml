@@ -7011,6 +7011,7 @@
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="OVER THE TOP" unitType="Trenches-If-Defended"/>
 			<unitPlacement owner="Americans" quantity="1" territory="OVER THE TOP" unitType="Trenches-If-Defended"/>
 			<unitPlacement owner="Bolsheviks" quantity="1" territory="OVER THE TOP" unitType="Trenches-If-Defended"/>
+			<unitPlacement owner="Italians" quantity="1" territory="OVER THE TOP" unitType="Trenches-If-Defended"/>
 		
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Abyssinia" unitType="Infantry"/>
             <unitPlacement owner="Americans" quantity="1" territory="American Isolationism" unitType="Infantry"/>
