@@ -1795,7 +1795,7 @@
             <result quantity="1" resourceOrUnit="Field-Artillery"/>
         </productionRule>
         <productionRule name="buyHeavy-Artillery">
-            <cost quantity="10" resource="PUs"/>
+            <cost quantity="9" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Heavy-Artillery"/>
         </productionRule>
         <productionRule name="buyZeppelin">
@@ -1867,7 +1867,7 @@
             <result quantity="1" resourceOrUnit="Develop-Bomber"/>
         </productionRule>
         <productionRule name="buyDevelop-Tank">
-            <cost quantity="40" resource="PUs"/>
+            <cost quantity="35" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Develop-Tank"/>
         </productionRule>
         <productionRule name="buyDevelop-Mech-Infantry">
@@ -1875,11 +1875,11 @@
             <result quantity="1" resourceOrUnit="Develop-Mech-Infantry"/>
         </productionRule>
         <productionRule name="buyDevelop-Carrier">
-            <cost quantity="60" resource="PUs"/>
+            <cost quantity="45" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Develop-Carrier"/>
         </productionRule>
         <productionRule name="buyDevelop-Heavy-Artillery">
-            <cost quantity="40" resource="PUs"/>
+            <cost quantity="30" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Develop-Heavy-Artillery"/>
         </productionRule>
         <productionRule name="buyArmored-Train">
@@ -1895,15 +1895,15 @@
             <result quantity="1" resourceOrUnit="Munitions"/>
         </productionRule>
         <productionRule name="buyDevelop-Railgun">
-            <cost quantity="50" resource="PUs"/>
+            <cost quantity="25" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Develop-Railgun"/>
         </productionRule>
         <productionRule name="buyRailgun">
-            <cost quantity="12" resource="PUs"/>
+            <cost quantity="10" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Railgun"/>
         </productionRule>
 		<productionRule name="buyDevelop-Elite-Infantry">
-			<cost quantity="40" resource="PUs"/>
+			<cost quantity="20" resource="PUs"/>
 			<result quantity="1" resourceOrUnit="Develop-Elite-Infantry"/>
 		</productionRule>
 		<productionRule name="buyElite-Defensive-Infantry">
