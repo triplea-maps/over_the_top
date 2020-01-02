@@ -1629,6 +1629,7 @@
         <unit name="Armored-Train"/>
         <unit name="Train"/>
         <unit name="Munitions"/>
+		<unit name="Gas-Munitions"/>
         <unit name="Develop-Railgun"/>
         <unit name="Railgun"/>
 		<unit name="Develop-Elite-Infantry"/>
@@ -1674,7 +1675,7 @@
             <step delegate="placeBid" display="Bid Placement" maxRunCount="1" name="Americans-BidPlace" player="Americans"/>
             <step delegate="bid" display="Bid Purchase" maxRunCount="1" name="Bolsheviks-Bid" player="Bolsheviks"/>
             <step delegate="placeBid" display="Bid Placement" maxRunCount="1" name="Bolsheviks-BidPlace" player="Bolsheviks"/>            
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Germans-CombatMove" player="Germans"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Germans-CombatMove" player="Germans"/>
             <step delegate="munitions" display="Load Munitions" name="Germans-MunitionsTechActivation" player="Germans"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Germans-MunitionsCombatMove" player="Germans"/>
             <step delegate="purchase" name="Germans-Purchase" player="Germans"/>
@@ -1682,7 +1683,7 @@
             <step delegate="move" display="Non Combat Move" name="Germans-NonCombatMove" player="Germans"/>
             <step delegate="place" name="Germans-Place" player="Germans"/>
             <step delegate="endTurn" name="Germans-EndTurn" player="Germans"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Imperial-German-Afrika-CombatMove" player="Imperial-German-Afrika"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Imperial-German-Afrika-CombatMove" player="Imperial-German-Afrika"/>
             <step delegate="munitions" display="Load Munitions" name="Imperial-German-Afrika-MunitionsTechActivation" player="Imperial-German-Afrika"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Imperial-German-Afrika-MunitionsCombatMove" player="Imperial-German-Afrika"/>
             <step delegate="purchase" name="Imperial-German-Afrika-Purchase" player="Imperial-German-Afrika"/>
@@ -1690,7 +1691,7 @@
             <step delegate="move" display="Non Combat Move" name="Imperial-German-Afrika-NonCombatMove" player="Imperial-German-Afrika"/>
             <step delegate="place" name="Imperial-German-Afrika-Place" player="Imperial-German-Afrika"/>
             <step delegate="endTurn" name="Imperial-German-Afrika-EndTurn" player="Imperial-German-Afrika"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="French-CombatMove" player="French"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="French-CombatMove" player="French"/>
             <step delegate="munitions" display="Load Munitions" name="French-MunitionsTechActivation" player="French"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="French-MunitionsCombatMove" player="French"/>
             <step delegate="purchase" name="French-Purchase" player="French"/>
@@ -1698,7 +1699,7 @@
             <step delegate="move" display="Non Combat Move" name="French-NonCombatMove" player="French"/>
             <step delegate="place" name="French-Place" player="French"/>
             <step delegate="endTurn" name="French-EndTurn" player="French"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="French-Colonial-Africa-CombatMove" player="French-Colonial-Africa"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="French-Colonial-Africa-CombatMove" player="French-Colonial-Africa"/>
             <step delegate="munitions" display="Load Munitions" name="French-Colonial-Africa-MunitionsTechActivation" player="French-Colonial-Africa"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="French-Colonial-Africa-MunitionsCombatMove" player="French-Colonial-Africa"/>
             <step delegate="purchase" name="French-Colonial-Africa-Purchase" player="French-Colonial-Africa"/>
@@ -1706,7 +1707,7 @@
             <step delegate="move" display="Non Combat Move" name="French-Colonial-Africa-NonCombatMove" player="French-Colonial-Africa"/>
             <step delegate="place" name="French-Colonial-Africa-Place" player="French-Colonial-Africa"/>
             <step delegate="endTurn" name="French-Colonial-Africa-EndTurn" player="French-Colonial-Africa"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Russians-CombatMove" player="Russians"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Russians-CombatMove" player="Russians"/>
             <step delegate="munitions" display="Load Munitions" name="Russians-MunitionsTechActivation" player="Russians"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Russians-MunitionsCombatMove" player="Russians"/>
             <step delegate="purchase" name="Russians-Purchase" player="Russians"/>
@@ -1714,7 +1715,7 @@
             <step delegate="move" display="Non Combat Move" name="Russians-NonCombatMove" player="Russians"/>
             <step delegate="place" name="Russians-Place" player="Russians"/>
             <step delegate="endTurn" name="Russians-EndTurn" player="Russians"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Austrians-CombatMove" player="Austrians"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Austrians-CombatMove" player="Austrians"/>
             <step delegate="munitions" display="Load Munitions" name="Austrians-MunitionsTechActivation" player="Austrians"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Austrians-MunitionsCombatMove" player="Austrians"/>
             <step delegate="purchase" name="Austrians-Purchase" player="Austrians"/>
@@ -1722,7 +1723,7 @@
             <step delegate="move" display="Non Combat Move" name="Austrians-NonCombatMove" player="Austrians"/>
             <step delegate="place" name="Austrians-Place" player="Austrians"/>
             <step delegate="endTurn" name="Austrians-EndTurn" player="Austrians"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Ottomans-CombatMove" player="Ottomans"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Ottomans-CombatMove" player="Ottomans"/>
             <step delegate="munitions" display="Load Munitions" name="Ottomans-MunitionsTechActivation" player="Ottomans"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Ottomans-MunitionsCombatMove" player="Ottomans"/>
             <step delegate="purchase" name="Ottomans-Purchase" player="Ottomans"/>
@@ -1730,7 +1731,7 @@
             <step delegate="move" display="Non Combat Move" name="Ottomans-NonCombatMove" player="Ottomans"/>
             <step delegate="place" name="Ottomans-Place" player="Ottomans"/>
             <step delegate="endTurn" name="Ottomans-EndTurn" player="Ottomans"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="British-CombatMove" player="British"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="British-CombatMove" player="British"/>
             <step delegate="munitions" display="Load Munitions" name="British-MunitionsTechActivation" player="British"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="British-MunitionsCombatMove" player="British"/>
             <step delegate="purchase" name="British-Purchase" player="British"/>
@@ -1738,7 +1739,7 @@
             <step delegate="move" display="Non Combat Move" name="British-NonCombatMove" player="British"/>
             <step delegate="place" name="British-Place" player="British"/>
             <step delegate="endTurn" name="British-EndTurn" player="British"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="British-Commonwealth-CombatMove" player="British-Commonwealth"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="British-Commonwealth-CombatMove" player="British-Commonwealth"/>
             <step delegate="munitions" display="Load Munitions" name="British-Commonwealth-MunitionsTechActivation" player="British-Commonwealth"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="British-Commonwealth-MunitionsCombatMove" player="British-Commonwealth"/>
             <step delegate="purchase" name="British-Commonwealth-Purchase" player="British-Commonwealth"/>
@@ -1746,7 +1747,7 @@
             <step delegate="move" display="Non Combat Move" name="British-Commonwealth-NonCombatMove" player="British-Commonwealth"/>
             <step delegate="place" name="British-Commonwealth-Place" player="British-Commonwealth"/>
             <step delegate="endTurn" name="British-Commonwealth-EndTurn" player="British-Commonwealth"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Italians-CombatMove" player="Italians"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Italians-CombatMove" player="Italians"/>
             <step delegate="munitions" display="Load Munitions" name="Italians-MunitionsTechActivation" player="Italians"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Italians-MunitionsCombatMove" player="Italians"/>
             <step delegate="purchase" name="Italians-Purchase" player="Italians"/>
@@ -1754,7 +1755,7 @@
             <step delegate="move" display="Non Combat Move" name="Italians-NonCombatMove" player="Italians"/>
             <step delegate="place" name="Italians-Place" player="Italians"/>
             <step delegate="endTurn" name="Italians-EndTurn" player="Italians"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Americans-CombatMove" player="Americans"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Americans-CombatMove" player="Americans"/>
             <step delegate="munitions" display="Load Munitions" name="Americans-MunitionsTechActivation" player="Americans"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Americans-MunitionsCombatMove" player="Americans"/>
             <step delegate="purchase" name="Americans-Purchase" player="Americans"/>
@@ -1762,7 +1763,7 @@
             <step delegate="move" display="Non Combat Move" name="Americans-NonCombatMove" player="Americans"/>
             <step delegate="place" name="Americans-Place" player="Americans"/>
             <step delegate="endTurn" name="Americans-EndTurn" player="Americans"/>
-            <step delegate="move" display="Move Battleships, Cruisers and Railguns" name="Bolsheviks-CombatMove" player="Bolsheviks"/>
+            <step delegate="move" display="Move Battleships/Cruisers, Heavy Artillery, and Railguns" name="Bolsheviks-CombatMove" player="Bolsheviks"/>
             <step delegate="munitions" display="Load Munitions" name="Bolsheviks-MunitionsTechActivation" player="Bolsheviks"/>
             <step delegate="move" display="Fire Munitions and Combat Move" name="Bolsheviks-MunitionsCombatMove" player="Bolsheviks"/>
             <step delegate="purchase" name="Bolsheviks-Purchase" player="Bolsheviks"/>
@@ -3167,6 +3168,7 @@
             <option count="" name="conditions" value="conditionAttachment-Germans-AlwaysTrue"/>
             <option count="" name="when" value="before:Germans-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Germans_Munitions_1" type="player">
@@ -3185,6 +3187,7 @@
             <option count="" name="conditions" value="conditionAttachment-British-AlwaysTrue"/>
             <option count="" name="when" value="before:British-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_British_Munitions_1" type="player">
@@ -3203,6 +3206,7 @@
             <option count="" name="conditions" value="conditionAttachment-French-AlwaysTrue"/>
             <option count="" name="when" value="before:French-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_French_Munitions_1" type="player">
@@ -3221,6 +3225,7 @@
             <option count="" name="conditions" value="conditionAttachment-Russians-AlwaysTrue"/>
             <option count="" name="when" value="before:Russians-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Russians_Munitions_1" type="player">
@@ -3239,6 +3244,7 @@
             <option count="" name="conditions" value="conditionAttachment-Austrians-AlwaysTrue"/>
             <option count="" name="when" value="before:Austrians-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Austrians_Munitions_1" type="player">
@@ -3257,6 +3263,7 @@
             <option count="" name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue"/>
             <option count="" name="when" value="before:Ottomans-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Ottomans_Munitions_1" type="player">
@@ -3275,6 +3282,7 @@
             <option count="" name="conditions" value="conditionAttachment-Italians-AlwaysTrue"/>
             <option count="" name="when" value="before:Italians-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Italians_Munitions_1" type="player">
@@ -3293,6 +3301,7 @@
             <option count="" name="conditions" value="conditionAttachment-Americans-AlwaysTrue"/>
             <option count="" name="when" value="before:Americans-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Americans_Munitions_1" type="player">
@@ -3311,6 +3320,7 @@
             <option count="" name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue"/>
             <option count="" name="when" value="before:Imperial-German-Afrika-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_1" type="player">
@@ -3329,6 +3339,7 @@
             <option count="" name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue"/>
             <option count="" name="when" value="before:British-Commonwealth-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_British-Commonwealth_Munitions_1" type="player">
@@ -3347,6 +3358,7 @@
             <option count="" name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue"/>
             <option count="" name="when" value="before:French-Colonial-Africa-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_1" type="player">
@@ -3365,6 +3377,7 @@
             <option count="" name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue"/>
             <option count="" name="when" value="before:Bolsheviks-CombatMove"/>
             <option count="1" name="placement" value="By DKJD:Munitions"/>
+			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Bolsheviks_Munitions_1" type="player">
@@ -3591,6 +3604,7 @@
             <option count="" name="attack" value="4"/>
             <option count="" name="defense" value="4"/>
             <option count="" name="artillery" value="true"/>
+			<option count="" name="createsUnitsList" value="1:Gas-Munitions"/>
         </attachment>
         <attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="8"/>
@@ -3782,6 +3796,21 @@
             <option count="" name="transportCapacity" value="5"/>
             <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99"/>
         </attachment>
+		<attachment attachTo="Gas-Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+			<option count="" name="movement" value="0"/>
+			<option count="" name="attack" value="1"/>
+			<option count="" name="defense" value="0"/>
+			<option count="" name="isSuicide" value="true"/>
+			<option count="" name="isKamikaze" value="true"/>
+		</attachment>
+		<attachment name="supportAttachmentGasMunitions" attachTo="Gas-Munitions" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
+			<option name="unitType" value="infantry"/>
+			<option name="faction" value="enemy"/>
+			<option name="side" value="defense"/>
+			<option name="dice" value="strength"/>
+			<option name="bonus" value="-1"/>
+			<option name="number" value="5"/>
+		</attachment>
         <attachment attachTo="Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
             <option count="" name="attack" value="2"/>
