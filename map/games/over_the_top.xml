@@ -3802,14 +3802,16 @@
 			<option count="" name="defense" value="0"/>
 			<option count="" name="isSuicide" value="true"/>
 			<option count="" name="isKamikaze" value="true"/>
+			<option count="" name="isAir" value="true"/>
 		</attachment>
 		<attachment name="supportAttachmentGasMunitions" attachTo="Gas-Munitions" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-			<option name="unitType" value="infantry"/>
+			<option name="unitType" value="Infantry"/>
 			<option name="faction" value="enemy"/>
-			<option name="side" value="defense"/>
+			<option name="side" value="defence"/>
 			<option name="dice" value="strength"/>
 			<option name="bonus" value="-1"/>
 			<option name="number" value="5"/>
+			<option name="bonusType" value="Gas"/>
 		</attachment>
         <attachment attachTo="Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
