@@ -7925,7 +7925,7 @@
         <property editable="false" name="Use Bombing Max Dice Sides And Bonus" player="" value="true">
             <boolean/>
         </property>
-        <property editable="true" name="Germans bid" player="" value="35">
+        <property editable="true" name="Germans bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
         <property editable="true" name="French bid" player="" value="0">
@@ -7934,10 +7934,10 @@
         <property editable="true" name="Russians bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
-        <property editable="true" name="Austrians bid" player="" value="25">
+        <property editable="true" name="Austrians bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
-        <property editable="true" name="Ottomans bid" player="" value="25">
+        <property editable="true" name="Ottomans bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
         <property editable="true" name="British bid" player="" value="0">
@@ -7949,10 +7949,10 @@
         <property editable="true" name="Americans bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
-        <property editable="true" name="Bolsheviks bid" player="" value="10">
+        <property editable="true" name="Bolsheviks bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
-		<property editable="true" name="Imperial-German-Afrika bid" player="" value="15">
+		<property editable="true" name="Imperial-German-Afrika bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
         <property editable="false" name="mapName" player="" value="over-the-top"/>
