@@ -1594,7 +1594,7 @@
         <alliance alliance="Allies" player="French-Colonial-Africa"/>
         <alliance alliance="Allies" player="British-Commonwealth"/>
         <alliance alliance="Allies" player="Americans"/>
-        <alliance alliance="Central Powers" player="Bolsheviks"/>
+        <alliance alliance="Marxists" player="Bolsheviks"/>
     </playerList>
     <unitList>
         <unit name="Infantry"/>
