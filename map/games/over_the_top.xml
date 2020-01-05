@@ -1582,7 +1582,7 @@
         <player canBeDisabled="false" name="French-Colonial-Africa" optional="false"/>
         <player canBeDisabled="false" name="British-Commonwealth" optional="false"/>
         <player canBeDisabled="false" name="Americans" optional="false"/>
-        <player canBeDisabled="false" name="Bolsheviks" optional="false"/>
+        <player canBeDisabled="false" name="Bolsheviks" optional="false" defaultType="AI"/>
         <alliance alliance="Central Powers" player="Germans"/>
         <alliance alliance="Allies" player="French"/>
         <alliance alliance="Allies" player="Russians"/>
@@ -1594,7 +1594,7 @@
         <alliance alliance="Allies" player="French-Colonial-Africa"/>
         <alliance alliance="Allies" player="British-Commonwealth"/>
         <alliance alliance="Allies" player="Americans"/>
-        <alliance alliance="Marxists" player="Bolsheviks"/>
+        <alliance alliance="Revolutionaries" player="Bolsheviks"/>
     </playerList>
     <unitList>
         <unit name="Infantry"/>
@@ -3806,7 +3806,7 @@
             <option name="isAAforBombingThisUnitOnly" value="false"/>
             <option name="isAAforFlyOverOnly" value="false"/>
             <option name="typeAA" value="Gas"/>
-            <option name="targetsAA" value="Infantry:Cavalry:Elite-Defensive-Infantry:Elite-Offensive-Infantry"/>
+            <option name="targetsAA" value="Infantry:Cavalry:Elite-Defensive-Infantry:Elite-Offensive-Infantry:Field-Artillery"/>
             <option name="movement" value="0"/>
             <option name="isSuicide" value="true"/>
 		</attachment>
