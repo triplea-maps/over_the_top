@@ -3167,229 +3167,217 @@
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Germans_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Germans-AlwaysTrue"/>
             <option count="" name="when" value="before:Germans-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Germans_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Germans-AlwaysTrue"/>
 			<option count="" name="when" value="after:Germans-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Germans_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Germans-AlwaysTrue"/>
             <option count="" name="when" value="after:Germans-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_British_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-British-AlwaysTrue"/>
             <option count="" name="when" value="before:British-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_British_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-AlwaysTrue"/>
 			<option count="" name="when" value="after:British-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_British_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-British-AlwaysTrue"/>
             <option count="" name="when" value="after:British-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_French_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-French-AlwaysTrue"/>
             <option count="" name="when" value="before:French-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_French_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-AlwaysTrue"/>
 			<option count="" name="when" value="after:French-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_French_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-French-AlwaysTrue"/>
             <option count="" name="when" value="after:French-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Russians_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Russians-AlwaysTrue"/>
             <option count="" name="when" value="before:Russians-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Russians_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Russians-AlwaysTrue"/>
 			<option count="" name="when" value="after:Russians-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Russians_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Russians-AlwaysTrue"/>
             <option count="" name="when" value="after:Russians-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Austrians_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Austrians-AlwaysTrue"/>
             <option count="" name="when" value="before:Austrians-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Austrians_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Austrians-AlwaysTrue"/>
 			<option count="" name="when" value="after:Austrians-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Austrians_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Austrians-AlwaysTrue"/>
             <option count="" name="when" value="after:Austrians-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Ottomans_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue"/>
             <option count="" name="when" value="before:Ottomans-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Ottomans_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue"/>
 			<option count="" name="when" value="after:Ottomans-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Ottomans_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Ottomans-AlwaysTrue"/>
             <option count="" name="when" value="after:Ottomans-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Italians_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Italians-AlwaysTrue"/>
             <option count="" name="when" value="before:Italians-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Italians_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Italians-AlwaysTrue"/>
 			<option count="" name="when" value="after:Italians-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Italians_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Italians-AlwaysTrue"/>
             <option count="" name="when" value="after:Italians-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Americans_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Americans-AlwaysTrue"/>
             <option count="" name="when" value="before:Americans-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Americans_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Americans-AlwaysTrue"/>
 			<option count="" name="when" value="after:Americans-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Americans_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Americans-AlwaysTrue"/>
             <option count="" name="when" value="after:Americans-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Imperial-German-Afrika_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue"/>
             <option count="" name="when" value="before:Imperial-German-Afrika-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue"/>
 			<option count="" name="when" value="after:Imperial-German-Afrika-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Imperial-German-Afrika_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Imperial-German-Afrika-AlwaysTrue"/>
             <option count="" name="when" value="after:Imperial-German-Afrika-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_British-Commonwealth_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue"/>
             <option count="" name="when" value="before:British-Commonwealth-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_British-Commonwealth_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue"/>
 			<option count="" name="when" value="after:British-Commonwealth-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_British-Commonwealth_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-British-Commonwealth-AlwaysTrue"/>
             <option count="" name="when" value="after:British-Commonwealth-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_French-Colonial-Africa_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue"/>
             <option count="" name="when" value="before:French-Colonial-Africa-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue"/>
 			<option count="" name="when" value="after:French-Colonial-Africa-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_French-Colonial-Africa_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-French-Colonial-Africa-AlwaysTrue"/>
             <option count="" name="when" value="after:French-Colonial-Africa-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
         <!-- Add single unit so it shows up in battle calculator during both combat moves -->
 		<attachment attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Add_Bolsheviks_Munitions" type="player">
             <option count="" name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue"/>
             <option count="" name="when" value="before:Bolsheviks-CombatMove"/>
-            <option count="1" name="placement" value="By DKJD:Munitions"/>
-			<option count="1" name="placement" value="By DKJD:Gas-Munitions"/>
+            <option count="1" name="placement" value="By DKJD:Munitions:Gas-Munitions"/>
         </attachment>
         <!-- Remove after battle to avoid "this unit cannot land" warnings -->
 		<attachment attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Bolsheviks_Munitions_1" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue"/>
 			<option count="" name="when" value="after:Bolsheviks-Battle"/>
-			<option count="9999" name="removeUnits" value="all:Munitions"/>
+			<option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Remove again at end of turn again since they get created again during the "real" end turn delegate -->
         <attachment attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment_Remove_Bolsheviks_Munitions_2" type="player">
             <option count="" name="conditions" value="conditionAttachment-Bolsheviks-AlwaysTrue"/>
             <option count="" name="when" value="after:Bolsheviks-EndTurn"/>
-            <option count="9999" name="removeUnits" value="all:Munitions"/>
+            <option count="9999" name="removeUnits" value="all:Munitions:Gas-Munitions"/>
 		</attachment>
 		<!-- Set up trenches for Germans so that undefended trenches are capturable during combat but can take hits during battle -->
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-infraDuringCombatMove-Germans-1" type="player">
