@@ -3726,8 +3726,8 @@
             <option count="" name="isFactory" value="true"/>
             <option count="5" name="repairsUnits" value="Tank"/>
             <option count="" name="canBeDamaged" value="true"/>
-            <option count="" name="maxDamage" value="12"/>
-            <option count="" name="maxOperationalDamage" value="6"/>
+            <option count="" name="maxDamage" value="3"/>
+            <option count="" name="maxOperationalDamage" value="2"/>
             <option count="" name="canDieFromReachingMaxDamage" value="true"/>
             <option count="" name="isAAforBombingThisUnitOnly" value="true"/>
             <option count="" name="targetsAA" value="Zeppelin:Bomber:Fighter"/>
@@ -3742,8 +3742,8 @@
             <option count="" name="maxConstructionsPerTypePerTerr" value="1"/>
             <option count="" name="movement" value="0"/>
             <option count="" name="canBeDamaged" value="true"/>
-            <option count="" name="maxDamage" value="12"/>
-            <option count="" name="maxOperationalDamage" value="6"/>
+            <option count="" name="maxDamage" value="10"/>
+            <option count="" name="maxOperationalDamage" value="5"/>
             <option count="" name="canDieFromReachingMaxDamage" value="true"/>
             <option count="" name="isAAforBombingThisUnitOnly" value="true"/>
             <option count="" name="targetsAA" value="Zeppelin:Bomber:Fighter"/>
