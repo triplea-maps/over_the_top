@@ -1638,6 +1638,11 @@
 		<unit name="Develop-Elite-Defensive-Infantry"/>
 		<unit name="Develop-Elite-Offensive-Infantry"/>
     </unitList>
+	<relationshipTypes>
+		<relationshipType name="Allied"/>
+		<relationshipType name="War"/>
+		<relationshipType name="Neutrality"/>
+	</relationshipTypes>
     <gamePlay>
         <delegate display="Initializing Delegates" javaClass="games.strategy.triplea.delegate.InitializationDelegate" name="initDelegate"/>
         <delegate display="Combat Move" javaClass="games.strategy.triplea.delegate.MoveDelegate" name="move"/>
@@ -2257,6 +2262,17 @@
         <playerRepair frontier="repair" player="Bolsheviks"/>
     </production>
     <attachmentList>
+	    <attachment name="relationshipTypeAttachment" attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+			<option name="archeType" value="war"/>
+		</attachment>
+		<attachment name="relationshipTypeAttachment" attachTo="Allied" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+			<option name="archeType" value="allied"/>
+			<option name="givesBackOriginalTerritories" value="true"/>
+		</attachment>
+		<attachment name="relationshipTypeAttachment" attachTo="Neutrality" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
+			<option name="archeType" value="neutral"/>
+		</attachment>
+	
         <!-- Give mech inf to Germans so land transport works and define an "always true" condition for other triggers that should always fire -->
         <attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" name="techAttachment" type="player">
             <option count="" name="mechanizedInfantry" value="true"/>
@@ -7830,6 +7846,74 @@
             <resourceGiven player="Americans" quantity="0" resource="PUs"/>
             <resourceGiven player="Bolsheviks" quantity="27" resource="PUs"/>
         </resourceInitialize>
+		<relationshipInitialize>
+			<relationship type="Allied" player1="Germans" player2="Imperial-German-Afrika" roundValue="1"/>
+			<relationship type="Allied" player1="Germans" player2="Austrians" roundValue="1"/>
+			<relationship type="Allied" player1="Germans" player2="Ottomans" roundValue="1"/>
+			<relationship type="Allied" player1="Austrians" player2="Imperial-German-Afrika" roundValue="1"/>
+			<relationship type="Allied" player1="Austrians" player2="Ottomans" roundValue="1"/>
+			<relationship type="Allied" player1="Ottomans" player2="Imperial-German-Afrika" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="Germans" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="Imperial-German-Afrika" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="Austrians" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="Ottomans" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="French" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="French-Colonial-Africa" roundValue="1"/>
+			<relationship type="War" player1="Bolsheviks" player2="Russians" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="British" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="Italians" roundValue="1"/>
+			<relationship type="Neutrality" player1="Bolsheviks" player2="Americans" roundValue="1"/>
+			<relationship type="War" player1="Germans" player2="French" roundValue="1"/>
+			<relationship type="War" player1="Germans" player2="French-Colonial-Africa" roundValue="1"/>
+			<relationship type="War" player1="Germans" player2="Russians" roundValue="1"/>
+			<relationship type="War" player1="Germans" player2="British" roundValue="1"/>
+			<relationship type="War" player1="Germans" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="War" player1="Germans" player2="Italians" roundValue="1"/>
+			<relationship type="War" player1="Germans" player2="Americans" roundValue="1"/>
+			<relationship type="War" player1="Imperial-German-Afrika" player2="French" roundValue="1"/>
+			<relationship type="War" player1="Imperial-German-Afrika" player2="French-Colonial-Africa" roundValue="1"/>
+			<relationship type="War" player1="Imperial-German-Afrika" player2="Russians" roundValue="1"/>
+			<relationship type="War" player1="Imperial-German-Afrika" player2="British" roundValue="1"/>
+			<relationship type="War" player1="Imperial-German-Afrika" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="War" player1="Imperial-German-Afrika" player2="Italians" roundValue="1"/>
+			<relationship type="War" player1="Imperial-German-Afrika" player2="Americans" roundValue="1"/>
+			<relationship type="War" player1="Austrians" player2="French" roundValue="1"/>
+			<relationship type="War" player1="Austrians" player2="French-Colonial-Africa" roundValue="1"/>
+			<relationship type="War" player1="Austrians" player2="Russians" roundValue="1"/>
+			<relationship type="War" player1="Austrians" player2="British" roundValue="1"/>
+			<relationship type="War" player1="Austrians" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="War" player1="Austrians" player2="Italians" roundValue="1"/>
+			<relationship type="War" player1="Austrians" player2="Americans" roundValue="1"/>
+			<relationship type="War" player1="Ottomans" player2="French" roundValue="1"/>
+			<relationship type="War" player1="Ottomans" player2="French-Colonial-Africa" roundValue="1"/>
+			<relationship type="War" player1="Ottomans" player2="Russians" roundValue="1"/>
+			<relationship type="War" player1="Ottomans" player2="British" roundValue="1"/>
+			<relationship type="War" player1="Ottomans" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="War" player1="Ottomans" player2="Italians" roundValue="1"/>
+			<relationship type="War" player1="Ottomans" player2="Americans" roundValue="1"/>
+			<relationship type="Allied" player1="French" player2="French-Colonial-Africa" roundValue="1"/>
+			<relationship type="Allied" player1="French" player2="Russians" roundValue="1"/>
+			<relationship type="Allied" player1="French" player2="British" roundValue="1"/>
+			<relationship type="Allied" player1="French" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="Allied" player1="French" player2="Italians" roundValue="1"/>
+			<relationship type="Allied" player1="French" player2="Americans" roundValue="1"/>
+			<relationship type="Allied" player1="French-Colonial-Africa" player2="Russians" roundValue="1"/>
+			<relationship type="Allied" player1="French-Colonial-Africa" player2="British" roundValue="1"/>
+			<relationship type="Allied" player1="French-Colonial-Africa" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="Allied" player1="French-Colonial-Africa" player2="Italians" roundValue="1"/>
+			<relationship type="Allied" player1="French-Colonial-Africa" player2="Americans" roundValue="1"/>
+			<relationship type="Allied" player1="Russians" player2="British" roundValue="1"/>
+			<relationship type="Allied" player1="Russians" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="Allied" player1="Russians" player2="Italians" roundValue="1"/>
+			<relationship type="Allied" player1="Russians" player2="Americans" roundValue="1"/>
+			<relationship type="Allied" player1="British" player2="British-Commonwealth" roundValue="1"/>
+			<relationship type="Allied" player1="British" player2="Italians" roundValue="1"/>
+			<relationship type="Allied" player1="British" player2="Americans" roundValue="1"/>
+			<relationship type="Allied" player1="British-Commonwealth" player2="Italians" roundValue="1"/>
+			<relationship type="Allied" player1="British-Commonwealth" player2="Americans" roundValue="1"/>
+			<relationship type="Allied" player1="Italians" player2="Americans" roundValue="1"/>
+		</relationshipInitialize>
     </initialize>
     <propertyList>
         <property editable="false" name="WW2V3" player="" value="true">
