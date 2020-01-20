@@ -3654,7 +3654,7 @@
             <option count="" name="carrierCost" value="3"/>
         </attachment>
 		<attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentZeppelin" type="unitType">
-			<option count="" name="unitType" value="Destroyer:Submarine:Infantry:Elite-Offensive-Infantry:Cavalry"/>
+			<option count="" name="unitType" value="Destroyer:Submarine:Infantry:Mech-Infantry:Elite-Offensive-Infantry:Cavalry"/>
 			<option count="" name="faction" value="allied"/>
 			<option count="" name="side" value="offence"/>
 			<option count="" name="dice" value="strength"/>
@@ -3892,7 +3892,7 @@
 			<option count="" name="transportCost" value="1"/>
 			<option count="" name="attack" value="1"/>
 			<option count="" name="defense" value="2"/>
-			<option count="" name="repairsUnits" value="Trenches"/>
+			<option count="3" name="repairsUnits" value="Trenches"/>
 			<option count="" name="isLandTransportable" value="true"/>
 		</attachment>
         <attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
