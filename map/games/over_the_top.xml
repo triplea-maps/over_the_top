@@ -3571,6 +3571,17 @@
             <option count="" name="isLandTransportable" value="true"/>
             <option count="1" name="repairsUnits" value="Trenches"/>
         </attachment>
+		<attachment attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentBomberInf" type="unitType">
+			<option count="" name="unitType" value="Bomber"/>
+			<option count="" name="faction" value="allied"/>
+			<option count="" name="side" value="offence"/>
+			<option count="" name="dice" value="strength"/>
+			<option count="" name="bonus" value="1"/>
+			<option count="" name="number" value="1"/>
+			<option count="" name="bonusType" value="Ground Support"/>
+			<option count="" name="impArtTech" value="false"/>
+			<option count="" name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Imperial-German-Afrika:French-Colonial-Africa:British-Commonwealth:Americans:Bolsheviks"/>
+		</attachment>
         <attachment attachTo="Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="2"/>
             <option count="" name="transportCost" value="2"/>
@@ -3580,6 +3591,17 @@
             <option count="" name="artillerySupportable" value="false"/>
             <option count="" name="isLandTransport" value="true"/>
         </attachment>
+		<attachment attachTo="Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentBomberMechInf" type="unitType">
+			<option count="" name="unitType" value="Bomber"/>
+			<option count="" name="faction" value="allied"/>
+			<option count="" name="side" value="offence"/>
+			<option count="" name="dice" value="strength"/>
+			<option count="" name="bonus" value="1"/>
+			<option count="" name="number" value="1"/>
+			<option count="" name="bonusType" value="Ground Support"/>
+			<option count="" name="impArtTech" value="false"/>
+			<option count="" name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Imperial-German-Afrika:French-Colonial-Africa:British-Commonwealth:Americans:Bolsheviks"/>
+		</attachment>
         <attachment attachTo="Cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="2"/>
             <option count="" name="transportCost" value="2"/>
@@ -3588,6 +3610,17 @@
             <option count="" name="defense" value="1"/>
             <option count="" name="artillerySupportable" value="true"/>
         </attachment>
+		<attachment attachTo="Cavalry" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentBomberCav" type="unitType">
+			<option count="" name="unitType" value="Bomber"/>
+			<option count="" name="faction" value="allied"/>
+			<option count="" name="side" value="offence"/>
+			<option count="" name="dice" value="strength"/>
+			<option count="" name="bonus" value="1"/>
+			<option count="" name="number" value="1"/>
+			<option count="" name="bonusType" value="Ground Support"/>
+			<option count="" name="impArtTech" value="false"/>
+			<option count="" name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Imperial-German-Afrika:French-Colonial-Africa:British-Commonwealth:Americans:Bolsheviks"/>
+		</attachment>
         <attachment attachTo="Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
             <option count="" name="transportCost" value="3"/>
@@ -3648,7 +3681,7 @@
         <attachment attachTo="Bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="5"/>
             <option count="" name="isAir" value="true"/>
-            <option count="" name="attack" value="4"/>
+            <option count="" name="attack" value="3"/>
             <option count="" name="defense" value="1"/>
             <option count="" name="isStrategicBomber" value="true"/>
             <option count="" name="bombingMaxDieSides" value="5"/>
@@ -3870,6 +3903,17 @@
 			<option count="" name="artillerySupportable" value="true"/>
 			<option count="" name="repairsUnits" value="Trenches"/>
 			<option count="" name="isLandTransportable" value="true"/>
+		</attachment>
+		<attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentBomberInfElite" type="unitType">
+			<option count="" name="unitType" value="Bomber"/>
+			<option count="" name="faction" value="allied"/>
+			<option count="" name="side" value="offence"/>
+			<option count="" name="dice" value="strength"/>
+			<option count="" name="bonus" value="1"/>
+			<option count="" name="number" value="1"/>
+			<option count="" name="bonusType" value="Ground Support"/>
+			<option count="" name="impArtTech" value="false"/>
+			<option count="" name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Imperial-German-Afrika:French-Colonial-Africa:British-Commonwealth:Americans:Bolsheviks"/>
 		</attachment>
         <attachment attachTo="Develop-Elite-Defensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
 			<option count="" name="movement" value="0"/>
