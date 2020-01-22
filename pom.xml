@@ -10,6 +10,12 @@
 
     <build>
         <plugins>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -48,6 +54,30 @@
 	                                    <include>${project.artifactId}.zip</include>
 	                                </includes>
 	                            </resource>
+	                        </resources>
+	                    </configuration>
+	                </execution>
+					<execution>
+	                <id>copy-to-dropbox</id>
+	                    <phase>deploy</phase>
+	                    <goals>
+	                        <goal>copy-resources</goal>
+	                    </goals>
+	                    <configuration>
+	                        <outputDirectory>D:\Dropbox\Danny-John Games\GreatWar New Map</outputDirectory>
+	                        <resources>
+	                            <resource>
+	                                <directory>${project.build.directory}</directory>
+	                                <includes>
+	                                    <include>${project.artifactId}.zip</include>
+	                                </includes>
+	                            </resource>
+								<resource>
+									<directory>${basedir}</directory>
+									<includes>
+										<include>over-the-top.xlsx</include>
+									</includes>
+								</resource>
 	                        </resources>
 	                    </configuration>
 	                </execution>
