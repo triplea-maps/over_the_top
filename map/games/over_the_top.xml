@@ -1582,7 +1582,7 @@
         <player canBeDisabled="false" name="French-Colonial-Africa" optional="false"/>
         <player canBeDisabled="false" name="British-Commonwealth" optional="false"/>
         <player canBeDisabled="false" name="Americans" optional="false"/>
-        <player canBeDisabled="false" name="Bolsheviks" optional="false" defaultType="AI"/>
+        <player canBeDisabled="false" defaultType="AI" name="Bolsheviks" optional="false"/>
         <alliance alliance="Central Powers" player="Germans"/>
         <alliance alliance="Allies" player="French"/>
         <alliance alliance="Allies" player="Russians"/>
@@ -2262,15 +2262,15 @@
         <playerRepair frontier="repair" player="Bolsheviks"/>
     </production>
     <attachmentList>
-	    <attachment name="relationshipTypeAttachment" attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
-			<option name="archeType" value="war"/>
+	    <attachment attachTo="War" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" name="relationshipTypeAttachment" type="relationship">
+			<option count="" name="archeType" value="war"/>
 		</attachment>
-		<attachment name="relationshipTypeAttachment" attachTo="Allied" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
-			<option name="archeType" value="allied"/>
-			<option name="givesBackOriginalTerritories" value="true"/>
+		<attachment attachTo="Allied" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" name="relationshipTypeAttachment" type="relationship">
+			<option count="" name="archeType" value="allied"/>
+			<option count="" name="givesBackOriginalTerritories" value="true"/>
 		</attachment>
-		<attachment name="relationshipTypeAttachment" attachTo="Neutrality" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" type="relationship">
-			<option name="archeType" value="neutral"/>
+		<attachment attachTo="Neutrality" javaClass="games.strategy.triplea.attachments.RelationshipTypeAttachment" name="relationshipTypeAttachment" type="relationship">
+			<option count="" name="archeType" value="neutral"/>
 		</attachment>
 	
         <!-- Give mech inf to Germans so land transport works and define an "always true" condition for other triggers that should always fire -->
@@ -2568,60 +2568,60 @@
 			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for Austrians -->
-		<attachment name="conditionAttachment-Austrians-Develop-Elite-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Austrians-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-Austrians-Develop-Elite-Infantry" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Austrians-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:Austrians-Place" count=""/>
-			<option name="productionRule" value="Austrians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Austrians-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Austrians-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:Austrians-Place"/>
+			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="Austrians-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Austrians-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for Ottomans -->
-		<attachment name="conditionAttachment-Ottomans-Develop-Elite-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Ottomans-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-Ottomans-Develop-Elite-Infantry" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Ottomans-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:Ottomans-Place" count=""/>
-			<option name="productionRule" value="Ottomans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Ottomans-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Ottomans-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:Ottomans-Place"/>
+			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="Ottomans-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Ottomans-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for Italians -->
-		<attachment name="conditionAttachment-Italians-Develop-Elite-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Italians-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-Italians-Develop-Elite-Infantry" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Italians-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:Italians-Place" count=""/>
-			<option name="productionRule" value="Italians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Italians-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Italians-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:Italians-Place"/>
+			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="Italians-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Italians-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for Americans -->
-		<attachment name="conditionAttachment-Americans-Develop-Elite-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Americans-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-Americans-Develop-Elite-Infantry" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Americans-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:Americans-Place" count=""/>
-			<option name="productionRule" value="Americans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Americans-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Americans-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:Americans-Place"/>
+			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="Americans-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Americans-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Mech-Infantry for Austrians -->
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Austrians-Develop-Mech-Infantry" type="player">
@@ -2948,68 +2948,68 @@
 			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for Germans AND Imperial-German-Afrika -->
-		<attachment name="conditionAttachment-Germans-Develop-Elite-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Germans-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-Germans-Develop-Elite-Infantry" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Germans-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:Germans-Place" count=""/>
-			<option name="productionRule" value="Germans-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Germans-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Germans-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-Germans-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:Germans-Place"/>
+			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="Germans-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Germans-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for British AND British-Commonwealth -->
-		<attachment name="conditionAttachment-British-Develop-Elite-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-British-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-British-Develop-Elite-Infantry" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:British-Place" count=""/>
-			<option name="productionRule" value="British-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="British-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="British-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="productionRule" value="British-Commonwealth-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="British-Commonwealth-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-British-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:British-Place"/>
+			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="British-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="British-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for French AND French-Colonial-Africa -->
-		<attachment name="conditionAttachment-French-Develop-Elite-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-French-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-French-Develop-Elite-Infantry" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:French-Place" count=""/>
-			<option name="productionRule" value="French-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="French-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="French-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-French-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:French-Place"/>
+			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="French-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="French-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Elite-Infantry for Russians AND Bolsheviks -->
-		<attachment name="conditionAttachment-Russians-Develop-Elite-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Develop-Elite-Infantry" count="1"/>
+		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Russians-Develop-Elite-Infantry" type="player">
+			<option count="1" name="directPresenceTerritories" value="map"/>
+			<option count="1" name="unitPresence" value="Develop-Elite-Infantry"/>
 		</attachment>
-		<attachment name="triggerAttachment-Russians-Develop-Elite-Infantry" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Russians-Develop-Elite-Infantry" count=""/>
-			<option name="when" value="after:Russians-Place" count=""/>
-			<option name="productionRule" value="Russians-Frontier:-buyDevelop-Elite-Infantry" count=""/>
-			<option name="productionRule" value="Russians-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Russians-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="productionRule" value="Bolsheviks-Frontier:buyElite-Offensive-Infantry" count=""/>
-			<option name="productionRule" value="Bolsheviks-Frontier:buyElite-Defensive-Infantry" count=""/>
-			<option name="removeUnits" value="all:Develop-Elite-Infantry" count="1"/>
-			<option name="uses" value="1" count=""/>
+		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Elite-Infantry" type="player">
+			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Elite-Infantry"/>
+			<option count="" name="when" value="after:Russians-Place"/>
+			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Elite-Infantry"/>
+			<option count="" name="productionRule" value="Russians-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Russians-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyElite-Offensive-Infantry"/>
+			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyElite-Defensive-Infantry"/>
+			<option count="1" name="removeUnits" value="all:Develop-Elite-Infantry"/>
+			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Mech-Infantry for Germans AND Imperial-German-Afrika -->
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Germans-Develop-Mech-Infantry" type="player">
@@ -7904,72 +7904,72 @@
             <resourceGiven player="Bolsheviks" quantity="27" resource="PUs"/>
         </resourceInitialize>
 		<relationshipInitialize>
-			<relationship type="Allied" player1="Germans" player2="Imperial-German-Afrika" roundValue="1"/>
-			<relationship type="Allied" player1="Germans" player2="Austrians" roundValue="1"/>
-			<relationship type="Allied" player1="Germans" player2="Ottomans" roundValue="1"/>
-			<relationship type="Allied" player1="Austrians" player2="Imperial-German-Afrika" roundValue="1"/>
-			<relationship type="Allied" player1="Austrians" player2="Ottomans" roundValue="1"/>
-			<relationship type="Allied" player1="Ottomans" player2="Imperial-German-Afrika" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="Germans" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="Imperial-German-Afrika" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="Austrians" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="Ottomans" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="French" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="French-Colonial-Africa" roundValue="1"/>
-			<relationship type="War" player1="Bolsheviks" player2="Russians" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="British" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="Italians" roundValue="1"/>
-			<relationship type="Neutrality" player1="Bolsheviks" player2="Americans" roundValue="1"/>
-			<relationship type="War" player1="Germans" player2="French" roundValue="1"/>
-			<relationship type="War" player1="Germans" player2="French-Colonial-Africa" roundValue="1"/>
-			<relationship type="War" player1="Germans" player2="Russians" roundValue="1"/>
-			<relationship type="War" player1="Germans" player2="British" roundValue="1"/>
-			<relationship type="War" player1="Germans" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="War" player1="Germans" player2="Italians" roundValue="1"/>
-			<relationship type="War" player1="Germans" player2="Americans" roundValue="1"/>
-			<relationship type="War" player1="Imperial-German-Afrika" player2="French" roundValue="1"/>
-			<relationship type="War" player1="Imperial-German-Afrika" player2="French-Colonial-Africa" roundValue="1"/>
-			<relationship type="War" player1="Imperial-German-Afrika" player2="Russians" roundValue="1"/>
-			<relationship type="War" player1="Imperial-German-Afrika" player2="British" roundValue="1"/>
-			<relationship type="War" player1="Imperial-German-Afrika" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="War" player1="Imperial-German-Afrika" player2="Italians" roundValue="1"/>
-			<relationship type="War" player1="Imperial-German-Afrika" player2="Americans" roundValue="1"/>
-			<relationship type="War" player1="Austrians" player2="French" roundValue="1"/>
-			<relationship type="War" player1="Austrians" player2="French-Colonial-Africa" roundValue="1"/>
-			<relationship type="War" player1="Austrians" player2="Russians" roundValue="1"/>
-			<relationship type="War" player1="Austrians" player2="British" roundValue="1"/>
-			<relationship type="War" player1="Austrians" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="War" player1="Austrians" player2="Italians" roundValue="1"/>
-			<relationship type="War" player1="Austrians" player2="Americans" roundValue="1"/>
-			<relationship type="War" player1="Ottomans" player2="French" roundValue="1"/>
-			<relationship type="War" player1="Ottomans" player2="French-Colonial-Africa" roundValue="1"/>
-			<relationship type="War" player1="Ottomans" player2="Russians" roundValue="1"/>
-			<relationship type="War" player1="Ottomans" player2="British" roundValue="1"/>
-			<relationship type="War" player1="Ottomans" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="War" player1="Ottomans" player2="Italians" roundValue="1"/>
-			<relationship type="War" player1="Ottomans" player2="Americans" roundValue="1"/>
-			<relationship type="Allied" player1="French" player2="French-Colonial-Africa" roundValue="1"/>
-			<relationship type="Allied" player1="French" player2="Russians" roundValue="1"/>
-			<relationship type="Allied" player1="French" player2="British" roundValue="1"/>
-			<relationship type="Allied" player1="French" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="Allied" player1="French" player2="Italians" roundValue="1"/>
-			<relationship type="Allied" player1="French" player2="Americans" roundValue="1"/>
-			<relationship type="Allied" player1="French-Colonial-Africa" player2="Russians" roundValue="1"/>
-			<relationship type="Allied" player1="French-Colonial-Africa" player2="British" roundValue="1"/>
-			<relationship type="Allied" player1="French-Colonial-Africa" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="Allied" player1="French-Colonial-Africa" player2="Italians" roundValue="1"/>
-			<relationship type="Allied" player1="French-Colonial-Africa" player2="Americans" roundValue="1"/>
-			<relationship type="Allied" player1="Russians" player2="British" roundValue="1"/>
-			<relationship type="Allied" player1="Russians" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="Allied" player1="Russians" player2="Italians" roundValue="1"/>
-			<relationship type="Allied" player1="Russians" player2="Americans" roundValue="1"/>
-			<relationship type="Allied" player1="British" player2="British-Commonwealth" roundValue="1"/>
-			<relationship type="Allied" player1="British" player2="Italians" roundValue="1"/>
-			<relationship type="Allied" player1="British" player2="Americans" roundValue="1"/>
-			<relationship type="Allied" player1="British-Commonwealth" player2="Italians" roundValue="1"/>
-			<relationship type="Allied" player1="British-Commonwealth" player2="Americans" roundValue="1"/>
-			<relationship type="Allied" player1="Italians" player2="Americans" roundValue="1"/>
+			<relationship player1="Germans" player2="Imperial-German-Afrika" roundValue="1" type="Allied"/>
+			<relationship player1="Germans" player2="Austrians" roundValue="1" type="Allied"/>
+			<relationship player1="Germans" player2="Ottomans" roundValue="1" type="Allied"/>
+			<relationship player1="Austrians" player2="Imperial-German-Afrika" roundValue="1" type="Allied"/>
+			<relationship player1="Austrians" player2="Ottomans" roundValue="1" type="Allied"/>
+			<relationship player1="Ottomans" player2="Imperial-German-Afrika" roundValue="1" type="Allied"/>
+			<relationship player1="Bolsheviks" player2="Germans" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="Imperial-German-Afrika" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="Austrians" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="Ottomans" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="French" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="French-Colonial-Africa" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="Russians" roundValue="1" type="War"/>
+			<relationship player1="Bolsheviks" player2="British" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="British-Commonwealth" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="Italians" roundValue="1" type="Neutrality"/>
+			<relationship player1="Bolsheviks" player2="Americans" roundValue="1" type="Neutrality"/>
+			<relationship player1="Germans" player2="French" roundValue="1" type="War"/>
+			<relationship player1="Germans" player2="French-Colonial-Africa" roundValue="1" type="War"/>
+			<relationship player1="Germans" player2="Russians" roundValue="1" type="War"/>
+			<relationship player1="Germans" player2="British" roundValue="1" type="War"/>
+			<relationship player1="Germans" player2="British-Commonwealth" roundValue="1" type="War"/>
+			<relationship player1="Germans" player2="Italians" roundValue="1" type="War"/>
+			<relationship player1="Germans" player2="Americans" roundValue="1" type="War"/>
+			<relationship player1="Imperial-German-Afrika" player2="French" roundValue="1" type="War"/>
+			<relationship player1="Imperial-German-Afrika" player2="French-Colonial-Africa" roundValue="1" type="War"/>
+			<relationship player1="Imperial-German-Afrika" player2="Russians" roundValue="1" type="War"/>
+			<relationship player1="Imperial-German-Afrika" player2="British" roundValue="1" type="War"/>
+			<relationship player1="Imperial-German-Afrika" player2="British-Commonwealth" roundValue="1" type="War"/>
+			<relationship player1="Imperial-German-Afrika" player2="Italians" roundValue="1" type="War"/>
+			<relationship player1="Imperial-German-Afrika" player2="Americans" roundValue="1" type="War"/>
+			<relationship player1="Austrians" player2="French" roundValue="1" type="War"/>
+			<relationship player1="Austrians" player2="French-Colonial-Africa" roundValue="1" type="War"/>
+			<relationship player1="Austrians" player2="Russians" roundValue="1" type="War"/>
+			<relationship player1="Austrians" player2="British" roundValue="1" type="War"/>
+			<relationship player1="Austrians" player2="British-Commonwealth" roundValue="1" type="War"/>
+			<relationship player1="Austrians" player2="Italians" roundValue="1" type="War"/>
+			<relationship player1="Austrians" player2="Americans" roundValue="1" type="War"/>
+			<relationship player1="Ottomans" player2="French" roundValue="1" type="War"/>
+			<relationship player1="Ottomans" player2="French-Colonial-Africa" roundValue="1" type="War"/>
+			<relationship player1="Ottomans" player2="Russians" roundValue="1" type="War"/>
+			<relationship player1="Ottomans" player2="British" roundValue="1" type="War"/>
+			<relationship player1="Ottomans" player2="British-Commonwealth" roundValue="1" type="War"/>
+			<relationship player1="Ottomans" player2="Italians" roundValue="1" type="War"/>
+			<relationship player1="Ottomans" player2="Americans" roundValue="1" type="War"/>
+			<relationship player1="French" player2="French-Colonial-Africa" roundValue="1" type="Allied"/>
+			<relationship player1="French" player2="Russians" roundValue="1" type="Allied"/>
+			<relationship player1="French" player2="British" roundValue="1" type="Allied"/>
+			<relationship player1="French" player2="British-Commonwealth" roundValue="1" type="Allied"/>
+			<relationship player1="French" player2="Italians" roundValue="1" type="Allied"/>
+			<relationship player1="French" player2="Americans" roundValue="1" type="Allied"/>
+			<relationship player1="French-Colonial-Africa" player2="Russians" roundValue="1" type="Allied"/>
+			<relationship player1="French-Colonial-Africa" player2="British" roundValue="1" type="Allied"/>
+			<relationship player1="French-Colonial-Africa" player2="British-Commonwealth" roundValue="1" type="Allied"/>
+			<relationship player1="French-Colonial-Africa" player2="Italians" roundValue="1" type="Allied"/>
+			<relationship player1="French-Colonial-Africa" player2="Americans" roundValue="1" type="Allied"/>
+			<relationship player1="Russians" player2="British" roundValue="1" type="Allied"/>
+			<relationship player1="Russians" player2="British-Commonwealth" roundValue="1" type="Allied"/>
+			<relationship player1="Russians" player2="Italians" roundValue="1" type="Allied"/>
+			<relationship player1="Russians" player2="Americans" roundValue="1" type="Allied"/>
+			<relationship player1="British" player2="British-Commonwealth" roundValue="1" type="Allied"/>
+			<relationship player1="British" player2="Italians" roundValue="1" type="Allied"/>
+			<relationship player1="British" player2="Americans" roundValue="1" type="Allied"/>
+			<relationship player1="British-Commonwealth" player2="Italians" roundValue="1" type="Allied"/>
+			<relationship player1="British-Commonwealth" player2="Americans" roundValue="1" type="Allied"/>
+			<relationship player1="Italians" player2="Americans" roundValue="1" type="Allied"/>
 		</relationshipInitialize>
     </initialize>
     <propertyList>
