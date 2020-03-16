@@ -1630,7 +1630,6 @@
         <unit name="Train"/>
         <unit name="Munitions"/>
 		<unit name="Gas-Munitions"/>
-        <unit name="Develop-Railgun"/>
         <unit name="Railgun"/>
 		<unit name="Develop-Elite-Infantry"/>
 		<unit name="Elite-Defensive-Infantry"/>
@@ -1885,7 +1884,7 @@
             <result quantity="1" resourceOrUnit="Develop-Carrier"/>
         </productionRule>
         <productionRule name="buyDevelop-Heavy-Artillery">
-            <cost quantity="30" resource="PUs"/>
+            <cost quantity="40" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Develop-Heavy-Artillery"/>
         </productionRule>
         <productionRule name="buyArmored-Train">
@@ -1899,10 +1898,6 @@
         <productionRule name="buyMunitions">
             <cost quantity="1" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Munitions"/>
-        </productionRule>
-        <productionRule name="buyDevelop-Railgun">
-            <cost quantity="25" resource="PUs"/>
-            <result quantity="1" resourceOrUnit="Develop-Railgun"/>
         </productionRule>
         <productionRule name="buyRailgun">
             <cost quantity="10" resource="PUs"/>
@@ -2032,7 +2027,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2059,7 +2053,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2086,7 +2079,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2113,7 +2105,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2140,7 +2131,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2167,7 +2157,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2194,7 +2183,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2221,7 +2209,6 @@
 			<frontierRules name="buyDevelop-Heavy-Artillery"/>
 			<frontierRules name="buyDevelop-Elite-Infantry"/>
 			<frontierRules name="buyDevelop-Mech-Infantry"/>
-			<frontierRules name="buyDevelop-Railgun"/>
 			<frontierRules name="buyDevelop-Tank"/>
 			<frontierRules name="buyFactory"/>
 			<frontierRules name="buyField-Artillery"/>
@@ -2397,13 +2384,6 @@
 			<option count="" name="maxBuiltPerPlayer" value="1"/>
 			<option count="" name="isInfrastructure" value="true"/>
 		</attachment>
-		<attachment attachTo="Develop-Railgun" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-			<option count="" name="attack" value="0"/>
-			<option count="" name="defense" value="0"/>
-			<option count="" name="movement" value="0"/>
-			<option count="" name="maxBuiltPerPlayer" value="1"/>
-			<option count="" name="isInfrastructure" value="true"/>
-		</attachment>
 		<attachment attachTo="Develop-Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
 			<option count="" name="attack" value="0"/>
 			<option count="" name="defense" value="0"/>
@@ -2525,6 +2505,7 @@
 			<option count="" name="when" value="after:Austrians-Place"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="Austrians-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -2538,6 +2519,7 @@
 			<option count="" name="when" value="after:Ottomans-Place"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="Ottomans-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -2551,6 +2533,7 @@
 			<option count="" name="when" value="after:Italians-Place"/>
 			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="Italians-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -2564,6 +2547,7 @@
 			<option count="" name="when" value="after:Americans-Place"/>
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="Americans-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -2673,58 +2657,6 @@
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyMech-Infantry"/>
 			<option count="1" name="removeUnits" value="all:Develop-Mech-Infantry"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for Austrians -->
-		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Austrians-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Railgun"/>
-			<option count="" name="when" value="after:Austrians-Place"/>
-			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="Austrians-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for Ottomans -->
-		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Ottomans-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Railgun"/>
-			<option count="" name="when" value="after:Ottomans-Place"/>
-			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="Ottomans-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for Italians -->
-		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Italians-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Railgun"/>
-			<option count="" name="when" value="after:Italians-Place"/>
-			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="Italians-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for Americans -->
-		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Americans-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Railgun"/>
-			<option count="" name="when" value="after:Americans-Place"/>
-			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="Americans-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Tank for Austrians -->
@@ -2902,6 +2834,8 @@
 			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="Germans-Frontier:buyRailgun"/>
+			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -2916,6 +2850,8 @@
 			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="British-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="British-Frontier:buyRailgun"/>
+			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -2930,6 +2866,8 @@
 			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="French-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="French-Frontier:buyRailgun"/>
+			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -2944,6 +2882,8 @@
 			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyHeavy-Artillery"/>
+			<option count="" name="productionRule" value="Russians-Frontier:buyRailgun"/>
+			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyRailgun"/>
 			<option count="1" name="removeUnits" value="all:Develop-Heavy-Artillery"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
@@ -3065,62 +3005,6 @@
 			<option count="" name="productionRule" value="Russians-Frontier:buyMech-Infantry"/>
 			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyMech-Infantry"/>
 			<option count="1" name="removeUnits" value="all:Develop-Mech-Infantry"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for Germans AND Imperial-German-Afrika -->
-		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Germans-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-Germans-Develop-Railgun"/>
-			<option count="" name="when" value="after:Germans-Place"/>
-			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="Germans-Frontier:buyRailgun"/>
-			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for British AND British-Commonwealth -->
-		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-British-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-British-Develop-Railgun"/>
-			<option count="" name="when" value="after:British-Place"/>
-			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="British-Frontier:buyRailgun"/>
-			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for French AND French-Colonial-Africa -->
-		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-French-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-French-Develop-Railgun"/>
-			<option count="" name="when" value="after:French-Place"/>
-			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="French-Frontier:buyRailgun"/>
-			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
-			<option count="" name="uses" value="1"/>
-		</attachment>
-		<!-- Develop Railgun for Russians AND Bolsheviks -->
-		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Russians-Develop-Railgun" type="player">
-			<option count="1" name="directPresenceTerritories" value="map"/>
-			<option count="1" name="unitPresence" value="Develop-Railgun"/>
-		</attachment>
-		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Railgun" type="player">
-			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Railgun"/>
-			<option count="" name="when" value="after:Russians-Place"/>
-			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Railgun"/>
-			<option count="" name="productionRule" value="Russians-Frontier:buyRailgun"/>
-			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyRailgun"/>
-			<option count="1" name="removeUnits" value="all:Develop-Railgun"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
 		<!-- Develop Tank for Germans AND Imperial-German-Afrika -->
