@@ -3742,14 +3742,14 @@
             <option count="" name="typeAA" value="Gas"/>
             <option count="" name="targetsAA" value="Infantry:Cavalry:Elite-Defensive-Infantry:Elite-Offensive-Infantry:Field-Artillery"/>
             <option count="" name="movement" value="0"/>
-            <option count="" name="isSuicide" value="true"/>
+            <option count="" name="isSuicideOnAttack" value="true"/>
 		</attachment>
         <attachment attachTo="Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
             <option count="" name="attack" value="2"/>
             <option count="" name="defense" value="0"/>
             <option count="" name="isAir" value="true"/>
-            <option count="" name="isSuicide" value="true"/>
+            <option count="" name="isSuicideOnAttack" value="true"/>
             <option count="" name="isKamikaze" value="true"/>
             <option count="" name="isStrategicBomber" value="true"/>
             <option count="" name="bombingMaxDieSides" value="3"/>
