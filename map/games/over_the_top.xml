@@ -2642,6 +2642,7 @@
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Bomber" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Bomber"/>
 			<option count="" name="when" value="after:Austrians-Place"/>
+            <option count="" name="when" value="after:Austrians-BidPlace"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Bomber"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyBomber"/>
 			<option count="1" name="removeUnits" value="all:Develop-Bomber"/>
@@ -2655,6 +2656,7 @@
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Bomber" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Bomber"/>
 			<option count="" name="when" value="after:Ottomans-Place"/>
+            <option count="" name="when" value="after:Ottomans-BidPlace"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Bomber"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyBomber"/>
 			<option count="1" name="removeUnits" value="all:Develop-Bomber"/>
@@ -2668,6 +2670,7 @@
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Bomber" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Bomber"/>
 			<option count="" name="when" value="after:Italians-Place"/>
+            <option count="" name="when" value="after:Italians-BidPlace"/>
 			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Bomber"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyBomber"/>
 			<option count="1" name="removeUnits" value="all:Develop-Bomber"/>
@@ -2681,6 +2684,7 @@
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Bomber" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Bomber"/>
 			<option count="" name="when" value="after:Americans-Place"/>
+            <option count="" name="when" value="after:Americans-BidPlace"/>
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Bomber"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyBomber"/>
 			<option count="1" name="removeUnits" value="all:Develop-Bomber"/>
@@ -2694,6 +2698,7 @@
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Carrier"/>
 			<option count="" name="when" value="after:Austrians-Place"/>
+            <option count="" name="when" value="after:Austrians-BidPlace"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyCarrier"/>
 			<option count="1" name="removeUnits" value="all:Develop-Carrier"/>
@@ -2707,6 +2712,7 @@
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Carrier"/>
 			<option count="" name="when" value="after:Ottomans-Place"/>
+            <option count="" name="when" value="after:Ottomans-BidPlace"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyCarrier"/>
 			<option count="1" name="removeUnits" value="all:Develop-Carrier"/>
@@ -2720,6 +2726,7 @@
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Carrier"/>
 			<option count="" name="when" value="after:Italians-Place"/>
+            <option count="" name="when" value="after:Italians-BidPlace"/>
 			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyCarrier"/>
 			<option count="1" name="removeUnits" value="all:Develop-Carrier"/>
@@ -2733,6 +2740,7 @@
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Carrier"/>
 			<option count="" name="when" value="after:Americans-Place"/>
+            <option count="" name="when" value="after:Americans-BidPlace"/>
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyCarrier"/>
 			<option count="1" name="removeUnits" value="all:Develop-Carrier"/>
@@ -2746,6 +2754,7 @@
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:Austrians-Place"/>
+            <option count="" name="when" value="after:Austrians-BidPlace"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -2761,6 +2770,7 @@
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:Ottomans-Place"/>
+            <option count="" name="when" value="after:Ottomans-BidPlace"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -2776,6 +2786,7 @@
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:Italians-Place"/>
+            <option count="" name="when" value="after:Italians-BidPlace"/>
 			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -2791,6 +2802,7 @@
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:Americans-Place"/>
+            <option count="" name="when" value="after:Americans-BidPlace"/>
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -2806,6 +2818,7 @@
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:Austrians-Place"/>
+			<option count="" name="when" value="after:Austrians-BidPlace"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyElite-Defensive-Infantry"/>
@@ -2820,6 +2833,7 @@
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:Ottomans-Place"/>
+			<option count="" name="when" value="after:Ottomans-BidPlace"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyElite-Defensive-Infantry"/>
@@ -2834,6 +2848,7 @@
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:Italians-Place"/>
+			<option count="" name="when" value="after:Italians-BidPlace"/>
 			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyElite-Defensive-Infantry"/>
@@ -2848,6 +2863,7 @@
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:Americans-Place"/>
+			<option count="" name="when" value="after:Americans-BidPlace"/>
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyElite-Defensive-Infantry"/>
@@ -2862,6 +2878,7 @@
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:Austrians-Place"/>
+            <option count="" name="when" value="after:Austrians-BidPlace"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyMech-Infantry"/>
 			<option count="1" name="removeUnits" value="all:Develop-Mech-Infantry"/>
@@ -2875,6 +2892,7 @@
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:Ottomans-Place"/>
+            <option count="" name="when" value="after:Ottomans-BidPlace"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyMech-Infantry"/>
 			<option count="1" name="removeUnits" value="all:Develop-Mech-Infantry"/>
@@ -2888,6 +2906,7 @@
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:Italians-Place"/>
+            <option count="" name="when" value="after:Italians-BidPlace"/>
 			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyMech-Infantry"/>
 			<option count="1" name="removeUnits" value="all:Develop-Mech-Infantry"/>
@@ -2901,6 +2920,7 @@
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:Americans-Place"/>
+            <option count="" name="when" value="after:Americans-BidPlace"/>
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyMech-Infantry"/>
 			<option count="1" name="removeUnits" value="all:Develop-Mech-Infantry"/>
@@ -2914,6 +2934,7 @@
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Austrians-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Austrians-Develop-Tank"/>
 			<option count="" name="when" value="after:Austrians-Place"/>
+            <option count="" name="when" value="after:Austrians-BidPlace"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="Austrians-Frontier:buyTank"/>
 			<option count="1" name="removeUnits" value="all:Develop-Tank"/>
@@ -2927,6 +2948,7 @@
 		<attachment attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Ottomans-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Ottomans-Develop-Tank"/>
 			<option count="" name="when" value="after:Ottomans-Place"/>
+            <option count="" name="when" value="after:Ottomans-BidPlace"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="Ottomans-Frontier:buyTank"/>
 			<option count="1" name="removeUnits" value="all:Develop-Tank"/>
@@ -2940,6 +2962,7 @@
 		<attachment attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Italians-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Italians-Develop-Tank"/>
 			<option count="" name="when" value="after:Italians-Place"/>
+            <option count="" name="when" value="after:Italians-BidPlace"/>
 			<option count="" name="productionRule" value="Italians-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="Italians-Frontier:buyTank"/>
 			<option count="1" name="removeUnits" value="all:Develop-Tank"/>
@@ -2953,6 +2976,7 @@
 		<attachment attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Americans-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Americans-Develop-Tank"/>
 			<option count="" name="when" value="after:Americans-Place"/>
+            <option count="" name="when" value="after:Americans-BidPlace"/>
 			<option count="" name="productionRule" value="Americans-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="Americans-Frontier:buyTank"/>
 			<option count="1" name="removeUnits" value="all:Develop-Tank"/>
@@ -3206,6 +3230,7 @@
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Bomber" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-Develop-Bomber"/>
 			<option count="" name="when" value="after:British-Place"/>
+            <option count="" name="when" value="after:British-BidPlace"/>
 			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Bomber"/>
 			<option count="" name="productionRule" value="British-Frontier:buyBomber"/>
 			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyBomber"/>
@@ -3220,6 +3245,7 @@
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Bomber" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-Develop-Bomber"/>
 			<option count="" name="when" value="after:French-Place"/>
+            <option count="" name="when" value="after:French-BidPlace"/>
 			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Bomber"/>
 			<option count="" name="productionRule" value="French-Frontier:buyBomber"/>
 			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyBomber"/>
@@ -3234,6 +3260,7 @@
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Bomber" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Bomber"/>
 			<option count="" name="when" value="after:Russians-Place"/>
+            <option count="" name="when" value="after:Russians-BidPlace"/>
 			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Bomber"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyBomber"/>
 			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyBomber"/>
@@ -3248,6 +3275,7 @@
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Germans-Develop-Carrier"/>
 			<option count="" name="when" value="after:Germans-Place"/>
+            <option count="" name="when" value="after:Germans-BidPlace"/>
 			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyCarrier"/>
 			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyCarrier"/>
@@ -3262,6 +3290,7 @@
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-Develop-Carrier"/>
 			<option count="" name="when" value="after:British-Place"/>
+            <option count="" name="when" value="after:British-BidPlace"/>
 			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="British-Frontier:buyCarrier"/>
 			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyCarrier"/>
@@ -3276,6 +3305,7 @@
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-Develop-Carrier"/>
 			<option count="" name="when" value="after:French-Place"/>
+            <option count="" name="when" value="after:French-BidPlace"/>
 			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="French-Frontier:buyCarrier"/>
 			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyCarrier"/>
@@ -3290,6 +3320,7 @@
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Carrier" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Carrier"/>
 			<option count="" name="when" value="after:Russians-Place"/>
+            <option count="" name="when" value="after:Russians-BidPlace"/>
 			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Carrier"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyCarrier"/>
 			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyCarrier"/>
@@ -3304,6 +3335,7 @@
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Germans-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:Germans-Place"/>
+            <option count="" name="when" value="after:Germans-BidPlace"/>
 			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -3322,6 +3354,7 @@
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:British-Place"/>
+            <option count="" name="when" value="after:British-BidPlace"/>
 			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="British-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="British-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -3340,6 +3373,7 @@
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:French-Place"/>
+            <option count="" name="when" value="after:French-BidPlace"/>
 			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="French-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="French-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -3358,6 +3392,7 @@
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Heavy-Artillery" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Heavy-Artillery"/>
 			<option count="" name="when" value="after:Russians-Place"/>
+            <option count="" name="when" value="after:Russians-BidPlace"/>
 			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Heavy-Artillery"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyHeavy-Artillery"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyEmplace-Heavy-Artillery"/>
@@ -3376,6 +3411,7 @@
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Germans-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:Germans-Place"/>
+			<option count="" name="when" value="after:Germans-BidPlace"/>
 			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyElite-Defensive-Infantry"/>
@@ -3392,6 +3428,7 @@
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:British-Place"/>
+			<option count="" name="when" value="after:British-BidPlace"/>
 			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="British-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="British-Frontier:buyElite-Defensive-Infantry"/>
@@ -3408,6 +3445,7 @@
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:French-Place"/>
+			<option count="" name="when" value="after:French-BidPlace"/>
 			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="French-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="French-Frontier:buyElite-Defensive-Infantry"/>
@@ -3424,6 +3462,7 @@
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Elite-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Elite-Infantry"/>
 			<option count="" name="when" value="after:Russians-Place"/>
+			<option count="" name="when" value="after:Russians-BidPlace"/>
 			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Elite-Infantry"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyElite-Offensive-Infantry"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyElite-Defensive-Infantry"/>
@@ -3440,6 +3479,7 @@
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Germans-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:Germans-Place"/>
+            <option count="" name="when" value="after:Germans-BidPlace"/>
 			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyMech-Infantry"/>
 			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyMech-Infantry"/>
@@ -3454,6 +3494,7 @@
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:British-Place"/>
+            <option count="" name="when" value="after:British-BidPlace"/>
 			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="British-Frontier:buyMech-Infantry"/>
 			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyMech-Infantry"/>
@@ -3468,6 +3509,7 @@
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:French-Place"/>
+            <option count="" name="when" value="after:French-BidPlace"/>
 			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="French-Frontier:buyMech-Infantry"/>
 			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyMech-Infantry"/>
@@ -3482,6 +3524,7 @@
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Mech-Infantry" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Mech-Infantry"/>
 			<option count="" name="when" value="after:Russians-Place"/>
+            <option count="" name="when" value="after:Russians-BidPlace"/>
 			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Mech-Infantry"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyMech-Infantry"/>
 			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyMech-Infantry"/>
@@ -3496,6 +3539,7 @@
 		<attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Germans-Develop-Tank"/>
 			<option count="" name="when" value="after:Germans-Place"/>
+            <option count="" name="when" value="after:Germans-BidPlace"/>
 			<option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="Germans-Frontier:buyTank"/>
 			<option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyTank"/>
@@ -3510,6 +3554,7 @@
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-British-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-British-Develop-Tank"/>
 			<option count="" name="when" value="after:British-Place"/>
+            <option count="" name="when" value="after:British-BidPlace"/>
 			<option count="" name="productionRule" value="British-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="British-Frontier:buyTank"/>
 			<option count="" name="productionRule" value="British-Commonwealth-Frontier:buyTank"/>
@@ -3524,6 +3569,7 @@
 		<attachment attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-French-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-French-Develop-Tank"/>
 			<option count="" name="when" value="after:French-Place"/>
+            <option count="" name="when" value="after:French-BidPlace"/>
 			<option count="" name="productionRule" value="French-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="French-Frontier:buyTank"/>
 			<option count="" name="productionRule" value="French-Colonial-Africa-Frontier:buyTank"/>
@@ -3538,6 +3584,7 @@
 		<attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Russians-Develop-Tank" type="player">
 			<option count="" name="conditions" value="conditionAttachment-Russians-Develop-Tank"/>
 			<option count="" name="when" value="after:Russians-Place"/>
+            <option count="" name="when" value="after:Russians-BidPlace"/>
 			<option count="" name="productionRule" value="Russians-Frontier:-buyDevelop-Tank"/>
 			<option count="" name="productionRule" value="Russians-Frontier:buyTank"/>
 			<option count="" name="productionRule" value="Bolsheviks-Frontier:buyTank"/>
