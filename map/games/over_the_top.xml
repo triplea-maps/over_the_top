@@ -1801,18 +1801,18 @@
         <resource name="PUs"/>
     </resourceList>
     <playerList>
-        <player canBeDisabled="false" name="Germans" optional="false"/>
-        <player canBeDisabled="false" name="French" optional="false"/>
-        <player canBeDisabled="false" name="Russians" optional="false"/>
-        <player canBeDisabled="false" name="Austrians" optional="false"/>
-        <player canBeDisabled="false" name="Ottomans" optional="false"/>
-        <player canBeDisabled="false" name="British" optional="false"/>
-        <player canBeDisabled="false" name="Italians" optional="false"/>
-        <player canBeDisabled="false" name="Imperial-German-Afrika" optional="false"/>
-        <player canBeDisabled="false" name="French-Colonial-Africa" optional="false"/>
-        <player canBeDisabled="false" name="British-Commonwealth" optional="false"/>
-        <player canBeDisabled="false" name="Americans" optional="false"/>
-        <player canBeDisabled="false" defaultType="AI" name="Bolsheviks" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="Germans" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="French" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="Russians" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="Austrians" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="Ottomans" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="British" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="Italians" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="Imperial-German-Afrika" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="French-Colonial-Africa" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="British-Commonwealth" optional="false"/>
+        <player canBeDisabled="false" defaultType="Human" isHidden="false" name="Americans" optional="false"/>
+        <player canBeDisabled="false" defaultType="AI" isHidden="false" name="Bolsheviks" optional="false"/>
         <alliance alliance="Central Powers" player="Germans"/>
         <alliance alliance="Allies" player="French"/>
         <alliance alliance="Allies" player="Russians"/>
