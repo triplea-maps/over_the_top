@@ -8342,33 +8342,42 @@ along Imperial Russia's eastern most territories thus opening another front.</p>
 
 <h1 style="border-bottom:solid #AA610D 1.5pt;">Factions</h1>
 
-<h2>Central Powers</h2>
-<ul>
-<li>Germans</li>
-<li>Austrians</li>
-<li>Ottomans</li>
-<li>Imperial German Afrika</li>
-</ul>
+<h2>Alliances</h2>
 
-<h2>Allies</h2>
-<ul>
-<li>French</li>
-<li>French Colonial Africa</li>
-<li>Russians</li>
-<li>British</li>
-<li>British Commonwealth</li>
-<li>Italians</li>
-<li>Americans</li>
-</ul>
+<table style="border: 1px solid rgb(239,181,113);">
+	<tr>
+		<th style="border: 1px solid rgb(239,181,113);">Central Powers</th>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<img src="ger.png" />&nbsp;Germans<br/>
+			<img src="iga.png" />&nbsp;Imperial German Afrika<br/>
+			<img src="aus.png" />&nbsp;Austrians<br/>
+			<img src="ott.png" />&nbsp;Ottomans<br/>
+		</td>
+	</tr>
+	<tr>
+		<th style="border: 1px solid rgb(239,181,113);">Allies</th>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<img src="fre.png" />&nbsp;French<br/>
+			<img src="fca.png" />&nbsp;French Colonial Africa<br/>
+			<img src="rus.png" />&nbsp;Russians<br/>
+			<img src="bri.png" />&nbsp;British<br/>
+			<img src="bc.png" />&nbsp;British Commonwealth<br/>
+			<img src="ita.png" />&nbsp;Italians<br/>
+			<img src="ame.png" />&nbsp;Americans<br/>		
+		</td>
+	</tr>
+	<tr>
+		<th style="border: 1px solid rgb(239,181,113);">Revolutionaries</th>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<img src="bol.png" />&nbsp;Bolsheviks<br/>
+			<i style="font-size: 90%">AI controlled recommended</i>	
+		</td>
+	</tr>
+</table>
 
-<h3>Bolsheviks</h3>
-<i>AI controlled recommended</i>
+<h2>How They Play</h2>
 
-<h1 style="border-bottom:solid #AA610D 1.5pt;">How they play</h1>
-
-<h2>Germans</h2>
-
-<p>Imperial Germany is the leading faction
+<p><img src="ger.png" />&nbsp;<b>Germans -</b> Imperial Germany is the leading faction
 for the Central Powers and controls the overall tempo of the game. Germany has
 many options at the start, but can really only focus on a single plan of
 attack. Trying to fight everywhere at once will only lead to disaster. Deciding
@@ -8392,9 +8401,16 @@ scenario. The Russians too have their race against time as the Bolsheviks will
 inevitable gain strength overtime. Taking advantage of this situation is
 Germany’s most logical play.</p>
 
-<h2>Austrians</h2>
+<p><img src="iga.png" />&nbsp;<b>Imperial German Afrika -</b> Imperial German Afrika,
+predecessors to the infamous Afrika Corps. In this game, which has taken many liberties in terms of authenticity,
+provides the Central Powers with a formidable faction to match the Allied
+colonial forces. Speed and mobility is key to winning as much territory and
+income early on in order to sufficiently survive until Ottoman support is
+provided. Strong as they are, they cannot carry on by themselves for long. They
+are the thorn in the Allies’ side and if used correctly can tie up France and
+England’s colonial support indefinitely.</p>
 
-<p>The Austro-Hungarian
+<p><img src="aus.png" />&nbsp;<b>Austrians -</b> The Austro-Hungarian
 Empire, like a fettered corpse dragged along by the strong arm of Germany is
 the weakest of the Central Powers. R&amp;D is costly as it will eat a giant
 chunk from their low income. Therefore, it is best to purchase one at the start
@@ -8405,9 +8421,7 @@ certainly achievable, however Germany is required for any long-term offensive
 strikes. Austria is in a precarious position and can either become Germany’s
 greatest asset or their greatest burden.</p>
 
-<h2>Ottomans</h2>
-
-<p>The Ottoman Empire aka &quot;sick man of Europe&quot;. The primary
+<p><img src="ott.png" />&nbsp;<b>Ottomans -</b> The Ottoman Empire aka &quot;sick man of Europe&quot;. The primary
 goal for the Ottoman Empire is to gain control of Gallipoli, securing the Black
 Sea as well as capturing the Suez Canal from the British. Cairo is the gateway
 to Africa. As long as Egypt remains in British hands, the German forces in
@@ -8417,21 +8431,25 @@ resources away from the Eastern Front. Ottoman naval power if used wisely, can c
 multiple offensive options against Allied forces in the Mediterranean and may
 prove crucial to ensuring Italy’s downfall.</p>
 
-<p><b><span style='font-size:14.0pt'>Imperial
-German Afrika</span></b></p>
+<p><img src="fre.png" />&nbsp;<b>French -</b> France, L'avance, l'avance,
+toujours l'avance! France is very much a one dimensional
+faction. Gaining ground on the Western Front and forcing the Germans to retreat
+towards the interior is their primary purpose. Their supporting elements can be
+used to bolster the Royal Navy in the channel as well as securing Italy’s northern
+front. They have the benefit of a well placed and lucrative railway system.
+They are also economically sound and able to focus on R&amp;D. As they are tied
+to their colonial counterpart, they can provide valuable technological upgrades
+to help turn the tide against Imperial German Afrika.</span></p>
 
-<p>Imperial German Afrika, predecessors to the infamous Afrika
-Corps. In this game, which has taken many liberties in terms of authenticity,
-provides the Central Powers with a formidable faction to match the Allied
-colonial forces. Speed and mobility is key to winning as much territory and
-income early on in order to sufficiently survive until Ottoman support is
-provided. Strong as they are, they cannot carry on by themselves for long. They
-are the thorn in the Allies’ side and if used correctly can tie up France and
-England’s colonial support indefinitely.</p>
+<p><img src="fca.png" />&nbsp;<b>French Colonial Africa -</b> French Colonial Africa, the French Foreign
+Legion on steroids. As with the Germans, the French have been provided with a
+formidable military presence in Africa. Because of their strategic location
+along the western coast, they have the advantage of security through distance.
+Coordinating with British colonial forces efficiently by way of ‘leap frogging’
+attacks against the Germans is the surest way to victory and the conquest of
+the continent.</p>
 
-<p><b><span style='font-size:14.0pt'>Russians</span></b></p>
-
-<p>The Russian Empire, the bear caught
+<p><img src="rus.png" />&nbsp;<b>Russians -</b> The Russian Empire, the bear caught
 between a giant vise. Their survival solely depends on Germany’s offensive
 decision. If the East is Germany’s main focus, then it will only be a matter of
 time till the czarist forces are inevitably driven back to the gates of Moscow,
@@ -8443,30 +8461,7 @@ it will only allow the Bolsheviks to gain access to the same technological
 upgrades. Making the enemy pay dearly for every inch of sacred soil is Russia’s
 sworn oath.</p>
 
-<p><b><span style='font-size:14.0pt;'>French</span></b></p>
-
-<p>France, L'avance, l'avance, toujours l'avance! France is very much a one dimensional
-faction. Gaining ground on the Western Front and forcing the Germans to retreat
-towards the interior is their primary purpose. Their supporting elements can be
-used to bolster the Royal Navy in the channel as well as securing Italy’s northern
-front. They have the benefit of a well placed and lucrative railway system.
-They are also economically sound and able to focus on R&amp;D. As they are tied
-to their colonial counterpart, they can provide valuable technological upgrades
-to help turn the tide against Imperial German Afrika.</span></p>
-
-<p><b><span style='font-size:14.0pt;'>French Colonial Africa</span></b></p>
-
-<p>French Colonial Africa, the French Foreign
-Legion on steroids. As with the Germans, the French have been provided with a
-formidable military presence in Africa. Because of their strategic location
-along the western coast, they have the advantage of security through distance.
-Coordinating with British colonial forces efficiently by way of ‘leap frogging’
-attacks against the Germans is the surest way to victory and the conquest of
-the continent.</p>
-
-<p><b><span style='font-size:14.0pt;'>British</span></b></p>
-
-<p>Great Britain, will continue to rule the waves as ever before. Naval power and
+<p><img src="bri.png" />&nbsp;<b>British -</b> Great Britain, will continue to rule the waves as ever before. Naval power and
 complete dominance of the Atlantic is what they built for. Their first priority
 is to rid their waters of the U-boat menace and then to challenge the Imperial
 German Navy into a final showdown. Once the German fleet is destroyed, the
@@ -8478,10 +8473,7 @@ the Somme in a flanking maneuver. Researching technological upgrades will
 benefit their Commonwealth’s interest more so than their own, so purchase them
 accordingly.</p>
 
-<p><b><span style='font-size:14.0pt;'>British
-Commonwealth</span></b></p>
-
-<p>The British Commonwealth, the "Empire
+<p><img src="bc.png" />&nbsp;<b>British Commonwealth -</b> The British Commonwealth, the "Empire
 Down Under". Holding Cairo at all cost is the key to victory in the southern hemisphere.
 The British Commonwealth control the gateway in and out of Africa. If it is
 lost, the Ottomans will spill into Africa and aid the Germans in their conquest
@@ -8490,18 +8482,14 @@ Indian Ocean so that offensive strikes can be brought to bear against the
 Ottomans in the Middle East and the Germans in East Africa. British R&amp;D can
 certainly give them an edge they so desperately need against the enemy.</p>
 
-<p><b><span style='font-size:14.0pt;color:'>Italians</span></b></p>
-
-<p>Italy, "O Solo Mio"! Like their French
+<p><img src="ita.png" />&nbsp;<b>Italians -</b> Italy, "O Solo Mio"! Like their French
 neighbors, they too are a one dimensional faction. Their entire focus should be
 to break through the Austrian forces in the Alps and force the Germans to
 re-route vital forces to aid their allies. R&amp;D is strongly discouraged as
 their funds are stretched thin. French reinforcements are absolutely essential
 to halt an Austro-German offensive.</p>
 
-<p><b><span style='font-size:14.0pt;'>Americans</span></b></p>
-
-<p>The United State, a.k.a "Murica". The
+<p><img src="ame.png" />&nbsp;<b>Americans -</b> The United State, a.k.a "Murica". The
 Americans have a small lending hand towards the Allies at the very start of the
 game via a small expeditionary force on the Western Front. Not sufficiently
 sized enough to mount their own offensive but may prove very useful towards
@@ -8514,9 +8502,7 @@ transport fleet (if properly defended by the Royal Navy) to send the first
 batch of ground forces to the European theatre. Let their arrival not be too
 late!</p>
 
-<p><b><span style='font-size:14.0pt;'>Bolsheviks</span></b></p>
-
-<p>The Bolsheviks, "workers of the world
+<p><img src="bol.png" />&nbsp;<b>Bolsheviks -</b> The Bolsheviks, "workers of the world
 unite"! The Bolsheviks are placed in their own separate faction category. They
 are at war with the Allies, but at the same time on un-friendly terms with the
 Central Powers. If AI controlled, the Bolsheviks will act as a wild card.
@@ -8529,15 +8515,11 @@ cannot gain access to Central Powers’ territory. In other words, their movemen
 and conquering ability is restricted to territories captured from the Allies,
 hence they cannot travel via Central Power’s boundaries.</p>
 
-<div style='border:none;border-bottom:solid #AA610D 1.5pt;padding:0in 0in 1.0pt 0in'>
-<h1><span style='font-size:16.0pt;color:#262626'>Turn Sequence</span></h1>
-</div>
+<h1 style="border-bottom:solid #AA610D 1.5pt;">Turn Sequence</h1>
 
-<p><span style='color:#7F7F7F'></span><b><span
-style='font-size:14.0pt;color:black'>Purchase Phase</span></b></p>
+<h2>Purchase Phase</h2>
 
-<p>This
-phase is for purchasing units as well as technological upgrades which are then
+<p>This phase is for purchasing units as well as technological upgrades which are then
 placed at the end of the round. To research a new technology, simply purchase
 the ‘develop-unit’ icon and then place it in a factory upon the placement
 phase. Access to researched units will occur at the start of the following
@@ -8546,9 +8528,9 @@ benefit from the researched technology given to them by the ‘Mother Country’
 the very same round as they are followed immediately afterwards in the order of
 play.</p>
 
-<p><b><span style='font-size:14.0pt;'>Combat Move 1</span></b></p>
+<h2>Combat Move 1</h2>
 
-<p style='text-indent:.5in'>This phase is primarily reserved for moving battleships,
+<p>This phase is primarily reserved for moving battleships,
 battlecruisers and railguns into position to fire their munitions. All units
 moved during this round will be permanent and must committed to the battle to
 which they are engaged, no retreat will be allowed. The exception to this is if
@@ -8556,7 +8538,7 @@ additional units are moved into the same territory during the second Combat
 Move phase. This will in turn unlock the ability to retreat the entire force as
 a whole.</p>
 
-<p><b><span style='font-size:14.0pt;'>Combat Move 2</span></b></p>
+<h2>Combat Move 2</h2>
 
 <p>This combat move phase is for all other units to be
 moved to adjacent territories to engage in combat. Upon the start of this phase
@@ -8567,136 +8549,230 @@ bombarding operations. If the shells are left in the territory in which they
 were spawned, then they will automatically be engaged towards any enemy units
 within that territory.</p>
 
-<p><b><span style='font-size:14.0pt;'>Non-Combat Move</span></b></p>
+<h2>Non-Combat Move</h2>
 
-<p style='text-indent:0in'>This phase provides the player with the ability to
+<p>This phase provides the player with the ability to
 move all units that have not been previously engaged in combat, with the
 exception of aircraft that require a friendly territory to land. Trains may not
 pass through territories that were captured during the combat phase and must
 wait till the following round to gain access.</p>
 
-<p><b><span style='font-size:14.0pt;'>Placement Phase</span></b></p>
+<h2>Placement Phase</h2>
 
-<p>This phase
-allows the player to place their purchased units or R&amp;D into any owned
+<p>This phase allows the player to place their purchased units or R&amp;D into any owned
 territory containing a factory, with the exception of enemy territories
 containing a factory that was captured that turn. Naval forces require both a
 shipyard and a factory in order to be placed into the adjacent seazone.
 Trenches do not require a factory and may be placed in any territory owned at
 the beginning of the turn.</p>
 
-<div style='border:none;border-bottom:solid #AA610D 1.5pt;padding:0in 0in 1.0pt 0in'>
-<h1><span style='font-size:16.0pt;color:#262626'>Units</span></h1>
-</div>
+<h1 style="border-bottom:solid #AA610D 1.5pt;">Units</h1>
 
-<p><b><span style='font-size:14.0pt;'>Air</span></b></p>
-
-<p><b>Bomber -</b>
-Bombers must be researched first by purchasing the <code>Develop-Bomber</code> unit.
-Bomber may carry out air raids as well as providing ground support to all
-infantry and cavalry units by way of 1/1 air/ground unit +1 attack factor.
-Bombers may not land on carriers. Requires friendly territory (previously
-owned) to land after combat phase</span></p>
-
-<p><b>Fighter -</b> Fighter
-planes are available at the start of the game, but do not provide ground units
-with any supporting elements. Requires friendly territory (previously owned) to
-land after combat phase.</p>
-
-<p><b>Zeppelin -</b> Zeppelins
-are expensive and weak on attack but have the ability to move vast distances
-and conduct raids as well as provide support to various ground and naval
-forces. They may provide 1 Spotter Power to 3 allied cavalry, destroyer,
-elite-offensive-infantry, infantry, mech-infantry and submarines.</p>
-
-<p><b><span style='font-size:16.0pt;'>Naval</span></b></p>
-
-<p><b>Battleship -</b>
-Battleships are a 2-hit naval unit and have the ability to fire 2 munitions at
-adjacent territories. Damaged battleships require a shipyard to repair and will
-return to full strength at the beginning of the next turn if conditions are
-met. Battleships have the unique capability of engaging naval and ground forces
-as well as facilities in adjacent territories. This simulates the advantage of
-ranged attacks provided by their heavy naval guns.</p>
-
-<p><b>Battlecruiser -</b>
-The battlecruiser is a cheaper, and less armored alternative to
-the battleship. They may engage enemy targets with only 1 munition but have a
-better attack capability in close quarters combat than that of the battleship.
-This is supposed to simulate their lighter armor/weaker guns but with the
-advantage of increased maneuverability over their heavier battleship
-counterpart while attacking.</p>
-
-<p><b>Destroyer -</b>
-Destroyers are primarily used for escort operations in coordination with sea
-transports as well as providing anti-submarine abilities. They may block passage
-of enemy submarines as well as surface vessels.</p>
-
-<p><b>Submarine -</b>
-Submarines have "first-strike" stealth capabilities towards all enemy naval units with the
-exception of destroyers. They may also pass safely through seazones containing
-enemy naval units as well as mines unless of course enemy destroyers are
-present in that territory.</p>
-
-<p><b>Freighter -</b>
-Freighters have a carrying capacity of 3 and are used to transport all ground units with
-the exception of heavy artillery. They are provided with a defensive factor of
-1 but do not possess any attack capabilities.</p>
-
-<p><b>Troop-Transport -</b>
-Troop Transports are a heavy sea transport with a carrying
-capacity of 8 that may carry any and all ground force unit types. They do not
-possess any attack or defensive capabilities.</p>
-
-<p><b>Carrier -</b>
-Aircraft Carriers must be researched first in order to be produced. They may carry up to
-2 fighter planes. They are provided with a defensive factor of 1 but do not
-possess any attack capabilities. They are highly expense to research and are
-general most beneficial to securing allied naval superiority and conducting air
-support to amphibious assaults.</p>
-
-<p><b>Harbor-Defenses -</b>
-Though they are illustrated as mines they are meant to represent
-coastal defenses such as various harbor defenses, shore artillery,
-mine-laying vessels and patrol craft. In this respect, they have the ability to
-engage surface vessels as well as air units. Harbor Defenses can pe produced in
-any seazone provided there is a factory and shipyard in the adjacent land
-territory to which they are placed. They are restricted to placing 2 at a
-time/per territory with a maximum of 8 (including allied mines). They have a
-defensive capability of 1 and do not possess any movement or attack
-capabilities.</p>
-
-<p><b><span style='font-size:16.0pt;'>Land</span></b></p>
-
-<p><b>Infantry -</b>
-Infantry are inexpensive and are the backbone of the ground forces. They are used
-primarily as the ‘meat-shield’ of attacking armies but may receive +1 attack
-factor provided by various supporting artillery and air units. They are
-required to be present in any territory to which the player wishes to
-build/repair their own trenches. There is a 1/1 infantry/trench building and
-repairing ratio i.e 2 inf builds/repairs 2 trenches.</p>
-
-<p><b>Elite-Defensive-Infantry -</b>
-Elite Defensive Infantry are unlocked upon researching
-<code>Develop-Elite-Infantry</code>. They represent the engineer/heavy-weapons infantry
-type and specialize in defensive operations given their 2 defense capability.
-They may repair up to 3 trenched/per unit at a time as well. Like their light
-infantry counterparts they may receive attack bonuses from artillery/air units.</p>
-
-<p><b>Elite-Offensive-Infantry -</b>
-Elite Offensive infantry are unlocked upon researching
-<code>Develop-Elite-Infantry</code>. They represent the "shock troops" of the army and can
-be highly effective in offensive operations provided with artillery/air support
-elements.</p>
-
-<p><b>Mech-Infantry -</b>
-Mech infantry represent the swift and lightly armored vehicles
-with troop carrying capabilities. They are the modern equivalent to the cavalry
-and predecessors to the APC (Armored Troop Carriers). They must be researched
-first in order be produced. They also have land transport capabilities and may
-load 1 of any infantry type and carry them to their destination. This can be
-very advantageous towards a blitzkrieg type offensive approach. They also
-provide +1 support to bombers.</p>
+<table style="border: 1px solid rgb(239,181,113);">
+	<tr>
+		<th rowspan="3" style="border: 1px solid rgb(239,181,113);">Air</th>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Bomber</b><br/>
+			<img src="bomb.png" /><br/>
+			<small>Unlock with Develop-Bomber</small><br/>
+			<img src="bomb-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			Bomber may carry out air raids as well as providing ground support to all
+			infantry and cavalry units by way of 1/1 air/ground unit +1 attack factor.
+			Bombers may not land on carriers. Requires friendly territory (previously
+			owned) to land after combat phase.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Fighter</b><br/>
+			<img src="fight.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Fighter planes are available at the start of the game, but do not provide ground units
+			with any supporting elements. Requires friendly territory (previously owned) to
+			land after combat phase.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Zeppelin</b><br/>
+			<img src="zep.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Zeppelins are expensive and weak on attack but have the ability to move vast distances
+			and conduct raids as well as provide support to various ground and naval
+			forces. They may provide 1 Spotter Power to 3 allied cavalry, destroyer,
+			elite-offensive-infantry, infantry, mech-infantry and submarines.
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="8" style="border: 1px solid rgb(239,181,113);">Naval</th>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Battleship</b><br/>
+			<img src="bship.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Battleships are a 2-hit naval unit and have the ability to fire 2 munitions at
+			adjacent territories. Damaged battleships require a shipyard to repair and will
+			return to full strength at the beginning of the next turn if conditions are
+			met. Battleships have the unique capability of engaging naval and ground forces
+			as well as facilities in adjacent territories. This simulates the advantage of
+			ranged attacks provided by their heavy naval guns.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Battlecruiser</b><br/>
+			<img src="cruise.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			The battlecruiser is a cheaper, and less armored alternative to
+			the battleship. They may engage enemy targets with only 1 munition but have a
+			better attack capability in close quarters combat than that of the battleship.
+			This is supposed to simulate their lighter armor/weaker guns but with the
+			advantage of increased maneuverability over their heavier battleship
+			counterpart while attacking.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Destroyer</b><br/>
+			<img src="dest.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Destroyers are primarily used for escort operations in coordination with sea
+			transports as well as providing anti-submarine abilities. They may block passage
+			of enemy submarines as well as surface vessels.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Submarine</b><br/>
+			<img src="sub.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Submarines have "first-strike" stealth capabilities towards all enemy naval units with the
+			exception of destroyers. They may also pass safely through seazones containing
+			enemy naval units as well as mines unless of course enemy destroyers are
+			present in that territory.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Freighter</b><br/>
+			<img src="freight.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Freighters have a carrying capacity of 3 and are used to transport all ground units with
+			the exception of heavy artillery. They are provided with a defensive factor of
+			1 but do not possess any attack capabilities.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Troop-Transport</b><br/>
+			<img src="trans.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Troop Transports are a heavy sea transport with a carrying
+			capacity of 8 that may carry any and all ground force unit types. They do not
+			possess any attack or defensive capabilities.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Carrier</b><br/>
+			<img src="carr.png" /><br/>
+			<small>Unlock with Develop-Carrier</small><br/>
+			<img src="carr-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			Aircraft carriers may carry up to 2 fighter planes. They are provided with a defensive factor of 1
+			but do not possess any attack capabilities. They are highly expense to research and are most beneficial
+			to securing allied naval superiority and conducting air support to amphibious assaults.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Harbor-Defenses</b><br/>
+			<img src="harbor.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Though they are illustrated as mines they are meant to represent
+			coastal defenses such as various harbor defenses, shore artillery,
+			mine-laying vessels and patrol craft. In this respect, they have the ability to
+			engage surface vessels as well as air units. Harbor Defenses can pe produced in
+			any seazone provided there is a factory and shipyard in the adjacent land
+			territory to which they are placed. They are restricted to placing 2 at a
+			time/per territory with a maximum of 8 (including allied mines). They have a
+			defensive capability of 1 and do not possess any movement or attack
+			capabilities.
+		</td>
+	</tr>
+	<tr>
+		<th rowspan="8" style="border: 1px solid rgb(239,181,113);">Land</th>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Infantry</b><br/>
+			<img src="inf.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Infantry are inexpensive and are the backbone of the ground forces. They are used
+			primarily as the ‘meat-shield’ of attacking armies but may receive +1 attack
+			factor provided by various supporting artillery and air units. They are
+			required to be present in any territory to which the player wishes to
+			build/repair their own trenches. There is a 1/1 infantry/trench building and
+			repairing ratio i.e 2 inf builds/repairs 2 trenches.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b style="white-space: nowrap; font-size: 90%;">Elite-Defensive-Infantry</b><br/>
+			<img src="infd.png" /><br/>
+			<small>Unlock with Develop-Elite-Infantry</small><br/>
+			<img src="inf-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			Elite defensive infantry represent the engineer/heavy-weapons infantry
+			type and specialize in defensive operations given their 2 defense capability.
+			They may repair up to 3 trenched/per unit at a time as well. Like their light
+			infantry counterparts they may receive attack bonuses from artillery/air units.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b style="white-space: nowrap; font-size: 90%;">Elite-Offensive-Infantry</b><br/>
+			<img src="info.png" /><br/>
+			<small>Unlock with Develop-Elite-Infantry</small><br/>
+			<img src="inf-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			Elite offensive infantry represent the "shock troops" of the army and can be highly
+			effective in offensive operations provided with artillery/air support elements.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b style="white-space: nowrap; font-size: 90%;">Mech-Infantry</b><br/>
+			<img src="infm.png" /><br/>
+			<small>Unlock with Develop-Mech-Infantry</small><br/>
+			<img src="infm-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			Mech infantry epresent the swift and lightly armored vehicles with troop carrying capabilities.
+			They are the modern equivalent to the cavalry and predecessors to the APC (Armored Troop Carriers).
+			They must be researched first in order be produced. They also have land transport capabilities and may
+			load 1 of any infantry type and carry them to their destination. This can be very advantageous towards
+			a blitzkrieg type offensive approach. They also provide +1 support to bombers.
+		</td>
+	</tr>
+</table>
 
 <p><b>Cavalry -</b>
 Cavalry are swift moving and have the same defense/attack capabilities of the infantry.
