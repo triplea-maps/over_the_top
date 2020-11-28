@@ -2151,14 +2151,6 @@
 			<cost quantity="3" resource="PUs"/>
 			<result quantity="1" resourceOrUnit="Elite-Offensive-Infantry"/>
 		</productionRule>
-		<productionRule name="buyDevelop-Elite-Defensive-Infantry">
-			<cost quantity="20" resource="PUs"/>
-			<result quantity="1" resourceOrUnit="Develop-Elite-Defensive-Infantry"/>
-		</productionRule>
-		<productionRule name="buyDevelop-Elite-Offensive-Infantry">
-			<cost quantity="20" resource="PUs"/>
-			<result quantity="1" resourceOrUnit="Develop-Elite-Offensive-Infantry"/>
-		</productionRule>
         <repairRule name="repairFactory">
             <cost quantity="1" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Factory"/>
