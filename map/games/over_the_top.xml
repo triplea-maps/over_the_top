@@ -2626,6 +2626,20 @@
 			<option count="" name="maxBuiltPerPlayer" value="1"/>
 			<option count="" name="isInfrastructure" value="true"/>
 		</attachment>
+		
+		<!-- Emplace heavy artillery when an emplacement unit is present. Must create a trigger for every land terrtitory. -->
+        <attachment attachTo="@allPlayers@" foreach="$allPlayers$^$allLand$" javaClass="RulesAttachment" name="conditionAttachmentEmplace@allPlayers@allLand@" type="player">
+            <option count="" name="directPresenceTerritories" value="@allLand@"/>
+            <option count="1" name="unitPresence" value="Emplace-Heavy-Artillery"/>
+        </attachment>
+        <attachment attachTo="@allPlayers@" foreach="$allPlayers$^$allLand$" javaClass="TriggerAttachment" name="triggerAttachmentEmplace@allPlayers@allLand@" type="player">
+            <option count="" name="conditions" value="conditionAttachmentEmplace@allPlayers@allLand@"/>
+            <option count="" name="when" value="after:@allPlayers@-Place"/>
+            <option count="1" name="removeUnits" value="@allLand@:Emplace-Heavy-Artillery"/>
+            <option count="1" name="removeUnits" value="@allLand@:Heavy-Artillery"/>
+            <option count="1" name="placement" value="@allLand@:Heavy-Artillery-Emplacement"/>
+        </attachment>
+		
 		<!-- Develop Bomber for Austrians -->
 		<attachment attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Austrians-Develop-Bomber" type="player">
 			<option count="1" name="directPresenceTerritories" value="map"/>
@@ -2974,247 +2988,21 @@
 			<option count="1" name="removeUnits" value="all:Develop-Tank"/>
 			<option count="" name="uses" value="1"/>
 		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Germans if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Germans-Emplace-Heavy-Artillery" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Germans-Emplace-Heavy-Artillery" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Germans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Germans-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Germans-Emplace-Heavy-Artillery" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Germans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Germans-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Germans-Emplace-Heavy-Artillery" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Germans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Germans-Place" count=""/>
-			<option name="placement" value="Germans:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for British if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-British-Emplace-Heavy-Artillery" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-British-Emplace-Heavy-Artillery" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:British-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-British-Emplace-Heavy-Artillery" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:British-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-British-Emplace-Heavy-Artillery" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:British-Place" count=""/>
-			<option name="placement" value="British:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for French if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-French-Emplace-Heavy-Artillery" attachTo="French" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-French-Emplace-Heavy-Artillery" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:French-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-French-Emplace-Heavy-Artillery" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:French-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-French-Emplace-Heavy-Artillery" attachTo="French" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:French-Place" count=""/>
-			<option name="placement" value="French:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Russians if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Russians-Emplace-Heavy-Artillery" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Russians-Emplace-Heavy-Artillery" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Russians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Russians-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Russians-Emplace-Heavy-Artillery" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Russians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Russians-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Russians-Emplace-Heavy-Artillery" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Russians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Russians-Place" count=""/>
-			<option name="placement" value="Russians:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Austrians if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Austrians-Emplace-Heavy-Artillery" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Austrians-Emplace-Heavy-Artillery" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Austrians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Austrians-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Austrians-Emplace-Heavy-Artillery" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Austrians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Austrians-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Austrians-Emplace-Heavy-Artillery" attachTo="Austrians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Austrians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Austrians-Place" count=""/>
-			<option name="placement" value="Austrians:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Ottomans if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Ottomans-Emplace-Heavy-Artillery" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Ottomans-Emplace-Heavy-Artillery" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Ottomans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Ottomans-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Ottomans-Emplace-Heavy-Artillery" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Ottomans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Ottomans-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Ottomans-Emplace-Heavy-Artillery" attachTo="Ottomans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Ottomans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Ottomans-Place" count=""/>
-			<option name="placement" value="Ottomans:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Italians if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Italians-Emplace-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Italians-Emplace-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Italians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Italians-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Italians-Emplace-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Italians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Italians-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Italians-Emplace-Heavy-Artillery" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Italians-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Italians-Place" count=""/>
-			<option name="placement" value="Italians:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Americans if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Americans-Emplace-Heavy-Artillery" attachTo="Americans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Americans-Emplace-Heavy-Artillery" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Americans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Americans-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Americans-Emplace-Heavy-Artillery" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Americans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Americans-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Americans-Emplace-Heavy-Artillery" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Americans-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Americans-Place" count=""/>
-			<option name="placement" value="Americans:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Imperial-German-Afrika if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Imperial-German-Afrika-Emplace-Heavy-Artillery" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Imperial-German-Afrika-Emplace-Heavy-Artillery" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Imperial-German-Afrika-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Imperial-German-Afrika-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Imperial-German-Afrika-Emplace-Heavy-Artillery" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Imperial-German-Afrika-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Imperial-German-Afrika-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Imperial-German-Afrika-Emplace-Heavy-Artillery" attachTo="Imperial-German-Afrika" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Imperial-German-Afrika-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Imperial-German-Afrika-Place" count=""/>
-			<option name="placement" value="Imperial-German-Afrika:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for British-Commonwealth if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-British-Commonwealth-Emplace-Heavy-Artillery" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-British-Commonwealth-Emplace-Heavy-Artillery" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Commonwealth-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:British-Commonwealth-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-British-Commonwealth-Emplace-Heavy-Artillery" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Commonwealth-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:British-Commonwealth-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-British-Commonwealth-Emplace-Heavy-Artillery" attachTo="British-Commonwealth" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-British-Commonwealth-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:British-Commonwealth-Place" count=""/>
-			<option name="placement" value="British-Commonwealth:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for French-Colonial-Africa if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-French-Colonial-Africa-Emplace-Heavy-Artillery" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-French-Colonial-Africa-Emplace-Heavy-Artillery" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Colonial-Africa-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:French-Colonial-Africa-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-French-Colonial-Africa-Emplace-Heavy-Artillery" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Colonial-Africa-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:French-Colonial-Africa-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-French-Colonial-Africa-Emplace-Heavy-Artillery" attachTo="French-Colonial-Africa" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-French-Colonial-Africa-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:French-Colonial-Africa-Place" count=""/>
-			<option name="placement" value="French-Colonial-Africa:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
-		<!-- Upgrade Heavy-Artillery to Heavy-Artillery-Emplacement for Bolsheviks if Emplace-Heavy-Artillery is present -->
-		<attachment name="conditionAttachment-Bolsheviks-Emplace-Heavy-Artillery" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
-			<option name="directPresenceTerritories" value="map" count="1"/>
-			<option name="unitPresence" value="Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Bolsheviks-Emplace-Heavy-Artillery" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Bolsheviks-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Bolsheviks-Place" count=""/>
-			<option name="removeUnits" value="all:Emplace-Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Bolsheviks-Emplace-Heavy-Artillery" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Bolsheviks-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Bolsheviks-Place" count=""/>
-			<option name="removeUnits" value="all:Heavy-Artillery" count="1"/>
-		</attachment>
-		<attachment name="triggerAttachment-Bolsheviks-Emplace-Heavy-Artillery" attachTo="Bolsheviks" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
-			<option name="conditions" value="conditionAttachment-Bolsheviks-Emplace-Heavy-Artillery" count=""/>
-			<option name="when" value="after:Bolsheviks-Place" count=""/>
-			<option name="placement" value="Bolsheviks:Heavy-Artillery-Emplacement" count="1"/>
-		</attachment>
 		<!-- Develop Bomber for British AND British-Commonwealth -->
+        <attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-Germans-Develop-Bomber" type="player">
+            <option count="1" name="directPresenceTerritories" value="map"/>
+            <option count="1" name="unitPresence" value="Develop-Bomber"/>
+        </attachment>
+        <attachment attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" name="triggerAttachment-Germans-Develop-Bomber" type="player">
+            <option count="" name="conditions" value="conditionAttachment-Germans-Develop-Bomber"/>
+            <option count="" name="when" value="after:Germans-Place"/>
+            <option count="" name="when" value="after:Germans-BidPlace"/>
+            <option count="" name="productionRule" value="Germans-Frontier:-buyDevelop-Bomber"/>
+            <option count="" name="productionRule" value="Germans-Frontier:buyBomber"/>
+            <option count="" name="productionRule" value="Imperial-German-Afrika-Frontier:buyBomber"/>
+            <option count="1" name="removeUnits" value="all:Develop-Bomber"/>
+            <option count="" name="uses" value="1"/>
+        </attachment>
 		<attachment attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" name="conditionAttachment-British-Develop-Bomber" type="player">
 			<option count="1" name="directPresenceTerritories" value="map"/>
 			<option count="1" name="unitPresence" value="Develop-Bomber"/>
