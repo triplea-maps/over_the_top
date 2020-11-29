@@ -2630,12 +2630,12 @@
 		</attachment>
 		
 		<!-- Emplace heavy artillery when an emplacement unit is present. Must create a trigger for every land terrtitory. -->
-        <attachment attachTo="@allPlayers@" foreach="$allPlayers$^$allLand$" javaClass="RulesAttachment" name="conditionAttachmentEmplace@allPlayers@allLand@" type="player">
+        <attachment attachTo="@allPlayers@" foreach="$allPlayers$^$allLand$" javaClass="RulesAttachment" name="conditionAttachmentEmplace@allPlayers@-@allLand@" type="player">
             <option count="" name="directPresenceTerritories" value="@allLand@"/>
             <option count="1" name="unitPresence" value="Emplace-Heavy-Artillery"/>
         </attachment>
-        <attachment attachTo="@allPlayers@" foreach="$allPlayers$^$allLand$" javaClass="TriggerAttachment" name="triggerAttachmentEmplace@allPlayers@allLand@" type="player">
-            <option count="" name="conditions" value="conditionAttachmentEmplace@allPlayers@allLand@"/>
+        <attachment attachTo="@allPlayers@" foreach="$allPlayers$^$allLand$" javaClass="TriggerAttachment" name="triggerAttachmentEmplace@allPlayers@-@allLand@" type="player">
+            <option count="" name="conditions" value="conditionAttachmentEmplace@allPlayers@-@allLand@"/>
             <option count="" name="when" value="after:@allPlayers@-Place"/>
             <option count="1" name="removeUnits" value="@allLand@:Emplace-Heavy-Artillery"/>
             <option count="1" name="removeUnits" value="@allLand@:Heavy-Artillery"/>
@@ -8714,7 +8714,7 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr>
-		<th rowspan="8" style="border: 1px solid rgb(239,181,113);">Land</th>
+		<th rowspan="9" style="border: 1px solid rgb(239,181,113);">Land</th>
 		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
 			<b>Infantry</b><br/>
 			<img src="inf.png" />
@@ -8767,40 +8767,81 @@ the beginning of the turn.</p>
 			<i>Requires research to unlock production</i><br/><br/>
 			Mech infantry epresent the swift and lightly armored vehicles with troop carrying capabilities.
 			They are the modern equivalent to the cavalry and predecessors to the APC (Armored Troop Carriers).
-			They must be researched first in order be produced. They also have land transport capabilities and may
+			They also have land transport capabilities and may
 			load 1 of any infantry type and carry them to their destination. This can be very advantageous towards
 			a blitzkrieg type offensive approach. They also provide +1 support to bombers.
 		</td>
 	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Cavalry</b><br/>
+			<img src="cav.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Cavalry are swift moving and have the same defense/attack capabilities of the infantry.
+			They are numerous at the start of the game but more expensive to replace
+			losses. They also provide +1 support to bombers.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Field-Artillery</b><br/>
+			<img src="art.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Field artillery represent the lighter artillery type units of the army and are primarily
+			used to bolster the attack capabilities of the infantry. They are relatively inexpensive
+			compared to their heavy artillery counterparts but cannot shoot long range munitions.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b style="white-space: nowrap; font-size: 90%;">Heavy-Artillery</b><br/>
+			<img src="arth.png" /><br/>
+			<small>Unlock with Develop-Heavy-Artillery</small><br/>
+			<img src="arth-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			The "King of Battle", heavy artillery have the unique capability of shooting gas munitions
+			against adjacent land territories. They are expensive to both research and
+			produce but are highly effective. They are also very heavy to transport
+			provided their enormous size; they cannot be loaded onto freighters. Like the
+			field artillery, they can be brought directly into battle and may support
+			various infantry/cavalry units with a +1 attack bonus.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b style="white-space: nowrap; font-size: 90%;">Railgun</b><br/>
+			<img src="rail.png" /><br/>
+			<small>Unlock with Develop-Heavy-Artillery</small><br/>
+			<img src="arth-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			Railguns are essentially heavy naval guns on a railway and can shoot 2 munitions against adjacent
+			land/sea territories. They have zero defense capabilities but are ideal for bombarding enemy fleets
+			along the coastline or striking at neighboring enemy production facilities.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b style="white-space: nowrap; font-size: 90%;">Tank</b><br/>
+			<img src="tank.png" /><br/>
+			<small>Unlock with Develop-Tank</small><br/>
+			<img src="tank-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to unlock production</i><br/><br/>
+			Tanks are the ideal solution to assaulting heavy fortified territories.
+			Strong on the offense and given their 2-hit capabilities, they can provide shielding to
+			accompanying ground forces, and perhaps produced in enough quantities can break the
+			stalemate of trench warfare. They require a factory in order to repair, therefore choose your
+			damage options wisely as they may be vulnerable to counterattack
+		</td>
+	</tr>
 </table>
-
-<p><b>Cavalry -</b>
-Cavalry are swift moving and have the same defense/attack capabilities of the infantry.
-They are numerous at the start of the game but more expensive to replace
-losses. They also provide +1 support to bombers.</p>
-
-<p><b>Field-Artillery -</b>
-Field artillery represent the lighter artillery type units of the
-army and are primarily used to bolster the attack capabilities of the infantry.
-They are relatively inexpensive compared to their heavy artillery counterparts
-but cannot shoot long range munitions.</p>
-
-<p><b>Heavy-Artillery -</b>
-The "King of Battle", heavy artillery must be researched in order
-to be produced. They have the unique capability of shooting gas munitions
-against adjacent land territories. They are expensive to both research and
-produce but are highly effective. They are also very heavy to transport
-provided their enormous size; they cannot be loaded onto freighters. Like the
-field artillery, they can be brought directly into battle and may support
-various infantry/cavalry units with a +1 attack bonus.</p>
-
-<p><b>Tanks -</b>
-Tanks must be researched to produce and are the ideal solution to assaulting heavy
-fortified territories. Strong on the offense and given their 2-hit
-capabilities, they can provide shielding to accompanying ground forces, and
-perhaps produced in enough quantities can break the stalemate of trench
-warfare. They require a factory in order to repair, therefore choose your
-damage options wisely as they may be vulnerable to counterattack.</p>
 
 <p><b>Trains -</b>
 Trains provide an efficient means of transporting ground forces, however their
@@ -8821,13 +8862,6 @@ the boundaries of the tripleA rules.</p>
 <p><b>Armored Trains -</b>
 Armored trains provide defensive support for vulnerable trains and
 railguns from air assaults. They also have a carrying capacity of 1.</p>
-
-<p><b>Railguns -</b>
-Railguns are unlocked upon researching <code>Develop-Heavy-Artillery</code>. They are essentially
-heavy naval guns on a railway and can shoot 2 munitions against adjacent
-land/sea territories. They have zero defense capabilities but are ideal for
-bombarding enemy fleets along the coastline or striking at neighboring enemy
-production facilities.</p>
 
 <p><b>Munitions -</b>
 Munitions are essentially heavy artillery shells that can be shot from battleships,
@@ -8864,7 +8898,6 @@ the total damage is reached. Can be placed without factory.</p>
 Anti-Air defense weapon with a 1/6 AA for 3 separate attacks in 1 round. They cannot
 combat move/capture territory, they can also be destroyed.</p>
 
-</div>
-		]]></value></property>
+</div>]]></value></property>
     </propertyList>
 </game>
