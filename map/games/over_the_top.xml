@@ -2611,8 +2611,8 @@
 			<option count="" name="movement" value="0"/>
 			<option count="" name="isConstruction" value="true"/>
             <option count="" name="constructionType" value="Emplacement"/>
-            <option count="" name="constructionsPerTerrPerTypePerTurn" value="3"/>
-            <option count="" name="maxConstructionsPerTypePerTerr" value="3"/>
+            <option count="" name="constructionsPerTerrPerTypePerTurn" value="1"/>
+            <option count="" name="maxConstructionsPerTypePerTerr" value="1"/>
 		</attachment>
 		<attachment attachTo="Develop-Mech-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
 			<option count="" name="attack" value="0"/>
@@ -3842,7 +3842,6 @@
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="4"/>
             <option count="" name="isTwoHit" value="true"/>
-			<option count="" name="createsUnitsList" value="1:Gas-Munitions"/>
 			<option count="" name="createsUnitsList" value="2:Munitions"/>
         </attachment>
         <attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
