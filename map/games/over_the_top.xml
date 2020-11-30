@@ -8293,9 +8293,6 @@
 		<property name="notes"><value><![CDATA[<html><head>
 	
 </head><body style="font-family: 'Garamond' , serif;font-size: 14px;">
-by <a href="https://github.com/GenerationKILL" style="color: #0000ff;font-family: 'Garamond' , serif;text-decoration: underline;">DK</a> (design, artwork) and <a href="https://github.com/jdimeo" style="color: #0000ff;font-family: 'Garamond' , serif;text-decoration: underline;">JD</a> (design, implementation)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
-Please report any <a href="https://github.com/jdimeo/over-the-top/issues" style="color: #0000ff;font-family: 'Garamond' , serif;text-decoration: underline;">bugs or suggestions</a>!
-
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Introduction</h1>
 
 <table class="features" style="font-family: 'Garamond' , serif;font-size: 14px;"> 
@@ -8365,6 +8362,15 @@ involvement into the war. The Bolshevik Infiltration inset represents the
 Russian territories in the far east that have fallen to communist control. The
 Bolshevik forces can build up strength within the inset and strike at 3 points
 along Imperial Russia's eastern most territories thus opening another front.</p>
+
+<h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Rules</h1>
+<ul style="font-family: 'Garamond' , serif;margin-left: 0px;padding-left: 40px;">
+<li style="font-family: 'Garamond' , serif;">Base rules are <b style="font-family: 'Garamond' , serif;">WW2V3</b></li>
+<li style="font-family: 'Garamond' , serif;"><b style="font-family: 'Garamond' , serif;">Low luck</b> is enabled by default</li>
+<li style="font-family: 'Garamond' , serif;">Two-hit units repair at the start of the next turn and only if certain "repairing" units are present</li>
+<li style="font-family: 'Garamond' , serif;">Producing fighters on carriers and producing new fighters on old carriers are both allowed</li>
+<li style="font-family: 'Garamond' , serif;">Partial amphibious retreat, air retreat, and submerging subs are all allowed</li>
+</ul>
 
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Factions</h1>
 
@@ -8925,7 +8931,12 @@ the beginning of the turn.</p>
 			Trenches are a 2-hit defensive fortification and are ideal for providing cover for
 			ground forces of all types. They are capturable if there are no enemy forces occupying them (including AA guns)
 			and require 1 infantry per damaged trench to repair, with the exception of elite offensive infantry, which have the ability to
-			repair 3 trenches per unit.
+			repair 3 trenches per unit.<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Battle calculator:</b> Because undefended trenches are capturable during combat movement, they do not 
+			show up in the battle calculator. For this reason, there is one <code style="font-family: 'Garamond' , serif;">Trenches-If-Defended</code> (with 2 
+			hitpoints) unit always on the map for each faction so that you can re-add the correct number of trenches
+			to your battle simulation. Unfortunately, certain scenarios can't be perfectly simulated (for example, a
+			territory with a damaged trenches and two undamaged trenches). 
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
@@ -9011,6 +9022,13 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 </tbody></table>
+<h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Credits</h1>
+by <b style="font-family: 'Garamond' , serif;">DK</b> (design, artwork, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: 'Garamond' , serif;">GenerationKILL</code>)
+and <b style="font-family: 'Garamond' , serif;">JD</b> (design, implementation, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: 'Garamond' , serif;">jdimeo</code>)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+Inspired by many other great maps on TripleA, like Great War, Civil War, Age of Tribes, and Middle Earth<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+Please report any bugs or suggestions to <code style="font-family: 'Garamond' , serif;">https://github.com/jdimeo/over-the-top/issues</code>
+<h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Changelog</h1>
+<b style="font-family: 'Garamond' , serif;">0.0.1</b> - Initial release
 </body></html>]]></value></property>
     </propertyList>
 </game>

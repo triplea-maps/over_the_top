@@ -24,9 +24,6 @@
 	</style>
 </head>
 <body>
-by <a href="https://github.com/GenerationKILL">DK</a> (design, artwork) and <a href="https://github.com/jdimeo">JD</a> (design, implementation)<br/>
-Please report any <a href="https://github.com/jdimeo/over-the-top/issues">bugs or suggestions</a>!
-
 <h1>Introduction</h1>
 
 <table class="features"> 
@@ -96,6 +93,15 @@ involvement into the war. The Bolshevik Infiltration inset represents the
 Russian territories in the far east that have fallen to communist control. The
 Bolshevik forces can build up strength within the inset and strike at 3 points
 along Imperial Russia's eastern most territories thus opening another front.</p>
+
+<h1>Rules</h1>
+<ul>
+<li>Base rules are <b>WW2V3</b></li>
+<li><b>Low luck</b> is enabled by default</li>
+<li>Two-hit units repair at the start of the next turn and only if certain "repairing" units are present</li>
+<li>Producing fighters on carriers and producing new fighters on old carriers are both allowed</li>
+<li>Partial amphibious retreat, air retreat, and submerging subs are all allowed</li>
+</ul>
 
 <h1>Factions</h1>
 
@@ -656,7 +662,12 @@ the beginning of the turn.</p>
 			Trenches are a 2-hit defensive fortification and are ideal for providing cover for
 			ground forces of all types. They are capturable if there are no enemy forces occupying them (including AA guns)
 			and require 1 infantry per damaged trench to repair, with the exception of elite offensive infantry, which have the ability to
-			repair 3 trenches per unit.
+			repair 3 trenches per unit.<br/><br/>
+			<b>Battle calculator:</b> Because undefended trenches are capturable during combat movement, they do not 
+			show up in the battle calculator. For this reason, there is one <code>Trenches-If-Defended</code> (with 2 
+			hitpoints) unit always on the map for each faction so that you can re-add the correct number of trenches
+			to your battle simulation. Unfortunately, certain scenarios can't be perfectly simulated (for example, a
+			territory with a damaged trenches and two undamaged trenches). 
 		</td>
 	</tr>
 	<tr>
@@ -742,4 +753,11 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 </table>
+<h1>Credits</h1>
+by <b>DK</b> (design, artwork, <img src="images/github.png" /> <code>GenerationKILL</code>)
+and <b>JD</b> (design, implementation, <img src="images/github.png" /> <code>jdimeo</code>)<br/>
+Inspired by many other great maps on TripleA, like Great War, Civil War, Age of Tribes, and Middle Earth<br/>
+Please report any bugs or suggestions to <code>https://github.com/jdimeo/over-the-top/issues</code>
+<h1>Changelog</h1>
+<b>0.0.1</b> - Initial release
 </body>
