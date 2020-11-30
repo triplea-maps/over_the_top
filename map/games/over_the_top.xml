@@ -8292,18 +8292,46 @@
         <property editable="false" name="mapName" player="" value="over-the-top"/>
 		<property name="notes"><value><![CDATA[<html><head>
 	
-</head><body style="font-family: 'Garamond' , serif;font-size: 110.0%;">
+</head><body style="font-family: 'Garamond' , serif;font-size: 14px;">
+by <a href="https://github.com/GenerationKILL" style="color: #0000ff;font-family: 'Garamond' , serif;text-decoration: underline;">DK</a> (design, artwork) and <a href="https://github.com/jdimeo" style="color: #0000ff;font-family: 'Garamond' , serif;text-decoration: underline;">JD</a> (design, implementation)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+Please report any <a href="https://github.com/jdimeo/over-the-top/issues" style="color: #0000ff;font-family: 'Garamond' , serif;text-decoration: underline;">bugs or suggestions</a>!
 
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Introduction</h1>
 
-<p style="font-family: 'Garamond' , serif;">Welcome to <i style="font-family: 'Garamond' , serif;">Over the Top</i>, an
-alternate scenario game loosely based on the various high-water marks of the
-First World War. It is important to note that this game does not reflect a specific
-point in time of the war. Factions and starting positions have been arranged
-and altered to allow players to experience many of the war's iconic events that
-might not have otherwise occurred together in a more authentic timeline. While
-many aspects of <i style="font-family: 'Garamond' , serif;">Over the Top</i> are kept to historical accuracy, much has
-been altered to facilitate a more enjoyable and well-balanced gameplay.</p>
+<table class="features" style="font-family: 'Garamond' , serif;font-size: 14px;"> 
+	<tbody style="font-family: 'Garamond' , serif;"><tr style="font-family: 'Garamond' , serif;">
+		<td rowspan="2" style="font-family: 'Garamond' , serif;padding-top: 4px;">
+			<img src="anzac.png" style="font-family: 'Garamond' , serif;"></img>
+		</td>
+		<td style="font-family: 'Garamond' , serif;padding-top: 4px;">
+			Welcome to <i style="font-family: 'Garamond' , serif;">Over the Top</i>, an
+			alternate scenario game loosely based on the various high-water marks of the
+			First World War. It is important to note that this game does not reflect a specific
+			point in time of the war. Factions and starting positions have been arranged
+			and altered to allow players to experience many of the war's iconic events that
+			might not have otherwise occurred together in a more authentic timeline. While
+			many aspects of <i style="font-family: 'Garamond' , serif;">Over the Top</i> are kept to historical accuracy, much has
+			been altered to facilitate a more enjoyable and well-balanced gameplay.
+		</td>
+	</tr>
+	<tr style="font-family: 'Garamond' , serif;">
+		<td class="list" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;padding-top: 4px;">
+			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Featuring:</b><ul style="font-family: 'Garamond' , serif;margin-bottom: 0px;margin-left: 0px;margin-right: 0px;margin-top: 0px;padding-left: 40px;">
+			<li style="font-family: 'Garamond' , serif;">Large map tiles and unit images for high res displays</li>
+			<li style="font-family: 'Garamond' , serif;">Ranged munitions for capital ships and heavy artillery</li>
+			<li style="font-family: 'Garamond' , serif;">Trenches that provide hit points but are also capturable if undefended</li>
+			<li style="font-family: 'Garamond' , serif;">Historical figures, like Lenin and the Red Baron</li>
+			<li style="font-family: 'Garamond' , serif;">Dynamic African front with colonial powers</li>
+			<li style="font-family: 'Garamond' , serif;">Western Front inset and dual Russian capitals <i style="font-family: 'Garamond' , serif;">(credit: Great War)</i></li>
+			<li style="font-family: 'Garamond' , serif;">Railroads <i style="font-family: 'Garamond' , serif;">(credit: Civil War)</i></li>
+			<li style="font-family: 'Garamond' , serif;">Research to unlock more advanced units <i style="font-family: 'Garamond' , serif;">(credit: Age of Tribes)</i></li>
+			<li style="font-family: 'Garamond' , serif;">Unique path to war for the Americans</li>
+			</ul>
+		</td>	
+	</tr>
+</tbody></table>
+
+<p style="font-family: 'Garamond' , serif;"></p>
 
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Map</h1>
 
@@ -8342,10 +8370,10 @@ along Imperial Russia's eastern most territories thus opening another front.</p>
 
 <h2 style="font-family: 'Garamond' , serif;">Alliances</h2>
 
-<table style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+<table class="factions" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 14px;">
 	<tbody style="font-family: 'Garamond' , serif;"><tr style="font-family: 'Garamond' , serif;">
-		<th style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">Central Powers</th>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<th style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Central Powers</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<img src="ger.png" style="font-family: 'Garamond' , serif;"></img> Germans<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="iga.png" style="font-family: 'Garamond' , serif;"></img> Imperial German Afrika<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="aus.png" style="font-family: 'Garamond' , serif;"></img> Austrians<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
@@ -8353,8 +8381,8 @@ along Imperial Russia's eastern most territories thus opening another front.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<th style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">Allies</th>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<th style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Allies</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<img src="fre.png" style="font-family: 'Garamond' , serif;"></img> French<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="fca.png" style="font-family: 'Garamond' , serif;"></img> French Colonial Africa<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="rus.png" style="font-family: 'Garamond' , serif;"></img> Russians<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
@@ -8365,8 +8393,8 @@ along Imperial Russia's eastern most territories thus opening another front.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<th style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">Revolutionaries</th>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<th style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Revolutionaries</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<img src="bol.png" style="font-family: 'Garamond' , serif;"></img> Bolsheviks<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<i style="font-family: 'Garamond' , serif;font-size: 90.0%;">AI controlled recommended</i>	
 		</td>
@@ -8566,16 +8594,16 @@ the beginning of the turn.</p>
 
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Units</h1>
 
-<table style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+<table class="units" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 14px;">
 	<tbody style="font-family: 'Garamond' , serif;"><tr style="font-family: 'Garamond' , serif;">
-		<th rowspan="3" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">Air</th>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<th rowspan="3" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Air</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Bomber</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="bomb.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Bomber</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="bomb-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Bomber may carry out air raids as well as providing ground support to all
 			infantry and cavalry units by way of 1/1 air/ground unit +1 attack factor.
@@ -8584,22 +8612,22 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Fighter</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="fight.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Fighter planes are available at the start of the game, but do not provide ground units
 			with any supporting elements. Requires friendly territory (previously owned) to
 			land after combat phase.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Zeppelin</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="zep.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Zeppelins are expensive and weak on attack but have the ability to move vast distances
 			and conduct raids as well as provide support to various ground and naval
 			forces. They may provide 1 Spotter Power to 3 allied cavalry, destroyer,
@@ -8607,12 +8635,12 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<th rowspan="8" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">Naval</th>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<th rowspan="8" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Naval</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Battleship</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="bship.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Battleships are a 2-hit naval unit and have the ability to fire 2 munitions at
 			adjacent territories. Damaged battleships require a shipyard to repair and will
 			return to full strength at the beginning of the next turn if conditions are
@@ -8622,11 +8650,11 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Battlecruiser</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="cruise.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			The battlecruiser is a cheaper, and less armored alternative to
 			the battleship. They may engage enemy targets with only 1 munition but have a
 			better attack capability in close quarters combat than that of the battleship.
@@ -8636,22 +8664,22 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Destroyer</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="dest.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Destroyers are primarily used for escort operations in coordination with sea
 			transports as well as providing anti-submarine abilities. They may block passage
 			of enemy submarines as well as surface vessels.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Submarine</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="sub.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Submarines have "first-strike" stealth capabilities towards all enemy naval units with the
 			exception of destroyers. They may also pass safely through seazones containing
 			enemy naval units as well as mines unless of course enemy destroyers are
@@ -8659,35 +8687,35 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Freighter</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="freight.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Freighters have a carrying capacity of 3 and are used to transport all ground units with
 			the exception of heavy artillery. They are provided with a defensive factor of
 			1 but do not possess any attack capabilities.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Troop-Transport</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="trans.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Troop Transports are a heavy sea transport with a carrying
 			capacity of 8 that may carry any and all ground force unit types. They do not
 			possess any attack or defensive capabilities.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Carrier</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="carr.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Carrier</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="carr-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Aircraft carriers may carry up to 2 fighter planes. They are provided with a defensive factor of 1
 			but do not possess any attack capabilities. They are highly expense to research and are most beneficial
@@ -8695,11 +8723,11 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Harbor-Defenses</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="harbor.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Though they are illustrated as mines they are meant to represent
 			coastal defenses such as various harbor defenses, shore artillery,
 			mine-laying vessels and patrol craft. In this respect, they have the ability to
@@ -8712,12 +8740,12 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<th rowspan="10" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">Land</th>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<th rowspan="10" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Land</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Infantry</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="inf.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Infantry are inexpensive and are the backbone of the ground forces. They are used
 			primarily as the ‘meat-shield’ of attacking armies but may receive +1 attack
 			factor provided by various supporting artillery and air units. They are
@@ -8727,13 +8755,13 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Elite-Defensive-Infantry</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="infd.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Elite-Infantry</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="inf-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Elite defensive infantry represent the engineer/heavy-weapons infantry
 			type and specialize in defensive operations given their 2 defense capability.
@@ -8742,26 +8770,26 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Elite-Offensive-Infantry</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="info.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Elite-Infantry</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="inf-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Elite offensive infantry represent the "shock troops" of the army and can be highly
 			effective in offensive operations provided with artillery/air support elements.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Mech-Infantry</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="infm.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Mech-Infantry</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="infm-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Mech infantry epresent the swift and lightly armored vehicles with troop carrying capabilities.
 			They are the modern equivalent to the cavalry and predecessors to the APC (Armored Troop Carriers).
@@ -8771,35 +8799,35 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Cavalry</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="cav.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Cavalry are swift moving and have the same defense/attack capabilities of the infantry.
 			They are numerous at the start of the game but more expensive to replace
 			losses. They also provide +1 support to bombers.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Field-Artillery</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="art.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Field artillery represent the lighter artillery type units of the army and are primarily
 			used to bolster the attack capabilities of the infantry. They are relatively inexpensive
 			compared to their heavy artillery counterparts but cannot shoot long range munitions.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Heavy-Artillery</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="arth.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Heavy-Artillery</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="arth-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			The "King of Battle", heavy artillery have the unique capability of shooting gas munitions
 			against adjacent land territories. They are expensive to both research and
@@ -8810,13 +8838,13 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Railgun</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="rail.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Heavy-Artillery</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="arth-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Railguns are essentially heavy naval guns on a railway and can shoot 2 munitions against adjacent
 			land/sea territories. They have zero defense capabilities but are ideal for bombarding enemy fleets
@@ -8824,7 +8852,7 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Heavy-Artillery-Emplacement</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="arte.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Heavy-Artillery</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
@@ -8832,7 +8860,7 @@ the beginning of the turn.</p>
 			<small style="font-family: 'Garamond' , serif;">Upgrade Heavy-Artillery with Emplace-Heavy-Artillery</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="arte-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to enable upgrade</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Emplaced heavy artillery shoot 2 long range munitions per turn (like railguns) but lose their ability
 			to mobilize and fire gas munitions. They also gain an additional hit point, which makes them ideal for 
@@ -8841,13 +8869,13 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Tank</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="tank.png" style="font-family: 'Garamond' , serif;"></img><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<small style="font-family: 'Garamond' , serif;">Unlock with Develop-Tank</small><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="tank-dev.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<i style="font-family: 'Garamond' , serif;">Requires research to unlock production</i><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			Tanks are the ideal solution to assaulting heavy fortified territories.
 			Strong on the offense and given their 2-hit capabilities, they can provide shielding to
@@ -8857,12 +8885,12 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<th rowspan="6" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">Infra-<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>structure</th>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<th rowspan="6" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Infra-<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>structure</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Train</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="train.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Trains provide an efficient means of transporting ground forces, however their
 			routes of approach may be cut off or blocked if the railway territory is in
 			enemy hands (each railway is a "canal" in TripleA rules). They are vulnerable to air attacks and munitions and have no
@@ -8879,21 +8907,21 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Armored-Train</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="traina.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Armored trains provide defensive support for vulnerable trains and
 			railguns from air assaults. They also have a carrying capacity of 1.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Trenches</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="trench.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Trenches are a 2-hit defensive fortification and are ideal for providing cover for
 			ground forces of all types. They are capturable if there are no enemy forces occupying them (including AA guns)
 			and require 1 infantry per damaged trench to repair, with the exception of elite offensive infantry, which have the ability to
@@ -8901,11 +8929,11 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Factory</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="fact.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Required to produce all units (with the exception of shipyards, munitions and trenches) up to
 			territorial value in which it is placed. They may be captured as well as
 			damaged by enemy air raids. They have a 2 max operational damage, with a total
@@ -8914,11 +8942,11 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Shipyard</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="yard.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Required to produce all naval units up to territorial value, but must be
 			accompanied by a factory as well. They can repair damaged battleships. They
 			have a 5 max operational damage and a 10 max total damage. It is destroyed if
@@ -8926,28 +8954,63 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">AA-Gun</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<img src="aa.png" style="font-family: 'Garamond' , serif;"></img>
 		</td>
-		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;font-size: 100.0%;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Anti-Air defense weapon with a 1/6 AA for up to 3 targets (planes) in the first round. They cannot
 			combat move or capture territory and can be destroyed during normal combat.
 		</td>
 	</tr>
+	<tr style="font-family: 'Garamond' , serif;">
+		<th rowspan="4" style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">Special</th>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Munitions</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+			<img src="mun.png" style="font-family: 'Garamond' , serif;"></img>
+		</td>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			Munitions are shells that can be shot from heavy artillery, battleships,
+			battlecruisers, and railguns. They are a 1-use attack element that engages in
+			the beginning of a combat phase and can be used to strike at any land forces, ships,
+			or production facilities in range. They are "loaded" during the first combat phase and can be
+			"fired" during the second combat phase (and moved independently from the unit that fired them).
+		</td>
+	</tr>
+	<tr style="font-family: 'Garamond' , serif;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Munitions</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+			<img src="gas.png" style="font-family: 'Garamond' , serif;"></img>
+		</td>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			Gas shells can be shot from heavy artillery only and are used to as a first-strike
+			element towards infantry/cavalry units. They bypass enemy trenches and directly engage soft targets
+			in the territory. Unlike munitions, they have no movement and so heavy artillery must be committed to
+			the battle for their gas shells to have an effect. 
+		</td>
+	</tr>
+	<tr style="font-family: 'Garamond' , serif;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Lenin</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+			<img src="Lenin.png" style="font-family: 'Garamond' , serif;"></img>
+		</td>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			As the leader of the Bolshevik revolution, Lenin spreads his communist philosophies wherever he goes. 
+			Each turn, he recruits a new infantry to the cause and, while lacking any attack or defense himself, he 
+			inspires up to 10 infantry with +1 support.
+		</td>
+	</tr>
+	<tr style="font-family: 'Garamond' , serif;">
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Red-Baron</b><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+			<img src="fightrb.png" style="font-family: 'Garamond' , serif;"></img>
+		</td>
+		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
+			If you can keep Manfred von Richthofen in the skies on the Western Front, he is all but guaranteed to
+			score combat victories with +2 attack and +1 defense over normal fighters.
+		</td>
+	</tr>
 </tbody></table>
-
-<p style="font-family: 'Garamond' , serif;"><b style="font-family: 'Garamond' , serif;">Munitions -</b>
-Munitions are essentially heavy artillery shells that can be shot from battleships,
-battlecruisers and railguns. They are a 1-use attack element that engages in
-the beginning of a combat phase and can be used to strike at any ground forces
-or production facilities in range.</p>
-
-<p style="font-family: 'Garamond' , serif;"><b style="font-family: 'Garamond' , serif;">Gas-Munitions -</b>
-Gas shells can be shot from heavy artillery only and are used to as a first-strike
-element towards infantry/cavalry units. They ‘bypass’ enemy trenches and
-directly engage soft targets in the territory.</p>
-
 </body></html>]]></value></property>
     </propertyList>
 </game>

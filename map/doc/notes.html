@@ -1,32 +1,68 @@
 <head>
 	<style>
 		body {
-			font-family: Garamond,serif; font-size: 110%;
+			font-family: Garamond,serif; font-size: 14px;
 		}
 		h1 {
 			border-bottom: solid #AA610D 1.5pt;	
 		}
-		table, th, td {
+		table {
+			font-size: 14px;
+		}
+		.units, .units td, .units th, .factions, .factions td, .factions th, .features .list {
 			border: 1px solid rgb(239,181,113);
-			font-size: 100%;
 		}
 		td b {
 			white-space: nowrap;
 		}
+		.features td {
+			padding-top: 4px;
+		}
+		.features ul {
+			margin: 0px;
+		}
 	</style>
 </head>
 <body>
+by <a href="https://github.com/GenerationKILL">DK</a> (design, artwork) and <a href="https://github.com/jdimeo">JD</a> (design, implementation)<br/>
+Please report any <a href="https://github.com/jdimeo/over-the-top/issues">bugs or suggestions</a>!
 
 <h1>Introduction</h1>
 
-<p>Welcome to <i>Over the Top</i>, an
-alternate scenario game loosely based on the various high-water marks of the
-First World War. It is important to note that this game does not reflect a specific
-point in time of the war. Factions and starting positions have been arranged
-and altered to allow players to experience many of the war's iconic events that
-might not have otherwise occurred together in a more authentic timeline. While
-many aspects of <i>Over the Top</i> are kept to historical accuracy, much has
-been altered to facilitate a more enjoyable and well-balanced gameplay.</p>
+<table class="features"> 
+	<tr>
+		<td rowspan="2">
+			<img src="images/anzac.png" />
+		</td>
+		<td>
+			Welcome to <i>Over the Top</i>, an
+			alternate scenario game loosely based on the various high-water marks of the
+			First World War. It is important to note that this game does not reflect a specific
+			point in time of the war. Factions and starting positions have been arranged
+			and altered to allow players to experience many of the war's iconic events that
+			might not have otherwise occurred together in a more authentic timeline. While
+			many aspects of <i>Over the Top</i> are kept to historical accuracy, much has
+			been altered to facilitate a more enjoyable and well-balanced gameplay.
+		</td>
+	</tr>
+	<tr>
+		<td class="list">
+			<b>Featuring:</b><ul>
+			<li>Large map tiles and unit images for high res displays</li>
+			<li>Ranged munitions for capital ships and heavy artillery</li>
+			<li>Trenches that provide hit points but are also capturable if undefended</li>
+			<li>Historical figures, like Lenin and the Red Baron</li>
+			<li>Dynamic African front with colonial powers</li>
+			<li>Western Front inset and dual Russian capitals <i>(credit: Great War)</i></li>
+			<li>Railroads <i>(credit: Civil War)</i></li>
+			<li>Research to unlock more advanced units <i>(credit: Age of Tribes)</i></li>
+			<li>Unique path to war for the Americans</li>
+			</ul>
+		</td>	
+	</tr>
+</table>
+
+<p></p>
 
 <h1>Map</h1>
 
@@ -65,7 +101,7 @@ along Imperial Russia's eastern most territories thus opening another front.</p>
 
 <h2>Alliances</h2>
 
-<table>
+<table class="factions">
 	<tr>
 		<th>Central Powers</th>
 		<td>
@@ -289,7 +325,7 @@ the beginning of the turn.</p>
 
 <h1 style="border-bottom:solid #AA610D 1.5pt;">Units</h1>
 
-<table>
+<table class="units">
 	<tr>
 		<th rowspan="3">Air</th>
 		<td>
@@ -658,17 +694,52 @@ the beginning of the turn.</p>
 			combat move or capture territory and can be destroyed during normal combat.
 		</td>
 	</tr>
+	<tr>
+		<th rowspan="4">Special</th>
+		<td>
+			<b>Munitions</b><br/>
+			<img src="images/mun.png" />
+		</td>
+		<td>
+			Munitions are shells that can be shot from heavy artillery, battleships,
+			battlecruisers, and railguns. They are a 1-use attack element that engages in
+			the beginning of a combat phase and can be used to strike at any land forces, ships,
+			or production facilities in range. They are "loaded" during the first combat phase and can be
+			"fired" during the second combat phase (and moved independently from the unit that fired them).
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Munitions</b><br/>
+			<img src="images/gas.png" />
+		</td>
+		<td>
+			Gas shells can be shot from heavy artillery only and are used to as a first-strike
+			element towards infantry/cavalry units. They bypass enemy trenches and directly engage soft targets
+			in the territory. Unlike munitions, they have no movement and so heavy artillery must be committed to
+			the battle for their gas shells to have an effect. 
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Lenin</b><br/>
+			<img src="images/Lenin.png" />
+		</td>
+		<td>
+			As the leader of the Bolshevik revolution, Lenin spreads his communist philosophies wherever he goes. 
+			Each turn, he recruits a new infantry to the cause and, while lacking any attack or defense himself, he 
+			inspires up to 10 infantry with +1 support.
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<b>Red-Baron</b><br/>
+			<img src="images/fightrb.png" />
+		</td>
+		<td>
+			If you can keep Manfred von Richthofen in the skies on the Western Front, he is all but guaranteed to
+			score combat victories with +2 attack and +1 defense over normal fighters.
+		</td>
+	</tr>
 </table>
-
-<p><b>Munitions -</b>
-Munitions are essentially heavy artillery shells that can be shot from battleships,
-battlecruisers and railguns. They are a 1-use attack element that engages in
-the beginning of a combat phase and can be used to strike at any ground forces
-or production facilities in range.</span></p>
-
-<p><b>Gas-Munitions -</b>
-Gas shells can be shot from heavy artillery only and are used to as a first-strike
-element towards infantry/cavalry units. They ‘bypass’ enemy trenches and
-directly engage soft targets in the territory.</p>
-
 </body>
