@@ -3842,6 +3842,7 @@
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="4"/>
             <option count="" name="isTwoHit" value="true"/>
+            <option count="" name="requiresUnits" value="Heavy-Artillery"/>
 			<option count="" name="createsUnitsList" value="2:Munitions"/>
         </attachment>
         <attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
@@ -8713,7 +8714,7 @@ the beginning of the turn.</p>
 		</td>
 	</tr>
 	<tr>
-		<th rowspan="9" style="border: 1px solid rgb(239,181,113);">Land</th>
+		<th rowspan="10" style="border: 1px solid rgb(239,181,113);">Land</th>
 		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
 			<b>Infantry</b><br/>
 			<img src="inf.png" />
@@ -8826,6 +8827,23 @@ the beginning of the turn.</p>
 	</tr>
 	<tr>
 		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b style="white-space: nowrap; font-size: 90%;">Heavy-Artillery-Emplacement</b><br/>
+			<img src="arte.png" /><br/>
+			<small>Unlock with Develop-Heavy-Artillery</small><br/>
+			<img src="arth-dev.png" /><br/>
+			<small>Upgrade Heavy-Artillery with Emplace-Heavy-Artillery</small><br/>
+			<img src="arte-dev.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			<i>Requires research to enable upgrade</i><br/><br/>
+			Emplaced heavy artillery shoot 2 long range munitions per turn (like railguns) but lose their ability
+			to mobilize and fire gas munitions. They also gain an additional hit point, which makes them ideal for 
+			defending your front lines while softening up the enemy's. Once per turn per territory, you may place
+			a special "upgrade" unit that will convert an existing heavy artillery into an emplaced artillery.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
 			<b style="white-space: nowrap; font-size: 90%;">Tank</b><br/>
 			<img src="tank.png" /><br/>
 			<small>Unlock with Develop-Tank</small><br/>
@@ -8840,27 +8858,86 @@ the beginning of the turn.</p>
 			damage options wisely as they may be vulnerable to counterattack
 		</td>
 	</tr>
+	<tr>
+		<th rowspan="6" style="border: 1px solid rgb(239,181,113);">Infra-<br/>structure</th>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Train</b><br/>
+			<img src="train.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Trains provide an efficient means of transporting ground forces, however their
+			routes of approach may be cut off or blocked if the railway territory is in
+			enemy hands (each railway is a "canal" in TripleA rules). They are vulnerable to air attacks and munitions and have no
+			defensive capabilities. However, they may "eliminate" enemy trains that have
+			been left isolated in a friendly territory (they cannot be captured). Because
+			of their +6 attack capability they will automatically destroy the enemy
+			train/trains (unless enemy armored trains are present) when moved into that
+			railway system, but cannot continue to pass through in the same turn. They must
+			move during the combat phase in order to transfer ownership of the railway.
+			This simulates the need to repair and "assimilate" enemy controlled railways in
+			order to gain access. If an enemy armored train is present, then there will be
+			combat and the attacking train runs the risk of being destroyed. This "battle"
+			represents sabotage and construction of new infrastructure when subduing newly captured territories, not actual combat.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Armored-Train</b><br/>
+			<img src="traina.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Armored trains provide defensive support for vulnerable trains and
+			railguns from air assaults. They also have a carrying capacity of 1.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Trenches</b><br/>
+			<img src="trench.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Trenches are a 2-hit defensive fortification and are ideal for providing cover for
+			ground forces of all types. They are capturable if there are no enemy forces occupying them (including AA guns)
+			and require 1 infantry per damaged trench to repair, with the exception of elite offensive infantry, which have the ability to
+			repair 3 trenches per unit.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Factory</b><br/>
+			<img src="fact.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Required to produce all units (with the exception of shipyards, munitions and trenches) up to
+			territorial value in which it is placed. They may be captured as well as
+			damaged by enemy air raids. They have a 2 max operational damage, with a total
+			damage of 3x territorial value; is destroyed if max damage is reached. Can
+			repair damaged tanks.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>Shipyard</b><br/>
+			<img src="yard.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Required to produce all naval units up to territorial value, but must be
+			accompanied by a factory as well. They can repair damaged battleships. They
+			have a 5 max operational damage and a 10 max total damage. It is destroyed if
+			the total damage is reached. Can be placed without a factory.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: 1px solid rgb(239,181,113); padding: 4px;">
+			<b>AA-Gun</b><br/>
+			<img src="aa.png" />
+		</td>
+		<td style="border: 1px solid rgb(239,181,113); font-size: 100%;">
+			Anti-Air defense weapon with a 1/6 AA for up to 3 targets (planes) in the first round. They cannot
+			combat move or capture territory and can be destroyed during normal combat.
+		</td>
+	</tr>
 </table>
-
-<p><b>Trains -</b>
-Trains provide an efficient means of transporting ground forces, however their
-routes of approach may be cut off or blocked if the railway territory is in
-enemy hands. They are vulnerable to air attacks and munitions and have no
-defensive capabilities. However, they may ‘eliminate’ enemy trains that have
-been left isolated in a friendly territory (they cannot be captured). Because
-of their +6 attack capability they will automatically destroy the enemy
-train/trains (unless enemy armored trains are present)  when moved into that
-railway system, but cannot continue to pass through in the same turn. They must
-move during the combat phase in order to transfer ownership of the railway.
-This simulates the need to repair and ‘assimilate’ enemy controlled railways in
-order to gain access. If an enemy armored train is present, then there will be
-combat and the attacking train runs the risk of being destroyed. This ‘odd’
-type of battle may be hard to wrap your head around but is the only solution within
-the boundaries of the tripleA rules.</p>
-
-<p><b>Armored Trains -</b>
-Armored trains provide defensive support for vulnerable trains and
-railguns from air assaults. They also have a carrying capacity of 1.</p>
 
 <p><b>Munitions -</b>
 Munitions are essentially heavy artillery shells that can be shot from battleships,
@@ -8872,30 +8949,6 @@ or production facilities in range.</span></p>
 Gas shells can be shot from heavy artillery only and are used to as a first-strike
 element towards infantry/cavalry units. They ‘bypass’ enemy trenches and
 directly engage soft targets in the territory.</p>
-
-<p><b>Trenches -</b>
-Trenches are capturable if there are no enemy forces occupying them (including AA-guns).
-They are a 2-hit defensive fortification and are ideal for providing cover for
-ground forces of all types. They require 1 infantryman per damaged trench to
-repair, with the exception of Elite-Heavy-Infantry which have the ability to
-repair 3 trenches per unit.</p>
-
-<p><b>Factory -</b>
-Required to produce all units (with the exception of munitions and trenches) up to
-territorial value in which it is placed. They may be captured as well as
-damaged by enemy air raids. They have a 2 max operational damage, with a total
-damage of 3x territorial value; is destroyed if max damage is reached. Can
-repair damaged tanks.</p>
-
-<p><b>Shipyard -</b>
-Required to produce all naval units up to territorial value, but must be
-accompanied by a factory as well. They can repair damaged battleships. They
-have a 5 max operational damage and a 10 max total damage. It is destroyed if
-the total damage is reached. Can be placed without factory.</p>
-
-<p><b>AA-Gun -</b>
-Anti-Air defense weapon with a 1/6 AA for 3 separate attacks in 1 round. They cannot
-combat move/capture territory, they can also be destroyed.</p>
 
 </div>]]></value></property>
     </propertyList>
