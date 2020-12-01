@@ -14,3 +14,7 @@ Welcome to **Over the Top**, an alternate scenario game loosely based on the var
 * Railroads *(credit: Civil War)*
 * Research to unlock more advanced units *(credit: Age of Tribes)*
 * Unique path to war for the Americans
+
+| :information_source: Also check out my map-building tools |
+| --- |
+| I developed several command-line tools to help make TripleA maps. [**Download them here**](https://github.com/jdimeo/triplea-map-tools) |
