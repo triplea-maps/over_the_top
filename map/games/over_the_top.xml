@@ -8289,7 +8289,7 @@
 		<property editable="true" name="British-Commonwealth bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
-        <property editable="false" name="mapName" player="" value="over-the-top"/>
+        <property editable="false" name="mapName" player="" value="over_the_top"/>
 		<property name="notes"><value><![CDATA[<html><head>
 	
 </head><body style="font-family: 'Garamond' , serif;font-size: 14px;">
