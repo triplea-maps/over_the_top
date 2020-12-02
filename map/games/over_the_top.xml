@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Over The Top" version="0.0.2"/>
+    <info name="Over The Top" version="0.1.0"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <variableList>
@@ -9030,6 +9030,7 @@ Please report any bugs or suggestions to <code style="font-family: 'Garamond' , 
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Changelog</h1>
 <b style="font-family: 'Garamond' , serif;">0.0.1</b> - Initial release
 <b style="font-family: 'Garamond' , serif;">0.0.2</b> - Fix file name capitalization
+<b style="font-family: 'Garamond' , serif;">0.1.0</b> - First public release under triple-maps
 </body></html>]]></value></property>
     </propertyList>
 </game>
