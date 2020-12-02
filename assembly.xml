@@ -11,7 +11,7 @@
     <fileSets>
         <fileSet>
             <directory>${project.basedir}/map</directory>
-            <outputDirectory>/</outputDirectory>
+            <outputDirectory>map</outputDirectory>
         </fileSet>
     </fileSets>
 </assembly>
