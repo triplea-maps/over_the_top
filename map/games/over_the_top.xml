@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Over The Top" version="0.1.0"/>
+    <info name="Over The Top" version="0.1.1"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <variableList>
@@ -8933,7 +8933,7 @@ the beginning of the turn.</p>
 			and require 1 infantry per damaged trench to repair, with the exception of elite offensive infantry, which have the ability to
 			repair 3 trenches per unit.<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Battle calculator:</b> Because undefended trenches are capturable during combat movement, they do not 
-			show up in the battle calculator. For this reason, there is one <code style="font-family: 'Garamond' , serif;">Trenches-If-Defended</code> (with 2 
+			show up in the battle calculator. For this reason, there is one <code style="font-family: monospace , monospace;">Trenches-If-Defended</code> (with 2 
 			hitpoints) unit always on the map for each faction so that you can re-add the correct number of trenches
 			to your battle simulation. Unfortunately, certain scenarios can't be perfectly simulated (for example, a
 			territory with a damaged trenches and two undamaged trenches). 
@@ -9023,14 +9023,15 @@ the beginning of the turn.</p>
 	</tr>
 </tbody></table>
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Credits</h1>
-by <b style="font-family: 'Garamond' , serif;">DK</b> (design, artwork, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: 'Garamond' , serif;">GenerationKILL</code>)
-and <b style="font-family: 'Garamond' , serif;">JD</b> (design, implementation, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: 'Garamond' , serif;">jdimeo</code>)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+by <b style="font-family: 'Garamond' , serif;">DK</b> (design, artwork, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: monospace , monospace;">GenerationKILL</code>)
+and <b style="font-family: 'Garamond' , serif;">JD</b> (design, implementation, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: monospace , monospace;">jdimeo</code>)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 Inspired by many other great maps on TripleA, like Great War, Civil War, Age of Tribes, and Middle Earth<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
-Please report any bugs or suggestions to <code style="font-family: 'Garamond' , serif;">https://github.com/jdimeo/over-the-top/issues</code>
+Please report any bugs or suggestions to <code style="font-family: monospace , monospace;">https://github.com/triplea-maps/over-the-top/issues</code>
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Changelog</h1>
 <b style="font-family: 'Garamond' , serif;">0.0.1</b> - Initial release
 <b style="font-family: 'Garamond' , serif;">0.0.2</b> - Fix file name capitalization
 <b style="font-family: 'Garamond' , serif;">0.1.0</b> - First public release under triple-maps
+<b style="font-family: 'Garamond' , serif;">0.1.1</b> - Remove deprecated <code style="font-family: monospace , monospace;">isTwoHit</code>
 </body></html>]]></value></property>
     </propertyList>
 </game>
