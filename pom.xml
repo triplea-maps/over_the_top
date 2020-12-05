@@ -7,6 +7,10 @@
     <artifactId>over-the-top</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	
+	<properties>
+		<zip.name>over_the_top</zip.name>
+	</properties>
 
     <build>
         <plugins>
@@ -30,7 +34,7 @@
                             <descriptors>
                                 <descriptor>assembly.xml</descriptor>
                             </descriptors>
-                            <finalName>${project.artifactId}</finalName>
+                            <finalName>${zip.name}</finalName>
                         </configuration>
                     </execution>
                 </executions>
@@ -51,7 +55,7 @@
 	                            <resource>
 	                                <directory>${project.build.directory}</directory>
 	                                <includes>
-	                                    <include>${project.artifactId}.zip</include>
+	                                    <include>${zip.name}.zip</include>
 	                                </includes>
 	                            </resource>
 	                        </resources>
@@ -69,7 +73,7 @@
 	                            <resource>
 	                                <directory>${project.build.directory}</directory>
 	                                <includes>
-	                                    <include>${project.artifactId}.zip</include>
+	                                    <include>${zip.name}.zip</include>
 	                                </includes>
 	                            </resource>
 								<resource>

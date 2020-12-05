@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Over The Top" version="0.1.0"/>
+    <info name="Over The Top" version="0.1.1"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <variableList>
@@ -3820,7 +3820,7 @@
             <option count="" name="transportCost" value="3"/>
             <option count="" name="attack" value="4"/>
             <option count="" name="defense" value="2"/>
-            <option count="" name="isTwoHit" value="true"/>
+            <option count="" name="hitPoints" value="2" />
         </attachment>
         <attachment attachTo="Field-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
@@ -3841,7 +3841,7 @@
             <option count="" name="movement" value="0"/>
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="4"/>
-            <option count="" name="isTwoHit" value="true"/>
+            <option count="" name="hitPoints" value="2"/>
             <option count="" name="requiresUnits" value="Heavy-Artillery"/>
 			<option count="" name="createsUnitsList" value="2:Munitions"/>
         </attachment>
@@ -3953,7 +3953,7 @@
             <option count="" name="attack" value="2"/>
             <option count="" name="defense" value="4"/>
             <option count="" name="canBombard" value="false"/>
-            <option count="" name="isTwoHit" value="true"/>
+            <option count="" name="hitPoints" value="2"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
             <option count="" name="createsUnitsList" value="2:Munitions"/>
             <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99"/>
@@ -3962,7 +3962,7 @@
             <option count="" name="movement" value="0"/>
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="0"/>
-            <option count="" name="isTwoHit" value="true"/>
+            <option count="" name="hitPoints" value="2"/>
             <option count="" name="isConstruction" value="true"/>
             <option count="" name="constructionType" value="Trenches"/>
             <option count="" name="constructionsPerTerrPerTypePerTurn" value="2"/>
@@ -3972,7 +3972,7 @@
             <option count="" name="movement" value="0"/>
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="0"/>
-            <option count="" name="isTwoHit" value="true"/>
+            <option count="" name="hitPoints" value="2"/>
         </attachment>
         <attachment attachTo="Harbor-Defenses" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="0"/>
@@ -8289,7 +8289,7 @@
 		<property editable="true" name="British-Commonwealth bid" player="" value="0">
             <number max="1000" min="0"/>
         </property>
-        <property editable="false" name="mapName" player="" value="over-the-top"/>
+        <property editable="false" name="mapName" player="" value="over_the_top"/>
 		<property name="notes"><value><![CDATA[<html><head>
 	
 </head><body style="font-family: 'Garamond' , serif;font-size: 14px;">
@@ -8933,7 +8933,7 @@ the beginning of the turn.</p>
 			and require 1 infantry per damaged trench to repair, with the exception of elite offensive infantry, which have the ability to
 			repair 3 trenches per unit.<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 			<b style="font-family: 'Garamond' , serif;white-space: nowrap;">Battle calculator:</b> Because undefended trenches are capturable during combat movement, they do not 
-			show up in the battle calculator. For this reason, there is one <code style="font-family: 'Garamond' , serif;">Trenches-If-Defended</code> (with 2 
+			show up in the battle calculator. For this reason, there is one <code style="font-family: monospace , monospace;">Trenches-If-Defended</code> (with 2 
 			hitpoints) unit always on the map for each faction so that you can re-add the correct number of trenches
 			to your battle simulation. Unfortunately, certain scenarios can't be perfectly simulated (for example, a
 			territory with a damaged trenches and two undamaged trenches). 
@@ -9023,14 +9023,15 @@ the beginning of the turn.</p>
 	</tr>
 </tbody></table>
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Credits</h1>
-by <b style="font-family: 'Garamond' , serif;">DK</b> (design, artwork, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: 'Garamond' , serif;">GenerationKILL</code>)
-and <b style="font-family: 'Garamond' , serif;">JD</b> (design, implementation, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: 'Garamond' , serif;">jdimeo</code>)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+by <b style="font-family: 'Garamond' , serif;">DK</b> (design, artwork, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: monospace , monospace;">GenerationKILL</code>)
+and <b style="font-family: 'Garamond' , serif;">JD</b> (design, implementation, <img src="github.png" style="font-family: 'Garamond' , serif;"></img> <code style="font-family: monospace , monospace;">jdimeo</code>)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 Inspired by many other great maps on TripleA, like Great War, Civil War, Age of Tribes, and Middle Earth<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
-Please report any bugs or suggestions to <code style="font-family: 'Garamond' , serif;">https://github.com/jdimeo/over-the-top/issues</code>
+Please report any bugs or suggestions to <code style="font-family: monospace , monospace;">https://github.com/triplea-maps/over-the-top/issues</code>
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Changelog</h1>
 <b style="font-family: 'Garamond' , serif;">0.0.1</b> - Initial release
 <b style="font-family: 'Garamond' , serif;">0.0.2</b> - Fix file name capitalization
 <b style="font-family: 'Garamond' , serif;">0.1.0</b> - First public release under triple-maps
+<b style="font-family: 'Garamond' , serif;">0.1.1</b> - Remove deprecated <code style="font-family: monospace , monospace;">isTwoHit</code>
 </body></html>]]></value></property>
     </propertyList>
 </game>
