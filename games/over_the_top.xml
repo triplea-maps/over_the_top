@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Over The Top" version="0.1.1"/>
+    <info name="Over The Top" version="0.1.2"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <variableList>
@@ -9032,6 +9032,7 @@ Please report any bugs or suggestions to <code style="font-family: monospace , m
 <b style="font-family: 'Garamond' , serif;">0.0.2</b> - Fix file name capitalization
 <b style="font-family: 'Garamond' , serif;">0.1.0</b> - First public release under triple-maps
 <b style="font-family: 'Garamond' , serif;">0.1.1</b> - Remove deprecated <code style="font-family: monospace , monospace;">isTwoHit</code>
+<b style="font-family: 'Garamond' , serif;">0.1.2</b> - Changed repository layout to follow conventions and move supporting files to separate repository
 </body></html>]]></value></property>
     </propertyList>
 </game>
