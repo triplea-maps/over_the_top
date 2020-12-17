@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
-<!ELEMENT game (info, loader?, triplea?, diceSides?, variableList?, map, resourceList?, playerList, unitList?, relationshipTypes?, territoryEffectList?, gamePlay, production?, technology?, attachmentList?, initialize?, propertyList?)>
+<!ELEMENT game (info, loader, triplea?, diceSides?, map, resourceList?, playerList, unitList?, relationshipTypes?, territoryEffectList?, gamePlay, production?, technology?, attachmentList? , initialize?, propertyList?)>
 
 <!-- version must be in the form xx.xx or xx.xx.xx where xx is a positive integer -->
 <!ELEMENT info EMPTY>
@@ -27,17 +27,18 @@
 	value CDATA #REQUIRED
 >
 
-<!ELEMENT variableList (variable+) >
-	<!ELEMENT variable (element+) >
-	<!ATTLIST variable 
+<!ELEMENT map ((grid | territory)+ , connection*, remove-connection*)>
+	<!ELEMENT grid EMPTY>
+	<!ATTLIST grid
 		name CDATA #REQUIRED
+		type (square | points-and-lines) #REQUIRED
+		x CDATA #REQUIRED
+		y CDATA #REQUIRED
+		horizontal-connections (explicit | implicit) 'explicit'
+		vertical-connections (explicit | implicit) 'explicit'
+		diagonal-connections (explicit | implicit) 'explicit'
 	>
-		<!ELEMENT element EMPTY > 
-		<!ATTLIST element
-			name CDATA #REQUIRED
-		>
 
-<!ELEMENT map (territory+, connection*)>
 	<!ELEMENT territory EMPTY>
 	<!ATTLIST territory
 		name CDATA #REQUIRED
@@ -50,11 +51,16 @@
 		t2 CDATA #REQUIRED
 	>
 
+	<!ELEMENT remove-connection EMPTY>
+	<!ATTLIST remove-connection
+		t1 CDATA #REQUIRED 
+		t2 CDATA #REQUIRED
+	>
+
 <!ELEMENT resourceList (resource+) >
 	<!ELEMENT resource EMPTY>
 	<!ATTLIST resource 
 		name ID #REQUIRED
-		isDisplayedFor CDATA #IMPLIED
 	>
 
 <!ELEMENT unitList (unit+) >
@@ -75,8 +81,6 @@
 		name ID #REQUIRED
 		optional (true | false) 'false'
 		canBeDisabled (true | false) 'false'
-		defaultType (Human | AI | DoesNothing) 'Human'
-		isHidden (true | false) 'false' 
 	>
 	<!ELEMENT alliance EMPTY>
 
@@ -198,7 +202,6 @@
 <!ELEMENT attachmentList (attachment+) >
 	<!ELEMENT attachment (option+) >
 	<!ATTLIST attachment 
-		foreach CDATA #IMPLIED
 		name CDATA #REQUIRED
 		attachTo CDATA #REQUIRED
 		javaClass CDATA #REQUIRED
@@ -257,7 +260,7 @@
 
 	
 <!ELEMENT propertyList (property*)>
-	<!ELEMENT property (boolean?, string?, number?, value?) >
+	<!ELEMENT property (boolean?, string?, file?, number?, color?, list?) >
 	<!-- can the player edit this on start up? if true then the type must be specified with a nested element -->
 	<!ATTLIST property
 		value CDATA ""
@@ -268,15 +271,18 @@
 		<!ELEMENT value (#PCDATA)>
 	
 		<!ELEMENT boolean EMPTY>
-		<!ATTLIST boolean
-		>
 		<!ELEMENT string EMPTY>
-		<!ATTLIST string
-		>
+		<!ELEMENT file EMPTY>
 		<!ELEMENT number EMPTY>
 		<!-- currently only integers are supported -->
 		<!ATTLIST number
 			max CDATA #REQUIRED
 			min CDATA #REQUIRED
 		>
-
+		
+		<!ELEMENT color EMPTY>
+		<!ELEMENT list EMPTY>
+		<!-- a comma seperated list of possible values -->
+		<!ATTLIST list
+			values CDATA #REQUIRED
+		>
