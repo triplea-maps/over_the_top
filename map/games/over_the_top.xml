@@ -8220,6 +8220,12 @@
         <property editable="false" name="Submersible Subs" player="" value="true">
             <boolean/>
         </property>
+		<property editable="false" name="Ignore Sub In Movement" player="" value="true">
+            <boolean/>
+        </property>
+		<property editable="false" name="Air Attack Sub Restricted" player="" value="true">
+            <boolean/>
+        </property>
         <property editable="false" name="Previous Units Fight" player="" value="true">
             <boolean/>
         </property>
