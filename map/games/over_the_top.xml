@@ -3989,6 +3989,7 @@
         <attachment attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="isFactory" value="true"/>
             <option count="5" name="repairsUnits" value="Tank"/>
+            <option count="3" name="repairsUnits" value="Heavy-Artillery-Emplacement"/>
             <option count="" name="canBeDamaged" value="true"/>
             <option count="" name="maxDamage" value="3"/>
             <option count="" name="maxOperationalDamage" value="2"/>
@@ -4094,7 +4095,8 @@
 			<option count="" name="transportCost" value="1"/>
 			<option count="" name="attack" value="1"/>
 			<option count="" name="defense" value="2"/>
-			<option count="3" name="repairsUnits" value="Trenches"/>
+			<option count="3" name="repairsUnits" value="Trenches"/>			
+            <option count="1" name="repairsUnits" value="Heavy-Artillery-Emplacement"/>
 			<option count="" name="isLandTransportable" value="true"/>
 		</attachment>
         <attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
@@ -4103,7 +4105,8 @@
 			<option count="" name="attack" value="2"/>
 			<option count="" name="defense" value="1"/>
 			<option count="" name="artillerySupportable" value="true"/>
-			<option count="" name="repairsUnits" value="Trenches"/>
+			<option count="2" name="repairsUnits" value="Trenches"/>
+			<option count="1" name="repairsUnits" value="Tank"/>
 			<option count="" name="isLandTransportable" value="true"/>
 		</attachment>
 		<attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentBomberInfElite" type="unitType">
