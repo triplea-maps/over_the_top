@@ -2131,10 +2131,6 @@
             <cost quantity="10" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Train"/>
         </productionRule>
-        <productionRule name="buyMunitions">
-            <cost quantity="1" resource="PUs"/>
-            <result quantity="1" resourceOrUnit="Munitions"/>
-        </productionRule>
         <productionRule name="buyRailgun">
             <cost quantity="10" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Railgun"/>
