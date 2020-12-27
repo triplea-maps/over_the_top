@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Over The Top" version="0.1.3"/>
+    <info name="Over The Top" version="1.0.0"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <variableList>
@@ -2032,7 +2032,7 @@
             <result quantity="1" resourceOrUnit="Field-Artillery"/>
         </productionRule>
         <productionRule name="buyHeavy-Artillery">
-            <cost quantity="9" resource="PUs"/>
+            <cost quantity="10" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Heavy-Artillery"/>
         </productionRule>
         <productionRule name="buyZeppelin">
@@ -2042,10 +2042,6 @@
         <productionRule name="buyFighter">
             <cost quantity="8" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Fighter"/>
-        </productionRule>
-        <productionRule name="buyRed-Baron">
-            <cost quantity="0" resource="PUs"/>
-            <result quantity="0" resourceOrUnit="Red-Baron"/>
         </productionRule>
         <productionRule name="buyBomber">
             <cost quantity="12" resource="PUs"/>
@@ -2124,16 +2120,12 @@
             <result quantity="1" resourceOrUnit="Emplace-Heavy-Artillery"/>
         </productionRule>
         <productionRule name="buyArmored-Train">
-            <cost quantity="6" resource="PUs"/>
+            <cost quantity="5" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Armored-Train"/>
         </productionRule>
         <productionRule name="buyTrain">
-            <cost quantity="10" resource="PUs"/>
+            <cost quantity="8" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Train"/>
-        </productionRule>
-        <productionRule name="buyMunitions">
-            <cost quantity="1" resource="PUs"/>
-            <result quantity="1" resourceOrUnit="Munitions"/>
         </productionRule>
         <productionRule name="buyRailgun">
             <cost quantity="10" resource="PUs"/>
@@ -3989,6 +3981,7 @@
         <attachment attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="isFactory" value="true"/>
             <option count="5" name="repairsUnits" value="Tank"/>
+            <option count="3" name="repairsUnits" value="Heavy-Artillery-Emplacement"/>
             <option count="" name="canBeDamaged" value="true"/>
             <option count="" name="maxDamage" value="3"/>
             <option count="" name="maxOperationalDamage" value="2"/>
@@ -4023,23 +4016,11 @@
         <attachment attachTo="Armored-Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="3"/>
             <option count="" name="isSea" value="true"/>
-            <option count="" name="attack" value="6"/>
+            <option count="" name="attack" value="4"/>
             <option count="" name="defense" value="2"/>
             <option count="" name="transportCapacity" value="1"/>
             <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99"/>
         </attachment>
-		<!-- Neutralize any defensive armored trains so attacking ones can always "clear out" trains stuck behind enemy lines -->
-		<attachment attachTo="Armored-Train" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentArmoredTrain1" type="unitType">
-			<option count="" name="unitType" value="Armored-Train"/>
-			<option count="" name="faction" value="enemy"/>
-			<option count="" name="side" value="offence"/>
-			<option count="" name="dice" value="strength"/>
-			<option count="" name="bonus" value="-2"/>
-			<option count="" name="number" value="10"/>
-			<option count="" name="bonusType" value="Rail Defense"/>
-			<option count="" name="impArtTech" value="false"/>
-			<option count="" name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Imperial-German-Afrika:French-Colonial-Africa:British-Commonwealth:Americans:Bolsheviks"/>
-		</attachment>
         <attachment attachTo="Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="3"/>
             <option count="" name="isSea" value="true"/>
@@ -4094,7 +4075,8 @@
 			<option count="" name="transportCost" value="1"/>
 			<option count="" name="attack" value="1"/>
 			<option count="" name="defense" value="2"/>
-			<option count="3" name="repairsUnits" value="Trenches"/>
+			<option count="3" name="repairsUnits" value="Trenches"/>			
+            <option count="1" name="repairsUnits" value="Heavy-Artillery-Emplacement"/>
 			<option count="" name="isLandTransportable" value="true"/>
 		</attachment>
         <attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
@@ -4103,7 +4085,8 @@
 			<option count="" name="attack" value="2"/>
 			<option count="" name="defense" value="1"/>
 			<option count="" name="artillerySupportable" value="true"/>
-			<option count="" name="repairsUnits" value="Trenches"/>
+			<option count="2" name="repairsUnits" value="Trenches"/>
+			<option count="1" name="repairsUnits" value="Tank"/>
 			<option count="" name="isLandTransportable" value="true"/>
 		</attachment>
 		<attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentBomberInfElite" type="unitType">
@@ -4286,6 +4269,7 @@
         <attachment attachTo="Rome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="Italians"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Natal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4362,6 +4346,7 @@
         <attachment attachTo="United States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="25"/>
             <option count="" name="capital" value="Americans"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Soissons" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4372,6 +4357,7 @@
         <attachment attachTo="Moscow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
             <option count="" name="capital" value="Russians"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Soviet Far East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
@@ -4422,6 +4408,7 @@
         <attachment attachTo="Berlin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="16"/>
             <option count="" name="capital" value="Germans"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
@@ -4459,6 +4446,7 @@
         <attachment attachTo="Vienna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="12"/>
             <option count="" name="capital" value="Austrians"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Rostov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="4"/>
@@ -4475,6 +4463,7 @@
         <attachment attachTo="Paris" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="12"/>
             <option count="" name="capital" value="French"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Antalya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="2"/>
@@ -4504,6 +4493,7 @@
         <attachment attachTo="St. Petersburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
             <option count="" name="capital" value="Russians"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Tuscany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="3"/>
@@ -4523,6 +4513,7 @@
         <attachment attachTo="London" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="British"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Be'er Sheva" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4648,6 +4639,7 @@
         <attachment attachTo="Istanbul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="Ottomans"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Kaluga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -8178,6 +8170,39 @@
         <property editable="false" name="WW2V3" player="" value="true">
             <boolean/>
         </property>
+
+		<!-- victory options -->
+		<property name="Projection of Power" value="true" editable="true">
+			<boolean />
+		</property>
+		<property name="Central Powers Projection of Power VCs" value="6" editable="true">
+			<number min="4" max="8" />
+		</property>
+		<property name="Allies Projection of Power VCs" value="7" editable="true">
+			<number min="5" max="8" />
+		</property>
+		<property name="Honorable Surrender" value="false" editable="false">
+			<boolean />
+		</property>
+		<property name="Total Victory" value="false" editable="true">
+			<boolean />
+		</property>
+		<property name="Central Powers Total Victory VCs" value="9" editable="false">
+			<number min="9" max="9" />
+		</property>
+		<property name="Allies Total Victory VCs" value="9" editable="false">
+			<number min="9" max="9" />
+		</property>
+		<property name="Economic Victory" value="true" editable="true">
+			<boolean />
+		</property>
+		<property name="Central Powers Economic Victory" value="350" editable="true">
+			<number min="0" max="1000" />
+		</property>
+		<property name="Allies Economic Victory" value="450" editable="true">
+			<number min="0" max="1000" />
+		</property>
+        
         <property editable="false" name="Movement By Territory Restricted" player="" value="true">
             <boolean/>
         </property>
@@ -8218,6 +8243,12 @@
             <boolean/>
         </property>
         <property editable="false" name="Submersible Subs" player="" value="true">
+            <boolean/>
+        </property>
+		<property editable="false" name="Ignore Sub In Movement" player="" value="true">
+            <boolean/>
+        </property>
+		<property editable="false" name="Air Attack Sub Restricted" player="" value="true">
             <boolean/>
         </property>
         <property editable="false" name="Previous Units Fight" player="" value="true">
@@ -8370,6 +8401,7 @@ along Imperial Russia's eastern most territories thus opening another front.</p>
 <li style="font-family: 'Garamond' , serif;">Two-hit units repair at the start of the next turn and only if certain "repairing" units are present</li>
 <li style="font-family: 'Garamond' , serif;">Producing fighters on carriers and producing new fighters on old carriers are both allowed</li>
 <li style="font-family: 'Garamond' , serif;">Partial amphibious retreat, air retreat, and submerging subs are all allowed</li>
+<li style="font-family: 'Garamond' , serif;">Projection of power or economic victory. Only main powers' capitals are considered victory cities (not African colonial powers or Bolsheviks).</li> 
 </ul>
 
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Factions</h1>
@@ -8899,17 +8931,10 @@ the beginning of the turn.</p>
 		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Trains provide an efficient means of transporting ground forces, however their
 			routes of approach may be cut off or blocked if the railway territory is in
-			enemy hands (each railway is a "canal" in TripleA rules). They are vulnerable to air attacks and munitions and have no
-			defensive capabilities. However, they may "eliminate" enemy trains that have
-			been left isolated in a friendly territory (they cannot be captured). Because
-			of their +6 attack capability they will automatically destroy the enemy
-			train/trains (unless enemy armored trains are present) when moved into that
-			railway system, but cannot continue to pass through in the same turn. They must
-			move during the combat phase in order to transfer ownership of the railway.
-			This simulates the need to repair and "assimilate" enemy controlled railways in
-			order to gain access. If an enemy armored train is present, then there will be
-			combat and the attacking train runs the risk of being destroyed. This "battle"
-			represents sabotage and construction of new infrastructure when subduing newly captured territories, not actual combat.
+			enemy hands (each railway is a "canal" in TripleA rules). They are vulnerable to air attacks and munitions
+			and have no defensive capabilities. If protected by an armored train, they function like transports and
+			destroyers in normal sea-based battles (unescorted enemy trains can co-exist, but an armored escort will
+			cause a battle).  
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
@@ -8919,7 +8944,8 @@ the beginning of the turn.</p>
 		</td>
 		<td style="border-bottom-color: #efb571;border-bottom-style: solid;border-bottom-width: 1px;border-left-color: #efb571;border-left-style: solid;border-left-width: 1px;border-right-color: #efb571;border-right-style: solid;border-right-width: 1px;border-top-color: #efb571;border-top-style: solid;border-top-width: 1px;font-family: 'Garamond' , serif;">
 			Armored trains provide defensive support for vulnerable trains and
-			railguns from air assaults. They also have a carrying capacity of 1.
+			railguns from air assaults, as well as the ability to destroy opponents' trains in their path (unlike normal
+			trains). They also have a carrying capacity of 1.
 		</td>
 	</tr>
 	<tr style="font-family: 'Garamond' , serif;">
@@ -9032,7 +9058,8 @@ Please report any bugs or suggestions to <code style="font-family: monospace , m
 <b style="font-family: 'Garamond' , serif;">0.0.2</b> - Fix file name capitalization
 <b style="font-family: 'Garamond' , serif;">0.1.0</b> - First public release under triple-maps
 <b style="font-family: 'Garamond' , serif;">0.1.1</b> - Remove deprecated <code style="font-family: monospace , monospace;">isTwoHit</code>
-<b style="font-family: 'Garamond' , serif;">0.1.3</b> - Changed repository layout to follow conventions and move supporting files to separate repository
+<b style="font-family: 'Garamond' , serif;">0.1.2</b> - Changed repository layout to follow conventions and move supporting files to separate repository
+<b style="font-family: 'Garamond' , serif;">1.0.0</b> - Add victory conditions (#5), tweak train logic and prices (#6), fix sub vs. air (#1), fix emplaced artillery repair (#3) 
 </body></html>]]></value></property>
     </propertyList>
 </game>
