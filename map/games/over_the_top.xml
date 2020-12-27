@@ -4269,6 +4269,7 @@
         <attachment attachTo="Rome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="Italians"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Natal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4345,6 +4346,7 @@
         <attachment attachTo="United States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="25"/>
             <option count="" name="capital" value="Americans"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Soissons" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4355,6 +4357,7 @@
         <attachment attachTo="Moscow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
             <option count="" name="capital" value="Russians"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Soviet Far East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
@@ -4405,6 +4408,7 @@
         <attachment attachTo="Berlin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="16"/>
             <option count="" name="capital" value="Germans"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
@@ -4442,6 +4446,7 @@
         <attachment attachTo="Vienna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="12"/>
             <option count="" name="capital" value="Austrians"/>
+			<option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Rostov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="4"/>
@@ -4458,6 +4463,7 @@
         <attachment attachTo="Paris" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="12"/>
             <option count="" name="capital" value="French"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Antalya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="2"/>
@@ -4487,6 +4493,7 @@
         <attachment attachTo="St. Petersburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
             <option count="" name="capital" value="Russians"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Tuscany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="3"/>
@@ -4506,6 +4513,7 @@
         <attachment attachTo="London" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="British"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Be'er Sheva" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4631,6 +4639,7 @@
         <attachment attachTo="Istanbul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="Ottomans"/>
+            <option name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Kaluga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -8161,6 +8170,39 @@
         <property editable="false" name="WW2V3" player="" value="true">
             <boolean/>
         </property>
+
+		<!-- victory options -->
+		<property name="Projection of Power" value="true" editable="true">
+			<boolean />
+		</property>
+		<property name="Central Powers Projection of Power VCs" value="6" editable="true">
+			<number min="4" max="8" />
+		</property>
+		<property name="Allies Projection of Power VCs" value="7" editable="true">
+			<number min="5" max="8" />
+		</property>
+		<property name="Honorable Surrender" value="false" editable="false">
+			<boolean />
+		</property>
+		<property name="Total Victory" value="false" editable="true">
+			<boolean />
+		</property>
+		<property name="Central Powers Total Victory VCs" value="9" editable="false">
+			<number min="9" max="9" />
+		</property>
+		<property name="Allies Total Victory VCs" value="9" editable="false">
+			<number min="9" max="9" />
+		</property>
+		<property name="Economic Victory" value="true" editable="true">
+			<boolean />
+		</property>
+		<property name="Central Powers Economic Victory" value="350" editable="true">
+			<number min="0" max="1000" />
+		</property>
+		<property name="Allies Economic Victory" value="450" editable="true">
+			<number min="0" max="1000" />
+		</property>
+        
         <property editable="false" name="Movement By Territory Restricted" player="" value="true">
             <boolean/>
         </property>
