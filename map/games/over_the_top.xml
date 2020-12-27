@@ -9054,12 +9054,12 @@ and <b style="font-family: 'Garamond' , serif;">JD</b> (design, implementation, 
 Inspired by many other great maps on TripleA, like Great War, Civil War, Age of Tribes, and Middle Earth<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
 Please report any bugs or suggestions to <code style="font-family: monospace , monospace;">https://github.com/triplea-maps/over-the-top/issues</code>
 <h1 style="border-bottom-color: #aa610d;border-bottom-style: solid;border-bottom-width: 1.5pt;font-family: 'Garamond' , serif;">Changelog</h1>
-<b style="font-family: 'Garamond' , serif;">0.0.1</b> - Initial release
-<b style="font-family: 'Garamond' , serif;">0.0.2</b> - Fix file name capitalization
-<b style="font-family: 'Garamond' , serif;">0.1.0</b> - First public release under triple-maps
-<b style="font-family: 'Garamond' , serif;">0.1.1</b> - Remove deprecated <code style="font-family: monospace , monospace;">isTwoHit</code>
-<b style="font-family: 'Garamond' , serif;">0.1.2</b> - Changed repository layout to follow conventions and move supporting files to separate repository
-<b style="font-family: 'Garamond' , serif;">1.0.0</b> - Add victory conditions (#5), tweak train logic and prices (#6), fix sub vs. air (#1), fix emplaced artillery repair (#3) 
+<b style="font-family: 'Garamond' , serif;">0.0.1</b> - Initial release<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+<b style="font-family: 'Garamond' , serif;">0.0.2</b> - Fix file name capitalization<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+<b style="font-family: 'Garamond' , serif;">0.1.0</b> - First public release under triple-maps<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+<b style="font-family: 'Garamond' , serif;">0.1.1</b> - Remove deprecated <code style="font-family: monospace , monospace;">isTwoHit</code><br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+<b style="font-family: 'Garamond' , serif;">0.1.2</b> - Changed repository layout to follow conventions and move supporting files to separate repository<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br>
+<b style="font-family: 'Garamond' , serif;">1.0.0</b> - Add victory conditions (#5), tweak train logic and prices (#6), fix sub vs. air (#1), fix emplaced artillery repair (#3)<br style="display: inline;font-family: 'Garamond' , serif;white-space: pre;"></br> 
 </body></html>]]></value></property>
     </propertyList>
 </game>
