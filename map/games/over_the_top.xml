@@ -52,7 +52,7 @@
             <element name="Belarus"/>
             <element name="Berlin"/>
             <element name="Bohemia"/>
-            <element name="Soviet Far East"/>
+            <element name="Bolshevik Revolution"/>
             <element name="Bordeaux"/>
             <element name="British E. Africa"/>
             <element name="Brussels"/>
@@ -268,7 +268,7 @@
 		<territory name="Belarus" water="false"/>
 		<territory name="Berlin" water="false"/>
 		<territory name="Bohemia" water="false"/>
-		<territory name="Soviet Far East" water="false"/>
+		<territory name="Bolshevik Revolution" water="false"/>
 		<territory name="Bordeaux" water="false"/>
 		<territory name="British E. Africa" water="false"/>
 		<territory name="Brussels" water="false"/>
@@ -805,7 +805,7 @@
         <connection t1="B. Somaliland" t2="SZ 41"/>
         <connection t1="B. Somaliland" t2="Southern Sudan"/>
         <connection t1="BR 1" t2="BR 2"/>
-        <connection t1="BR 1" t2="Soviet Far East"/>
+        <connection t1="BR 1" t2="Bolshevik Revolution"/>
         <connection t1="BR 2" t2="BR 3"/>
         <connection t1="BR 3" t2="Russian Infiltration"/>
         <connection t1="BR 4" t2="RR 149"/>
@@ -4359,8 +4359,8 @@
             <option count="" name="capital" value="Russians"/>
 			<option name="victoryCity" value="1"/>
         </attachment>
-        <attachment attachTo="Soviet Far East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="6"/>
+        <attachment attachTo="Bolshevik Revolution" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+            <option count="" name="production" value="3"/>
             <option count="" name="capital" value="Bolsheviks"/>
         </attachment>
         <attachment attachTo="Tabriz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -7051,7 +7051,7 @@
             <territoryOwner owner="French" territory="Soissons"/>
             <territoryOwner owner="Italians" territory="Cyreniaca"/>
             <territoryOwner owner="Russians" territory="Moscow"/>
-            <territoryOwner owner="Bolsheviks" territory="Soviet Far East"/>
+            <territoryOwner owner="Bolsheviks" territory="Bolshevik Revolution"/>
             <territoryOwner owner="Ottomans" territory="Tabriz"/>
             <territoryOwner owner="Russians" territory="Riga"/>
             <territoryOwner owner="Italians" territory="Naples"/>
@@ -7985,12 +7985,12 @@
             <unitPlacement owner="Russians" quantity="1" territory="Volgograd" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Yaroslavl" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="al-Hasa" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="Soviet Far East" unitType="AA-Gun"/>
-            <unitPlacement owner="Bolsheviks" quantity="2" territory="Soviet Far East" unitType="Cavalry"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="Soviet Far East" unitType="Factory"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="Soviet Far East" unitType="Field-Artillery"/>
-            <unitPlacement owner="Bolsheviks" quantity="6" territory="Soviet Far East" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="Soviet Far East" unitType="Lenin"/>
+            <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="AA-Gun"/>
+            <unitPlacement owner="Bolsheviks" quantity="2" territory="Bolshevik Revolution" unitType="Cavalry"/>
+            <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="Factory"/>
+            <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="Field-Artillery"/>
+            <unitPlacement owner="Bolsheviks" quantity="6" territory="Bolshevik Revolution" unitType="Infantry"/>
+            <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="Lenin"/>
             <unitPlacement owner="Germans" quantity="1" territory="Ardennes" unitType="Field-Artillery"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Bohemia" unitType="Cavalry"/>
             <unitPlacement owner="Austrians" quantity="3" territory="Bohemia" unitType="Field-Artillery"/>
