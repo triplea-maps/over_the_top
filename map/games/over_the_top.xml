@@ -4380,6 +4380,7 @@
         </attachment>
         <attachment attachTo="Gallipoli" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
+			<option name="originalOwner" value="Ottomans"/>
         </attachment>
         <attachment attachTo="Bohemia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="4"/>
