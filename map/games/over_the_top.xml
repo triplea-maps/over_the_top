@@ -7303,8 +7303,8 @@
             <unitPlacement owner="British" quantity="1" territory="Arras" unitType="AA-Gun"/>
             <unitPlacement owner="British" quantity="2" territory="Arras" unitType="Field-Artillery"/>
             <unitPlacement owner="British" quantity="1" territory="Arras" unitType="Fighter"/>
-            <unitPlacement owner="British" quantity="6" territory="Arras" unitType="Infantry"/>
-            <unitPlacement owner="British" quantity="4" territory="Arras" unitType="Trenches"/>
+            <unitPlacement owner="British" quantity="5" territory="Arras" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="3" territory="Arras" unitType="Trenches"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Australia" unitType="AA-Gun"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Australia" unitType="Cavalry"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Australia" unitType="Factory"/>
@@ -7361,10 +7361,10 @@
             <unitPlacement owner="Germans" quantity="8" territory="Douamont" unitType="Infantry"/>
             <unitPlacement owner="Germans" quantity="4" territory="Douamont" unitType="Trenches"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Egypt" unitType="Infantry"/>
-            <unitPlacement owner="British" quantity="3" territory="Flanders" unitType="Cavalry"/>
-            <unitPlacement owner="British" quantity="3" territory="Flanders" unitType="Field-Artillery"/>
+            <unitPlacement owner="British" quantity="2" territory="Flanders" unitType="Cavalry"/>
+            <unitPlacement owner="British" quantity="2" territory="Flanders" unitType="Field-Artillery"/>
             <unitPlacement owner="British" quantity="1" territory="Flanders" unitType="Fighter"/>
-            <unitPlacement owner="British" quantity="10" territory="Flanders" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="8" territory="Flanders" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="1" territory="Flanders" unitType="Tank"/>
             <unitPlacement owner="Germans" quantity="1" territory="Frankfurt" unitType="Cavalry"/>
             <unitPlacement owner="Germans" quantity="1" territory="Frankfurt" unitType="Field-Artillery"/>
@@ -7380,10 +7380,10 @@
             <unitPlacement owner="British-Commonwealth" quantity="4" territory="Gallipoli" unitType="Infantry"/>
             <unitPlacement owner="British-Commonwealth" quantity="4" territory="Gallipoli" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="Gibraltar" unitType="Infantry"/>
-            <unitPlacement owner="British" quantity="2" territory="Greece" unitType="Cavalry"/>
+            <unitPlacement owner="British" quantity="1" territory="Greece" unitType="Cavalry"/>
             <unitPlacement owner="British" quantity="2" territory="Greece" unitType="Field-Artillery"/>
             <unitPlacement owner="British" quantity="1" territory="Greece" unitType="Fighter"/>
-            <unitPlacement owner="British" quantity="5" territory="Greece" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="4" territory="Greece" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="3" territory="Greece" unitType="Trenches"/>
             <unitPlacement owner="Germans" quantity="1" territory="Hanover" unitType="Field-Artillery"/>
             <unitPlacement owner="Germans" quantity="3" territory="Hanover" unitType="Infantry"/>
@@ -7414,7 +7414,7 @@
             <unitPlacement owner="British" quantity="1" territory="London" unitType="Factory"/>
             <unitPlacement owner="British" quantity="2" territory="London" unitType="Field-Artillery"/>
             <unitPlacement owner="British" quantity="2" territory="London" unitType="Fighter"/>
-            <unitPlacement owner="British" quantity="8" territory="London" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="6" territory="London" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="1" territory="London" unitType="Shipyard"/>
             <unitPlacement owner="British" quantity="3" territory="London" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="London" unitType="Zeppelin"/>
@@ -7425,7 +7425,7 @@
             <unitPlacement owner="Germans" quantity="6" territory="Luneville" unitType="Infantry"/>
             <unitPlacement owner="Germans" quantity="4" territory="Luneville" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="Macedonia" unitType="Field-Artillery"/>
-            <unitPlacement owner="British" quantity="3" territory="Macedonia" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="2" territory="Macedonia" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="2" territory="Macedonia" unitType="Trenches"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Mauritania" unitType="Cavalry"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Mauritania" unitType="Infantry"/>
@@ -7471,7 +7471,7 @@
             <unitPlacement owner="Germans" quantity="2" territory="Rhineland" unitType="Cavalry"/>
             <unitPlacement owner="Germans" quantity="2" territory="Rhineland" unitType="Infantry"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Rhodesia" unitType="Cavalry"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="Rhodesia" unitType="Infantry"/>
+            <unitPlacement owner="British-Commonwealth" quantity="1" territory="Rhodesia" unitType="Infantry"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Rhodesia" unitType="Trenches"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Romania" unitType="AA-Gun"/>
             <unitPlacement owner="Austrians" quantity="2" territory="Romania" unitType="Cavalry"/>
@@ -7483,12 +7483,12 @@
             <unitPlacement owner="Germans" quantity="2" territory="Ruhr" unitType="Field-Artillery"/>
             <unitPlacement owner="Germans" quantity="5" territory="Ruhr" unitType="Infantry"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="S. Africa" unitType="AA-Gun"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="S. Africa" unitType="Cavalry"/>
+            <unitPlacement owner="British-Commonwealth" quantity="1" territory="S. Africa" unitType="Cavalry"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="S. Africa" unitType="Field-Artillery"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="S. Africa" unitType="Fighter"/>
             <unitPlacement owner="British-Commonwealth" quantity="4" territory="S. Africa" unitType="Infantry"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="S. Africa" unitType="Trenches"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="S. Rhodesia" unitType="Infantry"/>
+            <unitPlacement owner="British-Commonwealth" quantity="1" territory="S. Rhodesia" unitType="Infantry"/>
             <unitPlacement owner="Germans" quantity="1" territory="SZ 1" unitType="Submarine"/>
             <unitPlacement owner="Germans" quantity="1" territory="SZ 11" unitType="Submarine"/>
             <unitPlacement owner="Germans" quantity="2" territory="SZ 12" unitType="Submarine"/>
@@ -7518,16 +7518,15 @@
             <unitPlacement owner="Austrians" quantity="1" territory="SZ 31" unitType="Freighter"/>
             <unitPlacement owner="Austrians" quantity="5" territory="SZ 31" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Submarine"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="SZ 34" unitType="Battlecruiser"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="SZ 34" unitType="Battleship"/>
+            <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 34" unitType="Battlecruiser"/>
+            <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 34" unitType="Battleship"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="SZ 34" unitType="Destroyer"/>
             <unitPlacement owner="British-Commonwealth" quantity="3" territory="SZ 34" unitType="Harbor-Defenses"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 34" unitType="Troop-Transport"/>
             <unitPlacement owner="Germans" quantity="2" territory="SZ 4" unitType="Submarine"/>
             <unitPlacement owner="Germans" quantity="3" territory="SZ 5" unitType="Submarine"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 57" unitType="Battlecruiser"/>
-            <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 57" unitType="Battleship"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="SZ 57" unitType="Destroyer"/>
+            <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 57" unitType="Destroyer"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 57" unitType="Freighter"/>
             <unitPlacement owner="British-Commonwealth" quantity="3" territory="SZ 57" unitType="Harbor-Defenses"/>
             <unitPlacement owner="British" quantity="3" territory="SZ 6" unitType="Battlecruiser"/>
@@ -7583,8 +7582,7 @@
             <unitPlacement owner="Germans" quantity="1" territory="Saxony" unitType="Field-Artillery"/>
             <unitPlacement owner="Germans" quantity="3" territory="Saxony" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="1" territory="Scotland" unitType="Cavalry"/>
-            <unitPlacement owner="British" quantity="1" territory="Scotland" unitType="Field-Artillery"/>
-            <unitPlacement owner="British" quantity="3" territory="Scotland" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="2" territory="Scotland" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="1" territory="Scotland" unitType="Trenches"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Serbia" unitType="Field-Artillery"/>
             <unitPlacement owner="Austrians" quantity="3" territory="Serbia" unitType="Infantry"/>
@@ -7606,7 +7604,6 @@
             <unitPlacement owner="Germans" quantity="1" territory="Strasbourg" unitType="Cavalry"/>
             <unitPlacement owner="Germans" quantity="1" territory="Strasbourg" unitType="Field-Artillery"/>
             <unitPlacement owner="Germans" quantity="4" territory="Strasbourg" unitType="Infantry"/>
-            <unitPlacement owner="British-Commonwealth" quantity="1" territory="Transvaal" unitType="Cavalry"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Trieste" unitType="AA-Gun"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Trieste" unitType="Cavalry"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Trieste" unitType="Factory"/>
@@ -7631,12 +7628,12 @@
             <unitPlacement owner="Germans" quantity="1" territory="Vimy" unitType="Red-Baron"/>
             <unitPlacement owner="Germans" quantity="4" territory="Vimy" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="York" unitType="Field-Artillery"/>
-            <unitPlacement owner="British" quantity="4" territory="York" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="3" territory="York" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="1" territory="Ypres" unitType="AA-Gun"/>
             <unitPlacement owner="British" quantity="2" territory="Ypres" unitType="Field-Artillery"/>
             <unitPlacement owner="British" quantity="1" territory="Ypres" unitType="Fighter"/>
-            <unitPlacement owner="British" quantity="6" territory="Ypres" unitType="Infantry"/>
-            <unitPlacement owner="British" quantity="4" territory="Ypres" unitType="Trenches"/>
+            <unitPlacement owner="British" quantity="5" territory="Ypres" unitType="Infantry"/>
+            <unitPlacement owner="British" quantity="3" territory="Ypres" unitType="Trenches"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Algeria" unitType="Infantry"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="1" territory="Angolia" unitType="Cavalry"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="1" territory="Angolia" unitType="Field-Artillery"/>
@@ -7648,10 +7645,10 @@
             <unitPlacement owner="Ottomans" quantity="2" territory="Antalya" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Arar" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Argonne" unitType="AA-Gun"/>
-            <unitPlacement owner="French" quantity="2" territory="Argonne" unitType="Cavalry"/>
+            <unitPlacement owner="French" quantity="1" territory="Argonne" unitType="Cavalry"/>
             <unitPlacement owner="French" quantity="2" territory="Argonne" unitType="Field-Artillery"/>
-            <unitPlacement owner="French" quantity="6" territory="Argonne" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="4" territory="Argonne" unitType="Trenches"/>
+            <unitPlacement owner="French" quantity="5" territory="Argonne" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="3" territory="Argonne" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="Astrakhan" unitType="Infantry"/>
             <unitPlacement owner="Bolsheviks" quantity="3" territory="BR 2" unitType="Cavalry"/>
             <unitPlacement owner="Bolsheviks" quantity="2" territory="BR 2" unitType="Field-Artillery"/>
@@ -7663,10 +7660,10 @@
             <unitPlacement owner="Ottomans" quantity="3" territory="Baku" unitType="Trenches"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Bandundu" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Bar-Le-Duc" unitType="AA-Gun"/>
-            <unitPlacement owner="French" quantity="2" territory="Bar-Le-Duc" unitType="Cavalry"/>
+            <unitPlacement owner="French" quantity="1" territory="Bar-Le-Duc" unitType="Cavalry"/>
             <unitPlacement owner="French" quantity="2" territory="Bar-Le-Duc" unitType="Field-Artillery"/>
-            <unitPlacement owner="French" quantity="6" territory="Bar-Le-Duc" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="4" territory="Bar-Le-Duc" unitType="Trenches"/>
+            <unitPlacement owner="French" quantity="5" territory="Bar-Le-Duc" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="3" territory="Bar-Le-Duc" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Basrah" unitType="AA-Gun"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Basrah" unitType="Cavalry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Basrah" unitType="Factory"/>
@@ -7676,33 +7673,30 @@
             <unitPlacement owner="Russians" quantity="1" territory="Belarus" unitType="AA-Gun"/>
             <unitPlacement owner="Russians" quantity="2" territory="Belarus" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Belarus" unitType="Field-Artillery"/>
-            <unitPlacement owner="Russians" quantity="8" territory="Belarus" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="4" territory="Belarus" unitType="Trenches"/>
-            <unitPlacement owner="French" quantity="2" territory="Bordeaux" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="6" territory="Belarus" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="3" territory="Belarus" unitType="Trenches"/>
+            <unitPlacement owner="French" quantity="1" territory="Bordeaux" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Bryansk" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Bryansk" unitType="Field-Artillery"/>
             <unitPlacement owner="Russians" quantity="2" territory="Bryansk" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="2" territory="Burgundy" unitType="Cavalry"/>
-            <unitPlacement owner="French" quantity="2" territory="Burgundy" unitType="Field-Artillery"/>
-            <unitPlacement owner="French" quantity="4" territory="Burgundy" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="1" territory="Burgundy" unitType="Cavalry"/>
+            <unitPlacement owner="French" quantity="1" territory="Burgundy" unitType="Field-Artillery"/>
+            <unitPlacement owner="French" quantity="3" territory="Burgundy" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Cabinda" unitType="Infantry"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="2" territory="Cameroon" unitType="Cavalry"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="2" territory="Cameroon" unitType="Field-Artillery"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="5" territory="Cameroon" unitType="Infantry"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="2" territory="Cameroon" unitType="Trenches"/>
-            <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Casablanca" unitType="Cavalry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Casablanca" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Caucusus" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="1" territory="Caucusus" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Chad" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="1" territory="Chantilly" unitType="AA-Gun"/>
-            <unitPlacement owner="French" quantity="2" territory="Chantilly" unitType="Cavalry"/>
-            <unitPlacement owner="French" quantity="2" territory="Chantilly" unitType="Field-Artillery"/>
-            <unitPlacement owner="French" quantity="1" territory="Chantilly" unitType="Fighter"/>
-            <unitPlacement owner="French" quantity="8" territory="Chantilly" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="1" territory="Chantilly" unitType="Cavalry"/>
+            <unitPlacement owner="French" quantity="1" territory="Chantilly" unitType="Field-Artillery"/>
+            <unitPlacement owner="French" quantity="6" territory="Chantilly" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Chaumont" unitType="Field-Artillery"/>
-            <unitPlacement owner="French" quantity="3" territory="Chaumont" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="2" territory="Chaumont" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Chikapa" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="3" territory="Compiegne" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="2" territory="Compiegne" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Corsica" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="2" territory="Cyreniaca" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Damascus" unitType="Field-Artillery"/>
@@ -7711,7 +7705,7 @@
             <unitPlacement owner="Americans" quantity="4" territory="Fontainbleu" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="French Equitorial Africa" unitType="Cavalry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="French Equitorial Africa" unitType="Field-Artillery"/>
-            <unitPlacement owner="French-Colonial-Africa" quantity="4" territory="French Equitorial Africa" unitType="Infantry"/>
+            <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="French Equitorial Africa" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="French Equitorial Africa" unitType="Trenches"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="French Guinea" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="French Niger" unitType="Cavalry"/>
@@ -7729,7 +7723,7 @@
             <unitPlacement owner="Russians" quantity="1" territory="Gorkiy" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Grozny" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Grozny" unitType="Field-Artillery"/>
-            <unitPlacement owner="Russians" quantity="6" territory="Grozny" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="4" territory="Grozny" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="3" territory="Grozny" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Hejaz" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="1" territory="I. Somaliland" unitType="Infantry"/>
@@ -7748,19 +7742,18 @@
             <unitPlacement owner="Ottomans" quantity="4" territory="Jerusalem" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="3" territory="Jerusalem" unitType="Trenches"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Kabinda" unitType="Infantry"/>
-            <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Kabinda" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="Kaluga" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Karkov" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Karkov" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Kiev" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Kiev" unitType="Field-Artillery"/>
             <unitPlacement owner="Russians" quantity="1" territory="Kiev" unitType="Fighter"/>
-            <unitPlacement owner="Russians" quantity="8" territory="Kiev" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="4" territory="Kiev" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="6" territory="Kiev" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="3" territory="Kiev" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Konya" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Krasnodar" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Krasnodar" unitType="Field-Artillery"/>
-            <unitPlacement owner="Russians" quantity="6" territory="Krasnodar" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="4" territory="Krasnodar" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="3" territory="Krasnodar" unitType="Trenches"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Lisala" unitType="Cavalry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Lisala" unitType="Infantry"/>
@@ -7772,22 +7765,21 @@
             <unitPlacement owner="French" quantity="1" territory="Marseilles" unitType="AA-Gun"/>
             <unitPlacement owner="French" quantity="1" territory="Marseilles" unitType="Cavalry"/>
             <unitPlacement owner="French" quantity="1" territory="Marseilles" unitType="Factory"/>
-            <unitPlacement owner="French" quantity="2" territory="Marseilles" unitType="Field-Artillery"/>
-            <unitPlacement owner="French" quantity="1" territory="Marseilles" unitType="Fighter"/>
-            <unitPlacement owner="French" quantity="6" territory="Marseilles" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="1" territory="Marseilles" unitType="Field-Artillery"/>
+            <unitPlacement owner="French" quantity="4" territory="Marseilles" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Marseilles" unitType="Shipyard"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Mesopotamia" unitType="Cavalry"/>
             <unitPlacement owner="Ottomans" quantity="3" territory="Mesopotamia" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Moldova" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Moldova" unitType="Field-Artillery"/>
-            <unitPlacement owner="Russians" quantity="8" territory="Moldova" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="4" territory="Moldova" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="6" territory="Moldova" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="3" territory="Moldova" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="Moscow" unitType="AA-Gun"/>
             <unitPlacement owner="Russians" quantity="2" territory="Moscow" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Moscow" unitType="Factory"/>
             <unitPlacement owner="Russians" quantity="2" territory="Moscow" unitType="Field-Artillery"/>
             <unitPlacement owner="Russians" quantity="1" territory="Moscow" unitType="Fighter"/>
-            <unitPlacement owner="Russians" quantity="10" territory="Moscow" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="8" territory="Moscow" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Moscow" unitType="Zeppelin"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Mosul" unitType="Infantry"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="2" territory="Mumbaza" unitType="Cavalry"/>
@@ -7795,45 +7787,43 @@
             <unitPlacement owner="Imperial-German-Afrika" quantity="6" territory="Mumbaza" unitType="Infantry"/>
             <unitPlacement owner="Imperial-German-Afrika" quantity="2" territory="Mumbaza" unitType="Trenches"/>
             <unitPlacement owner="French" quantity="1" territory="Nancy" unitType="AA-Gun"/>
-            <unitPlacement owner="French" quantity="1" territory="Nancy" unitType="Cavalry"/>
             <unitPlacement owner="French" quantity="2" territory="Nancy" unitType="Field-Artillery"/>
-            <unitPlacement owner="French" quantity="6" territory="Nancy" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="4" territory="Nancy" unitType="Trenches"/>
-            <unitPlacement owner="Italians" quantity="4" territory="Naples" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="5" territory="Nancy" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="3" territory="Nancy" unitType="Trenches"/>
+            <unitPlacement owner="Italians" quantity="3" territory="Naples" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Niangara" unitType="Cavalry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Niangara" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Niangara" unitType="Trenches"/>
-            <unitPlacement owner="French" quantity="2" territory="Normandy" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="1" territory="Normandy" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Nye Lukemba" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Nye Lukemba" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Oman" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="3" territory="Oryol" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="2" territory="Oryol" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Paris" unitType="AA-Gun"/>
             <unitPlacement owner="French" quantity="1" territory="Paris" unitType="Cavalry"/>
             <unitPlacement owner="French" quantity="1" territory="Paris" unitType="Factory"/>
-            <unitPlacement owner="French" quantity="2" territory="Paris" unitType="Field-Artillery"/>
+            <unitPlacement owner="French" quantity="1" territory="Paris" unitType="Field-Artillery"/>
             <unitPlacement owner="French" quantity="1" territory="Paris" unitType="Fighter"/>
-            <unitPlacement owner="French" quantity="6" territory="Paris" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="4" territory="Paris" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Paris" unitType="Zeppelin"/>
             <unitPlacement owner="Russians" quantity="1" territory="Petrozavodsk" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Picardy" unitType="Factory"/>
-            <unitPlacement owner="French" quantity="6" territory="Picardy" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="5" territory="Picardy" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Picardy" unitType="Shipyard"/>
             <unitPlacement owner="Italians" quantity="1" territory="Piedmont" unitType="Cavalry"/>
             <unitPlacement owner="Italians" quantity="2" territory="Piedmont" unitType="Field-Artillery"/>
-            <unitPlacement owner="Italians" quantity="6" territory="Piedmont" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="1" territory="Rhiems" unitType="AA-Gun"/>
+            <unitPlacement owner="Italians" quantity="4" territory="Piedmont" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="1" territory="Rhiems" unitType="Cavalry"/>
             <unitPlacement owner="French" quantity="1" territory="Rhiems" unitType="Field-Artillery"/>
             <unitPlacement owner="French" quantity="1" territory="Rhiems" unitType="Fighter"/>
-            <unitPlacement owner="French" quantity="4" territory="Rhiems" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Riga" unitType="Cavalry"/>
-            <unitPlacement owner="Russians" quantity="4" territory="Riga" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="2" territory="Rhiems" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="1" territory="Riga" unitType="Cavalry"/>
+            <unitPlacement owner="Russians" quantity="3" territory="Riga" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="1" territory="Rome" unitType="Factory"/>
             <unitPlacement owner="Italians" quantity="6" territory="Rome" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="1" territory="Rome" unitType="Shipyard"/>
             <unitPlacement owner="Russians" quantity="1" territory="Rostov" unitType="Cavalry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Rostov" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="1" territory="Rostov" unitType="Infantry"/>
             <unitPlacement owner="Bolsheviks" quantity="3" territory="Russian Infiltration" unitType="Cavalry"/>
             <unitPlacement owner="Bolsheviks" quantity="2" territory="Russian Infiltration" unitType="Field-Artillery"/>
             <unitPlacement owner="Bolsheviks" quantity="8" territory="Russian Infiltration" unitType="Infantry"/>
@@ -7899,35 +7889,35 @@
             <unitPlacement owner="Russians" quantity="1" territory="SZ 91" unitType="Submarine"/>
             <unitPlacement owner="Italians" quantity="1" territory="Sardinia" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="AA-Gun"/>
-            <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Senegal" unitType="Cavalry"/>
+            <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="Cavalry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="Factory"/>
-            <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Senegal" unitType="Field-Artillery"/>
+            <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="Field-Artillery"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="Fighter"/>
-            <unitPlacement owner="French-Colonial-Africa" quantity="6" territory="Senegal" unitType="Infantry"/>
+            <unitPlacement owner="French-Colonial-Africa" quantity="4" territory="Senegal" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="Shipyard"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Senegal" unitType="Trenches"/>
             <unitPlacement owner="Italians" quantity="2" territory="Sicily" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="2" territory="Smolensk" unitType="Cavalry"/>
+            <unitPlacement owner="Russians" quantity="1" territory="Smolensk" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Smolensk" unitType="Field-Artillery"/>
-            <unitPlacement owner="Russians" quantity="4" territory="Smolensk" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="3" territory="Smolensk" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="2" territory="Soissons" unitType="Field-Artillery"/>
             <unitPlacement owner="French" quantity="1" territory="Soissons" unitType="Fighter"/>
-            <unitPlacement owner="French" quantity="6" territory="Soissons" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="4" territory="Soissons" unitType="Trenches"/>
+            <unitPlacement owner="French" quantity="5" territory="Soissons" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="3" territory="Soissons" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="St. Petersburg" unitType="AA-Gun"/>
             <unitPlacement owner="Russians" quantity="2" territory="St. Petersburg" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="1" territory="St. Petersburg" unitType="Factory"/>
             <unitPlacement owner="Russians" quantity="2" territory="St. Petersburg" unitType="Field-Artillery"/>
             <unitPlacement owner="Russians" quantity="1" territory="St. Petersburg" unitType="Fighter"/>
-            <unitPlacement owner="Russians" quantity="10" territory="St. Petersburg" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="6" territory="St. Petersburg" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="St. Petersburg" unitType="Shipyard"/>
             <unitPlacement owner="Russians" quantity="1" territory="Svastepole" unitType="AA-Gun"/>
             <unitPlacement owner="Russians" quantity="2" territory="Svastepole" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Svastepole" unitType="Factory"/>
             <unitPlacement owner="Russians" quantity="2" territory="Svastepole" unitType="Field-Artillery"/>
-            <unitPlacement owner="Russians" quantity="8" territory="Svastepole" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="6" territory="Svastepole" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Svastepole" unitType="Shipyard"/>
-            <unitPlacement owner="Russians" quantity="4" territory="Svastepole" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="3" territory="Svastepole" unitType="Trenches"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Syria" unitType="AA-Gun"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Syria" unitType="Cavalry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Syria" unitType="Factory"/>
@@ -7959,10 +7949,9 @@
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Transvaal" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="1" territory="Tripoli" unitType="Infantry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Tunesia" unitType="Infantry"/>
-            <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="Tunis" unitType="Cavalry"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="2" territory="Tunis" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="2" territory="Tuscany" unitType="Field-Artillery"/>
-            <unitPlacement owner="Italians" quantity="6" territory="Tuscany" unitType="Infantry"/>
+            <unitPlacement owner="Italians" quantity="5" territory="Tuscany" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="2" territory="Tuscany" unitType="Trenches"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="Uganda" unitType="Infantry"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Uganda" unitType="Trenches"/>
@@ -7977,12 +7966,12 @@
             <unitPlacement owner="French" quantity="2" territory="Verdun" unitType="Cavalry"/>
             <unitPlacement owner="French" quantity="3" territory="Verdun" unitType="Field-Artillery"/>
             <unitPlacement owner="French" quantity="1" territory="Verdun" unitType="Fighter"/>
-            <unitPlacement owner="French" quantity="10" territory="Verdun" unitType="Infantry"/>
-            <unitPlacement owner="French" quantity="6" territory="Verdun" unitType="Trenches"/>
+            <unitPlacement owner="French" quantity="8" territory="Verdun" unitType="Infantry"/>
+            <unitPlacement owner="French" quantity="5" territory="Verdun" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="2" territory="Vilnius" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="2" territory="Vilnius" unitType="Field-Artillery"/>
-            <unitPlacement owner="Russians" quantity="8" territory="Vilnius" unitType="Infantry"/>
-            <unitPlacement owner="Russians" quantity="4" territory="Vilnius" unitType="Trenches"/>
+            <unitPlacement owner="Russians" quantity="6" territory="Vilnius" unitType="Infantry"/>
+            <unitPlacement owner="Russians" quantity="3" territory="Vilnius" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="Volgograd" unitType="Infantry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Yaroslavl" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="al-Hasa" unitType="Infantry"/>
@@ -8035,12 +8024,11 @@
             <unitPlacement owner="Ottomans" quantity="1" territory="RR 85" unitType="Train"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="RR 87" unitType="Armored-Train"/>
             <unitPlacement owner="French-Colonial-Africa" quantity="1" territory="RR 87" unitType="Train"/>
-            <unitPlacement owner="French" quantity="1" territory="Burgundy" unitType="Fighter"/>
-            <unitPlacement owner="Italians" quantity="2" territory="Naples" unitType="Cavalry"/>
+            <unitPlacement owner="Italians" quantity="1" territory="Naples" unitType="Cavalry"/>
             <unitPlacement owner="Italians" quantity="1" territory="Naples" unitType="Field-Artillery"/>
             <unitPlacement owner="Italians" quantity="2" territory="Naples" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="RR 1" unitType="Train"/>
-            <unitPlacement owner="Italians" quantity="2" territory="Tuscany" unitType="Cavalry"/>
+            <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Cavalry"/>
             <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Fighter"/>
             <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Zeppelin"/>
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="AA-Gun"/>
@@ -8057,12 +8045,12 @@
 			<unitPlacement owner="Americans" quantity="1" territory="Fontainbleu" unitType="Field-Artillery"/>
 			<unitPlacement owner="Americans" quantity="2" territory="Fontainbleu" unitType="Fighter"/>
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="India" unitType="Factory"/>
-			<unitPlacement owner="British" quantity="2" territory="Arras" unitType="Cavalry"/>
+			<unitPlacement owner="British" quantity="1" territory="Arras" unitType="Cavalry"/>
 			<unitPlacement owner="British-Commonwealth" quantity="4" territory="Gallipoli" unitType="Elite-Offensive-Infantry"/>
 			<unitPlacement owner="Russians" quantity="1" territory="Kiev" unitType="AA-Gun"/>
 			<unitPlacement owner="French" quantity="1" territory="Picardy" unitType="AA-Gun"/>
-			<unitPlacement owner="French" quantity="2" territory="Picardy" unitType="Cavalry"/>
-			<unitPlacement owner="French" quantity="2" territory="Picardy" unitType="Field-Artillery"/>
+			<unitPlacement owner="French" quantity="1" territory="Picardy" unitType="Cavalry"/>
+			<unitPlacement owner="French" quantity="1" territory="Picardy" unitType="Field-Artillery"/>
 			<unitPlacement owner="French" quantity="3" territory="Picardy" unitType="Trenches-If-Defended"/>
 			<unitPlacement owner="Russians" quantity="1" territory="RR 10" unitType="Armored-Train"/>
 			<unitPlacement owner="French" quantity="1" territory="RR 17" unitType="Armored-Train"/>
@@ -8078,10 +8066,10 @@
 			<unitPlacement owner="Germans" quantity="2" territory="SZ 7" unitType="Battleship"/>
 			<unitPlacement owner="Germans" quantity="2" territory="SZ 7" unitType="Destroyer"/>
 			<unitPlacement owner="Germans" quantity="1" territory="SZ 7" unitType="Freighter"/>
-			<unitPlacement owner="French" quantity="2" territory="Soissons" unitType="Cavalry"/>
+			<unitPlacement owner="French" quantity="1" territory="Soissons" unitType="Cavalry"/>
 			<unitPlacement owner="Russians" quantity="2" territory="St. Petersburg" unitType="Trenches"/>
 			<unitPlacement owner="Russians" quantity="1" territory="Svastepole" unitType="Fighter"/>
-			<unitPlacement owner="British" quantity="2" territory="Ypres" unitType="Cavalry"/>
+			<unitPlacement owner="British" quantity="1" territory="Ypres" unitType="Cavalry"/>
 			<unitPlacement owner="Russians" quantity="1" territory="Riga" unitType="Field-Artillery"/>
         </unitInitialize>
         <resourceInitialize>
