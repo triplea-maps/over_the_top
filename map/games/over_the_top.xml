@@ -8029,8 +8029,8 @@
             <unitPlacement owner="Italians" quantity="2" territory="Naples" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="1" territory="RR 1" unitType="Train"/>
             <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Cavalry"/>
-            <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Fighter"/>
-            <unitPlacement owner="Italians" quantity="1" territory="Tuscany" unitType="Zeppelin"/>
+            <unitPlacement owner="Italians" quantity="1" territory="Rome" unitType="Fighter"/>
+            <unitPlacement owner="Italians" quantity="1" territory="Rome" unitType="Zeppelin"/>
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="AA-Gun"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Factory"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Shipyard"/>
