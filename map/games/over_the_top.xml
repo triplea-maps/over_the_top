@@ -7650,9 +7650,6 @@
             <unitPlacement owner="French" quantity="5" territory="Argonne" unitType="Infantry"/>
             <unitPlacement owner="French" quantity="3" territory="Argonne" unitType="Trenches"/>
             <unitPlacement owner="Russians" quantity="1" territory="Astrakhan" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="3" territory="BR 2" unitType="Cavalry"/>
-            <unitPlacement owner="Bolsheviks" quantity="2" territory="BR 2" unitType="Field-Artillery"/>
-            <unitPlacement owner="Bolsheviks" quantity="6" territory="BR 2" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="Bagdad" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Baku" unitType="Cavalry"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="Baku" unitType="Field-Artillery"/>
@@ -7824,9 +7821,6 @@
             <unitPlacement owner="Italians" quantity="1" territory="Rome" unitType="Shipyard"/>
             <unitPlacement owner="Russians" quantity="1" territory="Rostov" unitType="Cavalry"/>
             <unitPlacement owner="Russians" quantity="1" territory="Rostov" unitType="Infantry"/>
-            <unitPlacement owner="Bolsheviks" quantity="3" territory="Russian Infiltration" unitType="Cavalry"/>
-            <unitPlacement owner="Bolsheviks" quantity="2" territory="Russian Infiltration" unitType="Field-Artillery"/>
-            <unitPlacement owner="Bolsheviks" quantity="8" territory="Russian Infiltration" unitType="Infantry"/>
             <unitPlacement owner="Italians" quantity="2" territory="SZ 30" unitType="Battlecruiser"/>
             <unitPlacement owner="Italians" quantity="1" territory="SZ 30" unitType="Battleship"/>
             <unitPlacement owner="Italians" quantity="2" territory="SZ 30" unitType="Destroyer"/>
@@ -7976,10 +7970,10 @@
             <unitPlacement owner="Russians" quantity="1" territory="Yaroslavl" unitType="Infantry"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="al-Hasa" unitType="Infantry"/>
             <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="AA-Gun"/>
-            <unitPlacement owner="Bolsheviks" quantity="2" territory="Bolshevik Revolution" unitType="Cavalry"/>
+            <unitPlacement owner="Bolsheviks" quantity="8" territory="Bolshevik Revolution" unitType="Cavalry"/>
             <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="Factory"/>
-            <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="Field-Artillery"/>
-            <unitPlacement owner="Bolsheviks" quantity="6" territory="Bolshevik Revolution" unitType="Infantry"/>
+            <unitPlacement owner="Bolsheviks" quantity="4" territory="Bolshevik Revolution" unitType="Field-Artillery"/>
+            <unitPlacement owner="Bolsheviks" quantity="12" territory="Bolshevik Revolution" unitType="Infantry"/>
             <unitPlacement owner="Bolsheviks" quantity="1" territory="Bolshevik Revolution" unitType="Lenin"/>
             <unitPlacement owner="Germans" quantity="1" territory="Ardennes" unitType="Field-Artillery"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Bohemia" unitType="Cavalry"/>
@@ -8034,12 +8028,6 @@
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="AA-Gun"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Factory"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Shipyard"/>
-			<unitPlacement owner="Bolsheviks" quantity="2" territory="BR 1" unitType="Cavalry"/>
-			<unitPlacement owner="Bolsheviks" quantity="1" territory="BR 1" unitType="Field-Artillery"/>
-			<unitPlacement owner="Bolsheviks" quantity="4" territory="BR 1" unitType="Infantry"/>
-			<unitPlacement owner="Bolsheviks" quantity="2" territory="BR 3" unitType="Cavalry"/>
-			<unitPlacement owner="Bolsheviks" quantity="1" territory="BR 3" unitType="Field-Artillery"/>
-			<unitPlacement owner="Bolsheviks" quantity="4" territory="BR 3" unitType="Infantry"/>
 			<unitPlacement owner="Americans" quantity="2" territory="Fontainbleu" unitType="Cavalry"/>
 			<unitPlacement owner="Americans" quantity="1" territory="Fontainbleu" unitType="Factory"/>
 			<unitPlacement owner="Americans" quantity="1" territory="Fontainbleu" unitType="Field-Artillery"/>
