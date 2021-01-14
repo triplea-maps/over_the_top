@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-    <info name="Over The Top" version="1.0.0"/>
+    <info name="Over The Top" version="1.1.0"/>
     <loader javaClass="games.strategy.triplea.TripleA"/>
     <triplea minimumVersion="1.9"/>
     <variableList>
