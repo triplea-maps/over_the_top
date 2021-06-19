@@ -48,7 +48,6 @@
             <element name="Bar-Le-Duc"/>
             <element name="Basrah"/>
             <element name="Bavaria"/>
-            <element name="Be'er Sheva"/>
             <element name="Belarus"/>
             <element name="Berlin"/>
             <element name="Bohemia"/>
@@ -264,7 +263,6 @@
 		<territory name="Bar-Le-Duc" water="false"/>
 		<territory name="Basrah" water="false"/>
 		<territory name="Bavaria" water="false"/>
-		<territory name="Be'er Sheva" water="false"/>
 		<territory name="Belarus" water="false"/>
 		<territory name="Berlin" water="false"/>
 		<territory name="Bohemia" water="false"/>
@@ -387,7 +385,6 @@
 		<territory name="RR 8" water="true"/>
 		<territory name="RR 9" water="true"/>
 		<territory name="RR 10" water="true"/>
-		<territory name="RR 11" water="true"/>
 		<territory name="RR 12" water="true"/>
 		<territory name="RR 13" water="true"/>
 		<territory name="RR 14" water="true"/>
@@ -460,7 +457,6 @@
 		<territory name="RR 81" water="true"/>
 		<territory name="RR 82" water="true"/>
 		<territory name="RR 83" water="true"/>
-		<territory name="RR 84" water="true"/>
 		<territory name="RR 85" water="true"/>
 		<territory name="RR 86" water="true"/>
 		<territory name="RR 87" water="true"/>
@@ -474,14 +470,11 @@
 		<territory name="RR 95" water="true"/>
 		<territory name="RR 96" water="true"/>
 		<territory name="RR 97" water="true"/>
-		<territory name="RR 98" water="true"/>
 		<territory name="RR 99" water="true"/>
 		<territory name="RR 100" water="true"/>
 		<territory name="RR 101" water="true"/>
-		<territory name="RR 102" water="true"/>
 		<territory name="RR 103" water="true"/>
 		<territory name="RR 104" water="true"/>
-		<territory name="RR 105" water="true"/>
 		<territory name="RR 106" water="true"/>
 		<territory name="RR 107" water="true"/>
 		<territory name="RR 108" water="true"/>
@@ -489,7 +482,6 @@
 		<territory name="RR 110" water="true"/>
 		<territory name="RR 111" water="true"/>
 		<territory name="RR 112" water="true"/>
-		<territory name="RR 113" water="true"/>
 		<territory name="RR 114" water="true"/>
 		<territory name="RR 115" water="true"/>
 		<territory name="RR 116" water="true"/>
