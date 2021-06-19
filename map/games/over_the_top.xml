@@ -3789,7 +3789,7 @@
             <option count="" name="transportCost" value="3"/>
             <option count="" name="attack" value="4"/>
             <option count="" name="defense" value="2"/>
-            <option count="" name="hitPoints" value="2" />
+            <option count="" name="hitPoints" value="2"/>
         </attachment>
         <attachment attachTo="Field-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
@@ -3804,15 +3804,15 @@
             <option count="" name="attack" value="4"/>
             <option count="" name="defense" value="4"/>
             <option count="" name="artillery" value="true"/>
-			<option count="" name="createsUnitsList" value="1:Gas-Munitions"/>
+            <option count="" name="createsUnitsList" value="1:Gas-Munitions"/>
         </attachment>
-		<attachment attachTo="Heavy-Artillery-Emplacement" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+        <attachment attachTo="Heavy-Artillery-Emplacement" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="0"/>
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="4"/>
             <option count="" name="hitPoints" value="2"/>
             <option count="" name="requiresUnits" value="Heavy-Artillery"/>
-			<option count="" name="createsUnitsList" value="2:Munitions"/>
+            <option count="" name="createsUnitsList" value="2:Munitions"/>
         </attachment>
         <attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="8"/>
@@ -3824,17 +3824,17 @@
             <option count="" name="bombingBonus" value="-1"/>
             <option count="" name="carrierCost" value="3"/>
         </attachment>
-		<attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentZeppelin" type="unitType">
-			<option count="" name="unitType" value="Field-Artillery:Heavy-Artillery:Battlecruiser:Battleship"/>
-			<option count="" name="faction" value="allied"/>
-			<option count="" name="side" value="offence"/>
-			<option count="" name="dice" value="strength"/>
-			<option count="" name="bonus" value="1"/>
-			<option count="" name="number" value="2"/>
-			<option count="" name="bonusType" value="Spotter"/>
-			<option count="" name="impArtTech" value="false"/>
-			<option count="" name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Imperial-German-Afrika:French-Colonial-Africa:British-Commonwealth:Americans:Bolsheviks"/>
-		</attachment>
+        <attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentZeppelin" type="unitType">
+            <option count="" name="unitType" value="Field-Artillery:Heavy-Artillery:Battlecruiser:Battleship"/>
+            <option count="" name="faction" value="allied"/>
+            <option count="" name="side" value="offence"/>
+            <option count="" name="dice" value="strength"/>
+            <option count="" name="bonus" value="1"/>
+            <option count="" name="number" value="2"/>
+            <option count="" name="bonusType" value="Spotter"/>
+            <option count="" name="impArtTech" value="false"/>
+            <option count="" name="players" value="Germans:French:Russians:Austrians:Ottomans:British:Italians:Imperial-German-Afrika:French-Colonial-Africa:British-Commonwealth:Americans:Bolsheviks"/>
+        </attachment>
         <attachment attachTo="Fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="3"/>
             <option count="" name="isAir" value="true"/>
@@ -3935,7 +3935,7 @@
             <option count="" name="constructionsPerTerrPerTypePerTurn" value="2"/>
             <option count="" name="maxConstructionsPerTypePerTerr" value="8"/>
         </attachment>
-		<attachment attachTo="Trenches-If-Defended" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+        <attachment attachTo="Trenches-If-Defended" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="0"/>
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="0"/>
@@ -4004,8 +4004,8 @@
             <option count="" name="transportCapacity" value="5"/>
             <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99"/>
         </attachment>
-		<attachment attachTo="Gas-Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-		    <option count="" name="offensiveAttackAA" value="4"/>
+        <attachment attachTo="Gas-Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+            <option count="" name="offensiveAttackAA" value="4"/>
             <option count="" name="attackAA" value="4"/>
             <option count="" name="offensiveAttackAAmaxDieSides" value="6"/>
             <option count="" name="attackAAmaxDieSides" value="6"/>
@@ -4017,7 +4017,7 @@
             <option count="" name="targetsAA" value="Infantry:Cavalry:Elite-Defensive-Infantry:Elite-Offensive-Infantry:Field-Artillery"/>
             <option count="" name="movement" value="0"/>
             <option count="" name="isSuicideOnAttack" value="true"/>
-		</attachment>
+        </attachment>
         <attachment attachTo="Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
             <option count="" name="attack" value="2"/>
@@ -4039,45 +4039,45 @@
             <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 102:RR 103:RR 104:RR 105:RR 106:RR 107:RR 108:RR 109:RR 11:RR 110:RR 111:RR 112:RR 113:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 84:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 98:RR 99"/>
         </attachment>
         <attachment attachTo="Develop-Elite-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-			<option count="" name="movement" value="0"/>
-			<option count="" name="attack" value="0"/>
-			<option count="" name="defense" value="0"/>
-			<option count="" name="maxBuiltPerPlayer" value="1"/>
-			<option count="" name="isInfrastructure" value="true"/>
-		</attachment>
+            <option count="" name="movement" value="0"/>
+            <option count="" name="attack" value="0"/>
+            <option count="" name="defense" value="0"/>
+            <option count="" name="maxBuiltPerPlayer" value="1"/>
+            <option count="" name="isInfrastructure" value="true"/>
+        </attachment>
         <attachment attachTo="Elite-Defensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-			<option count="" name="movement" value="1"/>
-			<option count="" name="transportCost" value="1"/>
-			<option count="" name="attack" value="1"/>
-			<option count="" name="defense" value="2"/>
-			<option count="3" name="repairsUnits" value="Trenches"/>			
+            <option count="" name="movement" value="1"/>
+            <option count="" name="transportCost" value="1"/>
+            <option count="" name="attack" value="1"/>
+            <option count="" name="defense" value="2"/>
+            <option count="3" name="repairsUnits" value="Trenches"/>
             <option count="1" name="repairsUnits" value="Heavy-Artillery-Emplacement"/>
-			<option count="" name="isLandTransportable" value="true"/>
-		</attachment>
+            <option count="" name="isLandTransportable" value="true"/>
+        </attachment>
         <attachment attachTo="Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-			<option count="" name="movement" value="1"/>
-			<option count="" name="transportCost" value="1"/>
-			<option count="" name="attack" value="2"/>
-			<option count="" name="defense" value="1"/>
-			<option count="" name="artillerySupportable" value="true"/>
-			<option count="2" name="repairsUnits" value="Trenches"/>
-			<option count="1" name="repairsUnits" value="Tank"/>
-			<option count="" name="isLandTransportable" value="true"/>
-		</attachment>
+            <option count="" name="movement" value="1"/>
+            <option count="" name="transportCost" value="1"/>
+            <option count="" name="attack" value="2"/>
+            <option count="" name="defense" value="1"/>
+            <option count="" name="artillerySupportable" value="true"/>
+            <option count="2" name="repairsUnits" value="Trenches"/>
+            <option count="1" name="repairsUnits" value="Tank"/>
+            <option count="" name="isLandTransportable" value="true"/>
+        </attachment>
         <attachment attachTo="Develop-Elite-Defensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-			<option count="" name="movement" value="0"/>
-			<option count="" name="attack" value="0"/>
-			<option count="" name="defense" value="0"/>
-			<option count="" name="maxBuiltPerPlayer" value="1"/>
-			<option count="" name="isInfrastructure" value="true"/>
-		</attachment>
+            <option count="" name="movement" value="0"/>
+            <option count="" name="attack" value="0"/>
+            <option count="" name="defense" value="0"/>
+            <option count="" name="maxBuiltPerPlayer" value="1"/>
+            <option count="" name="isInfrastructure" value="true"/>
+        </attachment>
         <attachment attachTo="Develop-Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-			<option count="" name="movement" value="0"/>
-			<option count="" name="attack" value="0"/>
-			<option count="" name="defense" value="0"/>
-			<option count="" name="maxBuiltPerPlayer" value="1"/>
-			<option count="" name="isInfrastructure" value="true"/>
-		</attachment>
+            <option count="" name="movement" value="0"/>
+            <option count="" name="attack" value="0"/>
+            <option count="" name="defense" value="0"/>
+            <option count="" name="maxBuiltPerPlayer" value="1"/>
+            <option count="" name="isInfrastructure" value="true"/>
+        </attachment>
         <attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" name="playerAttachment" type="player">
             <option count="" name="retainCapitalNumber" value="1"/>
             <option count="" name="retainCapitalProduceNumber" value="1"/>
@@ -4128,7 +4128,7 @@
             <option count="rulesAttachment" name="playerAttachmentName" value="RulesAttachment"/>
             <option count="-reset-" name="playerProperty" value="movementRestrictionTerritories"/>
         </attachment>
-		<attachment attachTo="OVER THE TOP" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+        <attachment attachTo="OVER THE TOP" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="By DKJD" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -4233,7 +4233,7 @@
         <attachment attachTo="Rome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="Italians"/>
-			<option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Natal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4310,7 +4310,7 @@
         <attachment attachTo="United States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="25"/>
             <option count="" name="capital" value="Americans"/>
-			<option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Soissons" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4321,7 +4321,7 @@
         <attachment attachTo="Moscow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
             <option count="" name="capital" value="Russians"/>
-			<option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Bolshevik Revolution" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="3"/>
@@ -4344,7 +4344,7 @@
         </attachment>
         <attachment attachTo="Gallipoli" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
-			<option name="originalOwner" value="Ottomans"/>
+            <option count="" name="originalOwner" value="Ottomans"/>
         </attachment>
         <attachment attachTo="Bohemia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="4"/>
@@ -4373,7 +4373,7 @@
         <attachment attachTo="Berlin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="16"/>
             <option count="" name="capital" value="Germans"/>
-			<option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Prussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
@@ -4411,7 +4411,7 @@
         <attachment attachTo="Vienna" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="12"/>
             <option count="" name="capital" value="Austrians"/>
-			<option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Rostov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="4"/>
@@ -4428,7 +4428,7 @@
         <attachment attachTo="Paris" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="12"/>
             <option count="" name="capital" value="French"/>
-            <option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Antalya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="2"/>
@@ -4458,7 +4458,7 @@
         <attachment attachTo="St. Petersburg" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="6"/>
             <option count="" name="capital" value="Russians"/>
-            <option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Tuscany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="3"/>
@@ -4478,7 +4478,7 @@
         <attachment attachTo="London" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="British"/>
-            <option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Be'er Sheva" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -4604,7 +4604,7 @@
         <attachment attachTo="Istanbul" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
             <option count="" name="capital" value="Ottomans"/>
-            <option name="victoryCity" value="1"/>
+            <option count="" name="victoryCity" value="1"/>
         </attachment>
         <attachment attachTo="Kaluga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
