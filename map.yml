@@ -1,0 +1,3 @@
+map_name: over_the_top
+games:
+- {game_name: Over The Top, file_name: over_the_top.xml}
