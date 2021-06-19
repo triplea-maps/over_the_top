@@ -4467,9 +4467,6 @@
             <option count="" name="capital" value="British"/>
             <option count="" name="victoryCity" value="1"/>
         </attachment>
-        <attachment attachTo="Be'er Sheva" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="1"/>
-        </attachment>
         <attachment attachTo="Madagascar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
         </attachment>
@@ -4807,9 +4804,6 @@
         <attachment attachTo="RR 95" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
-        <attachment attachTo="RR 98" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="0"/>
-        </attachment>
         <attachment attachTo="RR 97" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
@@ -4838,9 +4832,6 @@
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 85" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="0"/>
-        </attachment>
-        <attachment attachTo="RR 84" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 87" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -4879,9 +4870,6 @@
         <attachment attachTo="RR 101" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
-        <attachment attachTo="RR 102" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="0"/>
-        </attachment>
         <attachment attachTo="RR 103" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
@@ -4889,9 +4877,6 @@
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 104" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="0"/>
-        </attachment>
-        <attachment attachTo="RR 105" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 32" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -4967,9 +4952,6 @@
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 112" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="0"/>
-        </attachment>
-        <attachment attachTo="RR 113" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 114" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -7008,7 +6990,6 @@
             <territoryOwner owner="French-Colonial-Africa" territory="French Niger"/>
             <territoryOwner owner="British-Commonwealth" territory="S. Africa"/>
             <territoryOwner owner="British" territory="London"/>
-            <territoryOwner owner="British-Commonwealth" territory="Be'er Sheva"/>
             <territoryOwner owner="French-Colonial-Africa" territory="Madagascar"/>
             <territoryOwner owner="Ottomans" territory="Mesopotamia"/>
             <territoryOwner owner="Russians" territory="Tallin"/>
@@ -7225,9 +7206,6 @@
             <unitPlacement owner="Germans" quantity="1" territory="Bavaria" unitType="Factory"/>
             <unitPlacement owner="Germans" quantity="2" territory="Bavaria" unitType="Field-Artillery"/>
             <unitPlacement owner="Germans" quantity="6" territory="Bavaria" unitType="Infantry"/>
-            <unitPlacement owner="British-Commonwealth" quantity="1" territory="Be'er Sheva" unitType="Field-Artillery"/>
-            <unitPlacement owner="British-Commonwealth" quantity="3" territory="Be'er Sheva" unitType="Infantry"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="Be'er Sheva" unitType="Trenches"/>
             <unitPlacement owner="Germans" quantity="1" territory="Berlin" unitType="AA-Gun"/>
             <unitPlacement owner="Germans" quantity="3" territory="Berlin" unitType="Cavalry"/>
             <unitPlacement owner="Germans" quantity="1" territory="Berlin" unitType="Factory"/>
