@@ -1279,30 +1279,21 @@
         <connection t1="Prussia" t2="Vilnius"/>
         <connection t1="RR 1" t2="RR 2"/>
         <connection t1="RR 1" t2="Scotland"/>
-        <connection t1="RR 10" t2="RR 11"/>
         <connection t1="RR 10" t2="RR 9"/>
         <connection t1="RR 10" t2="St. Petersburg"/>
         <connection t1="RR 100" t2="RR 103"/>
         <connection t1="RR 100" t2="RR 99"/>
-        <connection t1="RR 101" t2="RR 102"/>
         <connection t1="RR 101" t2="RR 104"/>
         <connection t1="RR 101" t2="RR 97"/>
-        <connection t1="RR 102" t2="RR 105"/>
         <connection t1="RR 103" t2="RR 106"/>
         <connection t1="RR 104" t2="RR 109"/>
-        <connection t1="RR 105" t2="RR 107"/>
         <connection t1="RR 106" t2="RR 108"/>
         <connection t1="RR 107" t2="RR 108"/>
         <connection t1="RR 107" t2="Rhodesia"/>
         <connection t1="RR 108" t2="RR 110"/>
         <connection t1="RR 109" t2="RR 112"/>
-        <connection t1="RR 11" t2="RR 14"/>
-        <connection t1="RR 11" t2="Yaroslavl"/>
         <connection t1="RR 110" t2="RR 111"/>
-        <connection t1="RR 111" t2="RR 113"/>
         <connection t1="RR 112" t2="RR 114"/>
-        <connection t1="RR 113" t2="RR 115"/>
-        <connection t1="RR 113" t2="S. Rhodesia"/>
         <connection t1="RR 114" t2="RR 116"/>
         <connection t1="RR 115" t2="RR 117"/>
         <connection t1="RR 115" t2="Transvaal"/>
@@ -1484,16 +1475,12 @@
         <connection t1="RR 81" t2="RR 82"/>
         <connection t1="RR 81" t2="RR 86"/>
         <connection t1="RR 82" t2="RR 83"/>
-        <connection t1="RR 83" t2="RR 84"/>
-        <connection t1="RR 84" t2="Tabuk"/>
         <connection t1="RR 87" t2="RR 94"/>
         <connection t1="RR 83" t2="Tabuk"/>
         <connection t1="RR 87" t2="Senegal"/>
         <connection t1="RR 88" t2="RR 89"/>
         <connection t1="RR 88" t2="RR 96"/>
-        <connection t1="RR 89" t2="RR 98"/>
         <connection t1="RR 9" t2="Tallin"/>
-        <connection t1="RR 90" t2="RR 98"/>
         <connection t1="RR 90" t2="RR 99"/>
         <connection t1="RR 91" t2="RR 92"/>
         <connection t1="RR 93" t2="RR 94"/>
@@ -4955,9 +4942,6 @@
         <attachment attachTo="RR 12" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
-        <attachment attachTo="RR 11" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="0"/>
-        </attachment>
         <attachment attachTo="RR 14" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
@@ -5626,10 +5610,6 @@
             <option count="" name="canalName" value="RR10toRR11"/>
             <option count="" name="landTerritories" value="St. Petersburg:Yaroslavl"/>
         </attachment>
-        <attachment attachTo="RR 11" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR10toRR11" type="territory">
-            <option count="" name="canalName" value="RR10toRR11"/>
-            <option count="" name="landTerritories" value="St. Petersburg:Yaroslavl"/>
-        </attachment>
         <attachment attachTo="RR 10" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR10toRR9" type="territory">
             <option count="" name="canalName" value="RR10toRR9"/>
             <option count="" name="landTerritories" value="St. Petersburg:Tallin"/>
@@ -5725,10 +5705,6 @@
         <attachment attachTo="RR 125" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR119toRR125" type="territory">
             <option count="" name="canalName" value="RR119toRR125"/>
             <option count="" name="landTerritories" value="Brussels:Vimy"/>
-        </attachment>
-        <attachment attachTo="RR 11" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR11toRR14" type="territory">
-            <option count="" name="canalName" value="RR11toRR14"/>
-            <option count="" name="landTerritories" value="Yaroslavl:Moscow"/>
         </attachment>
         <attachment attachTo="RR 14" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR11toRR14" type="territory">
             <option count="" name="canalName" value="RR11toRR14"/>
