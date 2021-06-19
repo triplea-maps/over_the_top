@@ -621,6 +621,9 @@
 		<territory name="SZ 89" water="true"/>
 		<territory name="SZ 90" water="true"/>
 		<territory name="SZ 91" water="true"/>
+		<territory name="SZ 92" water="true"/>
+		<territory name="SZ 93" water="true"/>
+		<territory name="SZ 94" water="true"/>
 		<territory name="Samara" water="false"/>
 		<territory name="Sarajevo" water="false"/>
 		<territory name="Saratov" water="false"/>
@@ -692,7 +695,6 @@
         <connection t1="RR 86" t2="RR 90"/>
 		
 		<connection t1="Hejaz" t2="Tabuk"/>
-        <connection t1="RR 84" t2="RR 91"/>
 
         <connection t1="al-Hasa" t2="Oman"/>
         <connection t1="SZ 39" t2="SZ 40"/>
@@ -762,6 +764,7 @@
         <connection t1="Antalya" t2="Konya"/>
         <connection t1="Antalya" t2="RR 63"/>
         <connection t1="Antalya" t2="SZ 35"/>
+        <connection t1="Antalya" t2="SZ 93"/>
         <connection t1="Arar" t2="Bagdad"/>
         <connection t1="Arar" t2="Damascus"/>
         <connection t1="Arar" t2="Jerusalem"/>
@@ -824,7 +827,6 @@
         <connection t1="Bandundu" t2="French Equitorial Africa"/>
         <connection t1="Bandundu" t2="Kabinda"/>
         <connection t1="Bandundu" t2="Lisala"/>
-        <connection t1="Bandundu" t2="RR 102"/>
         <connection t1="Bar-Le-Duc" t2="Chaumont"/>
         <connection t1="Bar-Le-Duc" t2="Luneville"/>
         <connection t1="Bar-Le-Duc" t2="Nancy"/>
@@ -840,12 +842,6 @@
         <connection t1="Bavaria" t2="Ruhr"/>
         <connection t1="Bavaria" t2="Saxony"/>
         <connection t1="Bavaria" t2="Switzerland"/>
-        <connection t1="Be'er Sheva" t2="Cairo"/>
-        <connection t1="Be'er Sheva" t2="Jerusalem"/>
-        <connection t1="Be'er Sheva" t2="RR 83"/>
-        <connection t1="Be'er Sheva" t2="SZ 38"/>
-        <connection t1="Be'er Sheva" t2="SZ 83"/>
-        <connection t1="Be'er Sheva" t2="Tabuk"/>
         <connection t1="Belarus" t2="Bryansk"/>
         <connection t1="Belarus" t2="Kiev"/>
         <connection t1="Belarus" t2="Oryol"/>
@@ -905,15 +901,16 @@
         <connection t1="Burgundy" t2="Picardy"/>
         <connection t1="Burgundy" t2="RR 28"/>
         <connection t1="Burgundy" t2="Switzerland"/>
-        <connection t1="By DKJD" t2="Norway"/>
         <connection t1="Cabinda" t2="Chikapa"/>
         <connection t1="Cabinda" t2="French Equitorial Africa"/>
         <connection t1="Cabinda" t2="RR 104"/>
         <connection t1="Cabinda" t2="SZ 55"/>
         <connection t1="Cairo" t2="Egypt"/>
+        <connection t1="Cairo" t2="Hurghada"/>
         <connection t1="Cairo" t2="RR 82"/>
         <connection t1="Cairo" t2="SZ 38"/>
         <connection t1="Cairo" t2="SZ 83"/>
+        <connection t1="Cairo" t2="Tabuk"/>
         <connection t1="Cameroon" t2="Chad"/>
         <connection t1="Cameroon" t2="French Equitorial Africa"/>
         <connection t1="Cameroon" t2="Lisala"/>
@@ -936,6 +933,7 @@
         <connection t1="Chad" t2="French Niger"/>
         <connection t1="Chad" t2="Lisala"/>
         <connection t1="Chad" t2="Niangara"/>
+        <connection t1="Chad" t2="Nigeria"/>
         <connection t1="Chad" t2="Southern Sudan"/>
         <connection t1="Chantilly" t2="Chaumont"/>
         <connection t1="Chantilly" t2="Compiegne"/>
@@ -958,17 +956,17 @@
         <connection t1="Compiegne" t2="Soissons"/>
         <connection t1="Corsica" t2="SZ 29"/>
         <connection t1="Crete" t2="SZ 32"/>
-        <connection t1="Crete" t2="SZ 33"/>
         <connection t1="Crete" t2="SZ 34"/>
         <connection t1="Crete" t2="SZ 35"/>
-        <connection t1="Cyprus" t2="SZ 35"/>
+        <connection t1="Crete" t2="SZ 92"/>
+        <connection t1="Cyprus" t2="SZ 93"/>
         <connection t1="Cyreniaca" t2="RR 79"/>
-        <connection t1="Cyreniaca" t2="SZ 33"/>
+        <connection t1="Cyreniaca" t2="SZ 92"/>
         <connection t1="Cyreniaca" t2="Sirte"/>
         <connection t1="Cyreniaca" t2="Tobruk"/>
         <connection t1="Damascus" t2="Jerusalem"/>
         <connection t1="Damascus" t2="RR 67"/>
-        <connection t1="Damascus" t2="SZ 35"/>
+        <connection t1="Damascus" t2="SZ 93"/>
         <connection t1="Damascus" t2="Syria"/>
         <connection t1="Denmark" t2="Kiel"/>
         <connection t1="Denmark" t2="SZ 7"/>
@@ -982,8 +980,6 @@
         <connection t1="Douamont" t2="Verdun"/>
         <connection t1="Egypt" t2="Hurghada"/>
         <connection t1="Egypt" t2="RR 81"/>
-        <connection t1="Egypt" t2="SZ 35"/>
-        <connection t1="Egypt" t2="SZ 38"/>
         <connection t1="Egypt" t2="SZ 83"/>
         <connection t1="Egypt" t2="Tobruk"/>
         <connection t1="Finland" t2="SZ 91"/>
@@ -1001,6 +997,7 @@
         <connection t1="French Guinea" t2="Senegal"/>
         <connection t1="French Guinea" t2="Sierra Leone"/>
         <connection t1="French Niger" t2="French West Africa"/>
+        <connection t1="French Niger" t2="Nigeria"/>
         <connection t1="French Niger" t2="Northern Sudan"/>
         <connection t1="French Niger" t2="RR 89"/>
         <connection t1="French Niger" t2="Southern Sudan"/>
@@ -1100,11 +1097,10 @@
         <connection t1="Izmir" t2="SZ 35"/>
         <connection t1="Izmir" t2="SZ 36"/>
         <connection t1="Jerusalem" t2="RR 70"/>
-        <connection t1="Jerusalem" t2="SZ 35"/>
+        <connection t1="Jerusalem" t2="SZ 93"/>
         <connection t1="Jerusalem" t2="Tabuk"/>
         <connection t1="Kabinda" t2="Lisala"/>
         <connection t1="Kabinda" t2="Nye Lukemba"/>
-        <connection t1="Kabinda" t2="RR 105"/>
         <connection t1="Kabinda" t2="Rhodesia"/>
         <connection t1="Kaluga" t2="Moscow"/>
         <connection t1="Kaluga" t2="RR 13"/>
@@ -1131,7 +1127,7 @@
         <connection t1="Kiev" t2="Poland"/>
         <connection t1="Kiev" t2="RR 33"/>
         <connection t1="Konya" t2="RR 64"/>
-        <connection t1="Konya" t2="SZ 35"/>
+        <connection t1="Konya" t2="SZ 93"/>
         <connection t1="Konya" t2="Smyrna"/>
         <connection t1="Konya" t2="Syria"/>
         <connection t1="Krasnodar" t2="RR 50"/>
@@ -1193,6 +1189,7 @@
         <connection t1="Mozambique" t2="SZ 59"/>
         <connection t1="Mozambique" t2="Transvaal"/>
         <connection t1="Mumbaza" t2="Niangara"/>
+        <connection t1="Mumbaza" t2="Nye Lukemba"/>
         <connection t1="Mumbaza" t2="RR 106"/>
         <connection t1="Mumbaza" t2="SZ 50"/>
         <connection t1="Mumbaza" t2="Uganda"/>
@@ -1205,7 +1202,6 @@
         <connection t1="Naples" t2="Tuscany"/>
         <connection t1="Natal" t2="RR 117"/>
         <connection t1="Natal" t2="S. Africa"/>
-        <connection t1="Natal" t2="SZ 57"/>
         <connection t1="Natal" t2="SZ 58"/>
         <connection t1="Natal" t2="Transvaal"/>
         <connection t1="Niangara" t2="Nye Lukemba"/>
@@ -1253,6 +1249,7 @@
         <connection t1="Persia" t2="SZ 40"/>
         <connection t1="Persia" t2="SZ 43"/>
         <connection t1="Petrozavodsk" t2="St. Petersburg"/>
+        <connection t1="Petrozavodsk" t2="Vologda"/>
         <connection t1="Petrozavodsk" t2="Yaroslavl"/>
         <connection t1="Picardy" t2="RR 17"/>
         <connection t1="Picardy" t2="SZ 8"/>
@@ -1490,6 +1487,7 @@
         <connection t1="RR 83" t2="RR 84"/>
         <connection t1="RR 84" t2="Tabuk"/>
         <connection t1="RR 87" t2="RR 94"/>
+        <connection t1="RR 83" t2="Tabuk"/>
         <connection t1="RR 87" t2="Senegal"/>
         <connection t1="RR 88" t2="RR 89"/>
         <connection t1="RR 88" t2="RR 96"/>
@@ -1504,7 +1502,6 @@
         <connection t1="RR 95" t2="RR 96"/>
         <connection t1="RR 95" t2="Togoland"/>
         <connection t1="RR 96" t2="RR 97"/>
-        <connection t1="RR 98" t2="Southern Sudan"/>
         <connection t1="Rhiems" t2="Verdun"/>
         <connection t1="Rhineland" t2="Strasbourg"/>
         <connection t1="Rhodesia" t2="S. Rhodesia"/>
@@ -1630,19 +1627,21 @@
         <connection t1="SZ 32" t2="SZ 33"/>
         <connection t1="SZ 32" t2="SZ 34"/>
         <connection t1="SZ 32" t2="SZ 82"/>
+        <connection t1="SZ 32" t2="SZ 92"/>
         <connection t1="SZ 32" t2="Sarajevo"/>
         <connection t1="SZ 32" t2="Sicily"/>
-        <connection t1="SZ 33" t2="SZ 35"/>
         <connection t1="SZ 33" t2="SZ 82"/>
+        <connection t1="SZ 33" t2="SZ 92"/>
+        <connection t1="SZ 33" t2="SZ 94"/>
         <connection t1="SZ 33" t2="Sicily"/>
         <connection t1="SZ 33" t2="Sirte"/>
-        <connection t1="SZ 33" t2="Tobruk"/>
         <connection t1="SZ 33" t2="Tripoli"/>
         <connection t1="SZ 33" t2="Tunis"/>
         <connection t1="SZ 34" t2="SZ 35"/>
         <connection t1="SZ 34" t2="SZ 36"/>
         <connection t1="SZ 35" t2="SZ 83"/>
-        <connection t1="SZ 35" t2="Syria"/>
+        <connection t1="SZ 35" t2="SZ 92"/>
+        <connection t1="SZ 35" t2="SZ 93"/>
         <connection t1="SZ 36" t2="SZ 37"/>
         <connection t1="SZ 36" t2="Tbilisi"/>
         <connection t1="SZ 36" t2="Trabzon"/>
@@ -1652,6 +1651,7 @@
         <connection t1="SZ 4" t2="SZ 5"/>
         <connection t1="SZ 4" t2="SZ 6"/>
         <connection t1="SZ 4" t2="SZ 75"/>
+        <connection t1="SZ 4" t2="SZ 9"/>
         <connection t1="SZ 4" t2="Scotland"/>
         <connection t1="SZ 40" t2="SZ 43"/>
         <connection t1="SZ 41" t2="SZ 42"/>
@@ -1683,7 +1683,6 @@
         <connection t1="SZ 49" t2="SZ 50"/>
         <connection t1="SZ 49" t2="SZ 62"/>
         <connection t1="SZ 49" t2="SZ 85"/>
-        <connection t1="SZ 5" t2="SZ 6"/>
         <connection t1="SZ 5" t2="SZ 7"/>
         <connection t1="SZ 5" t2="SZ 74"/>
         <connection t1="SZ 5" t2="SZ 75"/>
@@ -1748,9 +1747,17 @@
         <connection t1="SZ 8" t2="SZ 9"/>
         <connection t1="SZ 80" t2="SZ 91"/>
         <connection t1="SZ 80" t2="Sweden"/>
+        <connection t1="SZ 82" t2="SZ 92"/>
+        <connection t1="SZ 82" t2="SZ 94"/>
+        <connection t1="SZ 83" t2="SZ 92"/>
+        <connection t1="SZ 83" t2="SZ 93"/>
         <connection t1="SZ 91" t2="St. Petersburg"/>
         <connection t1="SZ 91" t2="Sweden"/>
         <connection t1="SZ 91" t2="Tallin"/>
+        <connection t1="SZ 92" t2="SZ 94"/>
+        <connection t1="SZ 92" t2="Tobruk"/>
+        <connection t1="SZ 93" t2="Syria"/>
+        <connection t1="SZ 93" t2="Tabuk"/>
         <connection t1="Samara" t2="Tambov"/>
         <connection t1="Samara" t2="Tartarstan"/>
         <connection t1="Sarajevo" t2="Serbia"/>
