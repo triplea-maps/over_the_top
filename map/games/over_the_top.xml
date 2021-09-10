@@ -217,7 +217,7 @@
             <element name="US 3"/>
             <element name="Uganda"/>
             <element name="United States"/>
-            <element name="United States Mobilizes"/>
+            <element name="USA Mobilized"/>
             <element name="Upper Volta"/>
             <element name="Venice"/>
             <element name="Verdun"/>
@@ -373,6 +373,148 @@
 		<territory name="Portugal" water="false"/>
 		<territory name="Portuguese E. Africa" water="false"/>
 		<territory name="Prussia" water="false"/>
+		<territory name="RR 1" water="true"/>
+		<territory name="RR 2" water="true"/>
+		<territory name="RR 3" water="true"/>
+		<territory name="RR 4" water="true"/>
+		<territory name="RR 5" water="true"/>
+		<territory name="RR 6" water="true"/>
+		<territory name="RR 7" water="true"/>
+		<territory name="RR 8" water="true"/>
+		<territory name="RR 9" water="true"/>
+		<territory name="RR 10" water="true"/>
+		<territory name="RR 12" water="true"/>
+		<territory name="RR 13" water="true"/>
+		<territory name="RR 14" water="true"/>
+		<territory name="RR 15" water="true"/>
+		<territory name="RR 16" water="true"/>
+		<territory name="RR 17" water="true"/>
+		<territory name="RR 18" water="true"/>
+		<territory name="RR 19" water="true"/>
+		<territory name="RR 20" water="true"/>
+		<territory name="RR 21" water="true"/>
+		<territory name="RR 22" water="true"/>
+		<territory name="RR 23" water="true"/>
+		<territory name="RR 24" water="true"/>
+		<territory name="RR 25" water="true"/>
+		<territory name="RR 26" water="true"/>
+		<territory name="RR 27" water="true"/>
+		<territory name="RR 28" water="true"/>
+		<territory name="RR 29" water="true"/>
+		<territory name="RR 30" water="true"/>
+		<territory name="RR 31" water="true"/>
+		<territory name="RR 32" water="true"/>
+		<territory name="RR 33" water="true"/>
+		<territory name="RR 34" water="true"/>
+		<territory name="RR 35" water="true"/>
+		<territory name="RR 36" water="true"/>
+		<territory name="RR 37" water="true"/>
+		<territory name="RR 38" water="true"/>
+		<territory name="RR 39" water="true"/>
+		<territory name="RR 40" water="true"/>
+		<territory name="RR 41" water="true"/>
+		<territory name="RR 42" water="true"/>
+		<territory name="RR 43" water="true"/>
+		<territory name="RR 44" water="true"/>
+		<territory name="RR 45" water="true"/>
+		<territory name="RR 46" water="true"/>
+		<territory name="RR 47" water="true"/>
+		<territory name="RR 48" water="true"/>
+		<territory name="RR 49" water="true"/>
+		<territory name="RR 50" water="true"/>
+		<territory name="RR 51" water="true"/>
+		<territory name="RR 52" water="true"/>
+		<territory name="RR 53" water="true"/>
+		<territory name="RR 54" water="true"/>
+		<territory name="RR 55" water="true"/>
+		<territory name="RR 56" water="true"/>
+		<territory name="RR 57" water="true"/>
+		<territory name="RR 58" water="true"/>
+		<territory name="RR 59" water="true"/>
+		<territory name="RR 60" water="true"/>
+		<territory name="RR 61" water="true"/>
+		<territory name="RR 62" water="true"/>
+		<territory name="RR 63" water="true"/>
+		<territory name="RR 64" water="true"/>
+		<territory name="RR 65" water="true"/>
+		<territory name="RR 66" water="true"/>
+		<territory name="RR 67" water="true"/>
+		<territory name="RR 68" water="true"/>
+		<territory name="RR 69" water="true"/>
+		<territory name="RR 70" water="true"/>
+		<territory name="RR 71" water="true"/>
+		<territory name="RR 72" water="true"/>
+		<territory name="RR 73" water="true"/>
+		<territory name="RR 74" water="true"/>
+		<territory name="RR 75" water="true"/>
+		<territory name="RR 76" water="true"/>
+		<territory name="RR 77" water="true"/>
+		<territory name="RR 78" water="true"/>
+		<territory name="RR 79" water="true"/>
+		<territory name="RR 80" water="true"/>
+		<territory name="RR 81" water="true"/>
+		<territory name="RR 82" water="true"/>
+		<territory name="RR 85" water="true"/>
+		<territory name="RR 86" water="true"/>
+		<territory name="RR 87" water="true"/>
+		<territory name="RR 88" water="true"/>
+		<territory name="RR 89" water="true"/>
+		<territory name="RR 90" water="true"/>
+		<territory name="RR 91" water="true"/>
+		<territory name="RR 92" water="true"/>
+		<territory name="RR 93" water="true"/>
+		<territory name="RR 94" water="true"/>
+		<territory name="RR 95" water="true"/>
+		<territory name="RR 96" water="true"/>
+		<territory name="RR 97" water="true"/>
+		<territory name="RR 99" water="true"/>
+		<territory name="RR 100" water="true"/>
+		<territory name="RR 101" water="true"/>
+		<territory name="RR 103" water="true"/>
+		<territory name="RR 104" water="true"/>
+		<territory name="RR 106" water="true"/>
+		<territory name="RR 107" water="true"/>
+		<territory name="RR 108" water="true"/>
+		<territory name="RR 109" water="true"/>
+		<territory name="RR 110" water="true"/>
+		<territory name="RR 111" water="true"/>
+		<territory name="RR 112" water="true"/>
+		<territory name="RR 114" water="true"/>
+		<territory name="RR 115" water="true"/>
+		<territory name="RR 116" water="true"/>
+		<territory name="RR 117" water="true"/>
+		<territory name="RR 118" water="true"/>
+		<territory name="RR 119" water="true"/>
+		<territory name="RR 120" water="true"/>
+		<territory name="RR 121" water="true"/>
+		<territory name="RR 122" water="true"/>
+		<territory name="RR 123" water="true"/>
+		<territory name="RR 124" water="true"/>
+		<territory name="RR 125" water="true"/>
+		<territory name="RR 126" water="true"/>
+		<territory name="RR 127" water="true"/>
+		<territory name="RR 128" water="true"/>
+		<territory name="RR 129" water="true"/>
+		<territory name="RR 130" water="true"/>
+		<territory name="RR 131" water="true"/>
+		<territory name="RR 132" water="true"/>
+		<territory name="RR 133" water="true"/>
+		<territory name="RR 134" water="true"/>
+		<territory name="RR 135" water="true"/>
+		<territory name="RR 136" water="true"/>
+		<territory name="RR 137" water="true"/>
+		<territory name="RR 138" water="true"/>
+		<territory name="RR 139" water="true"/>
+		<territory name="RR 140" water="true"/>
+		<territory name="RR 141" water="true"/>
+		<territory name="RR 142" water="true"/>
+		<territory name="RR 143" water="true"/>
+		<territory name="RR 144" water="true"/>
+		<territory name="RR 145" water="true"/>
+		<territory name="RR 146" water="true"/>
+		<territory name="RR 147" water="true"/>
+		<territory name="RR 148" water="true"/>
+		<territory name="RR 149" water="true"/>
 		<territory name="Rhiems" water="false"/>
 		<territory name="Rhineland" water="false"/>
 		<territory name="Rhodesia" water="false"/>
@@ -525,7 +667,7 @@
 		<territory name="US 3" water="false"/>
 		<territory name="Uganda" water="false"/>
 		<territory name="United States" water="false"/>
-		<territory name="United States Mobilizes" water="false"/>
+		<territory name="USA Mobilized" water="false"/>
 		<territory name="Upper Volta" water="false"/>
 		<territory name="Venice" water="false"/>
 		<territory name="Verdun" water="false"/>
@@ -539,149 +681,6 @@
 		<territory name="York" water="false"/>
 		<territory name="Ypres" water="false"/>
 		<territory name="al-Hasa" water="false"/>
-		<territory name="RR 1" water="true"/>
-		<territory name="RR 2" water="true"/>
-		<territory name="RR 3" water="true"/>
-		<territory name="RR 4" water="true"/>
-		<territory name="RR 5" water="true"/>
-		<territory name="RR 6" water="true"/>
-		<territory name="RR 7" water="true"/>
-		<territory name="RR 8" water="true"/>
-		<territory name="RR 9" water="true"/>
-		<territory name="RR 10" water="true"/>
-		<territory name="RR 12" water="true"/>
-		<territory name="RR 13" water="true"/>
-		<territory name="RR 14" water="true"/>
-		<territory name="RR 15" water="true"/>
-		<territory name="RR 16" water="true"/>
-		<territory name="RR 17" water="true"/>
-		<territory name="RR 18" water="true"/>
-		<territory name="RR 19" water="true"/>
-		<territory name="RR 20" water="true"/>
-		<territory name="RR 21" water="true"/>
-		<territory name="RR 22" water="true"/>
-		<territory name="RR 23" water="true"/>
-		<territory name="RR 24" water="true"/>
-		<territory name="RR 25" water="true"/>
-		<territory name="RR 26" water="true"/>
-		<territory name="RR 27" water="true"/>
-		<territory name="RR 28" water="true"/>
-		<territory name="RR 29" water="true"/>
-		<territory name="RR 30" water="true"/>
-		<territory name="RR 31" water="true"/>
-		<territory name="RR 32" water="true"/>
-		<territory name="RR 33" water="true"/>
-		<territory name="RR 34" water="true"/>
-		<territory name="RR 35" water="true"/>
-		<territory name="RR 36" water="true"/>
-		<territory name="RR 37" water="true"/>
-		<territory name="RR 38" water="true"/>
-		<territory name="RR 39" water="true"/>
-		<territory name="RR 40" water="true"/>
-		<territory name="RR 41" water="true"/>
-		<territory name="RR 42" water="true"/>
-		<territory name="RR 43" water="true"/>
-		<territory name="RR 44" water="true"/>
-		<territory name="RR 45" water="true"/>
-		<territory name="RR 46" water="true"/>
-		<territory name="RR 47" water="true"/>
-		<territory name="RR 48" water="true"/>
-		<territory name="RR 49" water="true"/>
-		<territory name="RR 50" water="true"/>
-		<territory name="RR 51" water="true"/>
-		<territory name="RR 52" water="true"/>
-		<territory name="RR 53" water="true"/>
-		<territory name="RR 54" water="true"/>
-		<territory name="RR 55" water="true"/>
-		<territory name="RR 56" water="true"/>
-		<territory name="RR 57" water="true"/>
-		<territory name="RR 58" water="true"/>
-		<territory name="RR 59" water="true"/>
-		<territory name="RR 60" water="true"/>
-		<territory name="RR 61" water="true"/>
-		<territory name="RR 62" water="true"/>
-		<territory name="RR 63" water="true"/>
-		<territory name="RR 64" water="true"/>
-		<territory name="RR 65" water="true"/>
-		<territory name="RR 66" water="true"/>
-		<territory name="RR 67" water="true"/>
-		<territory name="RR 68" water="true"/>
-		<territory name="RR 69" water="true"/>
-		<territory name="RR 70" water="true"/>
-		<territory name="RR 71" water="true"/>
-		<territory name="RR 72" water="true"/>
-		<territory name="RR 73" water="true"/>
-		<territory name="RR 74" water="true"/>
-		<territory name="RR 75" water="true"/>
-		<territory name="RR 76" water="true"/>
-		<territory name="RR 77" water="true"/>
-		<territory name="RR 78" water="true"/>
-		<territory name="RR 79" water="true"/>
-		<territory name="RR 80" water="true"/>
-		<territory name="RR 81" water="true"/>
-		<territory name="RR 82" water="true"/>
-		<territory name="RR 83" water="true"/>
-		<territory name="RR 85" water="true"/>
-		<territory name="RR 86" water="true"/>
-		<territory name="RR 87" water="true"/>
-		<territory name="RR 88" water="true"/>
-		<territory name="RR 89" water="true"/>
-		<territory name="RR 90" water="true"/>
-		<territory name="RR 91" water="true"/>
-		<territory name="RR 92" water="true"/>
-		<territory name="RR 93" water="true"/>
-		<territory name="RR 94" water="true"/>
-		<territory name="RR 95" water="true"/>
-		<territory name="RR 96" water="true"/>
-		<territory name="RR 97" water="true"/>
-		<territory name="RR 99" water="true"/>
-		<territory name="RR 100" water="true"/>
-		<territory name="RR 101" water="true"/>
-		<territory name="RR 103" water="true"/>
-		<territory name="RR 104" water="true"/>
-		<territory name="RR 106" water="true"/>
-		<territory name="RR 107" water="true"/>
-		<territory name="RR 108" water="true"/>
-		<territory name="RR 109" water="true"/>
-		<territory name="RR 110" water="true"/>
-		<territory name="RR 111" water="true"/>
-		<territory name="RR 112" water="true"/>
-		<territory name="RR 114" water="true"/>
-		<territory name="RR 115" water="true"/>
-		<territory name="RR 116" water="true"/>
-		<territory name="RR 117" water="true"/>
-		<territory name="RR 118" water="true"/>
-		<territory name="RR 119" water="true"/>
-		<territory name="RR 120" water="true"/>
-		<territory name="RR 121" water="true"/>
-		<territory name="RR 122" water="true"/>
-		<territory name="RR 123" water="true"/>
-		<territory name="RR 124" water="true"/>
-		<territory name="RR 125" water="true"/>
-		<territory name="RR 126" water="true"/>
-		<territory name="RR 127" water="true"/>
-		<territory name="RR 128" water="true"/>
-		<territory name="RR 129" water="true"/>
-		<territory name="RR 130" water="true"/>
-		<territory name="RR 131" water="true"/>
-		<territory name="RR 132" water="true"/>
-		<territory name="RR 133" water="true"/>
-		<territory name="RR 134" water="true"/>
-		<territory name="RR 135" water="true"/>
-		<territory name="RR 136" water="true"/>
-		<territory name="RR 137" water="true"/>
-		<territory name="RR 138" water="true"/>
-		<territory name="RR 139" water="true"/>
-		<territory name="RR 140" water="true"/>
-		<territory name="RR 141" water="true"/>
-		<territory name="RR 142" water="true"/>
-		<territory name="RR 143" water="true"/>
-		<territory name="RR 144" water="true"/>
-		<territory name="RR 145" water="true"/>
-		<territory name="RR 146" water="true"/>
-		<territory name="RR 147" water="true"/>
-		<territory name="RR 148" water="true"/>
-		<territory name="RR 149" water="true"/>
 		<!-- Inset connections that can't be auto discovered -->
         <connection t1="Mauritania" t2="Senegal"/>
         <connection t1="SZ 26" t2="SZ 51"/>
@@ -719,7 +718,7 @@
         <connection t1="Compiegne" t2="Burgundy"/>
         <connection t1="RR 137" t2="RR 28"/>		
 		
-        <connection t1="United States Mobilizes" t2="United States"/>
+        <connection t1="USA Mobilized" t2="United States"/>
         <connection t1="Russian Infiltration" t2="BR 4"/>
         <connection t1="Russian Infiltration" t2="BR 5"/>
         <connection t1="Russian Infiltration" t2="BR 6"/>
@@ -1452,7 +1451,6 @@
         <connection t1="RR 69" t2="RR 71"/>
         <connection t1="RR 7" t2="RR 8"/>
         <connection t1="RR 7" t2="Vilnius"/>
-        <connection t1="RR 70" t2="RR 83"/>
         <connection t1="RR 71" t2="RR 85"/>
         <connection t1="RR 72" t2="RR 73"/>
         <connection t1="RR 73" t2="RR 74"/>
@@ -1472,9 +1470,7 @@
         <connection t1="RR 80" t2="Tobruk"/>
         <connection t1="RR 81" t2="RR 82"/>
         <connection t1="RR 81" t2="RR 86"/>
-        <connection t1="RR 82" t2="RR 83"/>
         <connection t1="RR 87" t2="RR 94"/>
-        <connection t1="RR 83" t2="Tabuk"/>
         <connection t1="RR 87" t2="Senegal"/>
         <connection t1="RR 88" t2="RR 89"/>
         <connection t1="RR 88" t2="RR 96"/>
@@ -1777,7 +1773,7 @@
         <connection t1="Tuscany" t2="Venice"/>
         <connection t1="US 1" t2="US 2"/>
         <connection t1="US 2" t2="US 3"/>
-        <connection t1="US 3" t2="United States Mobilizes"/>
+        <connection t1="US 3" t2="USA Mobilized"/>
         <connection t1="Vologda" t2="Vyatka"/>
         <connection t1="Vologda" t2="Yaroslavl"/>
     </map>
@@ -3851,7 +3847,7 @@
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="1"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Troop-Transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="2"/>
@@ -3860,7 +3856,7 @@
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="0"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="attack" value="0"/>
@@ -3869,7 +3865,7 @@
             <option count="" name="isSea" value="true"/>
             <option count="" name="carrierCapacity" value="2"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="isSub" value="true"/>
@@ -3878,7 +3874,7 @@
             <option count="" name="attack" value="2"/>
             <option count="" name="defense" value="1"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="2"/>
@@ -3887,7 +3883,7 @@
             <option count="" name="defense" value="2"/>
             <option count="" name="isDestroyer" value="true"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Battlecruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="2"/>
@@ -3897,7 +3893,7 @@
             <option count="" name="canBombard" value="false"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
             <option count="" name="createsUnitsList" value="1:Munitions"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="2"/>
@@ -3908,7 +3904,7 @@
             <option count="" name="hitPoints" value="2"/>
             <option count="" name="requiresUnits" value="Shipyard:Factory"/>
             <option count="" name="createsUnitsList" value="2:Munitions"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Trenches" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="0"/>
@@ -3936,7 +3932,7 @@
             <option count="" name="constructionsPerTerrPerTypePerTurn" value="2"/>
             <option count="" name="maxConstructionsPerTypePerTerr" value="8"/>
             <option count="" name="requiresUnits" value="Shipyard"/>
-            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementRestrictions" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="isFactory" value="true"/>
@@ -3979,7 +3975,7 @@
             <option count="" name="attack" value="4"/>
             <option count="" name="defense" value="2"/>
             <option count="" name="transportCapacity" value="1"/>
-            <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Train" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="3"/>
@@ -3987,7 +3983,7 @@
             <option count="" name="attack" value="0"/>
             <option count="" name="defense" value="0"/>
             <option count="" name="transportCapacity" value="5"/>
-            <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Gas-Munitions" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="offensiveAttackAA" value="4"/>
@@ -4021,7 +4017,7 @@
             <option count="" name="isSea" value="true"/>
             <option count="" name="givesMovement" value="1:Munitions"/>
             <option count="" name="createsUnitsList" value="2:Munitions"/>
-            <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 83:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
+            <option count="" name="unitPlacementOnlyAllowedIn" value="RR 1:RR 10:RR 100:RR 101:RR 103:RR 104:RR 106:RR 107:RR 108:RR 109:RR 110:RR 111:RR 112:RR 114:RR 115:RR 116:RR 117:RR 118:RR 119:RR 12:RR 120:RR 121:RR 122:RR 123:RR 124:RR 125:RR 126:RR 127:RR 128:RR 129:RR 13:RR 130:RR 131:RR 132:RR 133:RR 134:RR 135:RR 136:RR 137:RR 138:RR 139:RR 14:RR 140:RR 141:RR 142:RR 143:RR 144:RR 145:RR 146:RR 147:RR 148:RR 149:RR 15:RR 16:RR 17:RR 18:RR 19:RR 2:RR 20:RR 21:RR 22:RR 23:RR 24:RR 25:RR 26:RR 27:RR 28:RR 29:RR 3:RR 30:RR 31:RR 32:RR 33:RR 34:RR 35:RR 36:RR 37:RR 38:RR 39:RR 4:RR 40:RR 41:RR 42:RR 43:RR 44:RR 45:RR 46:RR 47:RR 48:RR 49:RR 5:RR 50:RR 51:RR 52:RR 53:RR 54:RR 55:RR 56:RR 57:RR 58:RR 59:RR 6:RR 60:RR 61:RR 62:RR 63:RR 64:RR 65:RR 66:RR 67:RR 68:RR 69:RR 7:RR 70:RR 71:RR 72:RR 73:RR 74:RR 75:RR 76:RR 77:RR 78:RR 79:RR 8:RR 80:RR 81:RR 82:RR 85:RR 86:RR 87:RR 88:RR 89:RR 9:RR 90:RR 91:RR 92:RR 93:RR 94:RR 95:RR 96:RR 97:RR 99"/>
         </attachment>
         <attachment attachTo="Develop-Elite-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="0"/>
@@ -4541,7 +4537,7 @@
         <attachment attachTo="Chantilly" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="3"/>
         </attachment>
-        <attachment attachTo="United States Mobilizes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+        <attachment attachTo="USA Mobilized" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="4"/>
         </attachment>
         <attachment attachTo="Romania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -4818,9 +4814,6 @@
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 80" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="0"/>
-        </attachment>
-        <attachment attachTo="RR 83" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="RR 82" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -5413,9 +5406,6 @@
             <option count="" name="production" value="5"/>
         </attachment>
         <attachment attachTo="SZ 82" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
-        </attachment>
-		<attachment attachTo="SZ 93" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="5"/>
         </attachment>
         <attachment attachTo="SZ 81" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
@@ -6634,14 +6624,6 @@
             <option count="" name="canalName" value="RR6toRR7"/>
             <option count="" name="landTerritories" value="Prussia:Vilnius"/>
         </attachment>
-        <attachment attachTo="RR 70" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR70toRR83" type="territory">
-            <option count="" name="canalName" value="RR70toRR83"/>
-            <option count="" name="landTerritories" value="Jerusalem:Tabuk"/>
-        </attachment>
-        <attachment attachTo="RR 83" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR70toRR83" type="territory">
-            <option count="" name="canalName" value="RR70toRR83"/>
-            <option count="" name="landTerritories" value="Jerusalem:Tabuk"/>
-        </attachment>
         <attachment attachTo="RR 71" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR71toRR85" type="territory">
             <option count="" name="canalName" value="RR71toRR85"/>
             <option count="" name="landTerritories" value="Bagdad:Basrah"/>
@@ -6753,14 +6735,6 @@
         <attachment attachTo="RR 86" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR81toRR86" type="territory">
             <option count="" name="canalName" value="RR81toRR86"/>
             <option count="" name="landTerritories" value="Egypt:Hurghada"/>
-        </attachment>
-        <attachment attachTo="RR 82" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR82toRR83" type="territory">
-            <option count="" name="canalName" value="RR82toRR83"/>
-            <option count="" name="landTerritories" value="Cairo:Tabuk"/>
-        </attachment>
-        <attachment attachTo="RR 83" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR82toRR83" type="territory">
-            <option count="" name="canalName" value="RR82toRR83"/>
-            <option count="" name="landTerritories" value="Cairo:Tabuk"/>
         </attachment>
         <attachment attachTo="RR 86" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR86toRR90" type="territory">
             <option count="" name="canalName" value="RR86toRR90"/>
@@ -7108,7 +7082,6 @@
             <territoryOwner owner="Russians" territory="SZ 80"/>
             <territoryOwner owner="French" territory="SZ 81"/>
             <territoryOwner owner="Italians" territory="SZ 82"/>
-			<territoryOwner owner="Ottomans" territory="SZ 93"/>
             <territoryOwner owner="British-Commonwealth" territory="SZ 83"/>
             <territoryOwner owner="British-Commonwealth" territory="SZ 84"/>
             <territoryOwner owner="Imperial-German-Afrika" territory="SZ 85"/>
@@ -7712,12 +7685,12 @@
             <unitPlacement owner="Italians" quantity="1" territory="SZ 30" unitType="Freighter"/>
             <unitPlacement owner="Italians" quantity="3" territory="SZ 30" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Italians" quantity="1" territory="SZ 30" unitType="Submarine"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Battlecruiser"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Battleship"/>
-            <unitPlacement owner="Ottomans" quantity="2" territory="SZ 93" unitType="Destroyer"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Freighter"/>
-            <unitPlacement owner="Ottomans" quantity="3" territory="SZ 93" unitType="Harbor-Defenses"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Submarine"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Battlecruiser"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Battleship"/>
+            <unitPlacement owner="Ottomans" quantity="2" territory="SZ 35" unitType="Destroyer"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Freighter"/>
+            <unitPlacement owner="Ottomans" quantity="3" territory="SZ 35" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Submarine"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="SZ 36" unitType="Battlecruiser"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="SZ 36" unitType="Battleship"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="SZ 36" unitType="Destroyer"/>
