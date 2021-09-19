@@ -5426,6 +5426,9 @@
         <attachment attachTo="SZ 83" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="5"/>
         </attachment>
+        <attachment attachTo="SZ 93" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+            <option count="" name="production" value="5"/>
+        </attachment>
         <attachment attachTo="Denmark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
             <option count="" name="isImpassable" value="true"/>
@@ -7083,6 +7086,7 @@
             <territoryOwner owner="French" territory="SZ 81"/>
             <territoryOwner owner="Italians" territory="SZ 82"/>
             <territoryOwner owner="British-Commonwealth" territory="SZ 83"/>
+            <territoryOwner owner="Ottomans" territory="SZ 93"/>
             <territoryOwner owner="British-Commonwealth" territory="SZ 84"/>
             <territoryOwner owner="Imperial-German-Afrika" territory="SZ 85"/>
             <territoryOwner owner="Imperial-German-Afrika" territory="SZ 86"/>
