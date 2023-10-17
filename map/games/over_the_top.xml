@@ -454,6 +454,7 @@
 		<territory name="RR 80" water="true"/>
 		<territory name="RR 81" water="true"/>
 		<territory name="RR 82" water="true"/>
+		<territory name="RR 84" water="true"/>
 		<territory name="RR 85" water="true"/>
 		<territory name="RR 86" water="true"/>
 		<territory name="RR 87" water="true"/>
@@ -1290,6 +1291,7 @@
         <connection t1="RR 108" t2="RR 110"/>
         <connection t1="RR 109" t2="RR 112"/>
         <connection t1="RR 110" t2="RR 111"/>
+        <connection t1="RR 111" t2="RR 115"/>
         <connection t1="RR 112" t2="RR 114"/>
         <connection t1="RR 114" t2="RR 116"/>
         <connection t1="RR 115" t2="RR 117"/>
@@ -1372,6 +1374,7 @@
         <connection t1="RR 21" t2="Silesia"/>
         <connection t1="RR 22" t2="RR 23"/>
 		<connection t1="RR 23" t2="RR 33"/>
+		<connection t1="RR 23" t2="RR 24"/>
         <connection t1="RR 23" t2="RR 34"/>
         <connection t1="RR 23" t2="RR 7"/>
         <connection t1="RR 24" t2="RR 35"/>
@@ -1470,12 +1473,15 @@
         <connection t1="RR 80" t2="Tobruk"/>
         <connection t1="RR 81" t2="RR 82"/>
         <connection t1="RR 81" t2="RR 86"/>
+        <connection t1="RR 84" t2="RR 96"/>
+        <connection t1="RR 84" t2="RR 89"/>
         <connection t1="RR 87" t2="RR 94"/>
         <connection t1="RR 87" t2="Senegal"/>
         <connection t1="RR 88" t2="RR 89"/>
         <connection t1="RR 88" t2="RR 96"/>
         <connection t1="RR 9" t2="Tallin"/>
         <connection t1="RR 90" t2="RR 99"/>
+        <connection t1="RR 90" t2="RR 89"/>
         <connection t1="RR 91" t2="RR 92"/>
         <connection t1="RR 93" t2="RR 94"/>
         <connection t1="RR 93" t2="Sierra Leone"/>
