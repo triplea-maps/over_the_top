@@ -1737,7 +1737,7 @@
         <connection t1="SZ 91" t2="St. Petersburg"/>
         <connection t1="SZ 91" t2="Sweden"/>
         <connection t1="SZ 91" t2="Tallin"/>
-        <connection t1="SZ 92" t2="SZ 94"/>
+        <connection t1="SZ 32" t2="SZ 94"/>
         <connection t1="SZ 92" t2="Tobruk"/>
         <connection t1="SZ 93" t2="Syria"/>
         <connection t1="SZ 93" t2="Tabuk"/>
