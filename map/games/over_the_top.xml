@@ -1599,7 +1599,7 @@
         <connection t1="SZ 3" t2="SZ 4"/>
         <connection t1="SZ 3" t2="SZ 72"/>
         <connection t1="SZ 30" t2="SZ 32"/>
-        <connection t1="SZ 30" t2="SZ 33"/>
+        <connection t1="SZ 94" t2="SZ 33"/>
         <connection t1="SZ 30" t2="Sardinia"/>
         <connection t1="SZ 30" t2="Sicily"/>
         <connection t1="SZ 30" t2="Tunis"/>
@@ -5434,6 +5434,9 @@
         <attachment attachTo="SZ 93" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="5"/>
         </attachment>
+        <attachment attachTo="SZ 94" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
+            <option count="" name="production" value="5"/>
+        </attachment>
         <attachment attachTo="Denmark" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="0"/>
             <option count="" name="isImpassable" value="true"/>
@@ -7106,6 +7109,7 @@
             <territoryOwner owner="Italians" territory="SZ 30"/>
             <territoryOwner owner="Ottomans" territory="SZ 35"/>
             <territoryOwner owner="Ottomans" territory="SZ 36"/>
+            <territoryOwner owner="Ottomans" territory="SZ 94"/>
             <territoryOwner owner="Russians" territory="SZ 37"/>
             <territoryOwner owner="Ottomans" territory="SZ 39"/>
             <territoryOwner owner="British-Commonwealth" territory="SZ 44"/>
