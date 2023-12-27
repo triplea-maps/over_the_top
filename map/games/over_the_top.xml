@@ -723,6 +723,19 @@
         <connection t1="Russian Infiltration" t2="BR 4"/>
         <connection t1="Russian Infiltration" t2="BR 5"/>
         <connection t1="Russian Infiltration" t2="BR 6"/>
+        
+        <connection t1="RR 107" t2="RR 111" />
+        <connection t1="RR 6" t2="RR 21" />
+        <connection t1="RR 6" t2="RR 22" />
+        <connection t1="RR 29" t2="RR 141" />
+        <connection t1="RR 29" t2="RR 19" />
+        <connection t1="RR 47" t2="RR 141" />
+        <connection t1="RR 10" t2="RR 12" />
+        <connection t1="RR 10" t2="RR 13" />
+        <connection t1="RR 8" t2="RR 23" />
+        <connection t1="RR 88" t2="RR 70" />
+        <connection t1="RR 88" t2="RR 91" />
+        <connection t1="RR 82" t2="RR 86" />
 		
 		<!-- Fixes that automatic method didn't find -->
 		<connection t1="RR 65" t2="RR 69"/>
@@ -1412,7 +1425,6 @@
         <connection t1="RR 44" t2="Rostov"/>
         <connection t1="RR 46" t2="RR 51"/>
         <connection t1="RR 46" t2="Tuscany"/>
-        <connection t1="RR 47" t2="RR 48"/>
         <connection t1="RR 47" t2="RR 52"/>
         <connection t1="RR 47" t2="Trieste"/>
         <connection t1="RR 48" t2="RR 49"/>
@@ -1613,6 +1625,7 @@
         <connection t1="SZ 32" t2="SZ 92"/>
         <connection t1="SZ 32" t2="Sarajevo"/>
         <connection t1="SZ 32" t2="Sicily"/>
+        <connection t1="SZ 33" t2="SZ 35"/>
         <connection t1="SZ 33" t2="SZ 82"/>
         <connection t1="SZ 33" t2="SZ 92"/>
         <connection t1="SZ 33" t2="SZ 94"/>
