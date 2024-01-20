@@ -1621,6 +1621,7 @@
         <connection t1="SZ 32" t2="SZ 34"/>
         <connection t1="SZ 32" t2="SZ 82"/>
         <connection t1="SZ 32" t2="SZ 92"/>
+        <connection t1="SZ 30" t2="SZ 92"/>
         <connection t1="SZ 32" t2="Sarajevo"/>
         <connection t1="SZ 32" t2="Sicily"/>
         <connection t1="SZ 33" t2="SZ 35"/>
