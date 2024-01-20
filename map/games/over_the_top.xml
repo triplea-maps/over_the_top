@@ -969,10 +969,10 @@
         <connection t1="Crete" t2="SZ 32"/>
         <connection t1="Crete" t2="SZ 34"/>
         <connection t1="Crete" t2="SZ 35"/>
-        <connection t1="Crete" t2="SZ 92"/>
+        <connection t1="Crete" t2="SZ 33"/>
         <connection t1="Cyprus" t2="SZ 93"/>
         <connection t1="Cyreniaca" t2="RR 79"/>
-        <connection t1="Cyreniaca" t2="SZ 92"/>
+        <connection t1="Cyreniaca" t2="SZ 33"/>
         <connection t1="Cyreniaca" t2="Sirte"/>
         <connection t1="Cyreniaca" t2="Tobruk"/>
         <connection t1="Damascus" t2="Jerusalem"/>
@@ -1624,17 +1624,17 @@
         <connection t1="SZ 32" t2="Sarajevo"/>
         <connection t1="SZ 32" t2="Sicily"/>
         <connection t1="SZ 33" t2="SZ 35"/>
-        <connection t1="SZ 33" t2="SZ 82"/>
+        <connection t1="SZ 92" t2="SZ 82"/>
         <connection t1="SZ 33" t2="SZ 92"/>
         <connection t1="SZ 33" t2="SZ 94"/>
-        <connection t1="SZ 33" t2="Sicily"/>
-        <connection t1="SZ 33" t2="Sirte"/>
-        <connection t1="SZ 33" t2="Tripoli"/>
-        <connection t1="SZ 33" t2="Tunis"/>
+        <connection t1="SZ 92" t2="Sicily"/>
+        <connection t1="SZ 92" t2="Sirte"/>
+        <connection t1="SZ 92" t2="Tripoli"/>
+        <connection t1="SZ 92" t2="Tunis"/>
         <connection t1="SZ 34" t2="SZ 35"/>
         <connection t1="SZ 34" t2="SZ 36"/>
         <connection t1="SZ 35" t2="SZ 83"/>
-        <connection t1="SZ 35" t2="SZ 92"/>
+        <connection t1="SZ 35" t2="SZ 33"/>
         <connection t1="SZ 35" t2="SZ 93"/>
         <connection t1="SZ 36" t2="SZ 37"/>
         <connection t1="SZ 36" t2="Tbilisi"/>
@@ -1743,13 +1743,13 @@
         <connection t1="SZ 80" t2="Sweden"/>
         <connection t1="SZ 82" t2="SZ 92"/>
         <connection t1="SZ 82" t2="SZ 94"/>
-        <connection t1="SZ 83" t2="SZ 92"/>
+        <connection t1="SZ 83" t2="SZ 33"/>
         <connection t1="SZ 83" t2="SZ 93"/>
         <connection t1="SZ 91" t2="St. Petersburg"/>
         <connection t1="SZ 91" t2="Sweden"/>
         <connection t1="SZ 91" t2="Tallin"/>
         <connection t1="SZ 32" t2="SZ 94"/>
-        <connection t1="SZ 92" t2="Tobruk"/>
+        <connection t1="SZ 33" t2="Tobruk"/>
         <connection t1="SZ 93" t2="Syria"/>
         <connection t1="SZ 93" t2="Tabuk"/>
         <connection t1="Samara" t2="Tambov"/>
