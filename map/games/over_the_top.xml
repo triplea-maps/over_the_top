@@ -735,7 +735,9 @@
         <connection t1="RR 8" t2="RR 23" />
         <connection t1="RR 88" t2="RR 70" />
         <connection t1="RR 88" t2="RR 91" />
+        <connection t1="RR 88" t2="RR 82" />
         <connection t1="RR 82" t2="RR 86" />
+        <connection t1="RR 82" t2="RR 81" />
 		
 		<!-- Fixes that automatic method didn't find -->
 		<connection t1="RR 65" t2="RR 69"/>
@@ -1017,7 +1019,7 @@
         <connection t1="French Sudan" t2="Senegal"/>
         <connection t1="French Sudan" t2="Upper Volta"/>
         <connection t1="French West Africa" t2="Nigeria"/>
-        <connection t1="French West Africa" t2="RR 88"/>
+        <connection t1="Tabuk" t2="RR 88"/>
         <connection t1="French West Africa" t2="Upper Volta"/>
         <connection t1="Galacia" t2="Hungary"/>
         <connection t1="Galacia" t2="Kiev"/>
@@ -1483,8 +1485,6 @@
         <connection t1="RR 84" t2="RR 89"/>
         <connection t1="RR 87" t2="RR 94"/>
         <connection t1="RR 87" t2="Senegal"/>
-        <connection t1="RR 88" t2="RR 89"/>
-        <connection t1="RR 88" t2="RR 96"/>
         <connection t1="RR 9" t2="Tallin"/>
         <connection t1="RR 90" t2="RR 99"/>
         <connection t1="RR 90" t2="RR 89"/>
