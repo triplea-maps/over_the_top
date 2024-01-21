@@ -829,14 +829,11 @@
         <connection t1="Bandundu" t2="French Equitorial Africa"/>
         <connection t1="Bandundu" t2="Kabinda"/>
         <connection t1="Bandundu" t2="Lisala"/>
-        <connection t1="Bar-Le-Duc" t2="Basel"/>
         <connection t1="Bar-Le-Duc" t2="Chaumont"/>
         <connection t1="Bar-Le-Duc" t2="Luneville"/>
         <connection t1="Bar-Le-Duc" t2="Nancy"/>
         <connection t1="Bar-Le-Duc" t2="Rhiems"/>
         <connection t1="Bar-Le-Duc" t2="RR 138"/>
-        <connection t1="Basel" t2="Luneville"/>
-        <connection t1="Basel" t2="Strasbourg"/>
         <connection t1="Basrah" t2="Mesopotamia"/>
         <connection t1="Basrah" t2="SZ 39"/>
         <connection t1="Basrah" t2="RR 85"/>
