@@ -3809,7 +3809,7 @@
             <option count="" name="createsUnitsList" value="2:Munitions"/>
         </attachment>
         <attachment attachTo="Zeppelin" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-            <option count="" name="movement" value="8"/>
+            <option count="" name="movement" value="6"/>
             <option count="" name="isAir" value="true"/>
             <option count="" name="attack" value="1"/>
             <option count="" name="defense" value="0"/>
