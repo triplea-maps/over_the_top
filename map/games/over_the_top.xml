@@ -5558,6 +5558,14 @@
             <option count="" name="canalName" value="RR107toRR108"/>
             <option count="" name="landTerritories" value="Rhodesia:German E. Afrika"/>
         </attachment>
+        <attachment attachTo="RR 107" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR107toRR109" type="territory">
+            <option count="" name="canalName" value="RR107toRR109"/>
+            <option count="" name="landTerritories" value="Rhodesia:Angolia"/>
+        </attachment>
+        <attachment attachTo="RR 109" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR107toRR109" type="territory">
+            <option count="" name="canalName" value="RR107toRR109"/>
+            <option count="" name="landTerritories" value="Rhodesia:Angolia"/>
+        </attachment>
         <attachment attachTo="RR 108" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR108toRR110" type="territory">
             <option count="" name="canalName" value="RR108toRR110"/>
             <option count="" name="landTerritories" value="German E. Afrika:Portuguese E. Africa"/>
