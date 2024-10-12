@@ -7191,7 +7191,7 @@
 			<unitPlacement owner="Italians" quantity="1" territory="OVER THE TOP" unitType="Trenches-If-Defended"/>
 		
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Abyssinia" unitType="Infantry"/>
-            <unitPlacement owner="Americans" quantity="1" territory="American Isolationism" unitType="Infantry"/>
+            <unitPlacement owner="Americans" quantity="1" territory="American Isolationism" unitType="Mech-Infantry"/>
             <unitPlacement owner="Germans" quantity="4" territory="Ardennes" unitType="Infantry"/>
             <unitPlacement owner="British" quantity="1" territory="Arras" unitType="AA-Gun"/>
             <unitPlacement owner="British" quantity="2" territory="Arras" unitType="Field-Artillery"/>
