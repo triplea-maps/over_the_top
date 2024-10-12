@@ -2097,7 +2097,7 @@
             <result quantity="1" resourceOrUnit="Develop-Tank"/>
         </productionRule>
         <productionRule name="buyDevelop-Mech-Infantry">
-            <cost quantity="30" resource="PUs"/>
+            <cost quantity="20" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Develop-Mech-Infantry"/>
         </productionRule>
         <productionRule name="buyDevelop-Carrier">
