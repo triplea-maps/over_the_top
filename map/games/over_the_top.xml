@@ -7952,17 +7952,17 @@
         </unitInitialize>
         <resourceInitialize>
             <resourceGiven player="Germans" quantity="99" resource="PUs"/>
-            <resourceGiven player="Imperial-German-Afrika" quantity="30" resource="PUs"/>
-            <resourceGiven player="French" quantity="71" resource="PUs"/>
-            <resourceGiven player="French-Colonial-Africa" quantity="36" resource="PUs"/>
-            <resourceGiven player="Russians" quantity="71" resource="PUs"/>
+            <resourceGiven player="Imperial-German-Afrika" quantity="33" resource="PUs"/>
+            <resourceGiven player="French" quantity="60" resource="PUs"/>
+            <resourceGiven player="French-Colonial-Africa" quantity="38" resource="PUs"/>
+            <resourceGiven player="Russians" quantity="83" resource="PUs"/>
             <resourceGiven player="Austrians" quantity="46" resource="PUs"/>
-            <resourceGiven player="Ottomans" quantity="54" resource="PUs"/>
+            <resourceGiven player="Ottomans" quantity="66" resource="PUs"/>
             <resourceGiven player="British" quantity="57" resource="PUs"/>
-            <resourceGiven player="British-Commonwealth" quantity="61" resource="PUs"/>
+            <resourceGiven player="British-Commonwealth" quantity="64" resource="PUs"/>
             <resourceGiven player="Italians" quantity="42" resource="PUs"/>
             <resourceGiven player="Americans" quantity="0" resource="PUs"/>
-            <resourceGiven player="Bolsheviks" quantity="27" resource="PUs"/>
+            <resourceGiven player="Bolsheviks" quantity="15" resource="PUs"/>
         </resourceInitialize>
 		<relationshipInitialize>
 			<relationship player1="Germans" player2="Imperial-German-Afrika" roundValue="1" type="Allied"/>
