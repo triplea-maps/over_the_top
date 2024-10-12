@@ -725,6 +725,7 @@
         <connection t1="Russian Infiltration" t2="BR 6"/>
         
         <connection t1="RR 107" t2="RR 111" />
+        <connection t1="RR 107" t2="RR 109" />
         <connection t1="RR 6" t2="RR 21" />
         <connection t1="RR 6" t2="RR 22" />
         <connection t1="RR 29" t2="RR 141" />
