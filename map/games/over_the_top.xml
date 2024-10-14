@@ -4420,7 +4420,7 @@
             <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="Paris" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="12"/>
+            <option count="" name="production" value="10"/>
             <option count="" name="capital" value="French"/>
             <option count="" name="victoryCity" value="1"/>
         </attachment>
@@ -4470,7 +4470,7 @@
             <option count="" name="production" value="5"/>
         </attachment>
         <attachment attachTo="London" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="10"/>
+            <option count="" name="production" value="12"/>
             <option count="" name="capital" value="British"/>
             <option count="" name="victoryCity" value="1"/>
         </attachment>
