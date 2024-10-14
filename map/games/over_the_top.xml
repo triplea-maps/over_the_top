@@ -4192,7 +4192,7 @@
             <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="Bryansk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="2"/>
+            <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="British E. Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="2"/>
@@ -4222,7 +4222,7 @@
             <option count="" name="production" value="0"/>
         </attachment>
         <attachment attachTo="Smolensk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="2"/>
+            <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="Rome" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="10"/>
@@ -4394,7 +4394,7 @@
             <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="Karkov" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="2"/>
+            <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="Krasnodar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="2"/>
@@ -4481,7 +4481,7 @@
             <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="Tallin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="2"/>
+            <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="Poland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="3"/>
@@ -4665,13 +4665,13 @@
             <option count="" name="capital" value="French-Colonial-Africa"/>
         </attachment>
         <attachment attachTo="Vilnius" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="2"/>
+            <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="Corsica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="Oryol" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="2"/>
+            <option count="" name="production" value="1"/>
         </attachment>
         <attachment attachTo="Hejaz" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
