@@ -4313,7 +4313,7 @@
             <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="Moscow" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="6"/>
+            <option count="" name="production" value="10"/>
             <option count="" name="capital" value="Russians"/>
             <option count="" name="victoryCity" value="1"/>
         </attachment>
@@ -5428,7 +5428,7 @@
             <option count="" name="production" value="5"/>
         </attachment>
         <attachment attachTo="SZ 80" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="5"/>
+            <option count="" name="production" value="3"/>
         </attachment>
         <attachment attachTo="SZ 86" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="5"/>
@@ -5453,13 +5453,13 @@
             <option count="" name="isImpassable" value="true"/>
         </attachment>
         <attachment attachTo="BR 4" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="3"/>
+            <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="BR 5" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="3"/>
+            <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="BR 6" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="3"/>
+            <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="Gorkiy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
@@ -7953,12 +7953,12 @@
         <resourceInitialize>
             <resourceGiven player="Germans" quantity="99" resource="PUs"/>
             <resourceGiven player="Imperial-German-Afrika" quantity="33" resource="PUs"/>
-            <resourceGiven player="French" quantity="60" resource="PUs"/>
+            <resourceGiven player="French" quantity="58" resource="PUs"/>
             <resourceGiven player="French-Colonial-Africa" quantity="38" resource="PUs"/>
-            <resourceGiven player="Russians" quantity="83" resource="PUs"/>
+            <resourceGiven player="Russians" quantity="76" resource="PUs"/>
             <resourceGiven player="Austrians" quantity="46" resource="PUs"/>
             <resourceGiven player="Ottomans" quantity="66" resource="PUs"/>
-            <resourceGiven player="British" quantity="57" resource="PUs"/>
+            <resourceGiven player="British" quantity="59" resource="PUs"/>
             <resourceGiven player="British-Commonwealth" quantity="64" resource="PUs"/>
             <resourceGiven player="Italians" quantity="42" resource="PUs"/>
             <resourceGiven player="Americans" quantity="0" resource="PUs"/>
