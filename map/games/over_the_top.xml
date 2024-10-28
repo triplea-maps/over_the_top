@@ -1859,8 +1859,6 @@
 		<unit name="Develop-Elite-Infantry"/>
 		<unit name="Elite-Defensive-Infantry"/>
 		<unit name="Elite-Offensive-Infantry"/>
-		<unit name="Develop-Elite-Defensive-Infantry"/>
-		<unit name="Develop-Elite-Offensive-Infantry"/>
     </unitList>
 	<relationshipTypes>
 		<relationshipType name="Allied"/>
@@ -4057,20 +4055,6 @@
             <option count="2" name="repairsUnits" value="Trenches"/>
             <option count="1" name="repairsUnits" value="Tank"/>
             <option count="" name="isLandTransportable" value="true"/>
-        </attachment>
-        <attachment attachTo="Develop-Elite-Defensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-            <option count="" name="movement" value="0"/>
-            <option count="" name="attack" value="0"/>
-            <option count="" name="defense" value="0"/>
-            <option count="" name="maxBuiltPerPlayer" value="1"/>
-            <option count="" name="isInfrastructure" value="true"/>
-        </attachment>
-        <attachment attachTo="Develop-Elite-Offensive-Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
-            <option count="" name="movement" value="0"/>
-            <option count="" name="attack" value="0"/>
-            <option count="" name="defense" value="0"/>
-            <option count="" name="maxBuiltPerPlayer" value="1"/>
-            <option count="" name="isInfrastructure" value="true"/>
         </attachment>
         <attachment attachTo="Russians" javaClass="games.strategy.triplea.attachments.PlayerAttachment" name="playerAttachment" type="player">
             <option count="" name="retainCapitalNumber" value="1"/>
