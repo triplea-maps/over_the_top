@@ -1845,6 +1845,7 @@
         <unit name="Shipyard"/>
         <unit name="AA-Gun"/>
         <unit name="Lenin"/>
+        <unit name="Lawrence-of-Arabia"/>
         <unit name="Develop-Bomber"/>
         <unit name="Develop-Tank"/>
         <unit name="Develop-Mech-Infantry"/>
@@ -3739,6 +3740,25 @@
             <option count="" name="unitSupportCount" value="10"/>
             <option count="" name="createsUnitsList" value="1:Infantry"/>
         </attachment>
+        <attachment attachTo="Lawrence-of-Arabia" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+            <option count="" name="movement" value="2"/>
+            <option count="" name="transportCost" value="1"/>
+            <option count="" name="attack" value="0"/>
+            <option count="" name="defense" value="0"/>
+            <option count="" name="artillerySupportable" value="false"/>
+            <option count="" name="isLandTransportable" value="false"/>
+        </attachment>
+        <attachment attachTo="Lawrence-of-Arabia" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentLawrenceInf" type="unitType">
+			<option count="" name="unitType" value="Infantry:Mech-Infantry:Cavalry:Elite-Defensive-Infantry"/>
+			<option count="" name="faction" value="allied"/>
+			<option count="" name="side" value="defence"/>
+			<option count="" name="dice" value="strength"/>
+			<option count="" name="bonus" value="1"/>
+			<option count="" name="number" value="10"/>
+			<option count="" name="bonusType" value="Arab Revolt"/>
+			<option count="" name="impArtTech" value="false"/>
+			<option count="" name="players" value="British-Commonwealth"/>
+		</attachment>
         <attachment attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
             <option count="" name="transportCost" value="1"/>
@@ -7900,6 +7920,7 @@
             <unitPlacement owner="Italians" quantity="1" territory="Rome" unitType="Fighter"/>
             <unitPlacement owner="Italians" quantity="1" territory="Rome" unitType="Zeppelin"/>
 			<unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="AA-Gun"/>
+			<unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="Lawrence-of-Arabia"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Factory"/>
 			<unitPlacement quantity="1" territory="United States" unitType="Shipyard"/>
 			<unitPlacement owner="Americans" quantity="2" territory="Fontainbleu" unitType="Cavalry"/>
