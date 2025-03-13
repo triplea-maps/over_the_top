@@ -7663,12 +7663,12 @@
             <unitPlacement owner="Italians" quantity="1" territory="SZ 30" unitType="Freighter"/>
             <unitPlacement owner="Italians" quantity="3" territory="SZ 30" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Italians" quantity="1" territory="SZ 30" unitType="Submarine"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Battlecruiser"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Battleship"/>
-            <unitPlacement owner="Ottomans" quantity="2" territory="SZ 35" unitType="Destroyer"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Freighter"/>
-            <unitPlacement owner="Ottomans" quantity="3" territory="SZ 35" unitType="Harbor-Defenses"/>
-            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 35" unitType="Submarine"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Battlecruiser"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Battleship"/>
+            <unitPlacement owner="Ottomans" quantity="2" territory="SZ 93" unitType="Destroyer"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Freighter"/>
+            <unitPlacement owner="Ottomans" quantity="3" territory="SZ 93" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="Ottomans" quantity="1" territory="SZ 93" unitType="Submarine"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="SZ 36" unitType="Battlecruiser"/>
             <unitPlacement owner="Ottomans" quantity="1" territory="SZ 36" unitType="Battleship"/>
             <unitPlacement owner="Ottomans" quantity="2" territory="SZ 36" unitType="Destroyer"/>
