@@ -7347,12 +7347,12 @@
             <unitPlacement owner="Germans" quantity="2" territory="SZ 12" unitType="Submarine"/>
             <unitPlacement owner="Germans" quantity="2" territory="SZ 13" unitType="Submarine"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 14" unitType="Destroyer"/>
-            <unitPlacement owner="British" quantity="5" territory="SZ 14" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="British" quantity="4" territory="SZ 14" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Germans" quantity="3" territory="SZ 17" unitType="Submarine"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 18" unitType="Battlecruiser"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 18" unitType="Battleship"/>
             <unitPlacement owner="British" quantity="3" territory="SZ 18" unitType="Destroyer"/>
-            <unitPlacement owner="British" quantity="5" territory="SZ 18" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="British" quantity="4" territory="SZ 18" unitType="Harbor-Defenses"/>
             <unitPlacement owner="British" quantity="2" territory="SZ 18" unitType="Submarine"/>
             <unitPlacement owner="Germans" quantity="3" territory="SZ 2" unitType="Submarine"/>
             <unitPlacement owner="British" quantity="2" territory="SZ 23" unitType="Destroyer"/>
@@ -7369,7 +7369,7 @@
             <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Battleship"/>
             <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Destroyer"/>
             <unitPlacement owner="Austrians" quantity="1" territory="SZ 31" unitType="Freighter"/>
-            <unitPlacement owner="Austrians" quantity="5" territory="SZ 31" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="Austrians" quantity="4" territory="SZ 31" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Austrians" quantity="2" territory="SZ 31" unitType="Submarine"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 34" unitType="Battlecruiser"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 34" unitType="Battleship"/>
@@ -7385,7 +7385,7 @@
             <unitPlacement owner="British" quantity="3" territory="SZ 6" unitType="Battlecruiser"/>
             <unitPlacement owner="British" quantity="3" territory="SZ 6" unitType="Battleship"/>
             <unitPlacement owner="British" quantity="4" territory="SZ 6" unitType="Destroyer"/>
-            <unitPlacement owner="British" quantity="5" territory="SZ 6" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="British" quantity="4" territory="SZ 6" unitType="Harbor-Defenses"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 66" unitType="Battlecruiser"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 66" unitType="Battleship"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="SZ 66" unitType="Destroyer"/>
@@ -7397,7 +7397,7 @@
             <unitPlacement owner="British" quantity="1" territory="SZ 68" unitType="Freighter"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 69" unitType="Destroyer"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 69" unitType="Freighter"/>
-            <unitPlacement owner="Germans" quantity="5" territory="SZ 7" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="Germans" quantity="4" territory="SZ 7" unitType="Harbor-Defenses"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 70" unitType="Destroyer"/>
             <unitPlacement owner="French" quantity="1" territory="SZ 70" unitType="Freighter"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 71" unitType="Destroyer"/>
@@ -7416,17 +7416,17 @@
             <unitPlacement owner="Germans" quantity="2" territory="SZ 79" unitType="Battleship"/>
             <unitPlacement owner="Germans" quantity="2" territory="SZ 79" unitType="Destroyer"/>
             <unitPlacement owner="Germans" quantity="1" territory="SZ 79" unitType="Freighter"/>
-            <unitPlacement owner="Germans" quantity="5" territory="SZ 79" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="Germans" quantity="4" territory="SZ 79" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Germans" quantity="2" territory="SZ 79" unitType="Submarine"/>
             <unitPlacement owner="British" quantity="0" territory="SZ 8" unitType="Battleship"/>
             <unitPlacement owner="British" quantity="1" territory="SZ 8" unitType="Destroyer"/>
-            <unitPlacement owner="British" quantity="5" territory="SZ 8" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="British" quantity="4" territory="SZ 8" unitType="Harbor-Defenses"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 83" unitType="Battlecruiser"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 83" unitType="Battleship"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="SZ 83" unitType="Destroyer"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="SZ 83" unitType="Freighter"/>
             <unitPlacement owner="British-Commonwealth" quantity="3" territory="SZ 83" unitType="Harbor-Defenses"/>
-            <unitPlacement owner="Germans" quantity="5" territory="SZ 9" unitType="Harbor-Defenses"/>
+            <unitPlacement owner="Germans" quantity="4" territory="SZ 9" unitType="Harbor-Defenses"/>
             <unitPlacement owner="Germans" quantity="3" territory="SZ 9" unitType="Submarine"/>
             <unitPlacement owner="Austrians" quantity="1" territory="Sarajevo" unitType="Field-Artillery"/>
             <unitPlacement owner="Austrians" quantity="3" territory="Sarajevo" unitType="Infantry"/>
