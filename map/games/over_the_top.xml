@@ -717,7 +717,8 @@
 		
         <connection t1="Fontainbleu" t2="Burgundy"/>
         <connection t1="Compiegne" t2="Burgundy"/>
-        <connection t1="RR 137" t2="RR 28"/>		
+        <connection t1="RR 137" t2="RR 28"/>
+        <connection t1="RR 17" t2="RR 28"/>
 		
         <connection t1="USA Mobilized" t2="United States"/>
         <connection t1="Russian Infiltration" t2="BR 4"/>
@@ -5876,6 +5877,14 @@
         <attachment attachTo="RR 28" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR137toRR28" type="territory">
             <option count="" name="canalName" value="RR137toRR28"/>
             <option count="" name="landTerritories" value="Fontainbleu:Burgundy"/>
+        </attachment>
+        <attachment attachTo="RR 28" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR17toRR28" type="territory">
+            <option count="" name="canalName" value="RR17toRR28"/>
+            <option count="" name="landTerritories" value="Picardy:Burgundy"/>
+        </attachment>
+        <attachment attachTo="RR 17" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR17toRR28" type="territory">
+            <option count="" name="canalName" value="RR17toRR28"/>
+            <option count="" name="landTerritories" value="Picardy:Burgundy"/>
         </attachment>
         <attachment attachTo="RR 138" javaClass="games.strategy.triplea.attachments.CanalAttachment" name="canalAttachmentRR138toRR139" type="territory">
             <option count="" name="canalName" value="RR138toRR139"/>
