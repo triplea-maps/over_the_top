@@ -4550,7 +4550,7 @@
             <option count="" name="production" value="3"/>
         </attachment>
         <attachment attachTo="Tunis" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
-            <option count="" name="production" value="1"/>
+            <option count="" name="production" value="2"/>
         </attachment>
         <attachment attachTo="Fontainbleu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" name="territoryAttachment" type="territory">
             <option count="" name="production" value="1"/>
