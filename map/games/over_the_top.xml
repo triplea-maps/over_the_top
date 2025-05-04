@@ -1824,6 +1824,7 @@
         <unit name="Infantry"/>
         <unit name="Mech-Infantry"/>
         <unit name="Cavalry"/>
+        <unit name="Bedouin-Rebels"/>
         <unit name="Tank"/>
         <unit name="Field-Artillery"/>
         <unit name="Heavy-Artillery"/>
@@ -3731,18 +3732,8 @@
             <option count="" name="defense" value="0"/>
             <option count="" name="artillerySupportable" value="false"/>
             <option count="" name="isLandTransportable" value="false"/>
+            <option count="" name="createsUnitsList" value="1:Bedouin-Rebels"/>
         </attachment>
-        <attachment attachTo="Lawrence-of-Arabia" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" name="supportAttachmentLawrenceInf" type="unitType">
-			<option count="" name="unitType" value="Infantry:Mech-Infantry:Cavalry:Elite-Defensive-Infantry"/>
-			<option count="" name="faction" value="allied"/>
-			<option count="" name="side" value="defence"/>
-			<option count="" name="dice" value="strength"/>
-			<option count="" name="bonus" value="1"/>
-			<option count="" name="number" value="10"/>
-			<option count="" name="bonusType" value="Arab Revolt"/>
-			<option count="" name="impArtTech" value="false"/>
-			<option count="" name="players" value="British-Commonwealth"/>
-		</attachment>
         <attachment attachTo="Infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
             <option count="" name="transportCost" value="1"/>
@@ -3773,6 +3764,14 @@
             <option count="" name="isLandTransport" value="true"/>
         </attachment>
         <attachment attachTo="Cavalry" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
+            <option count="" name="movement" value="2"/>
+            <option count="" name="transportCost" value="2"/>
+            <option count="" name="canBlitz" value="false"/>
+            <option count="" name="attack" value="1"/>
+            <option count="" name="defense" value="1"/>
+            <option count="" name="artillerySupportable" value="true"/>
+        </attachment>
+        <attachment attachTo="Bedouin-Rebels" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="2"/>
             <option count="" name="transportCost" value="2"/>
             <option count="" name="canBlitz" value="false"/>
@@ -7219,8 +7218,8 @@
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="Cairo" unitType="Cavalry"/>
             <unitPlacement owner="British-Commonwealth" quantity="2" territory="Cairo" unitType="Field-Artillery"/>
             <unitPlacement owner="British-Commonwealth" quantity="1" territory="Cairo" unitType="Fighter"/>
-            <unitPlacement owner="British-Commonwealth" quantity="4" territory="Cairo" unitType="Infantry"/>
-            <unitPlacement owner="British-Commonwealth" quantity="2" territory="Cairo" unitType="Trenches"/>
+            <unitPlacement owner="British-Commonwealth" quantity="5" territory="Cairo" unitType="Infantry"/>
+            <unitPlacement owner="British-Commonwealth" quantity="4" territory="Cairo" unitType="Trenches"/>
             <unitPlacement owner="British" quantity="2" territory="Canada" unitType="Cavalry"/>
             <unitPlacement owner="British" quantity="1" territory="Canada" unitType="Factory"/>
             <unitPlacement owner="British" quantity="2" territory="Canada" unitType="Field-Artillery"/>
