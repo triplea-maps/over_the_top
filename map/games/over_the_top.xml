@@ -2021,7 +2021,7 @@
             <result quantity="1" resourceOrUnit="Tank"/>
         </productionRule>
         <productionRule name="buyField-Artillery">
-            <cost quantity="5" resource="PUs"/>
+            <cost quantity="4" resource="PUs"/>
             <result quantity="1" resourceOrUnit="Field-Artillery"/>
         </productionRule>
         <productionRule name="buyHeavy-Artillery">
@@ -3792,10 +3792,6 @@
             <option count="" name="attack" value="2"/>
             <option count="" name="defense" value="2"/>
             <option count="" name="artillery" value="true"/>
-            <option count="" name="isAAforCombatOnly" value="true"/>
-            <option count="" name="maxAAattacks" value="1"/>
-            <option count="" name="mayOverStackAA" value="true"/>
-            <option count="" name="targetsAA" value="Zeppelin:Bomber:Fighter"/>
         </attachment>
         <attachment attachTo="Heavy-Artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" name="unitAttachment" type="unitType">
             <option count="" name="movement" value="1"/>
@@ -3961,6 +3957,7 @@
             <option count="" name="maxOperationalDamage" value="2"/>
             <option count="" name="canDieFromReachingMaxDamage" value="true"/>
             <option count="" name="isAAforBombingThisUnitOnly" value="true"/>
+            <option count="" name="isAAforCombatOnly" value="true"/>
             <option count="" name="targetsAA" value="Zeppelin:Bomber:Fighter"/>
             <option count="" name="movement" value="0"/>
         </attachment>
